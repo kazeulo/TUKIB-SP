@@ -1,0 +1,131 @@
+%   Filename    : chapter_4.tex 
+\chapter{Research Methodology}
+This chapter presents the tools, techniques, and methodologies used in the development of the TUKIB system, an integrated workflow automation solution designed for the UPV Regional Research Center (RRC). It specifies the software and hardware requirements, as well as the comprehensive process involved in creating the system.
+
+\section{Research Activities}
+
+\subsection{Development Framework}
+
+\textbf{Agile Methodology}
+
+The software development process that the developers will follow in developing TUKIB is the agile methodology. Agile methodology, or simply agile, is a framework that emphasizes iterative development and features communication and collaboration, adaptive planning, and continuous development (Agile Framework, 2022). The developers chose this framework because of its flexibility and adaptability to change, which is beneficial, especially with evolving user requirements. 
+
+\begin{itemize}
+	\item \textbf{Data Gathering and Documentation}
+	
+	\subitem The developers will begin the project by visiting the UPV RRC to conduct interviews with stakeholders. This will help them understand the specific needs of the institution. The data gathered will inform the subsequent processes of the project.\newline
+	
+	\item \textbf{System Design}
+	
+	\subitem After data gathering, the system's architectural design will be developed. This process will involve creating a context model to outline the system's interactions with external entities, as well as a data flow diagram to illustrate how data moves through the components of the system. Additionally, a process flow diagram will be constructed to detail the specific processes and workflows, while database models will be designed to ensure efficient data storage and retrieval. Together, these diagrams will provide a comprehensive framework that will further guide the development and implementation of the system.\newline
+	
+	\item \textbf{Implementation}
+	
+	\subitem From the design phase, the development of the system will commence. The frontend will be built to ensure a user-friendly interface, while the backend will support functionality through efficient data processing and secure user authentication. Additionally, a chatbot will be integrated to facilitate real-time user interaction with the system.\newline
+	
+	\item \textbf{Testing}
+	
+	\subitem \textbf{Alpha Testing.} During and after the development of each feature, extensive user testing will be conducted to ensure that each feature works as intended. Any bugs or problems will be immediately fixed. For features dependent on other features (i.e. user account creation must function correctly before user can log in), thorough testing will ensure and verify that the integration between these features operates smoothly.\newline
+	
+	\subitem \textbf{Automated testing.} Automated testing will be implemented to ensure reliability and efficiency in testing the features of the system. This approach will allow for the execution of predefined test cases that can be run repeatedly with minimal manual intervention.\newline
+	
+	\subitem \textbf{Beta Testing.}  Beta testing will be done with a limited group of users composed of available RRC staff and selected potential customers of RRC (e.g. students and faculty). This phase will allow real-world usage feedback and will help in identifying any remaining bugs and usability issues. Users will test the system in various environments and will be encouraged to provide insights on functionality, performance, and overall experience. \newline
+	
+	\item \textbf{Deployment and Maintenance}
+	\subitem The final product of the study, TUKIB, will made available to the intended users. In this phase, ongoing maintenance and regular performance monitoring- especially of the backend- are essential to ensure stability and reliability. Constant feedback from users during this phase will guide further improvements and updates.
+	
+\end{itemize}
+
+\section{Development Tools}
+
+\subsection{Hardware}
+
+The hardware requirements for the development of the system include a computer or laptop with the following specifications:
+
+\begin{itemize}
+	\item Processor: Intel Core i5, its equivalent on other brands or higher
+	\item RAM: 6GB or higher
+	\item Storage: 200GB SSD or more for faster data access and retrieval
+	Operating System: Windows 10 or higher, macOS, or Linux
+\end{itemize}
+
+These specifications are necessary to ensure smooth development and testing of the system, especially when handling large datasets and concurrent processes.
+
+\subsection{Software}
+
+The TUKIB system will be developed using a range of modern software tools tailored to meet the specific needs of the research center’s workflow automation and data management processes.
+
+\begin{itemize}
+	\item \textbf{HTML5, CSS, and ReactJS}
+	
+	These technologies will be used for front-end development of the system. HTML5 will structure the webpages, CSS will be responsible for the visual styling, and ReactJS enables dynamic and interactive user interfaces.\newline
+	
+	\item \textbf{PostgreSQL}
+	
+	For backend development, PostgreSQL is will be used as the database management system, offering robust data storage, querying, and management capabilities.\newline
+	
+	\item \textbf{Rasa Framework}
+	
+	Rasa will be used for the chatbot development. It allows the creation of a conversational AI system which will handle the service requests, queries, and management capabilities of the system.\newline
+	
+	\item \textbf{Figma}
+	
+	Figma will be utilized for designing the UI/UX of the system. Figma allows design collaboration, which will ebavle the team to create the system prototype, wireframe, and mock-up interfaces before implementation, ensuring a user-friendly experience for both clients and researchers.\newline
+	
+	\item \textbf{VS Code}
+	
+	Visual Studio Code (VS Code) is the primary code editor that will be used to develop the system. Its features, such as syntax highlighting, extensions, integrated Git, and debugging tools, make it the most suitable environment for writing and testing front-end and back-end code.\newline
+	
+	\item \textbf{Github}
+	
+	GitHub will be used to facilitate for version control and collaboration thoughout the development of the system. The project code is stored in repositories, allowing the team to manage changes, track progress, and collaborate effectively. It also serves as a backup and source for future development or modification.
+	
+\end{itemize}
+
+\begin {comment}
+
+\section{Calendar of Activities}
+
+A Gantt chart showing the schedule of the activities should be included as a table. For example:
+
+Table \ref{tab:timetableactivities} shows a Gantt chart of the activities.  Each bullet represents approximately
+one week worth of activity.
+
+%
+%  the following commands will be used for filling up the bullets in the Gantt chart
+%
+\newcommand{\weekone}{\textbullet}
+\newcommand{\weektwo}{\textbullet \textbullet}
+\newcommand{\weekthree}{\textbullet \textbullet \textbullet}
+\newcommand{\weekfour}{\textbullet \textbullet \textbullet \textbullet}
+
+%
+%  alternative to bullet is a star 
+%
+\begin{comment}
+   \newcommand{\weekone}{$\star$}
+   \newcommand{\weektwo}{$\star \star$}
+   \newcommand{\weekthree}{$\star \star \star$}
+   \newcommand{\weekfour}{$\star \star \star \star$ }
+
+
+
+\begin{table}[ht]   %t means place on top, replace with b if you want to place at the bottom
+\centering
+\caption{Timetable of Activities} \vspace{0.25em}
+\begin{tabular}{|p{2in}|c|c|c|c|c|c|c|c|} \hline
+\centering Activities (2009) & Jan   & Feb & Mar & Apr & May & Jun & Jul \\ \hline
+Study on Prerequisite Knowledge      &   &  & ~~~\weektwo & \weekfour &  &  &  \\ \hline
+Review of Existing Racing Strategies & ~~~\weektwo  & \weekfour & \weekfour & \weekfour &  &  &  \\ \hline
+Identification of Best Features      &   &  &  & \weekfour & \weektwo~~~ &  &  \\ \hline
+Development of Racing Strategies     &   &  &  & ~~~\weektwo & \weekfour & \weektwo~~~ &  \\ \hline
+Simulation of Racing Strategies      &   &  &  & ~~~\weektwo & \weekfour & \weekthree~~ &  \\ \hline
+Analysis and Interpretation of the Results &   &  &  &  & \weekfour & \weekfour & \weekone~~~~~ \\ \hline
+Documentation & ~~~\weektwo  & \weekfour & \weekfour & \weekfour & \weekfour & \weekfour & \weektwo~~~ \\ \hline
+\end{tabular}
+\label{tab:timetableactivities}
+\end{table}
+
+\end {comment}
+
+

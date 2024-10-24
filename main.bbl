@@ -1,0 +1,194 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Austin~Beattie%
+\ \BBA {} Edwards%
+}{%
+Austin~Beattie%
+\ \BBA {} Edwards%
+}{%
+{\protect \APACyear {2020}}%
+}]{%
+beattie2020}
+\APACinsertmetastar {%
+beattie2020}%
+\begin{APACrefauthors}%
+Austin~Beattie, A\BPBI P\BPBI E.%
+\BCBT {}\ \BBA {} Edwards, C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A Bot and a Smile: Interpersonal Impressions of Chatbots
+  and Humans Using Emoji in Computer-mediated Communication} {A bot and a
+  smile: Interpersonal impressions of chatbots and humans using emoji in
+  computer-mediated communication}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Communication Studies}{71}{3}{409--427}.
+\newblock
+\begin{APACrefURL} \url{https://doi.org/10.1080/10510974.2020.1725082}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1080/10510974.2020.1725082} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Fan%
+\ \protect \BOthers {.}}{%
+Fan%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+fan2021}
+\APACinsertmetastar {%
+fan2021}%
+\begin{APACrefauthors}%
+Fan, X.%
+, Chao, D.%
+, Zhang, Z.%
+, Wang, D.%
+, Li, X.%
+\BCBL {}\ \BBA {} Tian, F.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Utilization of Self-Diagnosis Health Chatbots in
+  Real-World Settings: Case Study} {Utilization of self-diagnosis health
+  chatbots in real-world settings: Case study}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{J Med Internet Research}{}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Kar%
+\ \BBA {} Haldar%
+}{%
+Kar%
+\ \BBA {} Haldar%
+}{%
+{\protect \APACyear {2016}}%
+}]{%
+Kar2016}
+\APACinsertmetastar {%
+Kar2016}%
+\begin{APACrefauthors}%
+Kar, R.%
+\BCBT {}\ \BBA {} Haldar, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Applying Chatbots to the Internet of Things:
+  Opportunities and Architectural Elements} {Applying chatbots to the internet
+  of things: Opportunities and architectural elements}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{International Journal of Advanced Computer Science and
+  Applications}{7}{11}{}.
+\newblock
+\begin{APACrefURL} \url{http://dx.doi.org/10.14569/IJACSA.2016.071119}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.14569/IJACSA.2016.071119} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Nuruzzaman%
+\ \BBA {} Hussain%
+}{%
+Nuruzzaman%
+\ \BBA {} Hussain%
+}{%
+{\protect \APACyear {2018}}%
+}]{%
+Naruzzaman}
+\APACinsertmetastar {%
+Naruzzaman}%
+\begin{APACrefauthors}%
+Nuruzzaman, M.%
+\BCBT {}\ \BBA {} Hussain, O\BPBI K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A Survey on Chatbot Implementation in Customer Service
+  Industry through Deep Neural Networks} {A survey on chatbot implementation in
+  customer service industry through deep neural networks}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {2018 IEEE 15th International Conference on e-Business
+  Engineering (ICEBE)} {2018 ieee 15th international conference on e-business
+  engineering (icebe)}\ (\BPG~54-61).
+\newblock
+\begin{APACrefDOI} \doi{10.1109/ICEBE.2018.00019} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+PennState%
+}{%
+PennState%
+}{%
+{\protect \APACyear {2020}}%
+}]{%
+Pennstate}
+\APACinsertmetastar {%
+Pennstate}%
+\begin{APACrefauthors}%
+PennState.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{}{}.
+\newblock
+\APACrefbtitle {{P}enn {S}tate launches {A}{I}-powered chatbot to assist
+  students around the clock | {P}enn {S}tate {U}niversity --- psu.edu.} {{P}enn
+  {S}tate launches {A}{I}-powered chatbot to assist students around the clock |
+  {P}enn {S}tate {U}niversity --- psu.edu.}
+\newblock
+\begin{APACrefURL}
+  \url{https://www.psu.edu/news/academics/story/penn-state-launches-ai-powered-chatbot-assist-students-around-clock}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{[Accessed 24-10-2024]}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Rese%
+, Ganster%
+\BCBL {}\ \BBA {} Baier%
+}{%
+Rese%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2020}}%
+}]{%
+rese2020}
+\APACinsertmetastar {%
+rese2020}%
+\begin{APACrefauthors}%
+Rese, A.%
+, Ganster, L.%
+\BCBL {}\ \BBA {} Baier, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Chatbots in retailers’ customer communication: How to
+  measure their acceptance?} {Chatbots in retailers’ customer communication:
+  How to measure their acceptance?}{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Retailing and Consumer
+  Services}{56}{}{102176}.
+\newblock
+\begin{APACrefURL}
+  \url{https://www.sciencedirect.com/science/article/pii/S0969698920308286}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{https://doi.org/10.1016/j.jretconser.2020.102176}
+  \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}
