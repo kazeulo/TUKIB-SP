@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.9.1)  25 OCT 2024 03:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.9.1)  25 OCT 2024 04:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -457,34 +457,32 @@ Chapter 2.
 
 
 
-] [8] [9]
-Overfull \hbox (27.6443pt too wide) in paragraph at lines 69--70
+] [8] [9] [10] [11] [12]
+Overfull \hbox (27.6443pt too wide) in paragraph at lines 104--105
 \OT1/cmr/m/n/12 quently asked ques-tions re-gard-ing ad-mis-sions, stu-dent aid
 , and tu-ition costs []PennState,
  []
 
-[10]) [11]
+[13]) [14]
 \openout2 = `chapter_3.aux'.
 
  (chapter_3.tex
 Chapter 3.
+<figures/agile methodology.png, id=71, 941.5175pt x 242.9075pt>
+File: figures/agile methodology.png Graphic file (type png)
+<use figures/agile methodology.png>
+Package pdftex.def Info: figures/agile methodology.png  used on input line 15.
+(pdftex.def)             Requested size: 415.55249pt x 107.20949pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 16--17
+LaTeX Warning: `h' float specifier changed to `ht'.
 
- []
-
-[12
+[15
 
 
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 22--23
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 26--27
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
 
  []
 
@@ -494,26 +492,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--31
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--33
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 34--35
 
  []
 
-[13]
-Underfull \hbox (badness 10000) in paragraph at lines 63--64
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
 
  []
 
-[14]
-Underfull \hbox (badness 10000) in paragraph at lines 67--68
+[16 <./figures/agile methodology.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 40--41
 
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 42--43
+
+ []
+
+[17]
 Underfull \hbox (badness 10000) in paragraph at lines 71--72
 
  []
@@ -529,17 +527,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 79--80
  []
 
 
-Overfull \hbox (1.12236pt too wide) in paragraph at lines 83--84
+Underfull \hbox (badness 10000) in paragraph at lines 83--84
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--88
+
+ []
+
+
+Overfull \hbox (1.12236pt too wide) in paragraph at lines 91--92
 []\OT1/cmr/m/n/12 GitHub will be used to fa-cil-i-tate for ver-sion con-trol an
 d col-lab-o-ra-tion though-
  []
 
-) [15]
+[18]) [19]
 \openout2 = `chapter_4.aux'.
 
  (chapter_4.tex
 Chapter 4.
-) [16
+) [20
 
 
 
@@ -550,7 +558,7 @@ Underfull \hbox (badness 1394) in paragraph at lines 140--157
  \OT1/cmr/m/n/12 Re-
  []
 
-) [17
+) [21
 
 
 
@@ -559,7 +567,7 @@ Underfull \hbox (badness 1394) in paragraph at lines 140--157
 
  (appendix_A.tex
 Appendix A.
-) [18
+) [22
 
 
 ]
@@ -572,7 +580,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--32
 
  []
 
-[19
+[23
 
 
 
@@ -585,10 +593,10 @@ L3 programming layer <2024-01-04>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 6913 strings out of 474486
- 109813 string characters out of 5748449
+ 6925 strings out of 474486
+ 110185 string characters out of 5748449
  1937542 words of memory out of 5000000
- 29015 multiletter control sequences out of 15000+600000
+ 29027 multiletter control sequences out of 15000+600000
  566628 words of font info for 68 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  79i,8n,84p,1156b,316s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -600,9 +608,9 @@ pfb><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pf
 b><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb
 ><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
 
-Output written on main.pdf (25 pages, 141626 bytes).
+Output written on main.pdf (29 pages, 162055 bytes).
 PDF statistics:
- 118 PDF objects out of 1000 (max. 8388607)
+ 133 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
