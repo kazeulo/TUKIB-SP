@@ -34,50 +34,47 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'wiz_functions' (item size: 4) to 9000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Database file #1: myreferences.bib
-I was expecting a `,' or a `}'---line 86 of file myreferences.bib
- :  journal= {J Med Internet Research}
- :                                    ",
-I'm skipping whatever remains of this entry
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
-You've used 9 entries,
+Warning--No journal in adams2011
+You've used 18 entries,
             6951 wiz_defined-function locations,
-            1346 strings with 13010 characters,
-and the built_in function-call counts, 19458 in all, are:
-= -- 2372
-> -- 151
-< -- 1027
-+ -- 1030
-- -- 20
-* -- 1315
-:= -- 3822
-add.period$ -- 40
-call.type$ -- 9
-change.case$ -- 147
+            1415 strings with 14912 characters,
+and the built_in function-call counts, 38238 in all, are:
+= -- 4599
+> -- 332
+< -- 1977
++ -- 1956
+- -- 42
+* -- 2579
+:= -- 7320
+add.period$ -- 78
+call.type$ -- 18
+change.case$ -- 331
 chr.to.int$ -- 0
-cite$ -- 18
-duplicate$ -- 439
-empty$ -- 715
-format.name$ -- 242
-if$ -- 3555
+cite$ -- 37
+duplicate$ -- 945
+empty$ -- 1438
+format.name$ -- 540
+if$ -- 7038
 int.to.chr$ -- 0
-int.to.str$ -- 27
+int.to.str$ -- 54
 missing$ -- 0
-newline$ -- 248
-num.names$ -- 72
-pop$ -- 344
+newline$ -- 505
+num.names$ -- 144
+pop$ -- 660
 preamble$ -- 1
-purify$ -- 41
+purify$ -- 96
 quote$ -- 0
-skip$ -- 1164
+skip$ -- 2306
 stack$ -- 0
-substring$ -- 1116
-swap$ -- 271
-text.length$ -- 34
+substring$ -- 2115
+swap$ -- 566
+text.length$ -- 83
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 848
-warning$ -- 0
-while$ -- 86
+type$ -- 1632
+warning$ -- 1
+while$ -- 208
 width$ -- 0
-write$ -- 303
-(There were 2 error messages)
+write$ -- 636
+(There was 1 error message)
