@@ -39,45 +39,45 @@ I was expecting a `,' or a `}'---line 86 of file myreferences.bib
  :                                    ",
 I'm skipping whatever remains of this entry
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
-You've used 6 entries,
+You've used 9 entries,
             6951 wiz_defined-function locations,
-            1322 strings with 12404 characters,
-and the built_in function-call counts, 13155 in all, are:
-= -- 1590
-> -- 103
-< -- 705
-+ -- 721
-- -- 14
-* -- 903
-:= -- 2608
-add.period$ -- 26
-call.type$ -- 6
-change.case$ -- 90
+            1346 strings with 13010 characters,
+and the built_in function-call counts, 19458 in all, are:
+= -- 2372
+> -- 151
+< -- 1027
++ -- 1030
+- -- 20
+* -- 1315
+:= -- 3822
+add.period$ -- 40
+call.type$ -- 9
+change.case$ -- 147
 chr.to.int$ -- 0
-cite$ -- 12
-duplicate$ -- 307
-empty$ -- 478
-format.name$ -- 172
-if$ -- 2383
+cite$ -- 18
+duplicate$ -- 439
+empty$ -- 715
+format.name$ -- 242
+if$ -- 3555
 int.to.chr$ -- 0
-int.to.str$ -- 18
+int.to.str$ -- 27
 missing$ -- 0
-newline$ -- 169
-num.names$ -- 48
-pop$ -- 237
+newline$ -- 248
+num.names$ -- 72
+pop$ -- 344
 preamble$ -- 1
-purify$ -- 23
+purify$ -- 41
 quote$ -- 0
-skip$ -- 755
+skip$ -- 1164
 stack$ -- 0
-substring$ -- 777
-swap$ -- 185
-text.length$ -- 17
+substring$ -- 1116
+swap$ -- 271
+text.length$ -- 34
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 544
+type$ -- 848
 warning$ -- 0
-while$ -- 55
+while$ -- 86
 width$ -- 0
-write$ -- 207
+write$ -- 303
 (There were 2 error messages)

@@ -1,6 +1,35 @@
 \begin{thebibliography}{}
 
 \bibitem [\protect \citeauthoryear {%
+Aguirre%
+\ \BBA {} Rodriguez%
+}{%
+Aguirre%
+\ \BBA {} Rodriguez%
+}{%
+{\protect \APACyear {2017}}%
+}]{%
+aguirre2017}
+\APACinsertmetastar {%
+aguirre2017}%
+\begin{APACrefauthors}%
+Aguirre, S.%
+\BCBT {}\ \BBA {} Rodriguez, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{08}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Automation of a Business Process Using Robotic Process
+  Automation (RPA): A Case Study} {Automation of a business process using
+  robotic process automation (rpa): A case study}.{\BBCQ}
+\newblock
+\BIn{} (\BPG~65-71).
+\newblock
+\begin{APACrefDOI} \doi{10.1007/978-3-319-66963-2_7} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Austin~Beattie%
 \ \BBA {} Edwards%
 }{%
@@ -93,6 +122,33 @@ Kar, R.%
   \end{APACrefURL}
 \newblock
 \begin{APACrefDOI} \doi{10.14569/IJACSA.2016.071119} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+McQuilken%
+}{%
+McQuilken%
+}{%
+{\protect \APACyear {2014}}%
+}]{%
+mcquilken2014}
+\APACinsertmetastar {%
+mcquilken2014}%
+\begin{APACrefauthors}%
+McQuilken, T.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{January}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Automation is the future of print workflows.}
+  {Automation is the future of print workflows.}{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Editor & Publisher}{}{}{32-33}.
+\newblock
+\begin{APACrefURL}
+  \url{https://www.editorandpublisher.com/stories/automation-is-the-future-of-print-workflows,64457}
+  \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -189,6 +245,37 @@ Rese, A.%
 \newblock
 \begin{APACrefDOI} \doi{https://doi.org/10.1016/j.jretconser.2020.102176}
   \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Zayas-Cabán%
+, Haque%
+\BCBL {}\ \BBA {} Kemper%
+}{%
+Zayas-Cabán%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2021}}%
+}]{%
+caban2021}
+\APACinsertmetastar {%
+caban2021}%
+\begin{APACrefauthors}%
+Zayas-Cabán, T.%
+, Haque, S.%
+\BCBL {}\ \BBA {} Kemper, N.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{05}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Identifying Opportunities for Workflow Automation in
+  Health Care: Lessons Learned from Other Industries} {Identifying
+  opportunities for workflow automation in health care: Lessons learned from
+  other industries}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Applied Clinical Informatics}{12}{}{686-697}.
+\newblock
+\begin{APACrefDOI} \doi{10.1055/s-0041-1731744} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \end{thebibliography}

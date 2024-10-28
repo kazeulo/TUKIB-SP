@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.9.1)  25 OCT 2024 04:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.9.1)  28 OCT 2024 20:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -457,8 +457,12 @@ Chapter 2.
 
 
 
-] [8] [9] [10] [11] [12]
-Overfull \hbox (27.6443pt too wide) in paragraph at lines 104--105
+] [8]
+
+LaTeX Warning: Citation `choudhary2024' undefined on input line 31.
+
+[9] [10] [11] [12]
+Overfull \hbox (27.6443pt too wide) in paragraph at lines 72--73
 \OT1/cmr/m/n/12 quently asked ques-tions re-gard-ing ad-mis-sions, stu-dent aid
 , and tu-ition costs []PennState,
  []
@@ -482,7 +486,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 25--26
+Underfull \hbox (badness 10000) in paragraph at lines 24--25
 
  []
 
@@ -491,58 +495,48 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--31
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 34--35
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 38--39
-
- []
-
 [16 <./figures/agile methodology.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 40--41
+Underfull \hbox (badness 10000) in paragraph at lines 36--37
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--43
+Underfull \hbox (badness 10000) in paragraph at lines 47--48
 
  []
 
 [17]
-Underfull \hbox (badness 10000) in paragraph at lines 71--72
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 75--76
+Underfull \hbox (badness 10000) in paragraph at lines 80--81
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 79--80
+Underfull \hbox (badness 10000) in paragraph at lines 84--85
+
+ []
+
+[18]
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 83--84
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 87--88
-
- []
-
-
-Overfull \hbox (1.12236pt too wide) in paragraph at lines 91--92
+Overfull \hbox (1.12236pt too wide) in paragraph at lines 96--97
 []\OT1/cmr/m/n/12 GitHub will be used to fa-cil-i-tate for ver-sion con-trol an
 d col-lab-o-ra-tion though-
  []
 
-[18]) [19]
+) [19]
 \openout2 = `chapter_4.aux'.
 
  (chapter_4.tex
@@ -553,21 +547,52 @@ Chapter 4.
 
 
 ] (main.bbl
-Underfull \hbox (badness 1394) in paragraph at lines 140--157
+! Misplaced alignment tab character &.
+<argument> Editor &
+                    Publisher
+l.147 ...olNumPages{Editor & Publisher}{}{}{32-33}
+                                                  .
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Underfull \hbox (badness 2293) in paragraph at lines 138--153
+[]\OT1/cmr/m/n/12 McQuilken, T.  (2014, Jan-uary).  Au-toma-tion is the fu-ture
+ of print
+ []
+
+
+Underfull \hbox (badness 2698) in paragraph at lines 138--153
+\OT1/cmr/m/n/12 work-flows.  \OT1/cmr/m/it/12 Ed-i-tor  Pub-lisher\OT1/cmr/m/n/
+12 , 32-33.  Re-trieved from $\OT1/cmtt/m/n/12 https ://
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--153
+\OT1/cmtt/m/n/12 www [] .editorandpublisher [] .com / stories / automation [] -
+is [] -the [] -future []
+ []
+
+
+Underfull \hbox (badness 1394) in paragraph at lines 196--213
 \OT1/cmr/m/it/12 dents around the clock | Penn State Uni-ver-sity --- psu.edu. 
  \OT1/cmr/m/n/12 Re-
  []
 
-) [21
+[21
 
 
 
-]
+]) [22]
 \openout2 = `appendix_A.aux'.
 
  (appendix_A.tex
 Appendix A.
-) [22
+) [23
 
 
 ]
@@ -580,7 +605,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--32
 
  []
 
-[23
+[24
 
 
 
@@ -591,15 +616,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--32
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
  ) 
 Here is how much of TeX's memory you used:
- 6925 strings out of 474486
- 110185 string characters out of 5748449
- 1937542 words of memory out of 5000000
- 29027 multiletter control sequences out of 15000+600000
+ 6937 strings out of 474486
+ 110349 string characters out of 5748449
+ 1938542 words of memory out of 5000000
+ 29039 multiletter control sequences out of 15000+600000
  566628 words of font info for 68 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 79i,8n,84p,1156b,316s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 79i,8n,84p,1152b,317s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\ASUS\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1
 200.pk><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx1
 2.pfb><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc1
@@ -608,9 +637,9 @@ pfb><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pf
 b><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb
 ><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
 
-Output written on main.pdf (29 pages, 162055 bytes).
+Output written on main.pdf (30 pages, 164952 bytes).
 PDF statistics:
- 133 PDF objects out of 1000 (max. 8388607)
+ 136 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
