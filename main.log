@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.9.1)  28 OCT 2024 23:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=latex 2024.10.31)  31 OCT 2024 20:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -62,14 +62,13 @@ Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
 (C:\Users\ASUS\AppData\Local\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package xcolor Info: Driver file: pdftex.def on input line 274.
+Package xcolor Info: Driver file: dvips.def on input line 274.
 
-(C:\Users\ASUS\AppData\Local\MiKTeX\tex/latex/graphics-def\pdftex.def
-File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+(C:\Users\ASUS\AppData\Local\MiKTeX\tex/latex/graphics-def\dvips.def
+File: dvips.def 2022/09/22 v3.1e Graphics/color driver for dvips
 )
 (C:\Users\ASUS\AppData\Local\MiKTeX\tex/latex/graphics\mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
 Package xcolor Info: Model `RGB' extended on input line 1366.
 Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
 Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
@@ -90,7 +89,7 @@ Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
 (C:\Users\ASUS\AppData\Local\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 107.
+Package graphics Info: Driver file: dvips.def on input line 107.
 )
 \Gin@req@height=\dimen145
 \Gin@req@width=\dimen146
@@ -101,7 +100,17 @@ Package graphics Info: Driver file: pdftex.def on input line 107.
 
 (C:\Users\ASUS\AppData\Local\MiKTeX\tex/latex/pdfpages\pppdftex.def
 File: pppdftex.def 2024/08/20 v0.6b Pdfpages driver for pdfTeX (AM)
-)
+
+(C:\Users\ASUS\AppData\Local\MiKTeX\tex/latex/pdfpages\ppnull.def
+File: ppnull.def 2024/08/20 v0.6b Pdfpages dummy driver (AM)
+
+
+Package pdfpages Warning: I will use a dummy \includepdf command
+(pdfpages)                which will insert empty pages instead of the actual
+(pdfpages)                PDF file because we are running in DVI mode or with
+(pdfpages)                dvips driver.
+
+))
 \pdfpages@includegraphics@status=\count199
 \AM@pagebox=\box51
 \AM@global@opts=\toks18
@@ -110,8 +119,7 @@ File: pppdftex.def 2024/08/20 v0.6b Pdfpages driver for pdfTeX (AM)
 \AM@lof@heading=\toks20
 \c@AM@survey=\count267
 \AM@templatesizebox=\box52
-)
-(C:\Users\ASUS\AppData\Local\MiKTeX\tex/latex/apacite\apacite.sty
+) (C:\Users\ASUS\AppData\Local\MiKTeX\tex/latex/apacite\apacite.sty
 Package: apacite 2013/07/21 v6.03 APA citation
 \c@BibCnt=\count268
 \bibleftmargin=\skip53
@@ -238,10 +246,10 @@ Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
 \tc@lly=\dimen160
 \tc@urx=\dimen161
 \tc@ury=\dimen162
-Package trimclip Info: Using driver 'tc-pdftex.def'.
+Package trimclip Info: Using driver 'tc-dvips.def'.
 
-(C:\Users\ASUS\AppData\Local\MiKTeX\tex/latex/adjustbox\tc-pdftex.def
-File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
+(C:\Users\ASUS\AppData\Local\MiKTeX\tex/latex/adjustbox\tc-dvips.def
+File: tc-dvips.def 2019/01/04 v2.2 Clipping driver for dvips
 ))
 \adjbox@Width=\dimen163
 \adjbox@Height=\dimen164
@@ -296,17 +304,21 @@ Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 \linenoamsmath@ams@eqpen=\count292
 LaTeX Info: Redefining \\ on input line 3180.
 ))
-(C:\Users\ASUS\AppData\Local\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
-File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count293
+(C:\Users\ASUS\AppData\Local\MiKTeX\tex/latex/l3backend\l3backend-dvips.def
+File: l3backend-dvips.def 2024-01-04 L3 backend support: dvips
 \l__pdf_internal_box=\box58
+\g__pdf_backend_object_int=\count293
+\l__pdf_backend_content_box=\box59
+\l__pdf_backend_model_box=\box60
+\g__pdf_backend_annotation_int=\count294
+\g__pdf_backend_link_int=\count295
+\g__pdf_backend_link_sf_int=\count296
 )
 
 LaTeX Warning: Unused global option(s):
     [onepage].
 
-(main.aux (title_page.aux) (abstract.aux) (chapter_1.aux) (chapter_2.aux)
-(chapter_3.aux) (chapter_4.aux) (appendix_A.aux) (appendix_B.aux))
+(main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
@@ -324,308 +336,5 @@ LaTeX Font Info:    ... okay on input line 6.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
 LaTeX Font Info:    ... okay on input line 6.
 
-(C:\Users\ASUS\AppData\Local\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count294
-\scratchdimen=\dimen178
-\scratchbox=\box59
-\nofMPsegments=\count295
-\nofMParguments=\count296
-\everyMPshowfont=\toks31
-\MPscratchCnt=\count297
-\MPscratchDim=\dimen179
-\MPnumerator=\count298
-\makeMPintoPDFobject=\count299
-\everyMPtoPDFconversion=\toks32
-) (C:\Users\ASUS\AppData\Local\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
-Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-85.
-
-(C:\Users\ASUS\AppData\Local\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
-))
 (C:\Users\ASUS\AppData\Local\MiKTeX\tex/latex/pdflscape\pdflscape.sty
-Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
-
-(C:\Users\ASUS\AppData\Local\MiKTeX\tex/latex/pdflscape\pdflscape-nometadata.st
-y
-Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PD
-F (HO)
- (C:\Users\ASUS\AppData\Local\MiKTeX\tex/generic/iftex\iftex.sty
-Package: iftex 2022/02/03 v1.0f TeX engine tests
-)
-(C:\Users\ASUS\AppData\Local\MiKTeX\tex/latex/graphics\lscape.sty
-Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
-)
-Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
-))
-\c@maskedRefs=\count300
-
-(C:\Users\ASUS\AppData\Local\MiKTeX\tex/latex/apacite\english.apc
-File: english.apc 2013/07/21 v6.03 apacite language file
-LaTeX Info: Redefining \BPBI on input line 129.
-LaTeX Info: Redefining \BHBI on input line 130.
-)
-\openout2 = `title_page.aux'.
-
-
-(title_page.tex [1
-
-
-{C:/Users/ASUS/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}])
-\openout2 = `abstract.aux'.
-
- (abstract.tex
-LaTeX Font Info:    Trying to load font information for U+msa on input line 10.
-
-
-(C:\Users\ASUS\AppData\Local\MiKTeX\tex/latex/amsfonts\umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 10.
-
-
-(C:\Users\ASUS\AppData\Local\MiKTeX\tex/latex/amsfonts\umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
-
-
-
-]) (main.toc
-[2
-
-
-
-])
-\tf@toc=\write3
-\openout3 = `main.toc'.
-
- [3] (main.lof)
-\tf@lof=\write4
-\openout4 = `main.lof'.
-
- [4
-
-] (main.lot)
-\tf@lot=\write5
-\openout5 = `main.lot'.
-
- [5
-
-]
-\openout2 = `chapter_1.aux'.
-
- (chapter_1.tex
-Chapter 1.
-[1
-
-
-] [2] [3] [4]
-Underfull \hbox (badness 10000) in paragraph at lines 90--91
-
- []
-
-
-Overfull \hbox (1.10173pt too wide) in paragraph at lines 96--97
-[]| \OT1/cmr/m/n/12 Fur-ther-more, other re-search in-sti-tu-tions fac-ing sim-
-i-lar chal-lenges in man-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 96--97
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 102--103
-
- []
-
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 106--107
-
- []
-
-) [6]
-\openout2 = `chapter_2.aux'.
-
- (chapter_2.tex
-Chapter 2.
-[7
-
-
-
-
-] [8] [9] [10] [11] [12]
-Overfull \hbox (27.6443pt too wide) in paragraph at lines 72--73
-\OT1/cmr/m/n/12 quently asked ques-tions re-gard-ing ad-mis-sions, stu-dent aid
-, and tu-ition costs []PennState,
- []
-
-[13]) [14]
-\openout2 = `chapter_3.aux'.
-
- (chapter_3.tex
-Chapter 3.
-<figures/agile methodology.png, id=71, 941.5175pt x 242.9075pt>
-File: figures/agile methodology.png Graphic file (type png)
-<use figures/agile methodology.png>
-Package pdftex.def Info: figures/agile methodology.png  used on input line 15.
-(pdftex.def)             Requested size: 415.55249pt x 107.20949pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[15
-
-
-
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 24--25
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 30--31
-
- []
-
-[16 <./figures/agile methodology.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 36--37
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 47--48
-
- []
-
-[17]
-Underfull \hbox (badness 10000) in paragraph at lines 76--77
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 80--81
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 84--85
-
- []
-
-[18]
-Underfull \hbox (badness 10000) in paragraph at lines 88--89
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 92--93
-
- []
-
-
-Overfull \hbox (1.12236pt too wide) in paragraph at lines 96--97
-[]\OT1/cmr/m/n/12 GitHub will be used to fa-cil-i-tate for ver-sion con-trol an
-d col-lab-o-ra-tion though-
- []
-
-) [19]
-\openout2 = `chapter_4.aux'.
-
- (chapter_4.tex
-Chapter 4.
-) [20
-
-
-
-
-] (main.bbl
-! Misplaced alignment tab character &.
-<argument> International Journal of Retail &
-                                             Distribution Management
-l.257   Management}{44}{}{694-712}
-                                  .
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-[21
-
-
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 414--430
-\OT1/cmtt/m/n/12 story / penn [] -state [] -launches [] -ai [] -powered [] -cha
-tbot [] -assist [] -students []
- []
-
-! Misplaced alignment tab character &.
-<argument> ...he differences between proprietary &
-                                                   free and open source soft...
-l.453   & free and open source software}
-                                        .{\BBCQ}
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-) [22]
-\openout2 = `appendix_A.aux'.
-
- (appendix_A.tex
-Appendix A.
-) [23
-
-
-]
-\openout2 = `appendix_B.aux'.
-
- (appendix_B.tex
-Appendix B.
-)
-Underfull \hbox (badness 10000) in paragraph at lines 29--32
-
- []
-
-[24
-
-
-
-
-] (main.aux (title_page.aux) (abstract.aux) (chapter_1.aux) (chapter_2.aux)
-(chapter_3.aux) (chapter_4.aux) (appendix_A.aux) (appendix_B.aux))
- ***********
-LaTeX2e <2023-11-01> patch level 1
-L3 programming layer <2024-01-04>
- ***********
- ) 
-Here is how much of TeX's memory you used:
- 6964 strings out of 474486
- 110680 string characters out of 5748449
- 1940542 words of memory out of 5000000
- 29066 multiletter control sequences out of 15000+600000
- 566628 words of font info for 68 fonts, out of 8000000 for 9000
- 1143 hyphenation exceptions out of 8191
- 79i,8n,84p,1152b,317s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\ASUS\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1
-200.pk><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx1
-2.pfb><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc1
-0.pfb><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.
-pfb><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pf
-b><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb
-><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-
-Output written on main.pdf (30 pages, 169660 bytes).
-PDF statistics:
- 136 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+Package: pdflscape 2022-10-27 
