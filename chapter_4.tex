@@ -1,6 +1,6 @@
 %   Filename    : chapter_4.tex 
 \chapter{Preliminary Results/System Prototype}
-This chapter presents the preliminary results of the study, including findings from data gathering, the system's diagrams and designs, initial user interface (UI) for the front end, and the chatbot's architecture.
+This chapter presents the preliminary results of the study, including findings from data gathering, the system's diagrams and designs, initial user interface (mockup UI) for the front end, and the chatbot's architecture.
 
 \section{Data Gathering Results}
 The research process for developing TUKIB started with a comprehensive visit to the UPV RRC during the researchers' internship. This phase involved engaging with key personnel and understanding the intricacies of the center's operations. The following sections detail the key activities and information undertaken and gathered during this visit.
@@ -19,13 +19,15 @@ The researchers were also given a guided tour, which provided an overview of var
 
 Each laboratory, including the Biology, Microbiology, Nanotechnology, and Applied Chemistry labs, was introduced in detail, with specific equipment and services discussed in terms of their availability and purpose. The UPV RRC houses five (5) laboratories, namely: Biology, Microbiology, Nanotechnology, Applied Chemistry Laboratory, and Food, Feeds, and Functional Nutrition Laboratory.
 
-\subsection{Stakeholder identification and engagement}
+\subsection{Stakeholder Identification and Engagement}
 The success of workflow automation hinges on understanding the needs and expectations of its key stakeholders. These stakeholders include the RRC laboratory and administrative staff, the clients (university and student researchers and external users of the RRC facilities), the developers, and the member/s of the Computer Science Faculty guiding the project.
 
-The researcher's interaction with the stakeholders allowed them to gather valuable feedback on the existing system and the challenges they faced. This feedback played a crucial role in shaping the direction of our system design, as it highlighted the need for automation, service tracking, and streamlined communication between stakeholders. This in-depth exposure to the center’s operations was essential for the initial design and development phase of TUKIB, providing a strong foundation for creating a system tailored to the specific needs of the RRC and other research institutions with similar setups.
+The researcher's interaction with the stakeholders allowed them to gather valuable feedback on the existing system and the challenges they faced. This feedback played a crucial role in shaping the direction of our system design, as it highlighted the need for automation, service tracking, and streamlined communication between stakeholders. Additionally, stakeholders were interviewed on their specific needs and pain points. These discussions led to the creation of user stories, which helped to contextualize the requirements from various perspectives. 
+
+This in-depth exposure to the center’s operations was essential for the initial design and development phase of TUKIB, providing a strong foundation for creating a system tailored to the specific needs of the RRC and other research institutions with similar setups.
 
 \subsection{Scope and Limitations of the Services}
-Through direct discussions with the center’s director and administrative staff, the researchers obtained a clear picture of the scope of services provided by each facility, as well as the current limitations they face. Some of these limitations included:
+Through direct discussions with the center’s director and administrative staff, the researchers obtained a clear picture of the scope of services provided by each facility, as well as the current limitations they face. Some of these limitations include:
 
 \begin{itemize}
 	\item The UPV RRC currently has no website describing its mission, vision, services offered, service request steps, or other relevant information. This limits clients from acquiring relevant knowledge on how the center's service operates.
@@ -33,24 +35,97 @@ Through direct discussions with the center’s director and administrative staff
 	\item A manual service request and data management system reliant on Google Forms and Sheets, which posed challenges in efficiency and scalability.
 \end{itemize}
 
+\subsection{User Requirements}
+
+Based on the interactions with stakeholders and observations during the facility tour, several key user requirements were identified for the development of TUKIB. 
+
+\begin{itemize}
+	\item \textbf{Service Information Accessibility}
+	\item \textbf{Automated Service Requests}
+	\item \textbf{Equipment and Facility Availability Tracking}
+	\item \textbf{Data Management and Reporting}
+	\item \textbf{User Account Management}
+	\item \textbf{Feedback Mechanism.}
+\end{itemize}
+
 \section{System Design}
+
+\subsection{Process Flow Diagram}
+
+\begin{figure}[h]
+	\centering 
+	\includegraphics[width=1\textwidth]{process_flow.jpg}
+	\caption{Process flow diagram from service request to feedbacking}
+	\label{fig:process_flow}
+\end{figure}
+
+\figref{fig:process_flow} illustrates the service delivery process, detailing the steps from the initial request to the feedbacking stage.
 
 \subsection{Context Model}
 
 \begin{figure}[h]
 	\centering 
-	\includegraphics[width=1\textwidth]{context model.png}
-	\caption{Context model for the interactions of internal and external entities with TUKIB}
+	\includegraphics[width=0.9\textwidth]{context model.png}
+	\caption{Context model for interactions between the TUKIB and its users}
 	\label{fig:context_model}
 \end{figure}
 
-\subsection{Process Flow Diagram}
+\figref{fig:context_model} illustrates the interactions between the system and both internal and external entities. It highlights how the system communicates with different stakeholders, including client, staff, director, and university researcher. The model also outlines how information flows entities to the system and vice versa, showing how the system works and its role within the institution.
 
 \subsection{Data Flow Diagram}
 
+\begin{figure}[h]
+	\centering 
+	\includegraphics[width=1\textwidth]{data_flow.jpg}
+	\caption{Data flow diagram from service request to feedbacking}
+	\label{fig:data_flow}
+\end{figure}
+
+\figref{fig:data_flow} shows the flow of data within the system, illustrating how information is exchanged between different components and users. The diagram also illustrates the pathways through which data moves, providing overview into how information are stored and retrieved within the system.
+
 \subsection{Database Diagram}
 
+Figure something illustrates the database diagram of the system.
+
 \subsection{Chatbot Conversation Flow}
+
+\begin{figure}[h]
+	\centering 
+	\includegraphics[width=0.7\textwidth]{chatbot_flow.jpg}
+	\caption{LIRA conversation flow}
+	\label{fig:chatbot_flow}
+\end{figure}
+
+\figref{fig:chatbot_flow} illustrates the conversation flow for TUKIB's chatbot, named LIRA—short for Learning, Innovation, and Research Assistant. LIRA will be accessible throughout the entire website, ensuring that all users, whether logged in or not, can obtain support whenever needed. Users can initiate a chat with LIRA via a persistent button that remains visible across the site or by selecting the dedicated “Avail a Service” button found on the user dashboard.
+
+The architecture of the chatbot is centered around a conversational flow that guides users through various tasks, from inquiries to service requests. The chatbot’s design consists of the following core components:
+
+\begin{itemize}
+	\item \textbf{Welcome Greeting}
+	
+	Present a welcome message where the chatbot greets users with a friendly introduction and offers assistance, presenting options such as “Service Inquiry“ and “Frequently Asked Questions/FAQs”
+	
+	\item \textbf{Flow for Service Inquiry}
+	
+	If the user chooses the option “Service Inquiry,” the chatbot will ask a follow-up question to identify which service the user wishes to inquire about. Sample service choices include sample processing,  lab equipment rental, etc. Then, the chatbot uses the user's answer details to present accurate information about each service. 
+	
+	\item \textbf{Flow for Consultation}
+	
+	The flow for consultation is designed to facilitate user inquiries about the services they wish to avail. As the primary purpose of the chatbot, this interaction allows users to ask questions about the services offered by RRC. When a user expresses interest, the chatbot engages by asking for specific details related to their request. For instance, if a user inquires about sample processing (e.g., the type of sample and processing methods needed), the chatbot will guide them through the details. This interactive process ensures that users receive tailored information while the chatbot gathers necessary details to asses service feasibility.
+	
+	\item \textbf{Flow for General Questions / FAQ}
+	
+	The chatbot should be able to answer and handle frequently asked questions by clients. These would include questions about general services, rental pricing methods, facility rental processes, etc.
+	
+	\item \textbf{Chatbot User Feedback}
+	
+	After chatbot services are completed, the chatbot will prompt the user to rate or provide feedback on their experience, which will help the developers and the RRC enhance their service quality.
+	
+	\item \textbf{Error Handling}
+	Chatbot failures will lead to conversational dead ends if not dealt with properly. Thus negating the main purpose of chatbot in this system which is to provide efficient customer service. The chatbot will have a fallback mechanism whenever user input is unexpected or a system error occurs. For example, if the chatbot cannot understand the user input, there will be rules on how the chatbot would handle this situation. Sample fallback methods would be redirecting the conversation to a live agent. Another option would be presenting friendly-toned error messages to the users, letting them know that the chatbot is having trouble understanding their input. Sample error messages would be “Sorry, I didn't catch that. Could you rephrase your question?” or “I'm sorry, I have a hard time understanding. Could you please rephrase your query?” and “I'm sorry, but what you're asking is not clear to me. Could you paraphrase it?”
+	
+\end{itemize}
+
 
 \section{User Interface}
 
