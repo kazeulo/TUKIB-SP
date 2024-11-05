@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.9.1)  2 NOV 2024 21:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.9.1)  5 NOV 2024 14:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -537,58 +537,42 @@ Chapter 4.
 
 
 
-] [21]
-<figures/process_flow.jpg, id=98, 2458.68562pt x 821.31844pt>
+] [21] [22]
+<figures/process_flow.jpg, id=101, 2458.68562pt x 821.31844pt>
 File: figures/process_flow.jpg Graphic file (type jpg)
 <use figures/process_flow.jpg>
-Package pdftex.def Info: figures/process_flow.jpg  used on input line 57.
+Package pdftex.def Info: figures/process_flow.jpg  used on input line 58.
 (pdftex.def)             Requested size: 415.55249pt x 138.80768pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[22]
-<figures/context model.png, id=102, 1750.54pt x 1126.2075pt>
+ [23 <./figures/process_flow.jpg>]
+<figures/context model.png, id=106, 1750.54pt x 1126.2075pt>
 File: figures/context model.png Graphic file (type png)
 <use figures/context model.png>
-Package pdftex.def Info: figures/context model.png  used on input line 68.
+Package pdftex.def Info: figures/context model.png  used on input line 71.
 (pdftex.def)             Requested size: 373.99469pt x 240.60048pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<figures/data_flow.jpg, id=103, 2477.255pt x 1116.17pt>
+ [24 <./figures/context model.png>]
+<figures/data_flow.jpg, id=111, 2477.255pt x 1116.17pt>
 File: figures/data_flow.jpg Graphic file (type jpg)
 <use figures/data_flow.jpg>
-Package pdftex.def Info: figures/data_flow.jpg  used on input line 79.
+Package pdftex.def Info: figures/data_flow.jpg  used on input line 84.
 (pdftex.def)             Requested size: 415.55249pt x 187.22574pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[23 <./figures/process_flow.jpg>]
-<figures/chatbot_flow.jpg, id=108, 1395.2125pt x 2005.4925pt>
+ [25 <./figures/data_flow.jpg>] [26] [27]
+<figures/chatbot_flow.jpg, id=121, 1395.2125pt x 2005.4925pt>
 File: figures/chatbot_flow.jpg Graphic file (type jpg)
 <use figures/chatbot_flow.jpg>
-Package pdftex.def Info: figures/chatbot_flow.jpg  used on input line 94.
+Package pdftex.def Info: figures/chatbot_flow.jpg  used on input line 115.
 (pdftex.def)             Requested size: 290.88547pt x 418.10573pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Overfull \hbox (14.2028pt too wide) in paragraph at lines 99--100
-\OT1/cmr/m/n/12 Figure 4.4[] il-lus-trates the con-ver-sa-tion flow for TUKIB's
- chat-bot, named LIRA|short
+Overfull \hbox (6.09418pt too wide) in paragraph at lines 120--121
+[]\OT1/cmr/m/n/12 Figure 4.4[] il-lus-trates the con-ver-sa-tion flow for TUKIB
+'s chat-bot, named LIRA|
  []
 
+[28 <./figures/chatbot_flow.jpg>] [29]
+Underfull \hbox (badness 10000) in paragraph at lines 149--150
 
-Overfull \hbox (1.36784pt too wide) in paragraph at lines 99--100
-\OT1/cmr/m/n/12 for Learn-ing, In-no-va-tion, and Re-search As-sis-tant. LIRA w
-ill be ac-ces-si-ble through-
  []
 
-[24 <./figures/context model.png>] [25 <./figures/data_flow.jpg>]) [26]
-[27 <./figures/chatbot_flow.jpg>] (main.bbl
+) [30] (main.bbl
 ! Misplaced alignment tab character &.
 <argument> International Journal of Retail &
                                              Distribution Management
@@ -601,7 +585,7 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[28
+[31
 
 
 
@@ -623,12 +607,12 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-) [29]
+) [32]
 \openout2 = `appendix_A.aux'.
 
  (appendix_A.tex
 Appendix A.
-) [30
+) [33
 
 
 ]
@@ -641,7 +625,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--32
 
  []
 
-[31
+[34
 
 
 
@@ -654,10 +638,10 @@ L3 programming layer <2024-01-04>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 7000 strings out of 474486
- 111695 string characters out of 5748449
+ 6999 strings out of 474486
+ 111687 string characters out of 5748449
  1936542 words of memory out of 5000000
- 29103 multiletter control sequences out of 15000+600000
+ 29102 multiletter control sequences out of 15000+600000
  566328 words of font info for 67 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  79i,8n,84p,1152b,315s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -668,9 +652,9 @@ Here is how much of TeX's memory you used:
 pfb><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.p
 fb><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pf
 b>
-Output written on main.pdf (38 pages, 1206422 bytes).
+Output written on main.pdf (41 pages, 1209406 bytes).
 PDF statistics:
- 164 PDF objects out of 1000 (max. 8388607)
+ 173 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
