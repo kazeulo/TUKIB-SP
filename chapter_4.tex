@@ -24,13 +24,13 @@ The success of workflow automation hinges on understanding the needs and expecta
 
 The researcher's interaction with the stakeholders allowed them to gather valuable feedback on the existing system and the challenges they faced. This feedback played a crucial role in shaping the direction of our system design, as it highlighted the need for automation, service tracking, and streamlined communication between stakeholders. Additionally, stakeholders were interviewed on their specific needs and pain points. These discussions led to the creation of user stories, which helped to contextualize the requirements from various perspectives. 
 
-This in-depth exposure to the center’s operations was essential for the initial design and development phase of TUKIB, providing a strong foundation for creating a system tailored to the specific needs of the RRC and other research institutions with similar setups.
+This in-depth exposure to the center’s operations was essential for the initial design and development phase of TUKIB, providing a strong foundation for creating a system tailored to the specific needs of the RRC.
 
 \subsection{Scope and Limitations of the Services}
 Through direct discussions with the center’s director and administrative staff, the researchers obtained a clear picture of the scope of services provided by each facility, as well as the current limitations they face. Some of these limitations include:
 
 \begin{itemize}
-	\item The UPV RRC currently has no centralized system available to the public which describes its mission, vision, services offered, as well as, steps on how to request a service, and other relevant information. This limits clients from acquiring necessary information about the center and its services.
+	\item The UPV RRC currently has no website available to the public which describes its mission, vision, services offered, as well as, steps on how to request a service, and other relevant information.   This limits clients from acquiring necessary information about the center and its services.
 	\item The staff also has difficulty in tracking equipment and facility availability in real-time, as it is essential to ensure that no one else is using an equipment or facility before it can be rented out on a specific time and date.
 	\item Manual service request and data management are also a problem as the RRC’s current system relies mainly on Google Forms and Sheets, which poses challenges in efficiency and scalability.
 \end{itemize}
@@ -45,8 +45,9 @@ Based on the gathered data with stakeholders and observations during the facilit
 	\item \textbf{Equipment and Facility Availability Tracking}
 	\item \textbf{Data Management and Reporting}
 	\item \textbf{User Account Management}
-	\item \textbf{Feedback Mechanism.}
+	\item \textbf{Feedback Mechanism}
 \end{itemize}
+
 \newpage
 
 \section{System Design}
@@ -68,12 +69,12 @@ Based on the gathered data with stakeholders and observations during the facilit
 
 \begin{figure}[h]
 	\centering 
-	\includegraphics[width=0.9\textwidth]{context model.png}
-	\caption{Context model for interactions between the TUKIB and its users}
+	\includegraphics[width=1\textwidth]{context model.png}
+	\caption{Context model for interactions between TUKIB and its users}
 	\label{fig:context_model}
 \end{figure}
 
-\figref{fig:context_model} illustrates the interactions between the system and both internal and external entities. It highlights how the system communicates with different stakeholders, including client, staff, director, and university researcher. The model also outlines how information flows entities to the system and vice versa, showing how the system works and its role within the institution.
+\figref{fig:context_model} illustrates the interactions between the system and both internal and external entities. It highlights how the system communicates with different stakeholders, including client, staff, director, and university researcher. The model also outlines how information flows from entities to the system and vice versa, showing how the it works and its role within the institution.
 
 \newpage
 
@@ -92,7 +93,14 @@ Based on the gathered data with stakeholders and observations during the facilit
 
 \subsection{Database Diagram}
 
-Figure something illustrates the database diagram of the system.
+\begin{figure}[h]
+	\centering 
+	\includegraphics[width=1\textwidth]{database.png}
+	\caption{Database diagram of TUKIB}
+	\label{fig:database}
+\end{figure}
+
+\figref{fig:database} illustrates the database diagram of the system.
 
 \newpage
 
@@ -102,9 +110,7 @@ Figure something illustrates the database diagram of the system.
 
 From the data gathering phase, the developers were able to identify common user queries and specific service requirements needed for the development of the chatbot. The collected data was used to construct the intents and entities which are essential for the chatbot’s functionality. 
 
-Intents represent the goal the users want to achieve when interacting with the chatbot (e.g., ”start consultation,” ”ask about lab rental procedures,” ”inquire about service status”). The intents are divided into greeting, general, service requests, frequently asked questions, feedback, and end or closing message. 
-
-On the other hand, entities are specific pieces of information that the chatbot needs to get from the user in order to fulfill a task. For example, the chatbot needs to know the laboratory name and desired time for renting the equipment in order to indicate its availability. 
+Intents represent the goal the users want to achieve when interacting with the chatbot (e.g., ”start consultation,” ”ask about lab rental procedures,” ”inquire about service status”). The intents are divided into greeting, general, service requests, frequently asked questions, feedback, and end or closing message. On the other hand, entities are specific pieces of information that the chatbot needs to get from the user in order to fulfill a task. For example, the chatbot needs to know the name of the equipment and desired time for renting in order to indicate the equipment's availability. 
 
 \newpage
 
@@ -119,7 +125,7 @@ On the other hand, entities are specific pieces of information that the chatbot 
 
 \figref{fig:chatbot_flow} illustrates the conversation flow for TUKIB's chatbot, named LIRA— short for Learning, Innovation, and Research Assistant. LIRA will be accessible throughout the entire website, ensuring that all users, whether logged in or not, can obtain support whenever needed. Users can initiate a chat with LIRA via a persistent button that remains visible across the site or by selecting the dedicated “Avail a Service” button found on the user dashboard.
 
-The architecture of the chatbot is centered around a conversational flow that guides users through various tasks, from inquiries to service requests. The chatbot’s design consists of the following core components:
+The structure of the chatbot is centered around a conversational flow that guides users through various tasks, from inquiries to service requests. The chatbot’s design consists of the following core components:
 
 \begin{itemize}
 	\item \textbf{Welcome Greeting}
@@ -153,13 +159,34 @@ The architecture of the chatbot is centered around a conversational flow that gu
 
 \section{User Interface Mock-up}
 
-\subsection{Landing Page}
-
 \subsection{User authentication and dashboard}
 
-User dashboard is designed for the needs of two primary user groups of TUKIB who are the staff and clients. Each user group has a different user interface to cater to their specific needs. 
+\begin{figure}[h]
+	\centering 
+	\includegraphics[width=0.9\textwidth]{login.png}
+	\caption{Log in page}
+	\label{fig:login}
+\end{figure}
 
-For the customers’ user interface, the developers designed a dashboard that shows the user’s profile, transaction history, and a button to avail a new service. For the staffs’ user interface, a layout was designed specifically for their tasks, featuring information and capabilities necessary for efficient management and oversight. This includes tools for monitoring workflows, accessing reports, and managing user requests.
+Users will have a premade account. For staff, accounts are automatically created, while clients will have accounts created only after their first consultation is approved. On the login page, users will need to enter their email address and password. Passwords will be hidden by default, but the eye icon next to the password field can be clicked to toggle visibility. After successfully logging in, users will be redirected to their dashboard.
+
+\begin{figure}[h]
+	\centering 
+	\includegraphics[width=0.9\textwidth]{staff_dashboard.png}
+	\caption{Staff dashboard}
+	\label{fig:staff_dashboard}
+\end{figure}
+
+\begin{figure}[h]
+	\centering 
+	\includegraphics[width=0.9\textwidth]{client_dashboard.png}
+	\caption{Client dashboard}
+	\label{fig:client_dashboard}
+\end{figure}
+
+User dashboard is designed for the needs of two primary user groups of TUKIB who are the staff and clients. Each user group has a different user interface to cater to their specific needs as seen from \figref{fig:staff_dashboard} and \figref{fig:client_dashboard}. 
+
+For the client’s user interface, the developers designed a dashboard that shows the user’s profile, transaction history, and a button to avail a new service. For the staffs’ user interface, a layout was designed specifically for their tasks, featuring information and capabilities necessary for efficient management and oversight. This includes tools for monitoring workflows, accessing reports, and managing user requests.
 
 The layout for both staff and customers’ user interface ensures easy navigation and quick access to essential information, enhancing the overall user experience.
 

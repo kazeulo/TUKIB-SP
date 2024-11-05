@@ -59,6 +59,47 @@ The testing of the system will be consisted of 3 main components to ensure its r
 
 The final product of the study, TUKIB, will made available to the intended users. In this phase, ongoing maintenance and regular performance monitoring, especially of the backend, are essential to ensure stability and reliability. Feedback form will be issued to users in to gather their thoughts and insights about the system or if they have encountered any bugs. Constant feedback from users during this phase will guide further improvements and updates.
 
+\section{Chatbot architecture and development}
+
+\subsection{Rasa Chatbot Architecture}
+
+\begin{figure}[h]
+	\centering 
+	\includegraphics[width=0.8\textwidth]{RASA_architecture.png}
+	\caption{RASA Open Source Chatbot Architecture}
+	photo from https://rasa.com/docs/rasa/arch-overview/
+	\label{fig:rasa_architecture}
+\end{figure}
+
+The chatbot for the system will be created using the RASA framework. RASA is an open source conversational AI framework that allows developers to build, deploy, and improve AI-powered chatbots and virtual assistants. \figref{fig:rasa_architecture} shows the details about the architecture of RASA chatbot design. Specifically, this study will utilize the Open Source framework of RASA.
+
+There are two main components in RASA Open Source architecture namely: RASA NLU and RASA Dialogue Policies. The RASA NLU, shown as NLU pipeline in the figure, is like the primary senses of the chatbot which receive the input from the users. It identifies, classifies, and extracts the intents and entities from the given input. It is also responsible for choosing and retrieving the appropriate response to the user. 
+
+The dialogue management also called the Rasa Core, shown as Dialogue Policies in the figure, decides the next action in a conversation based on the context of the conversation. RASA SDK is an action server which is responsible for running custom actions. The Tracker store is where the conversations are stored. The chatbot saves the context which helps give personalized interactions with the user. Rasa also uses a ticket lock mechanism in order to ensure that incoming messages for a given conversation ID are processed in the right order, and locks conversations while messages are actively processed. This allows for multiple Rasa servers to be run in parallel. File system consists of Models and Training data needed for the functionality of the chatbot.
+
+\subsection {Conversation processing}
+
+Rasa mainly includes three stages in its conversation processing. They are:
+
+\begin{itemize}
+	\item \textbf{NLP pipeline (Natural Language Processing)}
+	
+	The input or message is given by the user in this stage. The chatbot mainly tries to understand the context of the user’s message and meaningful information is extracted. This stage involves tokenization, intent and entity recognition, and featurization. The extracted information is then mapped or matched with the training data.
+	
+	\item \textbf{Dialogue management (Response selection stage)}
+	
+	Once the input is processed by the NLP pipeline, it proceeds to the dialogue management stage. This stage involves decision-making about how the bot should respond based on the user’s given input and the context of the conversation. 
+	
+	\item \textbf{Response generation / Output}
+	
+	Once the appropriate response or action has been determined, the final stage is to generate the bot’s response to the user.  These are two main approaches for generating these responses. First is the template-based responses which are the pre-defined response template based on the extracted intent and entities from the user’s message. These responses are static and are typically used for simple and predictable replies. Another is the custom action. This is for complex responses, such as calling an API or performing specific logic. For example, the chatbot will call from the backend to fetch service details or event schedules, and then dynamically generate a response based on the result.
+	
+\end{itemize}
+
+\subsection{Model training}
+
+Training data will be in the form of conversations between the RRC staff and clients. The data collection will be done with the help of RRC staff to ensure its accuracy and validity. The gathered data will be used to train Rasa’s NLU model, allowing it to recognize user intents and extract relevant information accurately. As per Rasa’s capability, continuous use of the chatbot will further train the model, allowing it to learn from interactions and improve its understanding over time. This ongoing training process will enhance the chatbot’s performance, ensuring it becomes more adept at addressing user needs and providing relevant and more accurate responses as it accumulates more data from real-world users.
+ 
 \section{Development Tools}
 
 \subsection{Hardware}

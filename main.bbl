@@ -158,6 +158,42 @@ Austin~Beattie, A\BPBI P\BPBI E.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Barchard%
+\ \BBA {} Pace%
+}{%
+Barchard%
+\ \BBA {} Pace%
+}{%
+{\protect \APACyear {2011}}%
+}]{%
+barchard2011}
+\APACinsertmetastar {%
+barchard2011}%
+\begin{APACrefauthors}%
+Barchard, K\BPBI A.%
+\BCBT {}\ \BBA {} Pace, L\BPBI A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2011}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Preventing human error: The impact of data entry methods
+  on data accuracy and statistical results} {Preventing human error: The impact
+  of data entry methods on data accuracy and statistical results}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Computers in Human Behavior}{27}{5}{1834-1839}.
+\newblock
+\begin{APACrefURL}
+  \url{https://www.sciencedirect.com/science/article/pii/S0747563211000707}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{2009 Fifth International Conference on Intelligent Computing}
+\newblock
+\begin{APACrefDOI} \doi{https://doi.org/10.1016/j.chb.2011.04.004}
+  \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Choudhary%
 , Tariq%
 , Chaudhry%
@@ -253,7 +289,7 @@ Hagberg, J.%
   framework} {The digitalization of retailing: an exploratory
   framework}.{\BBCQ}
 \newblock
-\APACjournalVolNumPages{International Journal of Retail & Distribution
+\APACjournalVolNumPages{International Journal of Retail \& Distribution
   Management}{44}{}{694-712}.
 \newblock
 \begin{APACrefDOI} \doi{10.1108/IJRDM-09-2015-0140} \end{APACrefDOI}
@@ -450,7 +486,7 @@ Prasad, D.%
 \newblock
 {\BBOQ}\APACrefatitle {Understanding the Differences between Proprietary & Free
   and Open Source Software} {Understanding the differences between proprietary
-  & free and open source software}.{\BBCQ}
+  \& free and open source software}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{International Journal of Engineering Research and
   Applications (IJERA)}{3}{}{}.
