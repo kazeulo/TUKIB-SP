@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.11.6)  6 NOV 2024 09:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.11.6)  6 NOV 2024 10:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -689,7 +689,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 ! Misplaced alignment tab character &.
 <argument> International Journal of Retail &
                                              Distribution Management
-l.293   Management}{44}{}{694-712}
+l.524   Management}{44}{}{694-712}
                                   .
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -699,7 +699,22 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 450--466
+
+[36]
+! Misplaced alignment tab character &.
+<argument> Total Quality Management &
+                                      Business Excellence - TOTAL QUAL MANAG...
+l.784   QUAL MANAG BUS EXCELL}{20}{}{129-137}
+                                             .
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 800--816
 \OT1/cmtt/m/n/12 story / penn [] -state [] -launches [] -ai [] -powered [] -cha
 tbot [] -assist [] -students []
  []
@@ -707,8 +722,20 @@ tbot [] -assist [] -students []
 ! Misplaced alignment tab character &.
 <argument> ...he differences between proprietary &
                                                    free and open source soft...
-l.489   & free and open source software}
+l.839   & free and open source software}
                                         .{\BBCQ}
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+<argument> Information &
+                         Management
+l.905 ...Information & Management}{40}{8}{813-829}
+                                                  .
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -718,16 +745,16 @@ might try typing `S' now just to see what is salvageable.
 
 
 
-[36])
+[37])
 
-[37]
+[38]
 \openout2 = `appendix_A.aux'.
 
  (appendix_A.tex
 Appendix A.
 )
 
-[38
+[39
 
 
 ]
@@ -742,7 +769,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--32
 
 
 
-[39
+[40
 
 
 
@@ -755,10 +782,10 @@ L3 programming layer <2024-10-09>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 7043 strings out of 473897
- 114097 string characters out of 5726934
- 515137 words of memory out of 5000000
- 29736 multiletter control sequences out of 15000+600000
+ 7091 strings out of 473897
+ 114749 string characters out of 5726934
+ 517922 words of memory out of 5000000
+ 29784 multiletter control sequences out of 15000+600000
  565992 words of font info for 65 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  79i,8n,84p,1258b,315s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -769,9 +796,9 @@ amsfonts/cm/cmcsc10.pfb><C:/Users/ACER/AppData/Local/Programs/MiKTeX/fonts/type
 1/public/amsfonts/cm/cmr12.pfb><C:/Users/ACER/AppData/Local/Programs/MiKTeX/fon
 ts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/ACER/AppData/Local/Programs/Mi
 KTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (46 pages, 1979271 bytes).
+Output written on main.pdf (47 pages, 1987786 bytes).
 PDF statistics:
- 198 PDF objects out of 1000 (max. 8388607)
+ 202 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  51 words of extra memory for PDF output out of 10000 (max. 10000000)
 
