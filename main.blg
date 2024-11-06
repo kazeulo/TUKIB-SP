@@ -36,45 +36,45 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Database file #1: myreferences.bib
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
 Warning--No journal in adams2011
-You've used 19 entries,
+You've used 20 entries,
             6951 wiz_defined-function locations,
-            1424 strings with 15265 characters,
-and the built_in function-call counts, 40470 in all, are:
-= -- 4873
-> -- 346
-< -- 2100
-+ -- 2087
-- -- 44
-* -- 2739
-:= -- 7763
-add.period$ -- 82
-call.type$ -- 19
-change.case$ -- 348
+            1429 strings with 15434 characters,
+and the built_in function-call counts, 42877 in all, are:
+= -- 5195
+> -- 363
+< -- 2224
++ -- 2202
+- -- 46
+* -- 2880
+:= -- 8218
+add.period$ -- 88
+call.type$ -- 20
+change.case$ -- 367
 chr.to.int$ -- 0
-cite$ -- 39
-duplicate$ -- 1000
-empty$ -- 1517
-format.name$ -- 564
-if$ -- 7441
+cite$ -- 41
+duplicate$ -- 1039
+empty$ -- 1596
+format.name$ -- 578
+if$ -- 7901
 int.to.chr$ -- 0
-int.to.str$ -- 57
+int.to.str$ -- 60
 missing$ -- 0
-newline$ -- 536
-num.names$ -- 152
-pop$ -- 685
+newline$ -- 560
+num.names$ -- 160
+pop$ -- 736
 preamble$ -- 1
-purify$ -- 100
+purify$ -- 106
 quote$ -- 0
-skip$ -- 2434
+skip$ -- 2601
 stack$ -- 0
-substring$ -- 2257
-swap$ -- 599
-text.length$ -- 85
+substring$ -- 2395
+swap$ -- 624
+text.length$ -- 96
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 1712
+type$ -- 1856
 warning$ -- 1
-while$ -- 215
+while$ -- 223
 width$ -- 0
-write$ -- 673
+write$ -- 699
 (There was 1 error message)

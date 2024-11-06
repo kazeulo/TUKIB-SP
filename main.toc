@@ -41,5 +41,5 @@
 \contentsline {section}{\numberline {4.4}User Interface Mock-up}{32}{}%
 \contentsline {subsection}{\numberline {4.4.1}User authentication and dashboard}{32}{}%
 \contentsline {chapter}{References}{35}{}%
-\contentsline {chapter}{\numberline {A}Appendix Title}{37}{}%
-\contentsline {chapter}{\numberline {B}Resource Persons}{38}{}%
+\contentsline {chapter}{\numberline {A}Appendix Title}{38}{}%
+\contentsline {chapter}{\numberline {B}Resource Persons}{39}{}%

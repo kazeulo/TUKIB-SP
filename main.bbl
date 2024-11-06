@@ -289,7 +289,7 @@ Hagberg, J.%
   framework} {The digitalization of retailing: an exploratory
   framework}.{\BBCQ}
 \newblock
-\APACjournalVolNumPages{International Journal of Retail \& Distribution
+\APACjournalVolNumPages{International Journal of Retail & Distribution
   Management}{44}{}{694-712}.
 \newblock
 \begin{APACrefDOI} \doi{10.1108/IJRDM-09-2015-0140} \end{APACrefDOI}
@@ -486,7 +486,7 @@ Prasad, D.%
 \newblock
 {\BBOQ}\APACrefatitle {Understanding the Differences between Proprietary & Free
   and Open Source Software} {Understanding the differences between proprietary
-  \& free and open source software}.{\BBCQ}
+  & free and open source software}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{International Journal of Engineering Research and
   Applications (IJERA)}{3}{}{}.
@@ -526,6 +526,33 @@ Rese, A.%
 \newblock
 \begin{APACrefDOI} \doi{https://doi.org/10.1016/j.jretconser.2020.102176}
   \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Winarko%
+}{%
+Winarko%
+}{%
+{\protect \APACyear {2021}}%
+}]{%
+winarko2021}
+\APACinsertmetastar {%
+winarko2021}%
+\begin{APACrefauthors}%
+Winarko, H.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{11}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The Digital Payment Service Automation Attributes Model:
+  Empirical Evidence of Railway Public Transport} {The digital payment service
+  automation attributes model: Empirical evidence of railway public
+  transport}.{\BBCQ}
+\newblock
+\BIn{} (\BPG~138-152).
+\newblock
+\begin{APACrefDOI} \doi{10.4018/978-1-7998-8524-5.ch008} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
