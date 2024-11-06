@@ -1,6 +1,6 @@
 %   Filename    : chapter_4.tex 
 \chapter{Preliminary Results/System Prototype}
-This chapter presents the preliminary results of the study, including findings from data gathering, the system's diagrams and designs, initial user interface (mockup UI) for the front end, and the chatbot's architecture.
+This chapter presents the preliminary results of the study, including findings from data gathering, the system's diagrams and designs, initial user interface (mockup UI) for the front end, and the chatbot's design.
 
 \section{Data Gathering Results}
 The research process for developing TUKIB started with a comprehensive visit to the UPV RRC during the researchers' internship. This phase involved engaging with key personnel and understanding the intricacies of the center's operations. The following sections detail the key activities and information undertaken and gathered during this visit.
@@ -14,7 +14,7 @@ The researchers were also given a guided tour, which provided an overview of var
 	\item \textbf{Sample Processing.}The RRC provides critical sample processing services, essential for research and analysis.
 	\item \textbf{Laboratory Equipment Rental} Various pieces of laboratory equipment are available for rent, which supports a wide range of scientific projects.
 	\item \textbf{Training and Workshops.} The RRC offers training sessions on laboratory equipment, promoting user proficiency.
-	\item \textbf{Facility Rentals.} Access to spaces like the Audio-Visual Room (AVR) and conference rooms was noted as a valuable resource for users.
+	\item \textbf{Facility Rental.} Access to spaces like the Audio-Visual Room (AVR) and conference rooms was noted as a valuable resource for users.
 \end{itemize}
 
 Each laboratory, including the Biology, Microbiology, Nanotechnology, and Applied Chemistry labs, was introduced in detail, with specific equipment and services discussed in terms of their availability and purpose. The UPV RRC houses five (5) laboratories, namely: Biology, Microbiology, Nanotechnology, Applied Chemistry Laboratory, and Food, Feeds, and Functional Nutrition Laboratory.
@@ -74,7 +74,7 @@ Based on the gathered data with stakeholders and observations during the facilit
 	\label{fig:context_model}
 \end{figure}
 
-\figref{fig:context_model} illustrates the interactions between the system and both internal and external entities. It highlights how the system communicates with different stakeholders, including client, staff, director, and university researcher. The model also outlines how information flows from entities to the system and vice versa, showing how the it works and its role within the institution.
+\figref{fig:context_model} illustrates the interactions between the system and both internal and external entities. It shows how the system communicates with different stakeholders, including client, staff, director, and university researcher. The model also outlines how information flows from entities to the system and vice versa, showing how the it works and its role within the institution.
 
 \newpage
 
@@ -95,12 +95,14 @@ Based on the gathered data with stakeholders and observations during the facilit
 
 \begin{figure}[h]
 	\centering 
-	\includegraphics[width=1\textwidth]{database.png}
+	\includegraphics[width=0.7\textwidth]{database.png}
 	\caption{Database diagram of TUKIB}
 	\label{fig:database}
 \end{figure}
 
-\figref{fig:database} illustrates the database diagram of the system.
+The database design for TUKIB revolves around tracking and managing various service related data, with several interrelated entities to ensure easy storing and retrieval. As seen in \figref{fig:database}, there are 11 tables in the database design for the system. 
+
+The client table stores essential information about the clients, such as their name, contact details, and addresses. When a client wishes to avail a service, a corresponding service request is created, linking the request to both the client and the staff members handling the service. This table also records the type of service (e.g., use of equipment, use of facility, sample processing, or training) and its status. To track the usage of specific resources, there are separate tables for the use of equipment and use of facility, which log the details of which equipment of facility was used for a particular service request, including the time of use and duration. For other services, the sample processing table tracks the handling and status of samples, while the training service table records information about any training sessions provided to clients, including the assigned staff and training details. The equipment table stores the information about availability of equipment and history use. Once services are rendered, the payment table ensures that all transactions are logged, tracking the payment amounts and methods linked to specific services. Additionally, feedback from clients on their experience on availing a service is stored in the feedback table, providing valuable insights into the service quality and client satisfaction.
 
 \newpage
 

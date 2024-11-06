@@ -66,16 +66,16 @@ The final product of the study, TUKIB, will made available to the intended users
 \begin{figure}[h]
 	\centering 
 	\includegraphics[width=0.8\textwidth]{RASA_architecture.png}
-	\caption{RASA Open Source Chatbot Architecture}
+	\caption{Rasa Open Source Chatbot Architecture}
 	photo from https://rasa.com/docs/rasa/arch-overview/
 	\label{fig:rasa_architecture}
 \end{figure}
 
-The chatbot for the system will be created using the RASA framework. RASA is an open source conversational AI framework that allows developers to build, deploy, and improve AI-powered chatbots and virtual assistants. \figref{fig:rasa_architecture} shows the details about the architecture of RASA chatbot design. Specifically, this study will utilize the Open Source framework of RASA.
+The chatbot for the system will be created using the Rasa framework. Rasa is an open source conversational AI framework that allows developers to build, deploy, and improve AI-powered chatbots and virtual assistants. \figref{fig:rasa_architecture} shows the details about the architecture of RASA chatbot design. Specifically, this study will utilize the Open Source framework of Rasa.
 
-There are two main components in RASA Open Source architecture namely: RASA NLU and RASA Dialogue Policies. The RASA NLU, shown as NLU pipeline in the figure, is like the primary senses of the chatbot which receive the input from the users. It identifies, classifies, and extracts the intents and entities from the given input. It is also responsible for choosing and retrieving the appropriate response to the user. 
+There are two main components in Rasa Open Source architecture namely: Rasa NLU and Rasa Dialogue Policies. The Rasa NLU, shown as NLU pipeline in the figure, is like the primary senses of the chatbot which receive the input from the users. It identifies, classifies, and extracts the intents and entities from the given input. It is also responsible for choosing and retrieving the appropriate response to the user. 
 
-The dialogue management also called the Rasa Core, shown as Dialogue Policies in the figure, decides the next action in a conversation based on the context of the conversation. RASA SDK is an action server which is responsible for running custom actions. The Tracker store is where the conversations are stored. The chatbot saves the context which helps give personalized interactions with the user. Rasa also uses a ticket lock mechanism in order to ensure that incoming messages for a given conversation ID are processed in the right order, and locks conversations while messages are actively processed. This allows for multiple Rasa servers to be run in parallel. File system consists of Models and Training data needed for the functionality of the chatbot.
+The dialogue management also called the Rasa Core, shown as Dialogue Policies in the figure, decides the next action in a conversation based on the context of the conversation. Rasa SDK is an action server which is responsible for running custom actions. The Tracker store is where the conversations are stored. The chatbot saves the context which helps give personalized interactions with the user. Rasa also uses a ticket lock mechanism in order to ensure that incoming messages for a given conversation ID are processed in the right order, and locks conversations while messages are actively processed. This allows for multiple Rasa servers to be run in parallel. File system consists of Models and Training data needed for the functionality of the chatbot.
 
 \subsection {Conversation processing}
 
@@ -92,7 +92,7 @@ Rasa mainly includes three stages in its conversation processing. They are:
 	
 	\item \textbf{Response generation / Output}
 	
-	Once the appropriate response or action has been determined, the final stage is to generate the bot’s response to the user.  These are two main approaches for generating these responses. First is the template-based responses which are the pre-defined response template based on the extracted intent and entities from the user’s message. These responses are static and are typically used for simple and predictable replies. Another is the custom action. This is for complex responses, such as calling an API or performing specific logic. For example, the chatbot will call from the backend to fetch service details or event schedules, and then dynamically generate a response based on the result.
+	Once the appropriate response or action has been determined, the final stage is to generate the bot’s response to the user.  There are two main approaches for generating these responses. First is the template-based responses which are the pre-defined response templates based on the extracted intent and entities from the user’s message. These responses are static and are typically used for simple and predictable replies. Another is the custom action. This is for complex responses, such as calling an API or performing specific logic. For example, the chatbot will call from the backend to fetch service details or event schedules, and then dynamically generate a response based on the result.
 	
 \end{itemize}
 
