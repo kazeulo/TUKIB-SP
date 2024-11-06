@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.9.1)  6 NOV 2024 06:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.9.1)  6 NOV 2024 10:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -555,33 +555,33 @@ Package pdftex.def Info: figures/data_flow.jpg  used on input line 85.
 File: figures/database.png Graphic file (type png)
 <use figures/database.png>
 Package pdftex.def Info: figures/database.png  used on input line 98.
-(pdftex.def)             Requested size: 415.55249pt x 314.1886pt.
+(pdftex.def)             Requested size: 290.88547pt x 219.93073pt.
  [28 <./figures/database.png>] [29]
 <figures/chatbot_flow.jpg, id=129, 1395.2125pt x 2005.4925pt>
 File: figures/chatbot_flow.jpg Graphic file (type jpg)
 <use figures/chatbot_flow.jpg>
-Package pdftex.def Info: figures/chatbot_flow.jpg  used on input line 121.
+Package pdftex.def Info: figures/chatbot_flow.jpg  used on input line 123.
 (pdftex.def)             Requested size: 290.88547pt x 418.10573pt.
 
-Overfull \hbox (6.09418pt too wide) in paragraph at lines 126--127
+Overfull \hbox (6.09418pt too wide) in paragraph at lines 128--129
 []\OT1/cmr/m/n/12 Figure 4.5[] il-lus-trates the con-ver-sa-tion flow for TUKIB
 's chat-bot, named LIRA|
  []
 
 [30 <./figures/chatbot_flow.jpg>] [31]
-Underfull \hbox (badness 10000) in paragraph at lines 155--156
+Underfull \hbox (badness 10000) in paragraph at lines 157--158
 
  []
 
 <figures/login.png, id=137, 770.12718pt x 455.45157pt>
 File: figures/login.png Graphic file (type png)
 <use figures/login.png>
-Package pdftex.def Info: figures/login.png  used on input line 166.
+Package pdftex.def Info: figures/login.png  used on input line 168.
 (pdftex.def)             Requested size: 373.99469pt x 221.17868pt.
 <figures/staff_dashboard.png, id=138, 780.66656pt x 449.42906pt>
 File: figures/staff_dashboard.png Graphic file (type png)
 <use figures/staff_dashboard.png>
-Package pdftex.def Info: figures/staff_dashboard.png  used on input line 175.
+Package pdftex.def Info: figures/staff_dashboard.png  used on input line 177.
 (pdftex.def)             Requested size: 373.99469pt x 215.30516pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -589,7 +589,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <figures/client_dashboard.png, id=139, 601.4972pt x 496.85625pt>
 File: figures/client_dashboard.png Graphic file (type png)
 <use figures/client_dashboard.png>
-Package pdftex.def Info: figures/client_dashboard.png  used on input line 182.
+Package pdftex.def Info: figures/client_dashboard.png  used on input line 184.
 (pdftex.def)             Requested size: 373.99469pt x 308.94229pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -642,7 +642,7 @@ Here is how much of TeX's memory you used:
  29154 multiletter control sequences out of 15000+600000
  565992 words of font info for 65 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 79i,8n,84p,1258b,315s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 79i,8n,84p,1488b,315s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\ASUS\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1
 200.pk><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx1
 2.pfb><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc1
@@ -650,7 +650,7 @@ Here is how much of TeX's memory you used:
 pfb><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.p
 fb><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pf
 b>
-Output written on main.pdf (45 pages, 1978527 bytes).
+Output written on main.pdf (45 pages, 1979772 bytes).
 PDF statistics:
  195 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
