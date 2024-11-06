@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.9.1)  6 NOV 2024 10:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.9.1)  6 NOV 2024 10:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -446,18 +446,18 @@ Chapter 2.
 
 
 
-] [7] [8] [9] [10] [11]
-Overfull \hbox (27.6443pt too wide) in paragraph at lines 72--73
+] [7] [8] [9] [10]
+Overfull \hbox (27.6443pt too wide) in paragraph at lines 60--61
 \OT1/cmr/m/n/12 quently asked ques-tions re-gard-ing ad-mis-sions, stu-dent aid
 , and tu-ition costs []PennState,
  []
 
-[12]) [13]
+[11]) [12]
 \openout2 = `chapter_3.aux'.
 
  (chapter_3.tex
 Chapter 3.
-<figures/agile methodology.png, id=69, 941.5175pt x 242.9075pt>
+<figures/agile methodology.png, id=66, 941.5175pt x 242.9075pt>
 File: figures/agile methodology.png Graphic file (type png)
 <use figures/agile methodology.png>
 Package pdftex.def Info: figures/agile methodology.png  used on input line 15.
@@ -465,7 +465,7 @@ Package pdftex.def Info: figures/agile methodology.png  used on input line 15.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[14
+[13
 
 
 
@@ -475,7 +475,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 38--39
 
  []
 
-[15 <./figures/agile methodology.png>]
+[14 <./figures/agile methodology.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 44--45
 
  []
@@ -485,13 +485,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 55--56
 
  []
 
-[16]
-<figures/RASA_architecture.png, id=81, 1312.905pt x 804.00375pt>
+[15]
+<figures/RASA_architecture.png, id=78, 1312.905pt x 804.00375pt>
 File: figures/RASA_architecture.png Graphic file (type png)
 <use figures/RASA_architecture.png>
 Package pdftex.def Info: figures/RASA_architecture.png  used on input line 68.
 (pdftex.def)             Requested size: 332.44325pt x 203.57674pt.
- [17 <./figures/RASA_architecture.png (PNG copy)>] [18] [19]
+ [16 <./figures/RASA_architecture.png (PNG copy)>] [17] [18]
 Underfull \hbox (badness 10000) in paragraph at lines 125--126
 
  []
@@ -516,48 +516,48 @@ Underfull \hbox (badness 10000) in paragraph at lines 141--142
 
  []
 
-[20]
+[19]
 Overfull \hbox (1.12236pt too wide) in paragraph at lines 145--146
 []\OT1/cmr/m/n/12 GitHub will be used to fa-cil-i-tate for ver-sion con-trol an
 d col-lab-o-ra-tion though-
  []
 
-) [21]
+) [20]
 \openout2 = `chapter_4.aux'.
 
  (chapter_4.tex
 Chapter 4.
-[22
+[21
 
 
 
 
-] [23] [24]
-<figures/process_flow.jpg, id=108, 2458.68562pt x 821.31844pt>
+] [22] [23]
+<figures/process_flow.jpg, id=104, 2458.68562pt x 821.31844pt>
 File: figures/process_flow.jpg Graphic file (type jpg)
 <use figures/process_flow.jpg>
 Package pdftex.def Info: figures/process_flow.jpg  used on input line 59.
 (pdftex.def)             Requested size: 415.55249pt x 138.80768pt.
- [25 <./figures/process_flow.jpg>]
-<figures/context model.png, id=113, 1750.54pt x 1126.2075pt>
+ [24 <./figures/process_flow.jpg>]
+<figures/context model.png, id=110, 1750.54pt x 1126.2075pt>
 File: figures/context model.png Graphic file (type png)
 <use figures/context model.png>
 Package pdftex.def Info: figures/context model.png  used on input line 72.
 (pdftex.def)             Requested size: 415.55249pt x 267.33958pt.
- [26 <./figures/context model.png>]
-<figures/data_flow.jpg, id=117, 2477.255pt x 1116.17pt>
+ [25 <./figures/context model.png>]
+<figures/data_flow.jpg, id=114, 2477.255pt x 1116.17pt>
 File: figures/data_flow.jpg Graphic file (type jpg)
 <use figures/data_flow.jpg>
 Package pdftex.def Info: figures/data_flow.jpg  used on input line 85.
 (pdftex.def)             Requested size: 415.55249pt x 187.22574pt.
- [27 <./figures/data_flow.jpg>]
-<figures/database.png, id=121, 1114.1625pt x 842.39719pt>
+ [26 <./figures/data_flow.jpg>]
+<figures/database.png, id=118, 1114.1625pt x 842.39719pt>
 File: figures/database.png Graphic file (type png)
 <use figures/database.png>
 Package pdftex.def Info: figures/database.png  used on input line 98.
 (pdftex.def)             Requested size: 290.88547pt x 219.93073pt.
- [28 <./figures/database.png>] [29]
-<figures/chatbot_flow.jpg, id=129, 1395.2125pt x 2005.4925pt>
+ [27 <./figures/database.png>] [28]
+<figures/chatbot_flow.jpg, id=126, 1395.2125pt x 2005.4925pt>
 File: figures/chatbot_flow.jpg Graphic file (type jpg)
 <use figures/chatbot_flow.jpg>
 Package pdftex.def Info: figures/chatbot_flow.jpg  used on input line 123.
@@ -568,25 +568,22 @@ Overfull \hbox (6.09418pt too wide) in paragraph at lines 128--129
 's chat-bot, named LIRA|
  []
 
-[30 <./figures/chatbot_flow.jpg>] [31]
-Underfull \hbox (badness 10000) in paragraph at lines 157--158
-
- []
-
-<figures/login.png, id=137, 770.12718pt x 455.45157pt>
+[29 <./figures/chatbot_flow.jpg>] [30]
+<figures/login.png, id=134, 770.12718pt x 455.45157pt>
 File: figures/login.png Graphic file (type png)
 <use figures/login.png>
 Package pdftex.def Info: figures/login.png  used on input line 168.
 (pdftex.def)             Requested size: 373.99469pt x 221.17868pt.
-<figures/staff_dashboard.png, id=138, 780.66656pt x 449.42906pt>
+<figures/staff_dashboard.png, id=135, 780.66656pt x 449.42906pt>
 File: figures/staff_dashboard.png Graphic file (type png)
 <use figures/staff_dashboard.png>
 Package pdftex.def Info: figures/staff_dashboard.png  used on input line 177.
 (pdftex.def)             Requested size: 373.99469pt x 215.30516pt.
 
+
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/client_dashboard.png, id=139, 601.4972pt x 496.85625pt>
+<figures/client_dashboard.png, id=136, 601.4972pt x 496.85625pt>
 File: figures/client_dashboard.png Graphic file (type png)
 <use figures/client_dashboard.png>
 Package pdftex.def Info: figures/client_dashboard.png  used on input line 184.
@@ -594,8 +591,8 @@ Package pdftex.def Info: figures/client_dashboard.png  used on input line 184.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[32 <./figures/login.png>]) [33 <./figures/staff_dashboard.png>] [34 <./figures
-/client_dashboard.png>] (main.bbl [35
+[31 <./figures/login.png>]) [32 <./figures/staff_dashboard.png>] [33 <./figures
+/client_dashboard.png>] (main.bbl [34
 
 
 
@@ -605,12 +602,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 450--466
 tbot [] -assist [] -students []
  []
 
-) [36]
+) [35]
 \openout2 = `appendix_A.aux'.
 
  (appendix_A.tex
 Appendix A.
-) [37
+) [36
 
 
 ]
@@ -623,7 +620,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--32
 
  []
 
-[38
+[37
 
 
 
@@ -642,7 +639,7 @@ Here is how much of TeX's memory you used:
  29154 multiletter control sequences out of 15000+600000
  565992 words of font info for 65 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 79i,8n,84p,1488b,315s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 79i,8n,84p,1491b,315s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\ASUS\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1
 200.pk><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx1
 2.pfb><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc1
@@ -650,9 +647,9 @@ Here is how much of TeX's memory you used:
 pfb><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.p
 fb><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pf
 b>
-Output written on main.pdf (45 pages, 1979772 bytes).
+Output written on main.pdf (44 pages, 1977015 bytes).
 PDF statistics:
- 195 PDF objects out of 1000 (max. 8388607)
+ 192 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  51 words of extra memory for PDF output out of 10000 (max. 10000000)
 
