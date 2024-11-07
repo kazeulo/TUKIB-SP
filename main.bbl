@@ -338,37 +338,6 @@ Barchard, K\BPBI A.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Baresi%
-, Casati%
-, Castano%
-, Fugini%
-\BCBL {}\ \BBA {} Mirbel%
-}{%
-Baresi%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {1999}}%
-}]{%
-baresi1999}
-\APACinsertmetastar {%
-baresi1999}%
-\begin{APACrefauthors}%
-Baresi, L.%
-, Casati, F.%
-, Castano, S.%
-, Fugini, M.%
-\BCBL {}\ \BBA {} Mirbel, I.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{1999}{01}{}.
-\newblock
-{\BBOQ}\APACrefatitle {WIDE workflow development methodology.} {Wide workflow
-  development methodology.}{\BBCQ}
-\newblock
-\BIn{} (\BVOL~24, \BPG~19-28).
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Basu%
 \ \BBA {} Kumar%
 }{%
@@ -496,6 +465,31 @@ Fan, X.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+GeeksforGeeks%
+}{%
+GeeksforGeeks%
+}{%
+{\protect \APACyear {2024}}%
+}]{%
+geekforgeeks2024}
+\APACinsertmetastar {%
+geekforgeeks2024}%
+\begin{APACrefauthors}%
+GeeksforGeeks.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2024}{09}{}.
+\newblock
+\APACrefbtitle {Top 7 frameworks for building Chatbots.} {Top 7 frameworks for
+  building chatbots.}
+\newblock
+\begin{APACrefURL}
+  \url{https://www.geeksforgeeks.org/top-frameworks-for-building-chatbots/}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Hagberg%
 , Sundström%
 \BCBL {}\ \BBA {} Egels-Zandén%
@@ -520,7 +514,7 @@ Hagberg, J.%
   framework} {The digitalization of retailing: an exploratory
   framework}.{\BBCQ}
 \newblock
-\APACjournalVolNumPages{International Journal of Retail \& Distribution
+\APACjournalVolNumPages{International Journal of Retail\& Distribution
   Management}{44}{}{694-712}.
 \newblock
 \begin{APACrefDOI} \doi{10.1108/IJRDM-09-2015-0140} \end{APACrefDOI}
@@ -608,33 +602,6 @@ Kimberling, E.%
   \end{APACrefURL}
 \newblock
 \APACrefnote{Accessed: 2024-11-06}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Kumar%
-\ \BBA {} Zhao%
-}{%
-Kumar%
-\ \BBA {} Zhao%
-}{%
-{\protect \APACyear {1999}}%
-}]{%
-kumar1999}
-\APACinsertmetastar {%
-kumar1999}%
-\begin{APACrefauthors}%
-Kumar, A.%
-\BCBT {}\ \BBA {} Zhao, J\BPBI L.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{1999}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Dynamic Routing and Operational Controls in Workflow
-  Management Systems} {Dynamic routing and operational controls in workflow
-  management systems}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Management Science}{45}{2}{253--272}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -780,7 +747,7 @@ Pakdil, F.%
   systematic approach to reduce human and system-related errors causing
   customer dissatisfaction in a production environment}.{\BBCQ}
 \newblock
-\APACjournalVolNumPages{Total Quality Management \& Business Excellence - TOTAL
+\APACjournalVolNumPages{Total Quality Management \ Business Excellence - TOTAL
   QUAL MANAG BUS EXCELL}{20}{}{129-137}.
 \newblock
 \begin{APACrefDOI} \doi{10.1080/14783360802351728} \end{APACrefDOI}
@@ -836,7 +803,7 @@ Prasad, D.%
 \newblock
 {\BBOQ}\APACrefatitle {Understanding the Differences between Proprietary & Free
   and Open Source Software} {Understanding the differences between proprietary
-  \& free and open source software}.{\BBCQ}
+ \& free and open source software}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{International Journal of Engineering Research and
   Applications (IJERA)}{3}{}{}.
@@ -902,7 +869,7 @@ Sarker, S.%
   enablers in ERP implementation} {Using a case study to test the role of three
   key social enablers in erp implementation}.{\BBCQ}
 \newblock
-\APACjournalVolNumPages{Information \& Management}{40}{8}{813-829}.
+\APACjournalVolNumPages{Information \ Management}{40}{8}{813-829}.
 \newblock
 \begin{APACrefURL}
   \url{https://www.sciencedirect.com/science/article/pii/S0378720602001039}
@@ -939,6 +906,30 @@ Scott, J.%
 \APACjournalVolNumPages{Information Systems Frontiers}{2}{}{213-232}.
 \newblock
 \begin{APACrefDOI} \doi{10.1023/A:1026504325010} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+ServiceNow%
+}{%
+ServiceNow%
+}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+servicenow}
+\APACinsertmetastar {%
+servicenow}%
+\begin{APACrefauthors}%
+ServiceNow.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\APACrefbtitle {What is workflow automation?} {What is workflow automation?}
+\newblock
+\begin{APACrefURL}
+  \url{https://www.servicenow.com/now-platform/what-is-workflow-automation.html#what-is-process-automation}
+  \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%

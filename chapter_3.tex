@@ -10,14 +10,14 @@ This chapter presents the tools, techniques, and methodologies used in the devel
 
 The software development approach that the developers will follow in developing TUKIB is the agile methodology. Agile methodology, or simply agile, is a framework that emphasizes iterative development and features communication and collaboration, adaptive planning, and continuous development (Agile Framework, 2022). The developers chose this framework because of its flexibility and adaptability to change, which is beneficial, especially with evolving user requirements. 
 
+As seen from \figref{fig:agile}, agile involves continuously cycling through phases of development, testing, and review or feedback before finally launching the system. This enables developers to make adjustments and improvements based on user input. 
+
 \begin{figure}[h]
 	\centering 
 	\includegraphics[width=1\textwidth]{agile methodology.png}
 	\caption{Agile Methodology}
 	\label{fig:agile}
 \end{figure}
-
-As seen from \figref{fig:agile}, agile involves continuously cycling through phases of development, testing, and review or feedback before finally launching the system. This enables developers to make adjustments and improvements based on user input. 
 
 \noindent\textbf{Data Gathering and Documentation}
 	
@@ -63,6 +63,12 @@ The final product of the study, TUKIB, will made available to the intended users
 
 \subsection{Rasa Chatbot Architecture}
 
+The chatbot for the system will be created using the Rasa framework. Rasa is an open source conversational AI framework that allows developers to build, deploy, and improve AI-powered chatbots and virtual assistants. \figref{fig:rasa_architecture} shows the details about the architecture of RASA chatbot design. Specifically, this study will utilize the Open Source framework of Rasa.
+
+There are two main components in Rasa Open Source architecture namely: Rasa NLU and Rasa Dialogue Policies. The Rasa NLU, shown as NLU pipeline in the figure, is like the primary senses of the chatbot which receive the input from the users. It identifies, classifies, and extracts the intents and entities from the given input. It is also responsible for choosing and retrieving the appropriate response to the user. 
+
+The dialogue management also called the Rasa Core, shown as Dialogue Policies in the figure, decides the next action in a conversation based on the context of the conversation. Rasa SDK is an action server which is responsible for running custom actions. The Tracker store is where the conversations are stored. The chatbot saves the context which helps give personalized interactions with the user. Rasa also uses a ticket lock mechanism in order to ensure that incoming messages for a given conversation ID are processed in the right order, and locks conversations while messages are actively processed. This allows for multiple Rasa servers to be run in parallel. File system consists of Models and Training data needed for the functionality of the chatbot.
+
 \begin{figure}[h]
 	\centering 
 	\includegraphics[width=0.8\textwidth]{RASA_architecture.png}
@@ -70,12 +76,6 @@ The final product of the study, TUKIB, will made available to the intended users
 	photo from https://rasa.com/docs/rasa/arch-overview/
 	\label{fig:rasa_architecture}
 \end{figure}
-
-The chatbot for the system will be created using the Rasa framework. Rasa is an open source conversational AI framework that allows developers to build, deploy, and improve AI-powered chatbots and virtual assistants. \figref{fig:rasa_architecture} shows the details about the architecture of RASA chatbot design. Specifically, this study will utilize the Open Source framework of Rasa.
-
-There are two main components in Rasa Open Source architecture namely: Rasa NLU and Rasa Dialogue Policies. The Rasa NLU, shown as NLU pipeline in the figure, is like the primary senses of the chatbot which receive the input from the users. It identifies, classifies, and extracts the intents and entities from the given input. It is also responsible for choosing and retrieving the appropriate response to the user. 
-
-The dialogue management also called the Rasa Core, shown as Dialogue Policies in the figure, decides the next action in a conversation based on the context of the conversation. Rasa SDK is an action server which is responsible for running custom actions. The Tracker store is where the conversations are stored. The chatbot saves the context which helps give personalized interactions with the user. Rasa also uses a ticket lock mechanism in order to ensure that incoming messages for a given conversation ID are processed in the right order, and locks conversations while messages are actively processed. This allows for multiple Rasa servers to be run in parallel. File system consists of Models and Training data needed for the functionality of the chatbot.
 
 \subsection {Conversation Processing}
 

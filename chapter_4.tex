@@ -54,55 +54,55 @@ Based on the gathered data with stakeholders and observations during the facilit
 
 \subsection{Process Flow Diagram}
 
+\figref{fig:process_flow} illustrates the entire service delivery process of RRC. The process starts with a service request from the client and ends with a feed back from them.
+
 \begin{figure}[h]
 	\centering 
 	\includegraphics[width=1\textwidth]{process_flow.jpg}
-	\caption{Process flow diagram from service request to feedbacking}
+	\caption{Process Flow Diagram}
 	\label{fig:process_flow}
 \end{figure}
-
-\figref{fig:process_flow} illustrates the entire service delivery process of RRC. The process starts with a service request from the client and ends with a feed back from them.
 
 \newpage
 
 \subsection{Context Model}
 
+\figref{fig:context_model} illustrates the interactions between the system and both internal and external entities. It shows how the system communicates with different stakeholders, including client, staff, director, and university researcher. The model also outlines how information flows from entities to the system and vice versa, showing how the it works and its role within the institution.
+
 \begin{figure}[h]
 	\centering 
 	\includegraphics[width=1\textwidth]{context model.png}
-	\caption{Context model for interactions between TUKIB and its users}
+	\caption{Context Model}
 	\label{fig:context_model}
 \end{figure}
-
-\figref{fig:context_model} illustrates the interactions between the system and both internal and external entities. It shows how the system communicates with different stakeholders, including client, staff, director, and university researcher. The model also outlines how information flows from entities to the system and vice versa, showing how the it works and its role within the institution.
 
 \newpage
 
 \subsection{Data Flow Diagram}
 
+\figref{fig:data_flow} shows the flow of data within the system, illustrating how information is exchanged between different components and users. The diagram also illustrates the pathways through which data moves, providing overview into how information are stored and retrieved within the system.
+
 \begin{figure}[h]
 	\centering 
 	\includegraphics[width=1\textwidth]{data_flow.jpg}
-	\caption{Data flow diagram from service request to feedbacking}
+	\caption{Data Flow Diagram}
 	\label{fig:data_flow}
 \end{figure}
-
-\figref{fig:data_flow} shows the flow of data within the system, illustrating how information is exchanged between different components and users. The diagram also illustrates the pathways through which data moves, providing overview into how information are stored and retrieved within the system.
 
 \newpage
 
 \subsection{Database Diagram}
 
-\begin{figure}[h]
-	\centering 
-	\includegraphics[width=0.7\textwidth]{database.png}
-	\caption{Database diagram of TUKIB}
-	\label{fig:database}
-\end{figure}
-
 The database design for TUKIB revolves around tracking and managing various service related data, with several interrelated entities to ensure easy storing and retrieval. As seen in \figref{fig:database}, there are 11 tables in the database design for the system. 
 
-The client table stores essential information about the clients, such as their name, contact details, and addresses. When a client wishes to avail a service, a corresponding service request is created, linking the request to both the client and the staff members handling the service. This table also records the type of service (e.g., use of equipment, use of facility, sample processing, or training) and its status. To track the usage of specific resources, there are separate tables for the use of equipment and use of facility, which log the details of which equipment of facility was used for a particular service request, including the time of use and duration. For other services, the sample processing table tracks the handling and status of samples, while the training service table records information about any training sessions provided to clients, including the assigned staff and training details. The equipment table stores the information about availability of equipments and history usage. Once services are rendered, the payment table ensures that all transactions are logged, tracking the payment amounts and methods linked to specific services. Additionally, feedback from clients on their experience on availing a service is stored in the feedback table, providing valuable insights into the service quality and client satisfaction.
+The \textbf{client} table stores essential information about the clients, such as their name, contact details, and addresses. When a client wishes to avail a service, a corresponding \textbf{service request} is created, linking the request to both the client and the staff members handling the service. This table also records the type of service (e.g., use of equipment, use of facility, sample processing, or training) and its status. To track the usage of specific resources, there are separate tables for the \textbf{use of equipment} and \textbf{use of facility}, which log the details of which equipment of facility was used for a particular service request, including the time of use and duration. For other services, the \textbf{sample processing} table tracks the handling and status of samples, while the \textbf{training service} table records information about any training sessions provided to clients, including the assigned staff and training details. The \textbf{equipment} table stores the information about availability of equipments and history usage. Once services are rendered, the \textbf{payment} table ensures that all transactions are logged, tracking the payment amounts and methods linked to specific services. Additionally, \textbf{feedback} from clients on their experience on availing a service is stored in the feedback table, providing valuable insights into the service quality and client satisfaction.
+
+\begin{figure}[h]
+	\centering 
+	\includegraphics[width=0.9\textwidth]{database.png}
+	\caption{Database Design Diagram}
+	\label{fig:database}
+\end{figure}
 
 \newpage
 
@@ -118,14 +118,14 @@ Intents represent the goal the users want to achieve when interacting with the c
 
 \noindent \textbf{Conversation Flow}
 
+\figref{fig:chatbot_flow} illustrates the conversation flow for TUKIB's chatbot, named LIRA— short for Learning, Innovation, and Research Assistant. LIRA will be accessible throughout the entire website, ensuring that all users, whether logged in or not, can obtain support whenever needed. Users can initiate a chat with LIRA via a persistent button that remains visible across the site or by selecting the dedicated “Avail a Service” button found on the user dashboard.
+
 \begin{figure}[h]
 	\centering 
 	\includegraphics[width=0.7\textwidth]{chatbot_flow.jpg}
 	\caption{LIRA conversation flow}
 	\label{fig:chatbot_flow}
 \end{figure}
-
-\figref{fig:chatbot_flow} illustrates the conversation flow for TUKIB's chatbot, named LIRA— short for Learning, Innovation, and Research Assistant. LIRA will be accessible throughout the entire website, ensuring that all users, whether logged in or not, can obtain support whenever needed. Users can initiate a chat with LIRA via a persistent button that remains visible across the site or by selecting the dedicated “Avail a Service” button found on the user dashboard.
 
 The structure of the chatbot is centered around a conversational flow that guides users through various tasks, from inquiries to service requests. The chatbot’s design consists of the following core components:
 
@@ -159,31 +159,17 @@ The structure of the chatbot is centered around a conversational flow that guide
 \end{itemize}
 
 
-\section{User Interface Mock-up}
+\section{User Interface Mock-ups}
 
 \subsection{User authentication and dashboard}
 
+Users will have a premade account. For staff, accounts are automatically created, while clients will have accounts created only after their first consultation is approved. On the login page, users will need to enter their email address and password. Passwords will be hidden by default, but the eye icon in the password field can be clicked to toggle visibility, shown in \figref{fig:login}. After successfully logging in, users will be redirected to their dashboard.
+
 \begin{figure}[h]
 	\centering 
-	\includegraphics[width=0.9\textwidth]{login.png}
+	\includegraphics[width=1\textwidth]{login.png}
 	\caption{Log in page}
 	\label{fig:login}
-\end{figure}
-
-Users will have a premade account. For staff, accounts are automatically created, while clients will have accounts created only after their first consultation is approved. On the login page, users will need to enter their email address and password. Passwords will be hidden by default, but the eye icon next to the password field can be clicked to toggle visibility. After successfully logging in, users will be redirected to their dashboard.
-
-\begin{figure}[h]
-	\centering 
-	\includegraphics[width=0.9\textwidth]{staff_dashboard.png}
-	\caption{Staff dashboard}
-	\label{fig:staff_dashboard}
-\end{figure}
-
-\begin{figure}[h]
-	\centering 
-	\includegraphics[width=0.9\textwidth]{client_dashboard.png}
-	\caption{Client dashboard}
-	\label{fig:client_dashboard}
 \end{figure}
 
 User dashboard is designed for the needs of two primary user groups of TUKIB who are the staff and clients. Each user group has a different user interface to cater to their specific needs as seen from \figref{fig:staff_dashboard} and \figref{fig:client_dashboard}. 
@@ -191,4 +177,18 @@ User dashboard is designed for the needs of two primary user groups of TUKIB who
 For the client’s user interface, the developers designed a dashboard that shows the user’s profile, transaction history, and a button to avail a new service. For the staffs’ user interface, a layout was designed specifically for their tasks, featuring information and capabilities necessary for efficient management and oversight. This includes tools for monitoring workflows, accessing reports, and managing user requests.
 
 The layout for both staff and customers’ user interface ensures easy navigation and quick access to essential information, enhancing the overall user experience.
+
+\begin{figure}[h]
+	\centering 
+	\includegraphics[width=1\textwidth]{staff_dashboard.png}
+	\caption{Staff dashboard}
+	\label{fig:staff_dashboard}
+\end{figure}
+
+\begin{figure}[h]
+	\centering 
+	\includegraphics[width=1\textwidth]{client_dashboard.png}
+	\caption{Client dashboard}
+	\label{fig:client_dashboard}
+\end{figure}
 
