@@ -5,21 +5,23 @@
 \section{Overview}
 \label{sec:overview}
 
-In the era of digital transformation, efficient data management and streamlined service workflows are critical for the success of any business or institution. Perhaps one of the most remarkable and known products of technology is converting paper-based or manually-operated systems to automated systems. It is irrefutable that automation greatly impacts people's lives, providing increased efficiency and productivity.
+In the era of digital transformation, efficient data management and optimized service workflows are crucial for the success of any business or institution. Perhaps one of the most remarkable and known products of technology is the conversion of paper-based or manually-operated systems to automated systems. It is unquestionable that automation greatly impacts people's lives, providing increased efficiency and productivity.
 
-The University of the Philippines Visayas - Regional Research Center (UPV RRC) is a centralized facility that strengthens UP Visayas’ research and innovation capabilities by providing researchers access to and training on advanced analytical equipment and method development. It provides several services catering to different fields of natural and physical sciences. Current practices on the service flow of the institution rely heavily on manual processes, using tools such as Google Apps for their entire service delivery process- from request handling, tracking, to data management. Although this method is functional, it falls short in addressing the specific needs of service flow requirements of the RRC, posing challenges not only for the staff but for the clients as well. 
+The University of the Philippines Visayas - Regional Research Center (UPV RRC) is a centralized facility that strengthens UP Visayas’ research and innovation capabilities by providing researchers access to and training on advanced analytical equipment and method development. It provides several services catering to different fields of natural and physical sciences. Currently, the institution relies heavily on manual processes, using tools such as Google Apps throughout their entire service delivery process from handling service requests, tracking, to data management. Although this method offers a foundational level of functionality, it falls short in addressing the specific needs of the UPV RRC, in their service delivery workflow. This poses challenges not only for the staff but for the clients of the institution as well. 
 
-Automation, defined as “the application of technology, programs, robotics or processes to achieve outcomes with minimal human input” \cite{ibm}, has been effectively adopted across various industries to enhance quality, productivity, efficiency, timeliness, effectiveness, and operational safety. It also helps in reducing costs and provides greater value to customers \cite{caban2021}. Over the years, various technologies have emerged to address the pressing need for automation. The increase in advanced software solutions presents an opportunity to enhance operational efficiency by automating certain tasks and processes. However, existing systems fail to provide the specific necessities of some institutions hence, a more specialized software is often needed. 
+Automation, defined as “the application of technology, programs, robotics or processes to achieve outcomes with minimal human input” \cite{ibm}, has been effectively adopted across various industries to enhance quality, productivity, efficiency, timeliness, effectiveness, and operational safety. It also helps in reducing costs and provides greater value to customers \cite{caban2021}. 
 
-By developing a specialized software solution tailored to the unique needs of RRC, it is possible to significantly improve productivity, data accuracy, and overall efficiency of the institution. This study explores the design and implementation of such a software solution. The primary purpose of the system is to automate the service flow and data management of the UPV RRC, aiming to replace the institution's current system and minimize reliance on Google Apps. Additionally, this study also includes the development and integration of a chatbot to enhance user support and communication with stakeholders.
+Over the years, various technologies have emerged to address the pressing need for automation. The proliferation of advanced software solutions offers organizations and institutions an opportunity to enhance their operational efficiency. However, existing systems fall short in addressing the specific needs of some institutions. Adapting these existing systems often give birth to other problems as integrating and customizing ready made softwares can be difficult and costly. In cases like this, developing a new software tailored to the specific needs of an institution can be a much better option.
 
-The proposed software aims to address several key challenges faced by the UPV RCC, including the automation of repetitive tasks, enhanced data management, and smoother communication among stakeholders. With the use of modern technologies and best practices in software development, this research seeks to provide a practical, scalable solution that can be used by the UPV RRC and adapted by other institutions with similar operations and needs.
+Recognizing this gap, this paper explores the design and implementation of a software solution that is tailored to the unique needs of the UPV RRC, aiming to replace the institution’s current system by automating its service delivery flow and data management. Additionally, this study includes the development and integration of a chatbot, using the Rasa framework, to enhance and streamline the institution’s client support, interaction, and communication. With the use of modern technologies and best practices in software development, this paper seeks to add knowledge on building a practical and scalable system, specifically one that can be used by the UPV RRC for their service delivery processes.
 
 \section{Problem Statement}
 
-The UPV Regional Research Center (RRC) currently relies on a manual service workflow for handling client requests, managing data, and tracking service-related activities. These processes, which are dependent on Google Forms and Sheets are difficult to organize and prone to error, leading to inefficiencies such as delays in service requests, difficulty in tracking progress, and limited scalability as the demand for RRC services grows. Furthermore, the absence of a centralized system makes it challenging for staff to manage and monitor multiple services and for clients to access real-time information about their requests.
+In today’s fast-paced world, success is often associated with efficiency, especially in the business environment. A report by McKinsey \& Company \cite{manyika2017} reveals that about 60\% of occupations involve at least 30\% of tasks that are automatable. Despite the growing recognition for the need of automation and even with the rise of different technologies, many businesses and institutions are still dependent on manual or semi-automated workflows. While various workflow automation technologies exist, adapting off-the-shelf softwares is costly and challenging as this softwares often requires extensive customization to fit the institution’s unique needs and is difficult to integrate. 
 
-To address these issues, a comprehensive and integrated workflow automation system is necessary. The system aims to automate service requests, improve data management, enhance communication between RRC staff and clients, and streamline overall operations. With automation, the center can improve the efficiency, accuracy, and accessibility of its services, supporting both the internal management and external customer experience.
+The University of the Philippines Visayas Regional Research Center (UPV RRC) is one such institution that is still reliant on manual processes, especially on their service flow delivery and data management. Various tasks including handling of client requests, managing laboratory services, and tracking service-related activities are carried out with the use of semi-automated tools like Google Apps, which is technically still dependent on human intervention. This leads to inefficiencies such as delays, difficulty in tracking, and errors, ultimately compromising the institution’s overall productivity.
+
+To address these issues, an integrated workflow automation system that is tailored to the needs of the UPV RRC can be developed to ease the difficulties faced by the institution in their service delivery. This system will  automate service requests, improve data management, enhance communication between RRC staff and clients, and enhance overall operations. With automation, the center can improve the efficiency, accuracy, and accessibility of its services, supporting both the internal management and external client experience.
 
 \section{Research Objectives}
 \label{sec:researchobjectives}
@@ -36,11 +38,14 @@ Specifically this study aims to:
 
 \begin{enumerate}
    
-   \item Create a centralized data management system for RRC that ensures secure, efficient storage and retrieval of information related to service requests, laboratory usage, and client transactions.
+   \item Develop a centralized data management system for the RRC to ensure secure, efficient storage, retrieval, and management of information related to service requests, laboratory usage, and client transactions.
    
-   \item Design and implement a chatbot, allowing the automation of the consultation process and for clients to interact with the system for service inquiries and assistance, providing immediate and accurate responses.
+   \item Design and implement an automated chatbot to handle consultations, enabling clients to interact with the system for service inquiries and support in real-time.
    
-   \item Evaluate the system’s impact on operational efficiency, compare the automated workflow with the previous manual processes in terms of speed, accuracy, and user satisfaction.
+   
+   \item Implement an intuitive and user-friendly design that ensures ease of use and accessibility for both staff and clients of UPV RRC.
+   
+   \item Evaluate the system’s impact on operational efficiency, and compare the automated workflow with the previous manual processes in terms of speed, accuracy, and user satisfaction.
    
 \end{enumerate}
 
@@ -50,36 +55,29 @@ Specifically this study aims to:
 
 This special problem focuses on developing the TUKIB- short for Tracking Utility for Knowledge Integration and Benchmarking, a workflow automation system designed for the UPV Regional Research Center (RRC). 
 
-TUKIB will cover the full-service management cycle of the UPV RRC, from initial client service requests to the completion and feedback stage. It will include features such as real-time tracking of service requests, facility and equipment availability tracking, and a centralized platform for storing and managing service-related data. Key components such as user interfaces for staff and clients, real-time service status updates, events and schedule management, transaction records, and a feedback collection mechanism will be included in the development. With this, data accuracy throughout the service flow process will be ensured by minimizing manual input and automating repetitive processes, reducing errors and improving operational efficiency of the UPV RRC. This special problem will also involve the development and integration of a chatbot to enhance user support and communication between clients and staff, providing instant responses to inquiries and updates on service requests. Additionally, the system will be scalable, allowing it to be flexible for further modification and be adapted by other institutions with similar needs.
+TUKIB will cover the full-service management cycle of the UPV RRC, from initial client service requests to the completion and feedback stage. It will include features such as real-time tracking of service requests, facility and equipment availability tracking, and a centralized platform for storing and managing service-related data. Key components such as user interfaces for staff and clients, real-time service status updates, events and schedule management, transaction records, and a feedback collection mechanism will be included in the development. With this, data accuracy throughout the service flow process will be ensured by minimizing manual input and automating repetitive processes, reducing errors and improving operational efficiency of the UPV RRC. This special problem will also involve the development and integration of a chatbot to enhance user support and communication between clients and staff, providing instant responses to inquiries. Additionally, the system will be scalable, allowing it to be flexible for further modification as the needs of UPV RRC evolves.
 
-The system’s functionalities will be limited to the service-related processes by the UPV RRC and may not cover other internal and external processes and functions of the institution. The development will be tailored to the specific workflows of UPV RRC, so modifications would be needed for implementation in other institutions or industries. Additionally, this special problem will focus on workflow automation but will not delve into advanced analytics or AI beyond using chatbots for customer communication and basic statistics for service feedback reports. The system will require a stable internet connection for real-time features like notifications and status tracking; thus, its performance may be compromised in areas with poor connectivity. Moreover, the effectiveness of the system depends on staff and client adaptability to the new system, which may require a period of training and adjustment.
+The system’s functionalities will be limited to the service-related processes by the UPV RRC and may not cover other internal and external functions. The development will be tailored to the specific workflows of UPV RRC, so modifications would be needed for implementation in different institutions or industries. Additionally, this special problem will focus on workflow automation but will not delve into advanced analytics or AI beyond using chatbots for customer communication and basic statistics for service feedback reports. The system will require a stable internet connection for real-time features like notifications and status tracking; thus, its performance may be compromised in areas with poor connectivity. Moreover, the effectiveness of the system depends on staff and client adaptability to the new system, which may require a period of training and adjustment.
+
 
 \section{Significance of the Research}
 \label{sec:significance}
 
-This development of TUKIB offers significant contributions in many domains, benefiting the researchers, the UPV RRC staff and clients, other research institutions that are facing similar challenges, the computer science community, and the general society.
+This study offers great significance in many domains, benefiting the UPV RRC and its clients, the researchers, other institutions, and the computer science community.
 
 \begin{itemize}
 	
-\item \textbf{The Researchers}
+\item \textbf{The Researchers.}
+This study provides a great opportunity for the researchers to apply their theoretical knowledge and practical skills to solve real-world problems. This allows them to demonstrate their competency in system design and software development. 
 
-\subitem The TUKIB project provides a great opportunity for the researchers to apply their theoretical knowledge and practical skills to solve real-world problems. It allows them to demonstrate their competency in system design, workflow automation, and software development, contributing to the completion of their degree requirements.
+\item \textbf{The UPV RRC and its clients.}
+The development of TUKIB will significantly improve the operational efficiency of the UPV Regional Research Center by automating its service request workflows and data management processes. This will not only benefit the staff but the clients as well.
 
-\subitem Beyond academic fulfillment, the project also equips them with hands-on experience in managing complex systems, collaborating with stakeholders, and implementing a comprehensive system, which will be beneficial in their future careers in computer science and related fields.\newline
+\item \textbf{Other Institutions.}
+Other institutions facing similar challenges in managing their service flow processes and data can also benefit from this special problem. They can adapt TUKIB to their own workflows or this study can serve as a guide for them in creating their own specialized software solution. 
 
-\item \textbf{The UPV RRC and its clients}
-
-\subitem The UPV RRC will greatly benefit from this special problem. The development of TUKIB will significantly improve the institution's operational efficiency by automating its service request workflows and data management processes. This will not only benefit the staff of the UPV RRC but their clients as well.\newline
-
-\item \textbf{Other Institutions}
-
-\subitem Other institutions facing similar challenges in managing their service flow processes and data can also benefit from this special problem. They can adapt TUKIB to their own workflows or this can serve as a guide for them in creating their own specialized software solution. TUKIB’s customizable and scalable nature makes it a valuable model for institutions looking to enhance their operations without investing in entirely new systems.\newline
-
-\item \textbf{The Computer Science Community}
-
-\subitem The computer science community also benefits from this special problem. TUKIB has features that showcases an innovative approach to solving a niche problem, providing a practical application for the many software development tools and methods. Additionally, it demonstrates the importance of developing scalable, customizable solutions that can be adapted and tailored to a different and evolving of user needs.
-
-\subitem This special problem also serves as a case study in designing user-centered automation systems. Other developers can gain valuable insights and inspiration from this for their own projects.
+\item \textbf{The Computer Science Community.}
+The Computer Science Community also benefits from this study. This contributes to the existing knowledge in developing a tailored workflow automation system by providing perspective into the practical application of various software development tools and  methods. Additionally, this special problem also serves as a case study in designing  a user-centered software. Other developers can gain valuable insights and inspiration from this for their own projects.
 
 \end {itemize}
 

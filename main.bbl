@@ -490,6 +490,34 @@ GeeksforGeeks.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Gupta%
+\ \BBA {} Arora%
+}{%
+Gupta%
+\ \BBA {} Arora%
+}{%
+{\protect \APACyear {2020}}%
+}]{%
+gupta2020}
+\APACinsertmetastar {%
+gupta2020}%
+\begin{APACrefauthors}%
+Gupta, V.%
+\BCBT {}\ \BBA {} Arora, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{01}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Automation in Healthcare Services} {Automation in
+  healthcare services}.{\BBCQ}
+\newblock
+\BIn{} (\BPG~1-19).
+\newblock
+\begin{APACrefDOI} \doi{10.4018/978-1-7998-2101-4.ch001} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Hagberg%
 , Sundström%
 \BCBL {}\ \BBA {} Egels-Zandén%
@@ -514,10 +542,46 @@ Hagberg, J.%
   framework} {The digitalization of retailing: an exploratory
   framework}.{\BBCQ}
 \newblock
-\APACjournalVolNumPages{International Journal of Retail\& Distribution
+\APACjournalVolNumPages{International Journal of Retail & Distribution
   Management}{44}{}{694-712}.
 \newblock
 \begin{APACrefDOI} \doi{10.1108/IJRDM-09-2015-0140} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Hourrane%
+, Ouchra%
+, Eddaoui%
+, Benlahmar%
+\BCBL {}\ \BBA {} Zahour%
+}{%
+Hourrane%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2020}}%
+}]{%
+omaima2020}
+\APACinsertmetastar {%
+omaima2020}%
+\begin{APACrefauthors}%
+Hourrane, O.%
+, Ouchra, H.%
+, Eddaoui, A.%
+, Benlahmar, E\BPBI H.%
+\BCBL {}\ \BBA {} Zahour, O.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{04}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Towards a Chatbot for educational and vocational
+  guidance in Morocco: Chatbot E-Orientation} {Towards a chatbot for
+  educational and vocational guidance in morocco: Chatbot
+  e-orientation}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{International Journal of Advanced Trends in Computer
+  Science and Engineering}{9}{}{2479-2487}.
+\newblock
+\begin{APACrefDOI} \doi{10.30534/ijatcse/2020/237922020} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -635,6 +699,39 @@ Madhu~Goel, S\BPBI G.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Manyika%
+\ \protect \BOthers {.}}{%
+Manyika%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2017}}%
+}]{%
+manyika2017}
+\APACinsertmetastar {%
+manyika2017}%
+\begin{APACrefauthors}%
+Manyika, J.%
+, Chui, M.%
+, Miremadi, M.%
+, Bughin, J.%
+, George, K.%
+, Willmott, P.%
+\BCBL {}\ \BBA {} Dewhurst, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{01}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A Future That Works: Automation, Employment, and
+  Productivity} {A future that works: Automation, employment, and
+  productivity}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {McKinsey Global Institute Report.} {Mckinsey global
+  institute report.}
+\newblock
+\APACaddressPublisher{}{McKinsey \& Company}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 McQuilken%
 }{%
 McQuilken%
@@ -747,7 +844,7 @@ Pakdil, F.%
   systematic approach to reduce human and system-related errors causing
   customer dissatisfaction in a production environment}.{\BBCQ}
 \newblock
-\APACjournalVolNumPages{Total Quality Management \ Business Excellence - TOTAL
+\APACjournalVolNumPages{Total Quality Management & Business Excellence - TOTAL
   QUAL MANAG BUS EXCELL}{20}{}{129-137}.
 \newblock
 \begin{APACrefDOI} \doi{10.1080/14783360802351728} \end{APACrefDOI}
@@ -803,7 +900,7 @@ Prasad, D.%
 \newblock
 {\BBOQ}\APACrefatitle {Understanding the Differences between Proprietary & Free
   and Open Source Software} {Understanding the differences between proprietary
- \& free and open source software}.{\BBCQ}
+  & free and open source software}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{International Journal of Engineering Research and
   Applications (IJERA)}{3}{}{}.
@@ -869,7 +966,7 @@ Sarker, S.%
   enablers in ERP implementation} {Using a case study to test the role of three
   key social enablers in erp implementation}.{\BBCQ}
 \newblock
-\APACjournalVolNumPages{Information \ Management}{40}{8}{813-829}.
+\APACjournalVolNumPages{Information & Management}{40}{8}{813-829}.
 \newblock
 \begin{APACrefURL}
   \url{https://www.sciencedirect.com/science/article/pii/S0378720602001039}

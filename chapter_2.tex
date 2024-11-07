@@ -16,7 +16,7 @@ The impact of these manual methods on stakeholders is substantial. Organizations
 
 \section{Workflow Automation}
 
-Workflow automation refers to the utilization of technology systems, usually involving several software and hardware integrations, to efficiently carry out repetitive tasks, thereby reducing the roles of humans in it \cite{winarko2021}. Workflow automation simplifies the sequencing and completion of tasks within a process by minimizing manual input. Also known as business process automation (BPA), this approach replaces human intervention with digital technologies to automate workflows. At the core of workflow automation is the ability to streamline processes in various job functions—such as HR, accounting, and procurement—into a series of repeated steps without human involvement. Users can define these steps and use tools like drag-and-drop interfaces to create automated workflows. 
+Workflow automation refers to the utilization of technology systems, usually involving several software and hardware integrations, to efficiently carry out repetitive tasks, thereby reducing the roles of humans in it \cite{winarko2021}. It is also defined as “the application of technology, programs, robotics or processes to achieve outcomes with minimal human input” \cite{ibm}. Workflow automation simplifies the sequencing and completion of tasks within a process by minimizing manual input. Also known as business process automation (BPA), this approach replaces human intervention with digital technologies to automate workflows. At the core of workflow automation is the ability to streamline processes in various job functions—such as HR, accounting, and procurement—into a series of repeated steps without human involvement. Users can define these steps and use tools like drag-and-drop interfaces to create automated workflows. 
 
 Research indicates that automating business processes through workflow automation can re-engineer operations, increase productivity, and improve decision-making timeliness \cite{abecker2000, aversano2002}. It can also enhance efficiency, ensure quality data collection, and improve overall output quality \cite{pakdil2009}. Suitable processes for automation typically exhibit characteristics such as repeatability and predictability \cite{basu2002}. 
 
@@ -28,7 +28,7 @@ Automating workflows offers significant benefits by addressing the limitations a
 
 Automation was used for several workflows across a range of industries. Certain industries, like manufacturing and banking, have a long history of using automation, while others, such as legal consultation, hospitality, and transportation, are newer to automation \cite{caban2021}. Across industries, various workflows have been automated, such as accounting tasks, document routing, resource allocation, quality monitoring and control, report generation, and supply chain and logistics management \cite{aguirre2017, mcquilken2014}.
 
-In the education sector, many universities worldwide use automation tools of some form, driven by the need for efficiency and compliance with educational standards. These tools facilitate various processes, including enrollment, grading, and course management, allowing educators to focus more on teaching and student engagement \cite{choudhary2024}. Similarly, automation in healthcare has improved the accuracy and accessibility of patient information, resulting in more informed decision-making. Even in government offices, the evident use of automation tools for service processes can also be observed to enhance service efficiency and transparency. 
+In the education sector, many universities worldwide use automation tools of some form, driven by the need for efficiency and compliance with educational standards. These tools facilitate various processes, including enrollment, grading, and course management, allowing educators to focus more on teaching and student engagement \cite{choudhary2024}. Similarly, automation in healthcare has improved the accuracy and accessibility of patient information, resulting in more informed decision-making \cite{gupta2020}. Even in government offices, the evident use of automation tools for service processes can also be observed to enhance service efficiency and transparency. 
 
 \section{Existing Systems}
 
@@ -55,6 +55,64 @@ The word “chatbot” is a portmanteau word that is a combination of the words 
 
 Chatbots can be broadly categorized into two types; rule-based and AI-based chatbots. Rule-based chatbots function with a set of guidelines through pattern-matching and are limited in their conversation. This means that it can only respond to a limited range of queries and vocabulary. AI-based chatbots leverage artificial intelligence(AI), natural language processing(NLP), and machine learning(ML) technologies and algorithms to understand different keywords that users type in when chatting with them. This integration significantly enhances user experience and operational efficiency as these chatbots learn and adapt over time \cite{Kar2016}.
 
+Table \ref{Tab: chatbot_comparison} shows the key differences between an AI chatbot and a non-AI chatbot. As seen, AI chabots are more adaptive in nature and have advanced capabilities than non-AI chatbots.
+
+\begin{table}[ht]
+	\centering
+	\begin{adjustbox}{max width=\textwidth}
+		\begin{tabular}{|p{3.3cm}|l|l|}
+			\hline
+			& \textbf{Non-AI Chatbots} & \textbf{AI Chatbots} \\ \hline
+			\textbf{Conversation Capabilities} & 
+			\begin{minipage}[t]{0.4\textwidth}
+				\begin{itemize}
+					\item Linear, rigid chat flow primarily driven by radio button selections
+					\item Ignores user free-text input
+					\item Context insensitive
+				\end{itemize}
+			\end{minipage} & 
+			\begin{minipage}[t]{0.4\textwidth}
+				\begin{itemize}
+					\item Dynamic, flexible chat flow based on user input
+					\item Understands and responds to free-text input
+					\item Context-aware interactions
+				\end{itemize}
+			\end{minipage} \\
+			\hline
+			\textbf{People Insights from Chat} & 
+			\begin{minipage}[t]{0.4\textwidth}
+				\begin{itemize}
+					\item Only from user explicit choices
+				\end{itemize}
+			\end{minipage} &
+			\begin{minipage}[t]{0.4\textwidth}
+				\begin{itemize}
+					\item Read between the lines to infer people’s insights
+				\end{itemize}
+			\end{minipage} \\
+			\hline
+			\textbf{Suitable Tasks} &
+			\begin{minipage}[t]{0.5\textwidth}
+				\begin{itemize}
+					\item Task-oriented app
+					\item Structured, simple tasks that require little user input
+				\end{itemize}
+			\end{minipage} &
+			\begin{minipage}[t]{0.5\textwidth}
+				\begin{itemize}
+					\item Task-oriented + social chitchat (semi-structured)
+					\item Semi-structured tasks with many varied paths
+					\item Diverse user actions or questions
+				\end{itemize}
+			\end{minipage} \\
+			\hline
+		\end{tabular}
+	\end{adjustbox}
+	\caption{Comparison of Non-AI vs AI Chatbots}
+	From https://juji.io/docs/why-ai-chatbots/
+	\label{Tab: chatbot_comparison}
+\end{table}
+
 \subsection{Chatbots in Service Automation}
 Chatbots are deployed across different platforms, including websites, social media, and instant messaging applications, making them good tools for both internal and external organizational tasks \cite{hagberg2016, zarouali2018}. Internally, chatbots support services, including IT Service Management (ITSM), Human Resource Management (HRM), and learning management systems \cite{nawaz2019, bakouan2018}. Externally, chatbots are increasingly replacing traditional branded websites, offering a more interactive platform for customer relationship management, sales, and marketing \cite{broeck2019}.
 
@@ -62,11 +120,15 @@ Institutions are utilizing chatbots for various applications. For instance, Penn
 
 \subsection{Chatbot Frameworks}
 
-Building a chatbot from scratch is not an easy task, that’s why chatbot development frameworks have emerged over the years. Chatbot development frameworks are software frameworks that provide built-in functions that simplify the complexities of creating a chatbot \cite{geekforgeeks2024}.  A study by Zahour et. al, 2020, provides a comprehensive analysis of various frameworks that can be used in developing chatbots. \ref{Tab: framework_comparison} shows the analysis between different frameworks white table 2 shows the difference between AI chatbots and non-AI chatbots.
+Building a chatbot from scratch is not an easy task, that’s why chatbot development frameworks have emerged over the years. Chatbot development frameworks are software frameworks that provide built-in functions to simplify the complexities of creating a chatbot \cite{geekforgeeks2024}. 
 
-\begin{table}[]
+A study by \cite{omaima2020}, provides a comprehensive analysis of various frameworks that can be used in developing chatbots. Table \ref{Tab: framework_comparison} shows the analysis between different chatbot frameworks. The analysis is only limited to the existing frameworks during the study was conducted. Although most of the frameworks are free, they offer limited capabilities, and further access to services requires a subscription. Only Rasa offers an open-source version.
+
+\newpage
+
+\begin{table}
 	\begin{adjustbox}{max width=\textwidth}
-		\begin{tabular}{|l|l|l|l|l|l|l|l|l|l|}
+		\begin{tabular}{|p{2.6cm}|p{2.1cm}|p{2cm}|p{2.1cm}|p{2.4cm}|p{2cm}|p{2cm}|p{2cm}|p{2cm}|p{2.3cm}|}
 		\hline
 		\textbf{Framework} 
 		& \textbf{Company} 
@@ -98,7 +160,7 @@ Building a chatbot from scratch is not an easy task, that’s why chatbot develo
 		& Yes 
 		& JavaScript 
 		\\ \hline
-		\textbf{RASA} 
+		\textbf{Rasa} 
 		& RASA 
 		& Free 
 		& Low 
@@ -143,7 +205,7 @@ Building a chatbot from scratch is not an easy task, that’s why chatbot develo
 		\hline
 		\end{tabular}
 	\end{adjustbox}
-	\caption{Analysis of different chatbot development frameworks.}
+	\caption{Comparative analysis of different chatbot development frameworks.}
 	\label{Tab: framework_comparison}
 \end{table}
 
@@ -153,11 +215,12 @@ Building a chatbot from scratch is not an easy task, that’s why chatbot develo
 
 \section{Synthesis}
 
-As previously mentioned, the researchers aim to create a workflow automation system specifically for the University of the Philippines Visayas Regional Research Center (UPV RRC) to streamline and optimize their service flow and data management. Currently, the institution is using manual processes employing tools such as Google apps.
+As mentioned in Chapter 1, the researchers aim to create a workflow automation system specifically for the University of the Philippines Visayas Regional Research Center (UPV RRC) to streamline and optimize their service delivery flow and data management. Currently, the institution is using manual processes employing tools such as Google apps.
 
-The difficulty of manual service handling is discussed in this chapter, as well as the benefits of having an automated system. Several studies mentioned indicate that workflow automation significantly enhance operational efficiency by reducing repetitive tasks, improving data accuracy, and making data management easier.
+Manual processes, especially when involving large amounts of data and interrelated activities, pose a lot of challenges and limitations. This includes being prone to error, reliance on human intervention, and delays in processing. Several studies mentioned above indicate that workflow automation can significantly streamline repetitive tasks, improve data accuracy, and enhance decision-making, ultimately reducing human intervention. 
 
-While many systems for workflow automation are available, there are still gaps that these systems cannot fill, such as limitations with customization, cost-effectiveness, adaptability, and integration issues. The proposed system for UPV RRC aims to address these specific gaps by offering a tailored solution that meets the specific needs of the institution. One technology that can be particularly beneficial for this is a chatbot, which will enhance the consultation process when availing a service from the institution by providing around-the-clock support and instant responses to inquiries. This benefits not only the staff of the UPV RRC but the clients as well.
+While existing systems for workflow automation are available, there are still gaps that these systems cannot fill, such as customization limitations, cost-effectiveness, adaptability, and integration issues. The proposed system for UPV RRC aims to address these specific gaps by offering a tailored solution that meets the specific needs of the institution. One technology that can be particularly beneficial for this is a chatbot, which can enhance the UPV RRC’s client support and interaction. 
+
 
 
 
