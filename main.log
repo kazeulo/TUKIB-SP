@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.9.1)  8 NOV 2024 06:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.9.1)  8 NOV 2024 14:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -421,7 +421,32 @@ Chapter 1.
 [1
 
 
-] [2] [3] [4]) [5]
+] [2] [3] [4]
+Underfull \hbox (badness 10000) in paragraph at lines 72--73
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--81
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--85
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--90
+
+ []
+
+) [5]
 \openout2 = `chapter_2.aux'.
 
  (chapter_2.tex
@@ -493,6 +518,11 @@ lim-i-ta-tions, cost-effectiveness,
 
  (chapter_3.tex
 Chapter 3.
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
+
+ []
+
 <figures/agile methodology.png, id=69, 941.5175pt x 242.9075pt>
 File: figures/agile methodology.png Graphic file (type png)
 <use figures/agile methodology.png>
@@ -590,57 +620,72 @@ Package pdftex.def Info: figures/data_flow.jpg  used on input line 87.
 <figures/database.png, id=121, 1114.1625pt x 842.39719pt>
 File: figures/database.png Graphic file (type png)
 <use figures/database.png>
-Package pdftex.def Info: figures/database.png  used on input line 102.
-(pdftex.def)             Requested size: 373.99469pt x 282.76073pt.
+Package pdftex.def Info: figures/database.png  used on input line 107.
+(pdftex.def)             Requested size: 415.55249pt x 314.1886pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [28] [29 <./figures/database.png>]
-Overfull \hbox (6.09418pt too wide) in paragraph at lines 121--122
+Overfull \hbox (6.09418pt too wide) in paragraph at lines 126--127
 []\OT1/cmr/m/n/12 Figure 4.5[] il-lus-trates the con-ver-sa-tion flow for TUKIB
 's chat-bot, named LIRA|
  []
 
-<figures/chatbot_flow.jpg, id=129, 1395.2125pt x 2005.4925pt>
-File: figures/chatbot_flow.jpg Graphic file (type jpg)
-<use figures/chatbot_flow.jpg>
-Package pdftex.def Info: figures/chatbot_flow.jpg  used on input line 125.
-(pdftex.def)             Requested size: 290.88547pt x 418.10573pt.
-[30 <./figures/chatbot_flow.jpg>] [31]
-<figures/login.png, id=137, 770.12718pt x 455.45157pt>
-File: figures/login.png Graphic file (type png)
-<use figures/login.png>
-Package pdftex.def Info: figures/login.png  used on input line 170.
-(pdftex.def)             Requested size: 415.55249pt x 245.75253pt.
- [32 <./figures/login.png>]
-<figures/staff_dashboard.png, id=142, 780.66656pt x 449.42906pt>
-File: figures/staff_dashboard.png Graphic file (type png)
-<use figures/staff_dashboard.png>
-Package pdftex.def Info: figures/staff_dashboard.png  used on input line 183.
-(pdftex.def)             Requested size: 415.55249pt x 239.23177pt.
-<figures/client_dashboard.png, id=143, 601.4972pt x 496.85625pt>
-File: figures/client_dashboard.png Graphic file (type png)
-<use figures/client_dashboard.png>
-Package pdftex.def Info: figures/client_dashboard.png  used on input line 190.
-(pdftex.def)             Requested size: 415.55249pt x 343.27089pt.
+<figures/chatbot_flow.png, id=129, 697.60625pt x 1025.8325pt>
+File: figures/chatbot_flow.png Graphic file (type png)
+<use figures/chatbot_flow.png>
+Package pdftex.def Info: figures/chatbot_flow.png  used on input line 130.
+(pdftex.def)             Requested size: 290.88547pt x 427.74744pt.
+[30 <./figures/chatbot_flow.png>] [31]
+<figures/landing.png, id=138, 1297.09593pt x 737.00343pt>
+File: figures/landing.png Graphic file (type png)
+<use figures/landing.png>
+Package pdftex.def Info: figures/landing.png  used on input line 175.
+(pdftex.def)             Requested size: 415.55249pt x 236.11581pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [33 <./figures/staff_dashboard.png>] [34 <./figures/client_dashboard.png>]
-(main.bbl [35
+[32]
+<figures/login.png, id=142, 1333.23094pt x 744.53156pt>
+File: figures/login.png Graphic file (type png)
+<use figures/login.png>
+Package pdftex.def Info: figures/login.png  used on input line 188.
+(pdftex.def)             Requested size: 415.55249pt x 232.05206pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<figures/staff_dashboard.png, id=143, 1248.91594pt x 745.28438pt>
+File: figures/staff_dashboard.png Graphic file (type png)
+<use figures/staff_dashboard.png>
+Package pdftex.def Info: figures/staff_dashboard.png  used on input line 199.
+(pdftex.def)             Requested size: 415.55249pt x 247.96884pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<figures/client_dashboard.png, id=144, 1213.53375pt x 737.75626pt>
+File: figures/client_dashboard.png Graphic file (type png)
+<use figures/client_dashboard.png>
+Package pdftex.def Info: figures/client_dashboard.png  used on input line 206.
+(pdftex.def)             Requested size: 415.55249pt x 252.63496pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [33 <./figures/landing.png>] [34 <./figures/login.png> <./figures/staff_dashb
+oard.png>] [35 <./figures/client_dashboard.png>] (main.bbl [36
 
 
 
 ]
-Underfull \hbox (badness 2626) in paragraph at lines 478--491
+Underfull \hbox (badness 2626) in paragraph at lines 503--516
 []\OT1/cmr/m/n/12 GeeksforGeeks.  (2024, 09).  \OT1/cmr/m/it/12 Top 7 frame-wor
 ks for build-ing chat-bots.
  []
 
 
-Underfull \hbox (badness 1210) in paragraph at lines 478--491
+Underfull \hbox (badness 1210) in paragraph at lines 503--516
 \OT1/cmr/m/n/12 Re-trieved from $\OT1/cmtt/m/n/12 https :// www [] .geeksforgee
 ks [] .org / top [] -frameworks [] -for []
  []
@@ -648,7 +693,7 @@ ks [] .org / top [] -frameworks [] -for []
 ! Misplaced alignment tab character &.
 <argument> International Journal of Retail &
                                              Distribution Management
-l.546   Management}{44}{}{694-712}
+l.571   Management}{44}{}{694-712}
                                   .
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -657,11 +702,11 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[36]
+[37]
 ! Misplaced alignment tab character &.
 <argument> Total Quality Management &
                                       Business Excellence - TOTAL QUAL MANAG...
-l.848   QUAL MANAG BUS EXCELL}{20}{}{129-137}
+l.873   QUAL MANAG BUS EXCELL}{20}{}{129-137}
                                              .
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -671,7 +716,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 864--880
+Underfull \hbox (badness 10000) in paragraph at lines 889--905
 \OT1/cmtt/m/n/12 story / penn [] -state [] -launches [] -ai [] -powered [] -cha
 tbot [] -assist [] -students []
  []
@@ -679,7 +724,7 @@ tbot [] -assist [] -students []
 ! Misplaced alignment tab character &.
 <argument> ...he differences between proprietary &
                                                    free and open source soft...
-l.903   & free and open source software}
+l.928   & free and open source software}
                                         .{\BBCQ}
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -688,10 +733,11 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
+[38]
 ! Misplaced alignment tab character &.
 <argument> Information &
                          Management
-l.969 ...Information & Management}{40}{8}{813-829}
+l.994 ...Information & Management}{40}{8}{813-829}
                                                   .
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -700,24 +746,24 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[37]
-Underfull \hbox (badness 1348) in paragraph at lines 1019--1031
+
+Underfull \hbox (badness 1348) in paragraph at lines 1044--1056
 []\OT1/cmr/m/n/12 ServiceNow.  (n.d.[]).  \OT1/cmr/m/it/12 What is work-flow au
 -toma-tion?  \OT1/cmr/m/n/12 Re-trieved from
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1019--1031
+Underfull \hbox (badness 10000) in paragraph at lines 1044--1056
 \OT1/cmtt/m/n/12 https :// www [] .servicenow [] .com / now [] -platform / what
  [] -is [] -workflow []
  []
 
-) [38]
+) [39]
 \openout2 = `appendix_A.aux'.
 
  (appendix_A.tex
 Appendix A.
-) [39
+) [40
 
 
 ]
@@ -730,7 +776,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--32
 
  []
 
-[40
+[41
 
 
 
@@ -743,13 +789,13 @@ L3 programming layer <2024-01-04>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 7116 strings out of 474486
- 114146 string characters out of 5748449
+ 7129 strings out of 474486
+ 114413 string characters out of 5748449
  1951542 words of memory out of 5000000
- 29220 multiletter control sequences out of 15000+600000
+ 29233 multiletter control sequences out of 15000+600000
  565992 words of font info for 65 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 79i,12n,84p,1581b,466s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 79i,12n,84p,1202b,466s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\ASUS\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1
 200.pk><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx1
 2.pfb><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc1
@@ -757,9 +803,9 @@ Here is how much of TeX's memory you used:
 pfb><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.p
 fb><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pf
 b>
-Output written on main.pdf (47 pages, 1991128 bytes).
+Output written on main.pdf (48 pages, 5195578 bytes).
 PDF statistics:
- 202 PDF objects out of 1000 (max. 8388607)
+ 208 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -367,6 +367,31 @@ Basu, A.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+{BITCAT}%
+}{%
+{BITCAT}%
+}{%
+{\protect \APACyear {2023}}%
+}]{%
+bitcat2023}
+\APACinsertmetastar {%
+bitcat2023}%
+\begin{APACrefauthors}%
+{BITCAT}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{10}{}.
+\newblock
+\APACrefbtitle {Off-the-Shelf vs. Custom Software: Making the Right Choice for
+  Your Business.} {Off-the-shelf vs. custom software: Making the right choice
+  for your business.}
+\newblock
+\begin{APACrefURL} \url{https://bitcat.dev/off-the-shelf-vs-custom-software/}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Blahušiaková%
 }{%
 Blahušiaková%
