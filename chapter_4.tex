@@ -32,7 +32,7 @@ Through direct discussions with the center’s director and administrative staff
 \begin{itemize}
 	\item The UPV RRC currently has no website available to the public which describes its mission, vision, services offered, as well as, steps on how to request a service, and other relevant information.   This limits clients from acquiring necessary information about the center and its services.
 	\item The staff also has difficulty in tracking equipment and facility availability in real-time, as it is essential to ensure that no one else is using an equipment or facility before it can be rented out on a specific time and date.
-	\item Manual service request and data management are also a problem as the RRC’s current system relies mainly on Google Forms and Sheets, which poses challenges in efficiency and scalability.
+	\item Manual service request and data management are also a problem as the RRC’s current system relies mainly on Google Forms and Sheets, which poses challenges in efficiency.
 \end{itemize}
 
 \subsection{User Requirements}
@@ -54,7 +54,7 @@ Based on the gathered data with stakeholders and observations during the facilit
 
 \subsection{Process Flow Diagram}
 
-\figref{fig:process_flow} illustrates the entire service delivery process of RRC. The process starts with a service request from the client and ends with a feed back from them.
+\figref{fig:process_flow} illustrates the entire service delivery process of RRC. The process starts with a service request from the client and ends with getting a feedback from them.
 
 \begin{figure}[h]
 	\centering 
@@ -93,13 +93,18 @@ Based on the gathered data with stakeholders and observations during the facilit
 
 \subsection{Database Diagram}
 
-The database design for TUKIB revolves around tracking and managing various service related data through several interrelated entities to ensure easy storing and retrieval. As seen in \figref{fig:database}, there are 11 tables in the database design for the system. 
+The database design for TUKIB revolves around tracking and managing various service related data through several interrelated entities to ensure easy storing and retrieval. As seen in \figref{fig:database}, there are a total of 11 tables in the database design for the system. 
 
-The \textbf{client} table stores essential information about the clients, such as their name, contact details, and addresses. When a client wishes to avail a service, a corresponding \textbf{service request} is created, linking the request to both the client and the staff members handling the service. This table also records the type of service (e.g., use of equipment, use of facility, sample processing, or training) and its status. To track the usage of specific resources, there are separate tables for the \textbf{use of equipment} and \textbf{use of facility}, which log the details of which equipment of facility was used for a particular service request, including the time of use and duration. For other services, the \textbf{sample processing} table tracks the handling and status of samples, while the \textbf{training service} table records information about any training sessions provided to clients, including the assigned staff and training details. The \textbf{equipment} table stores the information about availability of equipments and history usage. Once services are rendered, the \textbf{payment} table ensures that all transactions are logged, tracking the payment amounts and methods linked to specific services. Additionally, \textbf{feedback} from clients on their experience on availing a service is stored in the feedback table, providing valuable insights into the service quality and client satisfaction.
+The \textbf{client} table stores essential information about the clients, such as their name, contact details, and addresses. Similarly, the \textbf{staff} table also stores the necessary details of staff including name, contact details, and position. 
+
+
+When a client wishes to avail a service, a corresponding \textbf{service request} is created, linking the request to both the client and the staff members handling the service. This table also records the type of service (e.g., use of equipment, use of facility, sample processing, or training) and its status. To track the usage of specific resources, there are separate tables for the \textbf{use of equipment} and \textbf{use of facility}, which log the details of which equipment of facility was used for a particular service request, including the time of use and duration. For other services, the \textbf{sample processing} table tracks the handling and status of samples, while the \textbf{training service} table records information about any training sessions provided to clients, including the assigned staff and training details. The \textbf{equipment} table stores the information about availability of equipments and history usage. 
+
+Once the requested service is rendered, the \textbf{charge slip} table handles the relevant information needed for billing including the cost of the service. Consequently, the \textbf{payment} table ensures that all transactions are logged, tracking the payment amounts and methods linked to specific services. Additionally, feedback from clients on their experience on availing a service is stored in the \textbf{feedback} table, providing valuable insights into the service quality and client satisfaction.
 
 \begin{figure}[h]
 	\centering 
-	\includegraphics[width=0.9\textwidth]{database.png}
+	\includegraphics[width=1\textwidth]{database.png}
 	\caption{Database Design Diagram}
 	\label{fig:database}
 \end{figure}
@@ -122,8 +127,8 @@ Intents represent the goal the users want to achieve when interacting with the c
 
 \begin{figure}[h]
 	\centering 
-	\includegraphics[width=0.7\textwidth]{chatbot_flow.jpg}
-	\caption{LIRA conversation flow}
+	\includegraphics[width=0.7\textwidth]{chatbot_flow.png}
+	\caption{LIRA Conversation Flow}
 	\label{fig:chatbot_flow}
 \end{figure}
 
@@ -148,18 +153,31 @@ The structure of the chatbot is centered around a conversational flow that guide
 	
 	\item \textbf{Chatbot User Feedback}
 	
-	\subitem After chatbot services are completed, the chatbot will prompt the user to rate or provide feedback on their experience, which will help the developers and the RRC enhance their service quality.
+	\subitem Once the conversation with the chatbot is completed, it will prompt the user to rate or provide feedback on their experience, which will help the developers and the UPV RRC to in enhancing the bot and the customer satisfaction.
 	
 	\item \textbf{Error Handling}
 	
-	\subitem Chatbot failures will lead to conversational dead ends if not dealt with properly. Thus negating the main purpose of chatbot in this system which is to provide efficient customer service. The chatbot will have a fallback mechanism whenever user input is unexpected or a system error occurs. For example, if the chatbot cannot understand the user input, there will be rules on how the chatbot would handle this situation. Sample fallback methods would be redirecting the conversation to a live agent. 
-	
-	\subitem Another option would be presenting friendly-toned error messages to the users, letting them know that the chatbot is having trouble understanding their input. Sample error messages would be “Sorry, I didn't catch that. Could you rephrase your question?” or “I'm sorry, I have a hard time understanding. Could you please rephrase your query?” and “I'm sorry, but what you're asking is not clear to me. Could you paraphrase it?”
+	\subitem Chatbot failures will lead to conversational dead ends if not dealt with properly. Thus, negating the main purpose of chatbot in this system which is to provide efficient customer service. To address this, the chatbot will have a fallback mechanism whenever an input from user was unexpected or a system error occurs. For example, if the chatbot cannot understand the user input, there will be rules on how the chatbot would handle this situation. Sample fallback methods would be redirecting the conversation to a live agent. Another option would be presenting friendly-toned error messages to the users, letting them know that the chatbot is having trouble understanding their input.
+	 
+	Sample error messages include “Sorry, I didn't catch that. Could you rephrase your question?” or “I'm sorry, I have a hard time understanding. Could you please rephrase your query?” and “I'm sorry, but what you're asking is not clear to me. Could you paraphrase it?”
 	
 \end{itemize}
 
 
 \section{User Interface Mock-ups}
+
+\subsection{Landing Page}
+
+\figref{fig:landing} showcases the landing page of the website for the system. The page features easy navigation to essential information and pages including home, news, services, contact, and about. A log in button is also featured on the top right of the page to facilitate quick access of account for users. Additionally, the persistent button for the chatbot is also found on the bottom left of the page.
+
+\begin{figure}[h]
+	\centering 
+	\includegraphics[width=1\textwidth]{landing.png}
+	\caption{Landing/Homepage}
+	\label{fig:landing}
+\end{figure}
+
+\newpage
 
 \subsection{User authentication and dashboard}
 
@@ -175,8 +193,6 @@ Users will have a premade account. For staff, accounts are automatically created
 User dashboard is designed for the needs of two primary user groups of TUKIB who are the staff and clients. Each user group has a different user interface to cater to their specific needs as seen from \figref{fig:staff_dashboard} and \figref{fig:client_dashboard}. 
 
 For the client’s user interface, the developers designed a dashboard that shows the user’s profile, transaction history, and a button to avail a new service. For the staffs’ user interface, a layout was designed specifically for their tasks, featuring information and capabilities necessary for efficient management and oversight. This includes tools for monitoring workflows, accessing reports, and managing user requests.
-
-The layout for both staff and customers’ user interface ensures easy navigation and quick access to essential information, enhancing the overall user experience.
 
 \begin{figure}[h]
 	\centering 

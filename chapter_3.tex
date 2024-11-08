@@ -1,6 +1,6 @@
 %   Filename    : chapter_4.tex 
 \chapter{Research Methodology}
-This chapter presents the tools, techniques, and methodologies used in the development of the TUKIB system, an integrated workflow automation solution designed for the UPV Regional Research Center (RRC). It specifies the software and hardware requirements, as well as the comprehensive process involved in creating the system.
+This chapter presents the tools, techniques, and methodologies that will be used for the development of TUKIB. This chapter also specifies the software and hardware requirements, as well as the comprehensive processes that will included in creating the system.
 
 \section{Research Activities}
 
@@ -8,9 +8,9 @@ This chapter presents the tools, techniques, and methodologies used in the devel
 
 \textbf{Agile Methodology}
 
-The software development approach that the developers will follow in developing TUKIB is the agile methodology. Agile methodology, or simply agile, is a framework that emphasizes iterative development and features communication and collaboration, adaptive planning, and continuous development (Agile Framework, 2022). The developers chose this framework because of its flexibility and adaptability to change, which is beneficial, especially with evolving user requirements. 
+\noindent The software development approach that the developers will follow in developing TUKIB is the agile methodology. Agile methodology, or simply agile, is a framework that emphasizes iterative development and features communication and collaboration, adaptive planning, and continuous development (Agile Framework, 2022). The developers chose this framework because of its flexibility and adaptability to change, which is beneficial, especially with evolving user requirements. 
 
-As seen from \figref{fig:agile}, agile involves continuously cycling through phases of development, testing, and review or feedback before finally launching the system. This enables developers to make adjustments and improvements based on user input. 
+As seen from \figref{fig:agile}, agile involves continuously cycling through phases of development, testing, and review or feedback before finally launching the system. This enables developers to make adjustments and improvements based on user input. \newline
 
 \begin{figure}[h]
 	\centering 
@@ -21,7 +21,7 @@ As seen from \figref{fig:agile}, agile involves continuously cycling through pha
 
 \noindent\textbf{Data Gathering and Documentation}
 	
-The developers will begin the project by visiting the UPV RRC, where they will conduct interviews with stakeholders. This phase is essential for gaining a comprehensive understanding of the institution's specific needs and for planning the system features accordingly. The data gathered during these interviews will guide the subsequent phases of the project, ensuring that the system is tailored to meet the requirements and expectations of its users. 
+\noindent The developers will begin the project by visiting the UPV RRC, where they will conduct interviews with stakeholders. This phase is essential for gaining a comprehensive understanding of the institution's specific needs and for planning the system features accordingly. The data gathered during these interviews will guide the subsequent phases of the project, ensuring that the system is tailored to meet the requirements and expectations of its users. 
 
 This phase will include the following activities:
 
@@ -33,19 +33,19 @@ This phase will include the following activities:
 	
 \noindent\textbf{System Design}
 	
-After data gathering, the system's architectural design will be developed. This process will involve creating a context model to outline the system's interactions with external entities, as well as a data flow diagram to illustrate how data moves through the components of the system. A process flow diagram will also be constructed to detail the specific processes and workflows, while database models will be designed to ensure efficient data storage and retrieval. 
+\noindent After data gathering, the system's architectural design will be developed. This process will involve creating a context model to outline the system's interactions with external entities, as well as a data flow diagram to illustrate how data moves through the components of the system. A process flow diagram will also be constructed to detail the specific processes and workflows, while database models will be designed to ensure efficient data storage and retrieval. 
 
 The researchers will also focus on effective user interfaces (UI) for service request handling and management, investigating best practices and design principles that enhance user experience based on feedback from users of existing similar software or systems. Once all necessary information is gathered, a mock-up design of TUKIB will be created, serving as the basis for the system's prototype. Together, these diagrams and designs will provide a comprehensive framework that will guide the development and implementation of the system effectively.\newline
 	
 \noindent\textbf{Implementation}
 	
-From the design phase, the development of the system will start. The frontend will be built to ensure a user-friendly interface, while the backend will support functionality through efficient data processing and secure user authentication. A chatbot will also be integrated to facilitate real-time support and user interaction with the system.
+\noindent From the design phase, the development of the system will start. The frontend will be built to ensure a user-friendly interface, while the backend will support functionality through efficient data processing and secure user authentication. A chatbot will also be integrated to facilitate real-time support and user interaction with the system.
 
 Since the developers are following the Agile methodology, the implementation phase will occur alongside testing. This iterative process will involve cycles of development and testing during each sprint, with each sprint lasting two weeks. This approach allows for continuous feedback and improvements, ensuring the system meets user needs effectively.\newline
 	
 \noindent\textbf{Testing}
 
-The testing of the system will be consisted of 3 main components to ensure its reliability, usability, and overall performance.
+\noindent The testing of the system will be consisted of 3 main components to ensure its reliability, usability, and overall performance.
 
 \begin{itemize}
 	\item \textbf{Alpha Testing.} During and after the development of each feature, extensive user testing will be conducted to ensure that each feature works as intended. Any bugs or problems will be immediately fixed. For features dependent on other features (i.e. user account creation must function correctly before user can log in), thorough testing will ensure and verify that the integration between these features operates smoothly.
@@ -57,7 +57,7 @@ The testing of the system will be consisted of 3 main components to ensure its r
 	
 \noindent\textbf{Deployment and Maintenance}
 
-The final product of the study, TUKIB, will made available to the intended users. In this phase, ongoing maintenance and regular performance monitoring, especially of the backend, are essential to ensure stability and reliability. Feedback form will be issued to users in to gather their thoughts and insights about the system or if they have encountered any bugs. Constant feedback from users during this phase will guide further improvements and updates.
+\noindent The final product of the study, TUKIB, will made available to the intended users. In this phase, ongoing maintenance and regular performance monitoring, especially of the backend, are essential to ensure stability and reliability. Feedback form will be issued to users in to gather their thoughts and insights about the system or if they have encountered any bugs. Constant feedback from users during this phase will guide further improvements and updates.
 
 \section{Chatbot architecture and development}
 
@@ -67,11 +67,11 @@ The chatbot for the system will be created using the Rasa framework. Rasa is an 
 
 There are two main components in Rasa Open Source architecture namely: Rasa NLU and Rasa Dialogue Policies. The Rasa NLU, shown as NLU pipeline in the figure, is like the primary senses of the chatbot which receive the input from the users. It identifies, classifies, and extracts the intents and entities from the given input. It is also responsible for choosing and retrieving the appropriate response to the user. 
 
-The dialogue management also called the Rasa Core, shown as Dialogue Policies in the figure, decides the next action in a conversation based on the context of the conversation. Rasa SDK is an action server which is responsible for running custom actions. The Tracker store is where the conversations are stored. The chatbot saves the context which helps give personalized interactions with the user. Rasa also uses a ticket lock mechanism in order to ensure that incoming messages for a given conversation ID are processed in the right order, and locks conversations while messages are actively processed. This allows for multiple Rasa servers to be run in parallel. File system consists of Models and Training data needed for the functionality of the chatbot.
+The dialogue management also called the Rasa Core, shown as Dialogue Policies in the figure, decides the next action in a conversation based on the context of the conversation. Rasa SDK is an action server which is responsible for running custom actions. The Tracker store is where the conversations are stored. The chatbot saves the context which helps give personalized interactions with the user as it learns over time. Rasa also uses a ticket lock mechanism to ensure that incoming messages for a given conversation ID are processed in the right order, and locks conversations while messages are actively processed. This allows for multiple Rasa servers to be run in parallel. File system consists of Models and Training data needed for the functionality of the chatbot.
 
 \begin{figure}[h]
 	\centering 
-	\includegraphics[width=0.8\textwidth]{RASA_architecture.png}
+	\includegraphics[width=1\textwidth]{RASA_architecture.png}
 	\caption{Rasa Open Source Chatbot Architecture}
 	photo from https://rasa.com/docs/rasa/arch-overview/
 	\label{fig:rasa_architecture}
@@ -98,7 +98,7 @@ Rasa mainly includes three stages in its conversation processing. They are:
 
 \subsection{Model Training}
 
-Training data will be in the form of conversations between the RRC staff and clients. The data collection will be done with the help of RRC staff to ensure its accuracy and validity. The gathered data will be used to train Rasa’s NLU model, allowing it to recognize user intents and extract relevant information accurately. As per Rasa’s capability, continuous use of the chatbot will further train the model, allowing it to learn from interactions and improve its understanding over time. This ongoing training process will enhance the chatbot’s performance, ensuring it becomes more adept at addressing user needs and providing relevant and more accurate responses as it accumulates more data from real-world users.
+Training data will be in the form of conversations between the RRC staff and clients during previous consultations. The data collection will be done with the help of RRC staff to ensure its accuracy and validity. The gathered data will be used to train Rasa’s NLU model, allowing it to recognize user intents and extract relevant information accurately. As per Rasa’s capability, continuous use of the chatbot will further train the model, allowing it to learn from interactions and improve its understanding over time. This ongoing training process will enhance the chatbot’s performance, ensuring it becomes more adept at addressing user needs and providing relevant and more accurate responses as it accumulates more data from real-world users.
  
 \section{Development Tools}
 
