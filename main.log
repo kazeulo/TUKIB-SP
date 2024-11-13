@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.9.1)  8 NOV 2024 16:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.9.1)  13 NOV 2024 22:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -671,7 +671,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 156--157
 <figures/landing.png, id=138, 1297.09593pt x 737.00343pt>
 File: figures/landing.png Graphic file (type png)
 <use figures/landing.png>
-Package pdftex.def Info: figures/landing.png  used on input line 175.
+Package pdftex.def Info: figures/landing.png  used on input line 177.
 (pdftex.def)             Requested size: 415.55249pt x 236.11581pt.
 
 
@@ -681,7 +681,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <figures/login.png, id=142, 1333.23094pt x 744.53156pt>
 File: figures/login.png Graphic file (type png)
 <use figures/login.png>
-Package pdftex.def Info: figures/login.png  used on input line 188.
+Package pdftex.def Info: figures/login.png  used on input line 190.
 (pdftex.def)             Requested size: 415.55249pt x 232.05206pt.
 
 
@@ -690,7 +690,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <figures/staff_dashboard.png, id=143, 1248.91594pt x 745.28438pt>
 File: figures/staff_dashboard.png Graphic file (type png)
 <use figures/staff_dashboard.png>
-Package pdftex.def Info: figures/staff_dashboard.png  used on input line 199.
+Package pdftex.def Info: figures/staff_dashboard.png  used on input line 201.
 (pdftex.def)             Requested size: 415.55249pt x 247.96884pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -698,7 +698,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <figures/client_dashboard.png, id=144, 1213.53375pt x 737.75626pt>
 File: figures/client_dashboard.png Graphic file (type png)
 <use figures/client_dashboard.png>
-Package pdftex.def Info: figures/client_dashboard.png  used on input line 206.
+Package pdftex.def Info: figures/client_dashboard.png  used on input line 208.
 (pdftex.def)             Requested size: 415.55249pt x 252.63496pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -833,7 +833,7 @@ Here is how much of TeX's memory you used:
 pfb><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.p
 fb><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pf
 b>
-Output written on main.pdf (48 pages, 5195681 bytes).
+Output written on main.pdf (48 pages, 5196013 bytes).
 PDF statistics:
  208 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
