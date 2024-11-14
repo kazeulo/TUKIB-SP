@@ -38,9 +38,8 @@
 \contentsline {subsection}{\numberline {4.2.3}Data Flow Diagram}{27}{}%
 \contentsline {subsection}{\numberline {4.2.4}Database Diagram}{28}{}%
 \contentsline {section}{\numberline {4.3}Chatbot}{29}{}%
-\contentsline {section}{\numberline {4.4}User Interface Mock-ups}{32}{}%
-\contentsline {subsection}{\numberline {4.4.1}Landing Page}{32}{}%
-\contentsline {subsection}{\numberline {4.4.2}User authentication and dashboard}{33}{}%
+\contentsline {section}{\numberline {4.4}System Development}{32}{}%
+\contentsline {subsection}{\numberline {4.4.1}Front-end}{32}{}%
 \contentsline {chapter}{References}{36}{}%
 \contentsline {chapter}{\numberline {A}Appendix Title}{40}{}%
 \contentsline {chapter}{\numberline {B}Resource Persons}{41}{}%
