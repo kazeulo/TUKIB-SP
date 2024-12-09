@@ -23,8 +23,9 @@
 \contentsline {subsection}{\numberline {3.2.1}Rasa Chatbot Architecture}{17}{}%
 \contentsline {subsection}{\numberline {3.2.2}Conversation Processing}{18}{}%
 \contentsline {subsection}{\numberline {3.2.3}Model Training}{19}{}%
-\contentsline {section}{\numberline {3.3}Development Tools}{19}{}%
-\contentsline {subsection}{\numberline {3.3.1}Hardware}{19}{}%
+\contentsline {subsection}{\numberline {3.2.4}Limitations of Rasa}{19}{}%
+\contentsline {section}{\numberline {3.3}Development Tools}{20}{}%
+\contentsline {subsection}{\numberline {3.3.1}Hardware}{20}{}%
 \contentsline {subsection}{\numberline {3.3.2}Software}{20}{}%
 \contentsline {chapter}{\numberline {4}Preliminary Results/System Prototype}{22}{}%
 \contentsline {section}{\numberline {4.1}Data Gathering Results}{22}{}%
@@ -41,5 +42,5 @@
 \contentsline {section}{\numberline {4.4}System Development}{33}{}%
 \contentsline {subsection}{\numberline {4.4.1}Front-end}{33}{}%
 \contentsline {chapter}{References}{37}{}%
-\contentsline {chapter}{\numberline {A}Main pages}{41}{}%
-\contentsline {chapter}{\numberline {B}Resource Persons}{43}{}%
+\contentsline {chapter}{\numberline {A}Initial Prototype}{41}{}%
+\contentsline {chapter}{\numberline {B}Resource Persons}{45}{}%

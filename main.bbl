@@ -199,6 +199,30 @@ Altamimi, I.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Astera%
+}{%
+Astera%
+}{%
+{\protect \APACyear {2024}}%
+}]{%
+astera2024}
+\APACinsertmetastar {%
+astera2024}%
+\begin{APACrefauthors}%
+Astera.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2024}{08}{}.
+\newblock
+\APACrefbtitle {What is workflow automation? A complete guide.} {What is
+  workflow automation? a complete guide.}
+\newblock
+\begin{APACrefURL} \url{https://www.astera.com/type/blog/workflow-automation/}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Austin~Beattie%
 \ \BBA {} Edwards%
 }{%
@@ -261,6 +285,35 @@ Aversano, L.%
 \APACjournalVolNumPages{Journal of Systems and Software}{63}{}{29-44}.
 \newblock
 \begin{APACrefDOI} \doi{10.1016/S0164-1212(01)00128-5} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Awati%
+\ \BBA {} Fitzgibbons%
+}{%
+Awati%
+\ \BBA {} Fitzgibbons%
+}{%
+{\protect \APACyear {2024}}%
+}]{%
+awati2024}
+\APACinsertmetastar {%
+awati2024}%
+\begin{APACrefauthors}%
+Awati, R.%
+\BCBT {}\ \BBA {} Fitzgibbons, L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2024}{03}{}.
+\newblock
+\APACrefbtitle {What is HR automation? examples, benefits and challenges:
+  Definition from TechTarget.} {What is hr automation? examples, benefits and
+  challenges: Definition from techtarget.}
+\newblock
+\begin{APACrefURL}
+  \url{https://www.techtarget.com/searchhrsoftware/definition/HR-automation}
+  \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -567,7 +620,8 @@ Hagberg, J.%
   framework} {The digitalization of retailing: an exploratory
   framework}.{\BBCQ}
 \newblock
-\APACjournalVolNumPages{International Journal of Retail & Distribution  Management}{44}{}{694-712}.
+\APACjournalVolNumPages{International Journal of Retail & Distribution
+  Management}{44}{}{694-712}.
 \newblock
 \begin{APACrefDOI} \doi{10.1108/IJRDM-09-2015-0140} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
@@ -1051,6 +1105,27 @@ ServiceNow.%
 \begin{APACrefURL}
   \url{https://www.servicenow.com/now-platform/what-is-workflow-automation.html#what-is-process-automation}
   \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Thomas%
+}{%
+Thomas%
+}{%
+{\protect \APACyear {2024}}%
+}]{%
+thomas2024}
+\APACinsertmetastar {%
+thomas2024}%
+\begin{APACrefauthors}%
+Thomas, B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2024}.
+\newblock
+\APACrefbtitle {Business process automation: The ultimate guide.} {Business
+  process automation: The ultimate guide.}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%

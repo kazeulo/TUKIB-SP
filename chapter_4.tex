@@ -8,7 +8,7 @@ The research process for developing TUKIB started with a comprehensive visit to 
 \subsection{Facility Tour}
 During the researcher's visit, they met with the center's director, administrative staff, and laboratory heads. This introduction provided valuable insights into the roles and responsibilities of various individuals and departments within the UPV RRC. Understanding these dynamics was crucial for tailoring the system to fit the center’s workflows.
 
-The researchers were also given a guided tour, which provided an overview of various laboratories and services offered. These services includes:
+The researchers were also given a guided tour, which provided an overview of various laboratories and services offered. These services include:
 
 \begin{itemize}
 	\item \textbf{Sample Processing.}The RRC provides sample processing services, essential for research and analysis.
@@ -22,7 +22,7 @@ Each laboratory, including the Biology, Microbiology, Nanotechnology, and Applie
 \subsection{Stakeholder Identification and Engagement}
 The success of workflow automation hinges on understanding the needs and expectations of its key stakeholders. These stakeholders include the RRC laboratory and administrative staff, the clients (university and student researchers and external users of the RRC facilities), the developers, and the member/s of the Computer Science Faculty guiding the project.
 
-The researcher's interaction with the stakeholders allowed them to gather valuable feedback on the existing system and the challenges they faced. This feedback played a crucial role in shaping the direction of our system design, as it highlighted the need for automation, service tracking, and streamlined communication between stakeholders. Additionally, stakeholders were interviewed on their specific needs and pain points. These discussions led to the creation of user stories, which helped to contextualize the requirements from various perspectives. 
+The researchers' interaction with the stakeholders allowed the gathering of valuable feedback on the existing system and the challenges that the institution faces. This feedback played a crucial role in shaping the direction of this study's system design, as it highlighted the need for automation, service tracking, and streamlined communication between stakeholders. Additionally, stakeholders were interviewed on their specific needs and pain points. These discussions led to the creation of user stories, which helped to contextualize the requirements from various perspectives. 
 
 This in-depth exposure to the center’s operations was essential for the initial design and development phase of TUKIB, providing a strong foundation for creating a system tailored to the specific needs of the RRC.
 
@@ -30,7 +30,7 @@ This in-depth exposure to the center’s operations was essential for the initia
 Through direct discussions with the center’s director and administrative staff, the researchers obtained a clear picture of the scope of services provided by each facility, as well as the current limitations they face. Some of these limitations include:
 
 \begin{itemize}
-	\item The UPV RRC currently has no website available to the public which describes its mission, vision, services offered, as well as, steps on how to request a service, and other relevant information.   This limits clients from acquiring necessary information about the center and its services.
+	\item The UPV RRC currently has no website available to the public which describes its mission, vision, services offered, as well as, steps on how to request a service, and other relevant information.   This limits clients from acquiring necessary information about the center and its services. The only platform that they currently utilize for disseminating news, activities, and information about their services is through a Facebook page which lacks structure and organization.
 	\item The staff also has difficulty in tracking equipment and facility availability in real-time, as it is essential to ensure that no one else is using an equipment or facility before it can be rented out on a specific time and date.
 	\item Manual service request and data management are also a problem as the RRC’s current system relies mainly on Google Forms and Sheets, which poses challenges in efficiency.
 \end{itemize}
@@ -41,14 +41,29 @@ Based on the gathered data with stakeholders and observations during the facilit
 
 \begin{itemize}
 	\item \textbf{Service Information Accessibility}
+	
+	A site that allows clients or researchers to gain information about the UPV RRC and what services it provides along with the steps on how to avail those services. 
+	
 	\item \textbf{Automated Service Requests}
+	
+	A system that automates service request processes so that staff no longer need to reply to them via email and list the request details manually. 
+	
 	\item \textbf{Equipment and Facility Availability Tracking}
+	
+	A system that automates the tracking of the availability of equipment and facilities. This includes a calendar that tracks the facility availability schedule and an equipment inventory management system. 
+	
 	\item \textbf{Data Management and Reporting}
+	
+	A system for managing data related to client transactions, service requests, equipment use, and facility bookings. This system should support generating detailed reports for monitoring and decision-making.
+	
 	\item \textbf{User Account Management}
+	
+	A system to monitor client profiles and their transaction history with the UPV RRC, including payments, requests, and feedbacks.
+	
 	\item \textbf{Feedback Mechanism}
+	A feedback mechanism that allows clients to complete a service feedback survey and automatically generate feedback statistics for easier feedback analysis.
+	
 \end{itemize}
-
-\newpage
 
 \section{System Design}
 
@@ -75,7 +90,7 @@ For the \textbf{University Researchers}, they can use the system to oversee any 
 
 Similarly, \textbf{TECD Staff} can use the system to oversee, equipment or facility rental related requests. This also includes assessing, approving, and terminating request. 
 
-The system will provide the \textbf{Admin Staff} oversight on the ongoing transactions. Admin staff ensure that users from various roles perform their duties effectively by managing accounts, permissions, and system-wide configurations. Like the university researchers and TECD staff, they have access on the service-related requests and have an ability to assess, approve, and terminate transactions and requests. Additionally, they handle administrative tasks such as managing data, organizing workflows, and assisting with user support when needed.
+For the \textbf{Admin Staff}, the system will provide oversight on the ongoing transactions. Admin staff ensure that users from various roles perform their duties effectively by managing accounts, permissions, and system-wide configurations. Like the university researchers and TECD staff, they also have access on the service-related requests and have an ability to assess, approve, and terminate transactions or requests.
 
 Moreover, the system will provide full oversight of activities to the \textbf{Director}, offering comprehensive visibility and control. Furthermore, the Director will have access to detailed statistics and insights about the services offered, enabling the institution to make informed and strategic decisions.
 
@@ -90,7 +105,7 @@ Moreover, the system will provide full oversight of activities to the \textbf{Di
 
 \subsection{Data Flow Diagram}
 
-\figref{fig:data_flow} shows the flow of data within the system, illustrating how information is exchanged between different components and users. The diagram also illustrates the pathways through which data moves, providing overview into how information are stored and retrieved within the system.
+\figref{fig:data_flow} shows the flow of data within the system, illustrating how information is exchanged between different components and users through the entire service request and delivery process of the UPV RRC. The diagram also illustrates the pathways through which data moves, providing overview into how information are stored and retrieved within the system.
 
 \begin{figure}[h]
 	\centering 
@@ -103,10 +118,9 @@ Moreover, the system will provide full oversight of activities to the \textbf{Di
 
 \subsection{Database Diagram}
 
-The database design for TUKIB revolves around tracking and managing various service related data through several interrelated entities to ensure easy storing and retrieval. As seen in \figref{fig:database}, there are a total of 11 tables in the database design for the system. 
+The database design for TUKIB revolves around tracking and managing various service related data through several interrelated entities to ensure easy storing and retrieval. As seen in \figref{fig:database}, there are a total of 11 tables in the database design for the TUKIB. 
 
 The \textbf{client} table stores essential information about the clients, such as their name, contact details, and addresses. Similarly, the \textbf{staff} table also stores the necessary details of staff including name, contact details, and position. 
-
 
 When a client wishes to avail a service, a corresponding \textbf{service request} is created, linking the request to both the client and the staff members handling the service. This table also records the type of service (e.g., use of equipment, use of facility, sample processing, or training) and its status. To track the usage of specific resources, there are separate tables for the \textbf{use of equipment} and \textbf{use of facility}, which log the details of which equipment of facility was used for a particular service request, including the time of use and duration. For other services, the \textbf{sample processing} table tracks the handling and status of samples, while the \textbf{training service} table records information about any training sessions provided to clients, including the assigned staff and training details. The \textbf{equipment} table stores the information about availability of equipments and history usage. 
 
@@ -191,7 +205,7 @@ The structure of the chatbot is centered around a conversational flow that guide
 
 \newpage
 
-\noindent \textbf{User authentication and dashboard}
+\noindent \textbf{User authentication and dashboards}
 
 \noindent All kinds of user will have a pre-made account. Staffs will automatically have an account, while clients will have accounts created only after their first consultation is approved. On the login page, users will need to enter their email address and password. Passwords will be hidden by default, but the eye icon in the password field, seen in \figref{fig:login}, can be clicked to toggle visibility. After successfully logging in, users will be redirected to their respective dashboards.
 
@@ -219,4 +233,3 @@ For the client’s user interface, the developers designed a dashboard that show
 	\caption{Client dashboard}
 	\label{fig:client_dashboard}
 \end{figure}
-
