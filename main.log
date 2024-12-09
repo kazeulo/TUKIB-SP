@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.9.1)  13 NOV 2024 22:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.9.1)  9 DEC 2024 11:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -613,98 +613,102 @@ Package pdftex.def Info: figures/process_flow.jpg  used on input line 61.
 <figures/context model.png, id=113, 1750.54pt x 1126.2075pt>
 File: figures/context model.png Graphic file (type png)
 <use figures/context model.png>
-Package pdftex.def Info: figures/context model.png  used on input line 74.
+Package pdftex.def Info: figures/context model.png  used on input line 84.
 (pdftex.def)             Requested size: 415.55249pt x 267.33958pt.
- [26 <./figures/context model.png>]
-<figures/data_flow.jpg, id=117, 2477.255pt x 1116.17pt>
-File: figures/data_flow.jpg Graphic file (type jpg)
-<use figures/data_flow.jpg>
-Package pdftex.def Info: figures/data_flow.jpg  used on input line 87.
-(pdftex.def)             Requested size: 415.55249pt x 187.22574pt.
- [27 <./figures/data_flow.jpg>]
-<figures/database.png, id=121, 1114.1625pt x 842.39719pt>
-File: figures/database.png Graphic file (type png)
-<use figures/database.png>
-Package pdftex.def Info: figures/database.png  used on input line 107.
-(pdftex.def)             Requested size: 415.55249pt x 314.1886pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[28] [29 <./figures/database.png>]
-Overfull \hbox (6.09418pt too wide) in paragraph at lines 126--127
+[26]
+<figures/data_flow.jpg, id=117, 2477.255pt x 1116.17pt>
+File: figures/data_flow.jpg Graphic file (type jpg)
+<use figures/data_flow.jpg>
+Package pdftex.def Info: figures/data_flow.jpg  used on input line 97.
+(pdftex.def)             Requested size: 415.55249pt x 187.22574pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[27 <./figures/context model.png>] [28 <./figures/data_flow.jpg>]
+<figures/database.png, id=124, 1114.1625pt x 842.39719pt>
+File: figures/database.png Graphic file (type png)
+<use figures/database.png>
+Package pdftex.def Info: figures/database.png  used on input line 117.
+(pdftex.def)             Requested size: 415.55249pt x 314.1886pt.
+ [29 <./figures/database.png>] [30]
+Overfull \hbox (6.09418pt too wide) in paragraph at lines 136--137
 []\OT1/cmr/m/n/12 Figure 4.5[] il-lus-trates the con-ver-sa-tion flow for TUKIB
 's chat-bot, named LIRA|
  []
 
-<figures/chatbot_flow.png, id=129, 697.60625pt x 1025.8325pt>
+<figures/chatbot_flow.png, id=133, 697.60625pt x 1025.8325pt>
 File: figures/chatbot_flow.png Graphic file (type png)
 <use figures/chatbot_flow.png>
-Package pdftex.def Info: figures/chatbot_flow.png  used on input line 130.
+Package pdftex.def Info: figures/chatbot_flow.png  used on input line 140.
 (pdftex.def)             Requested size: 290.88547pt x 427.74744pt.
-[30 <./figures/chatbot_flow.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 140--141
+[31 <./figures/chatbot_flow.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 150--151
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--145
+Underfull \hbox (badness 10000) in paragraph at lines 154--155
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 148--149
+Underfull \hbox (badness 10000) in paragraph at lines 158--159
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 152--153
+Underfull \hbox (badness 10000) in paragraph at lines 162--163
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 156--157
+Underfull \hbox (badness 10000) in paragraph at lines 166--167
 
  []
-
-[31]
-<figures/landing.png, id=138, 1297.09593pt x 737.00343pt>
-File: figures/landing.png Graphic file (type png)
-<use figures/landing.png>
-Package pdftex.def Info: figures/landing.png  used on input line 177.
-(pdftex.def)             Requested size: 415.55249pt x 236.11581pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
 
 [32]
-<figures/login.png, id=142, 1333.23094pt x 744.53156pt>
+<figures/landing.png, id=141, 1444.64719pt x 857.45343pt>
+File: figures/landing.png Graphic file (type png)
+<use figures/landing.png>
+Package pdftex.def Info: figures/landing.png  used on input line 187.
+(pdftex.def)             Requested size: 415.55249pt x 246.64023pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[33]
+<figures/login.png, id=145, 1444.64719pt x 859.71187pt>
 File: figures/login.png Graphic file (type png)
 <use figures/login.png>
-Package pdftex.def Info: figures/login.png  used on input line 190.
-(pdftex.def)             Requested size: 415.55249pt x 232.05206pt.
+Package pdftex.def Info: figures/login.png  used on input line 200.
+(pdftex.def)             Requested size: 415.55249pt x 247.28986pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/staff_dashboard.png, id=143, 1248.91594pt x 745.28438pt>
+<figures/staff_dashboard.png, id=146, 1444.64719pt x 855.94781pt>
 File: figures/staff_dashboard.png Graphic file (type png)
 <use figures/staff_dashboard.png>
-Package pdftex.def Info: figures/staff_dashboard.png  used on input line 201.
-(pdftex.def)             Requested size: 415.55249pt x 247.96884pt.
+Package pdftex.def Info: figures/staff_dashboard.png  used on input line 211.
+(pdftex.def)             Requested size: 415.55249pt x 246.20715pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/client_dashboard.png, id=144, 1213.53375pt x 737.75626pt>
+<figures/client_dashboard.png, id=147, 1213.53375pt x 737.75626pt>
 File: figures/client_dashboard.png Graphic file (type png)
 <use figures/client_dashboard.png>
-Package pdftex.def Info: figures/client_dashboard.png  used on input line 208.
+Package pdftex.def Info: figures/client_dashboard.png  used on input line 218.
 (pdftex.def)             Requested size: 415.55249pt x 252.63496pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [33 <./figures/landing.png>] [34 <./figures/login.png> <./figures/staff_dashb
-oard.png>] [35 <./figures/client_dashboard.png>] (main.bbl [36
+) [34 <./figures/landing.png>] [35 <./figures/login.png> <./figures/staff_dashb
+oard.png>] [36 <./figures/client_dashboard.png>] (main.bbl [37
 
 
 
@@ -732,7 +736,7 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[37]
+[38]
 ! Misplaced alignment tab character &.
 <argument> Total Quality Management &
                                       Business Excellence - TOTAL QUAL MANAG...
@@ -763,7 +767,7 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[38]
+[39]
 ! Misplaced alignment tab character &.
 <argument> Information &
                          Management
@@ -788,12 +792,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 1044--1056
  [] -is [] -workflow []
  []
 
-) [39]
+) [40]
 \openout2 = `appendix_A.aux'.
 
  (appendix_A.tex
 Appendix A.
-) [40
+) [41
 
 
 ]
@@ -806,7 +810,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--32
 
  []
 
-[41
+[42
 
 
 
@@ -833,9 +837,9 @@ Here is how much of TeX's memory you used:
 pfb><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.p
 fb><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pf
 b>
-Output written on main.pdf (48 pages, 5196013 bytes).
+Output written on main.pdf (49 pages, 5027180 bytes).
 PDF statistics:
- 208 PDF objects out of 1000 (max. 8388607)
+ 212 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
