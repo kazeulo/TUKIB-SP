@@ -41,5 +41,5 @@
 \contentsline {section}{\numberline {4.4}System Development}{33}{}%
 \contentsline {subsection}{\numberline {4.4.1}Front-end}{33}{}%
 \contentsline {chapter}{References}{37}{}%
-\contentsline {chapter}{\numberline {A}Appendix Title}{41}{}%
-\contentsline {chapter}{\numberline {B}Resource Persons}{42}{}%
+\contentsline {chapter}{\numberline {A}Main pages}{41}{}%
+\contentsline {chapter}{\numberline {B}Resource Persons}{43}{}%
