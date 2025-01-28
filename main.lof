@@ -6,18 +6,19 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Process Flow Diagram}}{25}{}%
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Context Model}}{27}{}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Data Flow Diagram}}{28}{}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Database Design Diagram}}{29}{}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces LIRA Conversation Flow}}{31}{}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Landing/Homepage}}{34}{}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Log in page}}{35}{}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Staff dashboard}}{35}{}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Client dashboard}}{36}{}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Use Case Diagram}}{28}{}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Data Flow Diagram}}{29}{}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Database Design Diagram}}{30}{}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces LIRA Conversation Flow}}{32}{}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Landing/Homepage}}{35}{}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Log in page}}{36}{}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Staff dashboard}}{36}{}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Client dashboard}}{37}{}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Services Page}}{41}{}%
-\contentsline {figure}{\numberline {A.2}{\ignorespaces News Page}}{42}{}%
-\contentsline {figure}{\numberline {A.3}{\ignorespaces About Us Page}}{42}{}%
-\contentsline {figure}{\numberline {A.4}{\ignorespaces LIRA Chatbot UI}}{43}{}%
-\contentsline {figure}{\numberline {A.5}{\ignorespaces Code Snippet of Initial Chatbot NLU Configuration}}{43}{}%
-\contentsline {figure}{\numberline {A.6}{\ignorespaces Code Snippet of Initial Chatbot Rules Configuration}}{44}{}%
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Services Page}}{42}{}%
+\contentsline {figure}{\numberline {A.2}{\ignorespaces News Page}}{43}{}%
+\contentsline {figure}{\numberline {A.3}{\ignorespaces About Us Page}}{43}{}%
+\contentsline {figure}{\numberline {A.4}{\ignorespaces LIRA Chatbot UI}}{44}{}%
+\contentsline {figure}{\numberline {A.5}{\ignorespaces Code Snippet of Initial Chatbot NLU Configuration}}{44}{}%
+\contentsline {figure}{\numberline {A.6}{\ignorespaces Code Snippet of Initial Chatbot Rules Configuration}}{45}{}%
 \addvspace {10\p@ }
