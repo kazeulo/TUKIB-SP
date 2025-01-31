@@ -24,24 +24,27 @@
 \contentsline {subsection}{\numberline {3.2.2}Conversation Processing}{18}{}%
 \contentsline {subsection}{\numberline {3.2.3}Model Training}{19}{}%
 \contentsline {subsection}{\numberline {3.2.4}Limitations of Rasa}{19}{}%
-\contentsline {section}{\numberline {3.3}Development Tools}{20}{}%
-\contentsline {subsection}{\numberline {3.3.1}Hardware}{20}{}%
-\contentsline {subsection}{\numberline {3.3.2}Software}{20}{}%
-\contentsline {chapter}{\numberline {4}Preliminary Results/System Prototype}{22}{}%
-\contentsline {section}{\numberline {4.1}Data Gathering Results}{22}{}%
-\contentsline {subsection}{\numberline {4.1.1}Facility Tour}{22}{}%
-\contentsline {subsection}{\numberline {4.1.2}Stakeholder Identification and Engagement}{23}{}%
-\contentsline {subsection}{\numberline {4.1.3}Scope and Limitations of the Services}{24}{}%
-\contentsline {subsection}{\numberline {4.1.4}User Requirements}{24}{}%
-\contentsline {section}{\numberline {4.2}System Design}{25}{}%
-\contentsline {subsection}{\numberline {4.2.1}Process Flow Diagram}{25}{}%
-\contentsline {subsection}{\numberline {4.2.2}Context Model}{26}{}%
-\contentsline {subsection}{\numberline {4.2.3}Use Case Diagram}{27}{}%
-\contentsline {subsection}{\numberline {4.2.4}Data Flow Diagram}{28}{}%
-\contentsline {subsection}{\numberline {4.2.5}Database Diagram}{29}{}%
-\contentsline {section}{\numberline {4.3}Chatbot}{31}{}%
-\contentsline {section}{\numberline {4.4}System Development}{34}{}%
-\contentsline {subsection}{\numberline {4.4.1}Front-end}{34}{}%
-\contentsline {chapter}{References}{38}{}%
-\contentsline {chapter}{\numberline {A}Initial Prototype}{42}{}%
-\contentsline {chapter}{\numberline {B}Resource Persons}{46}{}%
+\contentsline {section}{\numberline {3.3}Storage and Database Architecture}{20}{}%
+\contentsline {subsection}{\numberline {3.3.1}Storage and Archiving}{20}{}%
+\contentsline {subsection}{\numberline {3.3.2}Distributed and Scalable Database Architecture}{20}{}%
+\contentsline {section}{\numberline {3.4}Development Tools}{21}{}%
+\contentsline {subsection}{\numberline {3.4.1}Hardware}{21}{}%
+\contentsline {subsection}{\numberline {3.4.2}Software}{21}{}%
+\contentsline {chapter}{\numberline {4}Preliminary Results/System Prototype}{23}{}%
+\contentsline {section}{\numberline {4.1}Data Gathering Results}{23}{}%
+\contentsline {subsection}{\numberline {4.1.1}Facility Tour}{23}{}%
+\contentsline {subsection}{\numberline {4.1.2}Stakeholder Identification and Engagement}{24}{}%
+\contentsline {subsection}{\numberline {4.1.3}Scope and Limitations of the Services}{25}{}%
+\contentsline {subsection}{\numberline {4.1.4}User Requirements}{25}{}%
+\contentsline {section}{\numberline {4.2}System Design}{26}{}%
+\contentsline {subsection}{\numberline {4.2.1}Process Flow Diagram}{26}{}%
+\contentsline {subsection}{\numberline {4.2.2}Context Model}{27}{}%
+\contentsline {subsection}{\numberline {4.2.3}Use Case Diagram}{28}{}%
+\contentsline {subsection}{\numberline {4.2.4}Data Flow Diagram}{30}{}%
+\contentsline {subsection}{\numberline {4.2.5}Database Diagram}{30}{}%
+\contentsline {section}{\numberline {4.3}Chatbot}{32}{}%
+\contentsline {section}{\numberline {4.4}System Development}{35}{}%
+\contentsline {subsection}{\numberline {4.4.1}Front-end}{35}{}%
+\contentsline {chapter}{References}{40}{}%
+\contentsline {chapter}{\numberline {A}Initial Prototype}{44}{}%
+\contentsline {chapter}{\numberline {B}Resource Persons}{47}{}%

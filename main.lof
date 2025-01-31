@@ -4,21 +4,25 @@
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Agile Methodology}}{15}{}%
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Rasa Open Source Chatbot Architecture}}{18}{}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Process Flow Diagram}}{25}{}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Context Model}}{27}{}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Use Case Diagram}}{28}{}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Data Flow Diagram}}{29}{}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Database Design Diagram}}{30}{}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces LIRA Conversation Flow}}{32}{}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Landing/Homepage}}{35}{}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Log in page}}{36}{}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Staff dashboard}}{36}{}%
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Client dashboard}}{37}{}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Process Flow Diagram}}{26}{}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Context Model}}{28}{}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Use Case Diagram (Client interface)}}{29}{}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Use Case Diagram (Admin interface)}}{29}{}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Use Case Diagram (Director interface)}}{29}{}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Use Case Diagram (TECD and UR interface)}}{29}{}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Data Flow Diagram}}{30}{}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Database Design Diagram}}{31}{}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces LIRA Conversation Flow}}{33}{}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Landing/Homepage}}{36}{}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Log in page}}{37}{}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Log in with Google SSO}}{37}{}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Staff dashboard}}{38}{}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Client dashboard}}{38}{}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Service Page}}{39}{}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Services Page}}{42}{}%
-\contentsline {figure}{\numberline {A.2}{\ignorespaces News Page}}{43}{}%
-\contentsline {figure}{\numberline {A.3}{\ignorespaces About Us Page}}{43}{}%
-\contentsline {figure}{\numberline {A.4}{\ignorespaces LIRA Chatbot UI}}{44}{}%
-\contentsline {figure}{\numberline {A.5}{\ignorespaces Code Snippet of Initial Chatbot NLU Configuration}}{44}{}%
-\contentsline {figure}{\numberline {A.6}{\ignorespaces Code Snippet of Initial Chatbot Rules Configuration}}{45}{}%
+\contentsline {figure}{\numberline {A.1}{\ignorespaces News Page}}{44}{}%
+\contentsline {figure}{\numberline {A.2}{\ignorespaces About Us Page}}{45}{}%
+\contentsline {figure}{\numberline {A.3}{\ignorespaces LIRA Chatbot UI}}{45}{}%
+\contentsline {figure}{\numberline {A.4}{\ignorespaces Code Snippet of Initial Chatbot NLU Configuration}}{46}{}%
+\contentsline {figure}{\numberline {A.5}{\ignorespaces Code Snippet of Initial Chatbot Rules Configuration}}{46}{}%
 \addvspace {10\p@ }

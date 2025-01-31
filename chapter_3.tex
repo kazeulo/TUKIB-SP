@@ -61,6 +61,8 @@ Since the developers are following the Agile methodology, the implementation pha
 
 \section{Chatbot architecture and development}
 
+This section outlines the architecture of the Rasa framework, as well as, the necessary information on how the chatbot will be developed.
+
 \subsection{Rasa Chatbot Architecture}
 
 The chatbot for the system will be created using the Rasa framework. Rasa is an open source conversational AI framework that allows developers to build, deploy, and improve AI-powered chatbots and virtual assistants. \figref{fig:rasa_architecture} shows the details about the architecture of Rasa chatbot design. Specifically, this study will utilize the Open Source framework of Rasa.
@@ -106,6 +108,24 @@ For this study, the training data that will be used is in the form of conversati
 Rasa is a powerful open-source framework for building conversational AI applications, but like any other technology implemented, it also has its limitations. The first is that Rasa has a higher learning curve. To be able to use Rasa, developers must know Python, machine learning concepts, and experience in natural language processing. Without these Rasa wont be set up and utilized effectively. 
 
 Another is how Rasa is highly dependent on training data. In another view, this may help the developers customize the responses and conversations to their specific needs. However, when training is poorly done and insufficient data is given, this results in low chatbot accuracy. This backfires and counters the purpose of chatbots in providing accurate assistance. Hence, extensive training data to account for various scenarios and user inputs is needed for proper context modeling.
+
+\section{Storage and Database Architecture}
+
+This section outlines how data will be stored and the strategies that will be used for the efficiency and scalability of the database of TUKIB, ensuring that the system can handle growing amounts of service requests, data, and users over time without compromising its performance or reliability.
+
+\subsection{Storage and Archiving}
+
+TUKIB will use PostgreSQL as its database, organizing data into two separate databases to make management easier. One database will store active data, like recent service requests and client interactions, while the other will be used for archived data. By separating active and archived data, we can keep the active database fast and responsive while still being able to access older data when needed.
+
+To manage data growth, records or data older than a year will automatically be moved into the second database. This will be done through scheduled scripts, freeing up space in the active database and ensuring that the system runs efficiently.
+
+\subsection{Distributed and Scalable Database Architecture}
+
+To support the growth of the system, horizontal scaling strategy will be implemented to manage increased traffic and larger volumes of data. PostgreSQL offers built-in functionality to set up read replicas, which will be used to distribute query loads and improve response times, especially for read-heavy operations such as retrieving recent service requests.
+
+When necessary, data partitioning (sharding) can be applied to the archived database to split the large datasets across multiple servers. This approach will ensure better performance and scalability as the volume of archived data continues to grow.
+
+Additionally, regular automated backups will be scheduled for both the active and archived databases using PostgreSQL's built-in backup functions. These backups will ensure data durability and enable quick recovery in case of failures, avoiding disruptions in RRC’s service delivery.
  
 \section{Development Tools}
 
