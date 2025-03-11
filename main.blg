@@ -34,47 +34,53 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'wiz_functions' (item size: 4) to 9000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Database file #1: myreferences.bib
+Warning--entry type for "kimberling2024" isn't style-file defined
+--line 629 of file myreferences.bib
+Repeated entry---line 749 of file myreferences.bib
+ : @article{nawaz2019
+ :                   ,
+I'm skipping whatever remains of this entry
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
 Warning--No journal in adams2011
-You've used 19 entries,
+You've used 41 entries,
             6951 wiz_defined-function locations,
-            1424 strings with 15265 characters,
-and the built_in function-call counts, 40470 in all, are:
-= -- 4873
-> -- 346
-< -- 2100
-+ -- 2087
-- -- 44
-* -- 2739
-:= -- 7763
-add.period$ -- 82
-call.type$ -- 19
-change.case$ -- 348
+            1555 strings with 19718 characters,
+and the built_in function-call counts, 85792 in all, are:
+= -- 10383
+> -- 728
+< -- 4408
++ -- 4328
+- -- 96
+* -- 5681
+:= -- 16241
+add.period$ -- 178
+call.type$ -- 41
+change.case$ -- 742
 chr.to.int$ -- 0
-cite$ -- 39
-duplicate$ -- 1000
-empty$ -- 1517
-format.name$ -- 564
-if$ -- 7441
+cite$ -- 83
+duplicate$ -- 2150
+empty$ -- 3262
+format.name$ -- 1196
+if$ -- 15916
 int.to.chr$ -- 0
-int.to.str$ -- 57
+int.to.str$ -- 123
 missing$ -- 0
-newline$ -- 536
-num.names$ -- 152
-pop$ -- 685
+newline$ -- 1127
+num.names$ -- 328
+pop$ -- 1614
 preamble$ -- 1
-purify$ -- 100
+purify$ -- 219
 quote$ -- 0
-skip$ -- 2434
+skip$ -- 5187
 stack$ -- 0
-substring$ -- 2257
-swap$ -- 599
-text.length$ -- 85
+substring$ -- 4677
+swap$ -- 1237
+text.length$ -- 182
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 1712
+type$ -- 3800
 warning$ -- 1
-while$ -- 215
+while$ -- 455
 width$ -- 0
-write$ -- 673
-(There was 1 error message)
+write$ -- 1407
+(There were 2 error messages)

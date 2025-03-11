@@ -1,6 +1,41 @@
 \begin{thebibliography}{}
 
 \bibitem [\protect \citeauthoryear {%
+Abecker%
+, Bernardi%
+, Maus%
+, Sintek%
+\BCBL {}\ \BBA {} Wenzel%
+}{%
+Abecker%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2000}}%
+}]{%
+abecker2000}
+\APACinsertmetastar {%
+abecker2000}%
+\begin{APACrefauthors}%
+Abecker, A.%
+, Bernardi, A.%
+, Maus, H.%
+, Sintek, M.%
+\BCBL {}\ \BBA {} Wenzel, C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2000}{10}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Information Supply for Business Processes: Coupling
+  Workflow with Document Analysis and Information Retrieval.} {Information
+  supply for business processes: Coupling workflow with document analysis and
+  information retrieval.}{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Knowledge-Based Systems}{13}{}{271-284}.
+\newblock
+\begin{APACrefDOI} \doi{10.1016/S0950-7051(00)00087-3} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Adams%
 , Edmond%
 \BCBL {}\ \BBA {} Ter%
@@ -55,6 +90,45 @@ Aguirre, S.%
 \BIn{} (\BPG~65-71).
 \newblock
 \begin{APACrefDOI} \doi{10.1007/978-3-319-66963-2_7} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Akkermans%
+, Bogerd%
+, Yücesan%
+\BCBL {}\ \BBA {} {van Wassenhove}%
+}{%
+Akkermans%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2003}}%
+}]{%
+akkermans2003}
+\APACinsertmetastar {%
+akkermans2003}%
+\begin{APACrefauthors}%
+Akkermans, H\BPBI A.%
+, Bogerd, P.%
+, Yücesan, E.%
+\BCBL {}\ \BBA {} {van Wassenhove}, L\BPBI N.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2003}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The impact of ERP on supply chain management:
+  Exploratory findings from a European Delphi study} {The impact of erp on
+  supply chain management: Exploratory findings from a european delphi
+  study}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{European Journal of Operational
+  Research}{146}{2}{284-301}.
+\newblock
+\begin{APACrefURL}
+  \url{https://www.sciencedirect.com/science/article/pii/S0377221702005507}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{https://doi.org/10.1016/S0377-2217(02)00550-7}
+  \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -125,6 +199,30 @@ Altamimi, I.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Astera%
+}{%
+Astera%
+}{%
+{\protect \APACyear {2024}}%
+}]{%
+astera2024}
+\APACinsertmetastar {%
+astera2024}%
+\begin{APACrefauthors}%
+Astera.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2024}{08}{}.
+\newblock
+\APACrefbtitle {What is workflow automation? A complete guide.} {What is
+  workflow automation? a complete guide.}
+\newblock
+\begin{APACrefURL} \url{https://www.astera.com/type/blog/workflow-automation/}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Austin~Beattie%
 \ \BBA {} Edwards%
 }{%
@@ -155,6 +253,105 @@ Austin~Beattie, A\BPBI P\BPBI E.%
   \end{APACrefURL}
 \newblock
 \begin{APACrefDOI} \doi{10.1080/10510974.2020.1725082} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Aversano%
+, Canfora%
+, Lucia%
+\BCBL {}\ \BBA {} Gallucci%
+}{%
+Aversano%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2002}}%
+}]{%
+aversano2002}
+\APACinsertmetastar {%
+aversano2002}%
+\begin{APACrefauthors}%
+Aversano, L.%
+, Canfora, G.%
+, Lucia, A.%
+\BCBL {}\ \BBA {} Gallucci, P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2002}{07}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Business process reengineering and workflow automation:
+  A technology transfer experience} {Business process reengineering and
+  workflow automation: A technology transfer experience}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Systems and Software}{63}{}{29-44}.
+\newblock
+\begin{APACrefDOI} \doi{10.1016/S0164-1212(01)00128-5} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Awati%
+\ \BBA {} Fitzgibbons%
+}{%
+Awati%
+\ \BBA {} Fitzgibbons%
+}{%
+{\protect \APACyear {2024}}%
+}]{%
+awati2024}
+\APACinsertmetastar {%
+awati2024}%
+\begin{APACrefauthors}%
+Awati, R.%
+\BCBT {}\ \BBA {} Fitzgibbons, L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2024}{03}{}.
+\newblock
+\APACrefbtitle {What is HR automation? examples, benefits and challenges:
+  Definition from TechTarget.} {What is hr automation? examples, benefits and
+  challenges: Definition from techtarget.}
+\newblock
+\begin{APACrefURL}
+  \url{https://www.techtarget.com/searchhrsoftware/definition/HR-automation}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Bakouan%
+, Kamagate%
+, Kone%
+, Oumtanaga%
+\BCBL {}\ \BBA {} Babri%
+}{%
+Bakouan%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2018}}%
+}]{%
+bakouan2018}
+\APACinsertmetastar {%
+bakouan2018}%
+\begin{APACrefauthors}%
+Bakouan, M.%
+, Kamagate, B\BPBI H.%
+, Kone, T.%
+, Oumtanaga, S.%
+\BCBL {}\ \BBA {} Babri, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A Chatbot for Automatic Processing of Learner Concerns
+  in an Online Learning Platform} {A chatbot for automatic processing of
+  learner concerns in an online learning platform}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{International Journal of Advanced Computer Science and
+  Applications}{9}{5}{}.
+\newblock
+\begin{APACrefURL} \url{http://dx.doi.org/10.14569/IJACSA.2018.090521}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.14569/IJACSA.2018.090521} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -191,6 +388,87 @@ Barchard, K\BPBI A.%
 \newblock
 \begin{APACrefDOI} \doi{https://doi.org/10.1016/j.chb.2011.04.004}
   \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Basu%
+\ \BBA {} Kumar%
+}{%
+Basu%
+\ \BBA {} Kumar%
+}{%
+{\protect \APACyear {2002}}%
+}]{%
+basu2002}
+\APACinsertmetastar {%
+basu2002}%
+\begin{APACrefauthors}%
+Basu, A.%
+\BCBT {}\ \BBA {} Kumar, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2002}{03}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Research Commentary: Workflow Management Issues in
+  e-Business} {Research commentary: Workflow management issues in
+  e-business}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Information Systems Research}{13}{}{1-14}.
+\newblock
+\begin{APACrefDOI} \doi{10.1287/isre.13.1.1.94} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{BITCAT}%
+}{%
+{BITCAT}%
+}{%
+{\protect \APACyear {2023}}%
+}]{%
+bitcat2023}
+\APACinsertmetastar {%
+bitcat2023}%
+\begin{APACrefauthors}%
+{BITCAT}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{10}{}.
+\newblock
+\APACrefbtitle {Off-the-Shelf vs. Custom Software: Making the Right Choice for
+  Your Business.} {Off-the-shelf vs. custom software: Making the right choice
+  for your business.}
+\newblock
+\begin{APACrefURL} \url{https://bitcat.dev/off-the-shelf-vs-custom-software/}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Blahušiaková%
+}{%
+Blahušiaková%
+}{%
+{\protect \APACyear {2023}}%
+}]{%
+blahusiakova2023}
+\APACinsertmetastar {%
+blahusiakova2023}%
+\begin{APACrefauthors}%
+Blahušiaková, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{01}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Business process automation: New challenges to
+  increasing the efficiency and competitiveness of companies} {Business process
+  automation: New challenges to increasing the efficiency and competitiveness
+  of companies}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Strategic Management}{28}{}{37-37}.
+\newblock
+\begin{APACrefDOI} \doi{10.5937/StraMan2300038B} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -265,6 +543,59 @@ Fan, X.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+GeeksforGeeks%
+}{%
+GeeksforGeeks%
+}{%
+{\protect \APACyear {2024}}%
+}]{%
+geekforgeeks2024}
+\APACinsertmetastar {%
+geekforgeeks2024}%
+\begin{APACrefauthors}%
+GeeksforGeeks.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2024}{09}{}.
+\newblock
+\APACrefbtitle {Top 7 frameworks for building Chatbots.} {Top 7 frameworks for
+  building chatbots.}
+\newblock
+\begin{APACrefURL}
+  \url{https://www.geeksforgeeks.org/top-frameworks-for-building-chatbots/}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Gupta%
+\ \BBA {} Arora%
+}{%
+Gupta%
+\ \BBA {} Arora%
+}{%
+{\protect \APACyear {2020}}%
+}]{%
+gupta2020}
+\APACinsertmetastar {%
+gupta2020}%
+\begin{APACrefauthors}%
+Gupta, V.%
+\BCBT {}\ \BBA {} Arora, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{01}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Automation in Healthcare Services} {Automation in
+  healthcare services}.{\BBCQ}
+\newblock
+\BIn{} (\BPG~1-19).
+\newblock
+\begin{APACrefDOI} \doi{10.4018/978-1-7998-2101-4.ch001} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Hagberg%
 , Sundström%
 \BCBL {}\ \BBA {} Egels-Zandén%
@@ -289,10 +620,46 @@ Hagberg, J.%
   framework} {The digitalization of retailing: an exploratory
   framework}.{\BBCQ}
 \newblock
-\APACjournalVolNumPages{International Journal of Retail \& Distribution
+\APACjournalVolNumPages{International Journal of Retail & Distribution
   Management}{44}{}{694-712}.
 \newblock
 \begin{APACrefDOI} \doi{10.1108/IJRDM-09-2015-0140} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Hourrane%
+, Ouchra%
+, Eddaoui%
+, Benlahmar%
+\BCBL {}\ \BBA {} Zahour%
+}{%
+Hourrane%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2020}}%
+}]{%
+omaima2020}
+\APACinsertmetastar {%
+omaima2020}%
+\begin{APACrefauthors}%
+Hourrane, O.%
+, Ouchra, H.%
+, Eddaoui, A.%
+, Benlahmar, E\BPBI H.%
+\BCBL {}\ \BBA {} Zahour, O.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{04}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Towards a Chatbot for educational and vocational
+  guidance in Morocco: Chatbot E-Orientation} {Towards a chatbot for
+  educational and vocational guidance in morocco: Chatbot
+  e-orientation}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{International Journal of Advanced Trends in Computer
+  Science and Engineering}{9}{}{2479-2487}.
+\newblock
+\begin{APACrefDOI} \doi{10.30534/ijatcse/2020/237922020} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -353,6 +720,33 @@ Kar, R.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Kimberling%
+}{%
+Kimberling%
+}{%
+{\protect \APACyear {2024}}%
+}]{%
+kimberling2024}
+\APACinsertmetastar {%
+kimberling2024}%
+\begin{APACrefauthors}%
+Kimberling, E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2024}{}{}.
+\newblock
+\APACrefbtitle {The Benefits of ERP for Human Resources Management.} {The
+  benefits of erp for human resources management.}
+\newblock
+\begin{APACrefURL}
+  \url{https://www.thirdstage-consulting.com/erp-for-human-resources-management/}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{Accessed: 2024-11-06}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Madhu~Goel%
 }{%
 Madhu~Goel%
@@ -383,6 +777,39 @@ Madhu~Goel, S\BPBI G.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Manyika%
+\ \protect \BOthers {.}}{%
+Manyika%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2017}}%
+}]{%
+manyika2017}
+\APACinsertmetastar {%
+manyika2017}%
+\begin{APACrefauthors}%
+Manyika, J.%
+, Chui, M.%
+, Miremadi, M.%
+, Bughin, J.%
+, George, K.%
+, Willmott, P.%
+\BCBL {}\ \BBA {} Dewhurst, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{01}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A Future That Works: Automation, Employment, and
+  Productivity} {A future that works: Automation, employment, and
+  productivity}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {McKinsey Global Institute Report.} {Mckinsey global
+  institute report.}
+\newblock
+\APACaddressPublisher{}{McKinsey \& Company}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 McQuilken%
 }{%
 McQuilken%
@@ -403,6 +830,38 @@ McQuilken, T.%
   is the future of print workflows}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Editor \& Publisher}{}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Nawaz%
+\ \BBA {} Gomes%
+}{%
+Nawaz%
+\ \BBA {} Gomes%
+}{%
+{\protect \APACyear {2019}}%
+}]{%
+nawaz2019}
+\APACinsertmetastar {%
+nawaz2019}%
+\begin{APACrefauthors}%
+Nawaz, N.%
+\BCBT {}\ \BBA {} Gomes, A\BPBI M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2019}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Artificial Intelligence Chatbots are New Recruiters}
+  {Artificial intelligence chatbots are new recruiters}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{International Journal of Advanced Computer Science and
+  Applications}{10}{9}{}.
+\newblock
+\begin{APACrefURL} \url{http://dx.doi.org/10.14569/IJACSA.2019.0100901}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.14569/IJACSA.2019.0100901} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -434,6 +893,39 @@ Nuruzzaman, M.%
   engineering (icebe)}\ (\BPG~54-61).
 \newblock
 \begin{APACrefDOI} \doi{10.1109/ICEBE.2018.00019} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Pakdil%
+\ \protect \BOthers {.}}{%
+Pakdil%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2009}}%
+}]{%
+pakdil2009}
+\APACinsertmetastar {%
+pakdil2009}%
+\begin{APACrefauthors}%
+Pakdil, F.%
+, Özkök, O.%
+, Dengiz, B.%
+, Kara, I.%
+, Selvi, N.%
+\BCBL {}\ \BBA {} Kargı, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2009}{01}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A systematic approach to reduce human and system-related
+  errors causing customer dissatisfaction in a production environment} {A
+  systematic approach to reduce human and system-related errors causing
+  customer dissatisfaction in a production environment}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Total Quality Management & Business Excellence - TOTAL
+  QUAL MANAG BUS EXCELL}{20}{}{129-137}.
+\newblock
+\begin{APACrefDOI} \doi{10.1080/14783360802351728} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -486,7 +978,7 @@ Prasad, D.%
 \newblock
 {\BBOQ}\APACrefatitle {Understanding the Differences between Proprietary & Free
   and Open Source Software} {Understanding the differences between proprietary
-  \& free and open source software}.{\BBCQ}
+  & free and open source software}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{International Journal of Engineering Research and
   Applications (IJERA)}{3}{}{}.
@@ -526,6 +1018,171 @@ Rese, A.%
 \newblock
 \begin{APACrefDOI} \doi{https://doi.org/10.1016/j.jretconser.2020.102176}
   \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Sarker%
+\ \BBA {} Lee%
+}{%
+Sarker%
+\ \BBA {} Lee%
+}{%
+{\protect \APACyear {2003}}%
+}]{%
+sarker2003}
+\APACinsertmetastar {%
+sarker2003}%
+\begin{APACrefauthors}%
+Sarker, S.%
+\BCBT {}\ \BBA {} Lee, A\BPBI S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2003}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Using a case study to test the role of three key social
+  enablers in ERP implementation} {Using a case study to test the role of three
+  key social enablers in erp implementation}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Information & Management}{40}{8}{813-829}.
+\newblock
+\begin{APACrefURL}
+  \url{https://www.sciencedirect.com/science/article/pii/S0378720602001039}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{https://doi.org/10.1016/S0378-7206(02)00103-9}
+  \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Scott%
+\ \BBA {} Vessey%
+}{%
+Scott%
+\ \BBA {} Vessey%
+}{%
+{\protect \APACyear {2000}}%
+}]{%
+scott2000}
+\APACinsertmetastar {%
+scott2000}%
+\begin{APACrefauthors}%
+Scott, J.%
+\BCBT {}\ \BBA {} Vessey, I.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2000}{08}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Implementing Enterprise Resource Planning Systems: The
+  Role of Learning from Failure} {Implementing enterprise resource planning
+  systems: The role of learning from failure}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Information Systems Frontiers}{2}{}{213-232}.
+\newblock
+\begin{APACrefDOI} \doi{10.1023/A:1026504325010} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+ServiceNow%
+}{%
+ServiceNow%
+}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+servicenow}
+\APACinsertmetastar {%
+servicenow}%
+\begin{APACrefauthors}%
+ServiceNow.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\APACrefbtitle {What is workflow automation?} {What is workflow automation?}
+\newblock
+\begin{APACrefURL}
+  \url{https://www.servicenow.com/now-platform/what-is-workflow-automation.html#what-is-process-automation}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Thomas%
+}{%
+Thomas%
+}{%
+{\protect \APACyear {2024}}%
+}]{%
+thomas2024}
+\APACinsertmetastar {%
+thomas2024}%
+\begin{APACrefauthors}%
+Thomas, B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2024}.
+\newblock
+\APACrefbtitle {Business process automation: The ultimate guide.} {Business
+  process automation: The ultimate guide.}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Van~den Broeck%
+, Carpini%
+\BCBL {}\ \BBA {} Diefendorff³%
+}{%
+Van~den Broeck%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2019}}%
+}]{%
+broeck2019}
+\APACinsertmetastar {%
+broeck2019}%
+\begin{APACrefauthors}%
+Van~den Broeck, A.%
+, Carpini, J.%
+\BCBL {}\ \BBA {} Diefendorff³, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2019}{08}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Work Motivation: Where Do the Different Perspectives
+  Lead Us?} {Work motivation: Where do the different perspectives lead
+  us?}{\BBCQ}
+\newblock
+\BIn{} (\BPG~354-372).
+\newblock
+\begin{APACrefDOI} \doi{10.1093/oxfordhb/9780190666453.013.27} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Winarko%
+}{%
+Winarko%
+}{%
+{\protect \APACyear {2021}}%
+}]{%
+winarko2021}
+\APACinsertmetastar {%
+winarko2021}%
+\begin{APACrefauthors}%
+Winarko, H.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{11}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The Digital Payment Service Automation Attributes Model:
+  Empirical Evidence of Railway Public Transport} {The digital payment service
+  automation attributes model: Empirical evidence of railway public
+  transport}.{\BBCQ}
+\newblock
+\BIn{} (\BPG~138-152).
+\newblock
+\begin{APACrefDOI} \doi{10.4018/978-1-7998-8524-5.ch008} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
