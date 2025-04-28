@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.9.1)  28 APR 2025 12:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.9.1)  28 APR 2025 12:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -305,7 +305,9 @@ File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 LaTeX Warning: Unused global option(s):
     [onepage].
 
-No file main.aux.
+(main.aux (title_page.aux) (abstract.aux) (chapter_1.aux) (chapter_2.aux)
+(chapter_3.aux) (chapter_4.aux) (chapter_5.aux) (appendix_A.aux)
+(appendix_B.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
@@ -322,6 +324,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
 LaTeX Font Info:    ... okay on input line 6.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
 LaTeX Font Info:    ... okay on input line 6.
+
 (C:\Users\ASUS\AppData\Local\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count294
@@ -390,51 +393,36 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 
-])
-No file main.toc.
-\tf@toc=\write3
-\openout3 = `main.toc'.
-
+]) (main.toc
 [2
 
 
 
-]
-No file main.lof.
+] [3] [4])
+\tf@toc=\write3
+\openout3 = `main.toc'.
+
+ [5] (main.lof [6
+
+])
 \tf@lof=\write4
 \openout4 = `main.lof'.
 
-[3
-
-]
-No file main.lot.
+ [7] (main.lot)
 \tf@lot=\write5
 \openout5 = `main.lot'.
 
-[4
+ [8
 
 ]
 \openout2 = `chapter_1.aux'.
 
  (chapter_1.tex
 Chapter 1.
-
-LaTeX Warning: Citation `ibm' undefined on input line 12.
-
-
-LaTeX Warning: Citation `caban2021' undefined on input line 12.
-
-
-LaTeX Warning: Citation `bitcat2023' undefined on input line 14.
-
 [1
 
 
-]
-
-LaTeX Warning: Citation `manyika2017' undefined on input line 20.
-
-[2] [3] [4]
+] [2] [3] [4]
 Underfull \hbox (badness 10000) in paragraph at lines 71--72
 
  []
@@ -464,101 +452,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 87--89
 
  (chapter_2.tex
 Chapter 2.
-
-LaTeX Warning: Citation `barchard2011' undefined on input line 9.
-
 [6
 
 
 
 
-]
-
-LaTeX Warning: Citation `winarko2021' undefined on input line 19.
-
-
-LaTeX Warning: Citation `astera2024' undefined on input line 19.
-
-
-LaTeX Warning: Citation `thomas2024' undefined on input line 19.
-
-
-LaTeX Warning: Citation `abecker2000' undefined on input line 21.
-
-
-LaTeX Warning: Citation `aversano2002' undefined on input line 21.
-
-
-LaTeX Warning: Citation `pakdil2009' undefined on input line 21.
-
-
-LaTeX Warning: Citation `basu2002' undefined on input line 21.
-
-[7]
-
-LaTeX Warning: Citation `servicenow' undefined on input line 23.
-
-
-LaTeX Warning: Citation `awati2024' undefined on input line 25.
-
-
-LaTeX Warning: Citation `aguirre2017' undefined on input line 29.
-
-
-LaTeX Warning: Citation `mcquilken2014' undefined on input line 29.
-
-
-LaTeX Warning: Citation `choudhary2024' undefined on input line 31.
-
-
-LaTeX Warning: Citation `gupta2020' undefined on input line 31.
-
-[8]
-
-LaTeX Warning: Citation `blahusiakova2023' undefined on input line 37.
-
-
-LaTeX Warning: Citation `kimberling2024' undefined on input line 37.
-
-
-LaTeX Warning: Citation `aleixo2010' undefined on input line 43.
-
-
-LaTeX Warning: Citation `akkermans2003' undefined on input line 45.
-
-[9]
-
-LaTeX Warning: Citation `goel2012' undefined on input line 47.
-
-
-LaTeX Warning: Citation `prasad2013' undefined on input line 47.
-
-
-LaTeX Warning: Citation `adams2011' undefined on input line 47.
-
-
-LaTeX Warning: Citation `sarker2003' undefined on input line 47.
-
-
-LaTeX Warning: Citation `scott2000' undefined on input line 47.
-
-
-LaTeX Warning: Citation `rese2020' undefined on input line 54.
-
-
-LaTeX Warning: Citation `beattie2020' undefined on input line 54.
-
-
-LaTeX Warning: Citation `Naruzzaman' undefined on input line 54.
-
-
-LaTeX Warning: Citation `Kar2016' undefined on input line 56.
-
-
-LaTeX Warning: Reference `Tab: chatbot_comparison' on page 10 undefined on inpu
-t line 58.
-
-[10]
+] [7] [8] [9] [10]
 Underfull \hbox (badness 10000) in paragraph at lines 66--66
 []\OT1/cmr/bx/n/12 Conversation
  []
@@ -574,41 +473,12 @@ Underfull \hbox (badness 3039) in paragraph at lines 103--104
  []
 
 
-LaTeX Warning: Citation `hagberg2016' undefined on input line 117.
+Overfull \hbox (27.6443pt too wide) in paragraph at lines 119--120
+\OT1/cmr/m/n/12 quently asked ques-tions re-gard-ing ad-mis-sions, stu-dent aid
+, and tu-ition costs []PennState,
+ []
 
-
-LaTeX Warning: Citation `zarouali2018' undefined on input line 117.
-
-
-LaTeX Warning: Citation `nawaz2019' undefined on input line 117.
-
-
-LaTeX Warning: Citation `bakouan2018' undefined on input line 117.
-
-
-LaTeX Warning: Citation `broeck2019' undefined on input line 117.
-
-
-LaTeX Warning: Citation `Pennstate' undefined on input line 119.
-
-
-LaTeX Warning: Citation `altamimi2023' undefined on input line 119.
-
-
-LaTeX Warning: Citation `fan2021' undefined on input line 119.
-
-
-LaTeX Warning: Citation `geekforgeeks2024' undefined on input line 123.
-
-[11]
-
-LaTeX Warning: Citation `omaima2020' undefined on input line 125.
-
-
-LaTeX Warning: Reference `Tab: framework_comparison' on page 12 undefined on in
-put line 125.
-
-[12]
+[11] [12]
 Overfull \hbox (1.69867pt too wide) in paragraph at lines 135--136
 []\OT1/cmr/bx/n/12 Paid/Free| 
  []
@@ -649,14 +519,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 177--178
  (chapter_3.tex
 Chapter 3.
 
-LaTeX Warning: Reference `fig:agile' on page 14 undefined on input line 13.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
  []
 
-<figures/agile methodology.png, id=63, 941.5175pt x 242.9075pt>
+<figures/agile methodology.png, id=76, 941.5175pt x 242.9075pt>
 File: figures/agile methodology.png Graphic file (type png)
 <use figures/agile methodology.png>
 Package pdftex.def Info: figures/agile methodology.png  used on input line 17.
@@ -675,6 +542,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 38--39
  []
 
 [15 <./figures/agile methodology.png>]
+Overfull \hbox (0.11365pt too wide) in paragraph at lines 44--45
+[]\OT1/cmr/m/n/12 Since the de-vel-op-ers fol-lowed the Ag-ile method-ol-ogy, t
+he im-ple-men-ta-tion phase
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 44--45
 
  []
@@ -684,18 +557,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 55--56
 
  []
 
-[16]
-
-LaTeX Warning: Reference `fig:rasa_architecture' on page 17 undefined on input 
-line 68.
-
-[17]
-<figures/RASA_architecture.png, id=79, 1312.905pt x 804.00375pt>
+[16] [17]
+<figures/RASA_architecture.png, id=92, 1312.905pt x 804.00375pt>
 File: figures/RASA_architecture.png Graphic file (type png)
 <use figures/RASA_architecture.png>
 Package pdftex.def Info: figures/RASA_architecture.png  used on input line 76.
 (pdftex.def)             Requested size: 415.55249pt x 254.47707pt.
  [18 <./figures/RASA_architecture.png (PNG copy)>] [19] [20]
+Overfull \hbox (10.75096pt too wide) in paragraph at lines 152--153
+[]\OT1/cmr/m/n/12 These tech-nolo-gies were used for front-end de-vel-op-ment o
+f the sys-tem. HTML5
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 152--153
 
  []
@@ -720,12 +594,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 168--169
 
  []
 
-
-Overfull \hbox (1.12236pt too wide) in paragraph at lines 172--173
-[]\OT1/cmr/m/n/12 GitHub will be used to fa-cil-i-tate for ver-sion con-trol an
-d col-lab-o-ra-tion though-
- []
-
 ) [22]
 \openout2 = `chapter_4.aux'.
 
@@ -737,57 +605,33 @@ Chapter 4.
 
 
 ] [24] [25]
-
-LaTeX Warning: Reference `fig:process_flow' on page 26 undefined on input line 
-72.
-
-<figures/process_flow.jpg, id=105, 2458.68562pt x 821.31844pt>
+<figures/process_flow.jpg, id=118, 2458.68562pt x 821.31844pt>
 File: figures/process_flow.jpg Graphic file (type jpg)
 <use figures/process_flow.jpg>
 Package pdftex.def Info: figures/process_flow.jpg  used on input line 76.
 (pdftex.def)             Requested size: 415.55249pt x 138.80768pt.
-[26 <./figures/process_flow.jpg>]
-
-LaTeX Warning: Reference `fig:context_model' on page 27 undefined on input line
- 85.
-
-<figures/context model.png, id=111, 1750.54pt x 1126.2075pt>
+ [26 <./figures/process_flow.jpg>]
+<figures/context model.png, id=123, 1750.54pt x 1126.2075pt>
 File: figures/context model.png Graphic file (type png)
 <use figures/context model.png>
 Package pdftex.def Info: figures/context model.png  used on input line 99.
 (pdftex.def)             Requested size: 415.55249pt x 267.33958pt.
 
+
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[27]
-
-LaTeX Warning: Reference `fig:use_case_client' on page 28 undefined on input li
-ne 108.
-
-
-LaTeX Warning: Reference `fig:use_case_admin' on page 28 undefined on input lin
-e 108.
-
-
-LaTeX Warning: Reference `fig:use_case_director' on page 28 undefined on input 
-line 108.
-
-
-LaTeX Warning: Reference `fig:use_case_staff' on page 28 undefined on input lin
-e 108.
-
-[28 <./figures/context model.png>]
-<figures/use_case_client.jpg, id=118, 604.2575pt x 885.3075pt>
+[27] [28 <./figures/context model.png>]
+<figures/use_case_client.jpg, id=131, 604.2575pt x 885.3075pt>
 File: figures/use_case_client.jpg Graphic file (type jpg)
 <use figures/use_case_client.jpg>
 Package pdftex.def Info: figures/use_case_client.jpg  used on input line 116.
 (pdftex.def)             Requested size: 124.667pt x 182.65096pt.
-<figures/use_case_admin.jpg, id=119, 636.3775pt x 883.3pt>
+<figures/use_case_admin.jpg, id=132, 636.3775pt x 883.3pt>
 File: figures/use_case_admin.jpg Graphic file (type jpg)
 <use figures/use_case_admin.jpg>
 Package pdftex.def Info: figures/use_case_admin.jpg  used on input line 123.
 (pdftex.def)             Requested size: 132.97983pt x 184.56848pt.
-<figures/use_case_director.jpg, id=120, 622.325pt x 885.3075pt>
+<figures/use_case_director.jpg, id=133, 622.325pt x 885.3075pt>
 File: figures/use_case_director.jpg Graphic file (type jpg)
 <use figures/use_case_director.jpg>
 Package pdftex.def Info: figures/use_case_director.jpg  used on input line 132.
@@ -798,44 +642,31 @@ Underfull \hbox (badness 1077) in paragraph at lines 133--133
 []\OT1/cmr/m/n/12 Figure 4.5: Use Case
  []
 
-<figures/use_case_staff.jpg, id=121, 624.3325pt x 885.3075pt>
+<figures/use_case_staff.jpg, id=134, 624.3325pt x 885.3075pt>
 File: figures/use_case_staff.jpg Graphic file (type jpg)
 <use figures/use_case_staff.jpg>
 Package pdftex.def Info: figures/use_case_staff.jpg  used on input line 139.
 (pdftex.def)             Requested size: 124.667pt x 176.77467pt.
 [29 <./figures/use_case_client.jpg> <./figures/use_case_admin.jpg> <./figures/u
 se_case_director.jpg> <./figures/use_case_staff.jpg>]
-
-LaTeX Warning: Reference `fig:data_flow' on page 30 undefined on input line 149
-.
-
-<figures/data_flow.jpg, id=125, 2625.81pt x 1525.7pt>
+<figures/data_flow.jpg, id=138, 2625.81pt x 1525.7pt>
 File: figures/data_flow.jpg Graphic file (type jpg)
 <use figures/data_flow.jpg>
 Package pdftex.def Info: figures/data_flow.jpg  used on input line 153.
 (pdftex.def)             Requested size: 415.55249pt x 241.43976pt.
-
-LaTeX Warning: Reference `fig:database' on page 30 undefined on input line 160.
-
-
-[30 <./figures/data_flow.jpg>]
-<figures/database.png, id=129, 1114.1625pt x 842.39719pt>
+ [30 <./figures/data_flow.jpg>]
+<figures/database.png, id=142, 1114.1625pt x 842.39719pt>
 File: figures/database.png Graphic file (type png)
 <use figures/database.png>
 Package pdftex.def Info: figures/database.png  used on input line 170.
 (pdftex.def)             Requested size: 415.55249pt x 314.1886pt.
  [31 <./figures/database.png>] [32]
-
-LaTeX Warning: Reference `fig:chatbot_flow' on page 33 undefined on input line 
-189.
-
-
-Overfull \hbox (3.83044pt too wide) in paragraph at lines 189--190
-[]\OT1/cmr/m/n/12 Figure [] il-lus-trates the con-ver-sa-tion flow for TUKIB's 
-chat-bot, named LIRA|
+Overfull \hbox (6.09418pt too wide) in paragraph at lines 189--190
+[]\OT1/cmr/m/n/12 Figure 4.9[] il-lus-trates the con-ver-sa-tion flow for TUKIB
+'s chat-bot, named LIRA|
  []
 
-<figures/chatbot_flow.png, id=138, 697.60625pt x 1025.8325pt>
+<figures/chatbot_flow.png, id=150, 697.60625pt x 1025.8325pt>
 File: figures/chatbot_flow.png Graphic file (type png)
 <use figures/chatbot_flow.png>
 Package pdftex.def Info: figures/chatbot_flow.png  used on input line 193.
@@ -865,79 +696,72 @@ Underfull \hbox (badness 10000) in paragraph at lines 221--222
 
  []
 
-[34]
-
-LaTeX Warning: Reference `fig:landing' on page 35 undefined on input line 238.
-
-[35]
-<figures/landing.png, id=149, 1444.64719pt x 857.45343pt>
+[34] [35]
+<figures/landing.png, id=162, 1593.955pt x 1042.89626pt>
 File: figures/landing.png Graphic file (type png)
 <use figures/landing.png>
 Package pdftex.def Info: figures/landing.png  used on input line 244.
-(pdftex.def)             Requested size: 332.44325pt x 197.3148pt.
-
-
-LaTeX Warning: Reference `fig:login' on page 36 undefined on input line 251.
-
-[36 <./figures/landing.png>]
-<figures/login.png, id=154, 1444.64719pt x 858.95906pt>
+(pdftex.def)             Requested size: 332.44325pt x 217.50291pt.
+ [36 <./figures/landing.png>]
+<figures/login.png, id=167, 1195.46625pt x 806.26219pt>
 File: figures/login.png Graphic file (type png)
 <use figures/login.png>
 Package pdftex.def Info: figures/login.png  used on input line 257.
-(pdftex.def)             Requested size: 332.44325pt x 197.66129pt.
-<figures/login_googlesso.png, id=155, 1444.64719pt x 858.95906pt>
+(pdftex.def)             Requested size: 332.44325pt x 224.21405pt.
+<figures/login_googlesso.png, id=168, 1444.64719pt x 858.95906pt>
 File: figures/login_googlesso.png Graphic file (type png)
 <use figures/login_googlesso.png>
 Package pdftex.def Info: figures/login_googlesso.png  used on input line 264.
 (pdftex.def)             Requested size: 332.44325pt x 197.66129pt.
 
 
-LaTeX Warning: Reference `fig:staff_dashboard' on page 37 undefined on input li
-ne 271.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-LaTeX Warning: Reference `fig:client_dashboard' on page 37 undefined on input l
-ine 271.
-
-[37 <./figures/login.png (PNG copy)> <./figures/login_googlesso.png (PNG copy)>
-]
-<figures/staff_dashboard.png, id=159, 1444.64719pt x 855.94781pt>
+<figures/staff_dashboard.png, id=169, 1444.64719pt x 855.94781pt>
 File: figures/staff_dashboard.png Graphic file (type png)
 <use figures/staff_dashboard.png>
 Package pdftex.def Info: figures/staff_dashboard.png  used on input line 277.
 (pdftex.def)             Requested size: 332.44325pt x 196.96834pt.
-<figures/client_dashboard.png, id=160, 1444.64719pt x 855.94781pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<figures/client_dashboard.png, id=170, 1444.64719pt x 855.94781pt>
 File: figures/client_dashboard.png Graphic file (type png)
 <use figures/client_dashboard.png>
 Package pdftex.def Info: figures/client_dashboard.png  used on input line 284.
 (pdftex.def)             Requested size: 332.44325pt x 196.96834pt.
- [38 <./figures/staff_dashboard.png> <./figures/client_dashboard.png>]
 
-LaTeX Warning: Reference `fig:service_page' on page 39 undefined on input line 
-293.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/service_page.png, id=167, 1444.64719pt x 856.70062pt>
+[37 <./figures/login.png>]
+<figures/service_page.png, id=175, 1444.64719pt x 856.70062pt>
 File: figures/service_page.png Graphic file (type png)
 <use figures/service_page.png>
 Package pdftex.def Info: figures/service_page.png  used on input line 297.
 (pdftex.def)             Requested size: 332.44325pt x 197.14157pt.
-) [39 <./figures/service_page.png>]
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [38 <./figures/login_googlesso.png (PNG copy)>] [39 <./figures/staff_dashboar
+d.png> <./figures/client_dashboard.png>] [40 <./figures/service_page.png>]
 \openout2 = `chapter_5.aux'.
 
- (chapter_5.tex
+
+(chapter_5.tex
 Chapter 5.
-[40
+[41
 
 
 
 
-] [41]
+] [42]
 Overfull \hbox (1.66402pt too wide) in paragraph at lines 33--34
 \OT1/cmr/m/n/12 Recognizing the dif-fer-ent needs of in-di-vid-ual re-searchers
  and col-lab-o-ra-tive projects,
  []
 
-[42] [43] [44]) [45] (main.bbl [46
+[43] [44] [45]) [46] (main.bbl [47
 
 
 
@@ -965,7 +789,7 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[47]
+[48]
 ! Misplaced alignment tab character &.
 <argument> Total Quality Management &
                                       Business Excellence - TOTAL QUAL MANAG...
@@ -996,7 +820,7 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[48]
+[49]
 ! Misplaced alignment tab character &.
 <argument> Information &
                          Management
@@ -1021,17 +845,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 1097--1109
  [] -is [] -workflow []
  []
 
-) [49]
+) [50]
 \openout2 = `appendix_A.aux'.
 
  (appendix_A.tex
 Appendix A.
-<figures/news_page.png, id=205, 1444.64719pt x 857.45343pt>
+<figures/news_page.png, id=222, 1444.64719pt x 857.45343pt>
 File: figures/news_page.png Graphic file (type png)
 <use figures/news_page.png>
 Package pdftex.def Info: figures/news_page.png  used on input line 14.
 (pdftex.def)             Requested size: 415.55249pt x 246.64023pt.
-<figures/about_page.png, id=206, 1444.64719pt x 856.70062pt>
+<figures/about_page.png, id=223, 1444.64719pt x 856.70062pt>
 File: figures/about_page.png Graphic file (type png)
 <use figures/about_page.png>
 Package pdftex.def Info: figures/about_page.png  used on input line 21.
@@ -1039,11 +863,11 @@ Package pdftex.def Info: figures/about_page.png  used on input line 21.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[50
+[51
 
 
  <./figures/news_page.png>]
-<figures/lira.png, id=212, 874.01532pt x 457.71pt>
+<figures/lira.png, id=228, 874.01532pt x 457.71pt>
 File: figures/lira.png Graphic file (type png)
 <use figures/lira.png>
 Package pdftex.def Info: figures/lira.png  used on input line 30.
@@ -1052,7 +876,7 @@ Package pdftex.def Info: figures/lira.png  used on input line 30.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/code-snippet-nlu.png, id=213, 1204.5pt x 751.30687pt>
+<figures/code-snippet-nlu.png, id=229, 1204.5pt x 751.30687pt>
 File: figures/code-snippet-nlu.png Graphic file (type png)
 <use figures/code-snippet-nlu.png>
 Package pdftex.def Info: figures/code-snippet-nlu.png  used on input line 39.
@@ -1060,7 +884,7 @@ Package pdftex.def Info: figures/code-snippet-nlu.png  used on input line 39.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/code-snippet-rules.png, id=214, 1206.75844pt x 753.5653pt>
+<figures/code-snippet-rules.png, id=230, 1206.75844pt x 753.5653pt>
 File: figures/code-snippet-rules.png Graphic file (type png)
 <use figures/code-snippet-rules.png>
 Package pdftex.def Info: figures/code-snippet-rules.png  used on input line 45.
@@ -1069,7 +893,7 @@ Package pdftex.def Info: figures/code-snippet-rules.png  used on input line 45.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [51 <./figures/about_page.png> <./figures/lira.png>] [52 <./figures/code-snip
+) [52 <./figures/about_page.png> <./figures/lira.png>] [53 <./figures/code-snip
 pet-nlu.png> <./figures/code-snippet-rules.png>]
 \openout2 = `appendix_B.aux'.
 
@@ -1080,7 +904,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--33
 
  []
 
-[53
+[54
 
 
 
@@ -1092,19 +916,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--33
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 7196 strings out of 474486
- 116868 string characters out of 5748449
+ 7273 strings out of 474486
+ 118359 string characters out of 5748449
  1951542 words of memory out of 5000000
- 29318 multiletter control sequences out of 15000+600000
+ 29369 multiletter control sequences out of 15000+600000
  566292 words of font info for 66 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  79i,12n,84p,1291b,472s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1116,9 +933,9 @@ pfb><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pf
 b><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb
 ><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
 
-Output written on main.pdf (58 pages, 10075846 bytes).
+Output written on main.pdf (63 pages, 9164279 bytes).
 PDF statistics:
- 261 PDF objects out of 1000 (max. 8388607)
+ 278 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  111 words of extra memory for PDF output out of 10000 (max. 10000000)
 
