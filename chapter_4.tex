@@ -1,9 +1,9 @@
 %   Filename    : chapter_4.tex 
-\chapter{Preliminary Results/System Prototype}
-This chapter presents the preliminary results of the study, including findings from data gathering, the system's diagrams and designs, initial user interface (mockup UI) for the front end, and the chatbot's design.
+\chapter{Results and Sytem Features}
+This chapter presents the results of the study, including findings from data collection, along with the system's diagrams, designs, features, and the chatbot's design.
 
 \section{Data Gathering Results}
-The research process for developing TUKIB started with a comprehensive visit to the UPV RRC during the researchers' internship. This phase involved engaging with key personnel and understanding the intricacies of the center's operations. The following sections detail the key activities and information undertaken and gathered during this visit.
+The development process for developing TUKIB started with a comprehensive visit to the UPV RRC during the researchers' internship. This phase involved engaging with key personnel and understanding the intricacies of the center's operations. The following sections detail the key activities and information undertaken and gathered during this visit.
 
 \subsection{Facility Tour}
 During the researcher's visit, they met with the center's director, administrative staff, and laboratory heads. This introduction provided valuable insights into the roles and responsibilities of various individuals and departments within the UPV RRC. Understanding these dynamics was crucial for tailoring the system to fit the center’s workflows.
@@ -229,11 +229,11 @@ The structure of the chatbot is centered around a conversational flow that guide
 \end{itemize}
 
 
-\section{System Development}
+\section{System Features}
 
 \subsection{Main pages}
 
-\noindent\textbf{Landing page}
+\noindent\textbf{Landing Page}
 
 \noindent \figref{fig:landing} showcases the landing page of the website for the system. The page features easy navigation to essential information and pages including home, news and announcements, services, laboratories, and about. A log in button is also included on the top right of the page to ensure that user's can quickly access their accounts. Additionally, the persistent button for the chatbot is found on the bottom left of the page.
 
@@ -246,20 +246,20 @@ The structure of the chatbot is centered around a conversational flow that guide
 	\label{fig:landing}
 \end{figure}
 
-\noindent\textbf{Services page}
+\noindent\textbf{Services Page}
 
 Figure \ref{fig:service_page} shows the services page. Each service has a separate page that includes a description of the service, pricing information, and instructions on how to avail the service. This structure facilitates easier navigation and helps users find the information they need efficiently.
 
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.8\textwidth]{service_page.png}
-	\caption{Service Page}
+	\caption{Services Page}
 	\label{fig:service_page}
 \end{figure}
 
 \newpage
 
-\noindent\textbf{Laboratories page}
+\noindent\textbf{Laboratories Page}
 
 Figure \ref{fig:laboratories_page} shows the laboratories page. This page contains information about the laboratories within the RRC and the available equipment for each lab.
 
@@ -272,26 +272,45 @@ Figure \ref{fig:laboratories_page} shows the laboratories page. This page contai
 
 \newpage
 
+\noindent\textbf{News and Announcements Page}
+
+Figure \ref{fig:news_page} is the 'News and Announcements' page. This page serves as the central hub for all important updates related to the RRC, including news about upcoming events, recent developments, announcements of new equipment or services, and relevant research highlights.
+
+\newpage
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.8\textwidth]{news_page.png}
+	\caption{News Page}
+	\label{fig:news_page}
+\end{figure}
+
+\newpage
+
+\noindent\textbf{About Us Page} 
+
+Figure \ref{fig:about_page} shows the 'About Us' page. This page provides an overview of the RRC (Regional Research Center), detailing background information, its mission, vision, and team. It is designed to give visitors a deeper understanding of the organization and its role in the research community.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.8\textwidth]{about_page.png}
+	\caption{About Page}
+	\label{fig:about_page}
+\end{figure}
+
+\newpage
+
 \subsection{Log in Module}
 
 \noindent \textbf{User authentication}
 
 \noindent All types of users have a pre-made accounts. Staff members automatically have accounts, while clients have their accounts created by the admin staff after their first consultation is approved. On the login page, users need to enter their email address and password. Additionally, Google authentication is available, allowing users to sign in using their Google account for a quicker and more secure login experience. Passwords are hidden by default, but users can click the eye icon in the password field (as shown in \figref{fig:login}) to toggle visibility. After successfully logging in, users will be redirected to their respective dashboards.
 
-\newpage
-
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.80\textwidth]{login.png}
 	\caption{Log in page}
 	\label{fig:login}
-\end{figure}
-
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=0.80\textwidth]{login_googlesso.png}
-	\caption{Log in with Google SSO}
-	\label{fig:login_google}
 \end{figure}
 
 \noindent \textbf{User Dashboards}
@@ -307,6 +326,8 @@ For the client’s user interface, the developers designed a dashboard that show
 	\label{fig:staff_dashboard}
 \end{figure}
 
+\newpage
+
 \begin{figure}[h]
 	\centering 
 	\includegraphics[width=0.8\textwidth]{client_dashboard.png}
@@ -314,6 +335,11 @@ For the client’s user interface, the developers designed a dashboard that show
 	\label{fig:client_dashboard}
 \end{figure}
 
-\newpage
+\subsection{Service Request Module}
+
+On of the core features of TUKIB is the Service Request Module, which allows clients to easily submit service requests. Staff can view, track, and manage all types of requests, updating their statuses and ensuring each request is processed efficiently from request to completion. This module also ensures that all data is centralized, providing a unified view of requests for better coordination among staffs and streamlined workflows. 
 
 
+\subsection{Data Management Module}
+
+Data management module is responsible for handling all the data within the system. This includes information of clients, transaction histories, inventory of equipment, and tracking of facility schedules and availability. This modules ensures that accounts are properly maintained while also allowing the staff to easily keep record of everything that is related to the RRC's service requests. It also streamlines the assignment of resources to users, maintains an up-to-date inventory, and provides a comprehensive view of resources, allowing for efficient allocation and tracking. Moreover, it enables staff and clients alike to view real time availability of equipment and facility, further guaranteeing the smooth and efficient flow of  service requests.
