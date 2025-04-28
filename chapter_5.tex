@@ -1,77 +1,69 @@
 %   Filename    : chapter_5.tex 
-\chapter{Feedback and Suggestions}
-This chapter presents the feedback and suggestions provided by the Regional Research Center (RRC) during the consulation phase of TUKIB. The feedback was instrumental in refining various aspects of the TUKIB system to improve its functionality, user experience, and overall efficiency. Each section of the feedback is discussed in detail, with an overview of the actions taken in response to the suggestions. The chapter concludes with a summary of the changes, a reflection on their impact, and recommendations for the future development of TUKIB.
+\chapter{Findings, Feedback, Conclusions, and Recommendations}
+This chapter presents the findings from the system analysis and design of the TUKIB system, incorporates the valuable feedback and suggestions received during consultations with the UPV Regional Research Center (RRC), and presents the conclusions drawn from this comprehensive process. Finally, it offers recommendations for the future improvement and implementation of TUKIB. This chapter highlights how TUKIB addresses identified operational challenges and outlines directions for its continued development, informed by stakeholder input.
 
-\section{Calendar System: Separation of Equipment and Laboratory}
-One of the suggestions from the RRC was to separate the equipment and laboratory scheduling in the calendar system. In its present form, the system utilizes a single calendar to manage laboratory bookings only. This approach has been observed to cause confusion among users, who find it difficult to distinguish between the two types of reservation.
+\section{Summary of Findings}
+The development of TUKIB was informed by thorough research and design activities, including data gathering, needs assessments, system design, and feedback sessions with key stakeholders at the RRC. The following are the key findings:
 
-The RRC reconmmended to separate the equipment and laboratory scheduling into two distinct calendars since some services won't be using all equipment. This would enable users to easily view, manage, and reserve resources without ambiguity. Clear segmentation would also aid administrators in monitoring and organizing resource usage more effectively.
+\subsection{Service Offerings and Existing Challenges}
+Initial discussions with the RRC revealed a range of vital services offered by the center, including sample processing, laboratory equipment rental, facility rental, and research training. However, the absence of a dedicated management system presented significant operational challenges. The reliance on Google Forms for service requests and manual processing in Google Sheets led to inefficiencies, increased potential for human error, and limitations in data accuracy. Furthermore, clients lacked real-time visibility into equipment and laboratory availability, causing delays and necessitating frequent communication. This manual data management system also posed risks to data integrity and accessibility, particularly for reporting and tracking service utilization.
 
-\section{Layers for Approval and Chargeslip Generation}
-Currently, TUKIB envisions a straightforward approval mechanisms for generating chargeslips. The RRC recommended that the approval process for chargeslip generation should involve three layers: admin staff, User Representative (UR), and director. This layered approach will improve the workflow and ensure that all necessary parties review the chargeslip before it is finalized. By adopting a multilayered approval system, this would adopt the current processing of chargeslips of the RRC. This suggestion highlights the importance of transparency and institutional control in financial transactions within TUKIB.
+\subsection{Stakeholder-Identified Needs}
+Consultations with RRC stakeholders, encompassing laboratory staff and administrators, clearly articulated a set of essential needs for the proposed system. These included a centralized platform to consolidate service information, procedures, and contact details. A digital service request system was strongly desired to minimize errors and expedite processing times. Stakeholders also emphasized the need for features such as a real-time calendar for resource availability and an equipment availability tracker to enhance efficiency. The system required a user account management system with administrative approval for client registration. The ability to differentiate between individual and project accounts was deemed essential to accommodate the diverse needs of clients. Furthermore, a multi-layer approval system for service requests, involving administrative staff, the University Researcher (UR), and the Director, was considered crucial. Lastly, features such as a progress bar to track request status, downloadable results, and improved form designs incorporating dropdown menus and checkboxes were highlighted as important for an enhanced user experience.
 
-\section{Client Account Management: Admin Approval}
-In the current setup, account creation is handled by the administrator which is a tedious work. Also, users who register for an account can proceed to make requests almost immediately after signing up. The RRC expressed concern that this could pose risks related to system security and authenticity of users.
+\subsection{System Prototype and Diagrams}
+To illustrate the functionality of TUKIB, various visual models were developed. These included process flow diagrams, context models, use case diagrams, and a data flow diagram. The proposed system architecture featured a database with interconnected tables designed to efficiently manage accounts, service requests, equipment, laboratories, and other critical data.
 
-The committee suggested to have a sign up page where users can input their required information and client accounts should require administrative approval before being activated. Under this process, clients could still complete the registration form, but their account would remain pending until verified and approved by an administrator. This proposed modification would help ensure that only verified individuals or organizations gain access to RRC services, thereby maintaining the platform’s security, credibility, and quality of user interactions.
+\subsection{Chatbot Integration}
+The integration of a chatbot, named LIRA (Learning, Innovation, and Research Assistant), was planned to provide users with immediate assistance in navigating the platform, answering frequently asked questions, and guiding them through the service request process.
 
-\section{User Categories: Individual and Project Accounts}
-Another important recommendation involved the categorization of user accounts. The RRC observed that the needs and responsibilities of individual users differ from those of research projects or collaborative groups. To address this, it was suggested that TUKIB should allow for two distinct types of accounts: individual accounts for personal requests, and project accounts for larger, collaborative projects involving multiple users and possibly different funding sources. Differentiating account types would allow the system to tailor services, permissions, and billing structures more appropriately according to user needs. This categorization would enhance organizational efficiency.
+\section{Feedback and System Refinements}
+The consultation phase with RRC stakeholders yielded invaluable feedback that directly influenced and refined the design of the TUKIB system. The key suggestions and the corresponding adaptations are detailed below:
 
-\section{Forms: Dropdowns, Checkboxes, and Tooltips}
-The RRC also gave detailed suggestions regarding the structure and usability of the forms within TUKIB. The existing form design, which relied heavily on free-text fields, was seen as prone to user input errors and inconsistency. The suggestions included were the use of dropdown menus to standardize responses and minimize ambiguity, use of checkboxes to allow users to select multiple options easily without needing to type manually, and place tooltips next to fields (especially those that are not dropdowns) to guide users on the expected inputs. Improving form design in these ways would streamline the submission process, enhance the accuracy of data collected, and reduce user confusion.
+\subsection{Separation of Equipment and Laboratory Calendars}
+A significant suggestion was to separate the equipment and laboratory scheduling within the calendar system. The initial design utilized a single calendar for laboratory bookings, which was identified as a source of potential user confusion. In response, the system design was modified to incorporate two distinct calendars, one for equipment and one for laboratories. This separation will enable users to clearly view, manage, and reserve resources without ambiguity, and will aid administrators in more effective resource monitoring and organization.
 
-\section{Progress Bar and Downloadable Tabular Data}
-The RRC also suggested two additional features to enhance the system:
+\subsection{Layers for Approval and Chargeslip Generation}
+The RRC recommended an approval process for chargeslip generation, advocating for a three-layered approach involving administrative staff, the University Researcher (UR), and the Director, instead of a more straightforward mechanism initially envisioned. This multi-layered approval system was adopted to align with the RRC's current practices, enhance workflow transparency, and ensure thorough review of financial transactions within TUKIB.
 
-\begin{itemize}
-	\item Progress Bar: Introduce a visual progress bar to show users the current status of their service requests. This would provide real-time feedback and minimize the need for users to inquire about the status manually.
-	\item Downloadable Tabular Data: Enable users to download a table or spreadsheet version of their service request data. This feature would support personal record-keeping, reporting, and further analysis by the clients themselves.
-\end{itemize}
+\subsection{Client Account Management: Admin Approval}
+Concerns were raised regarding the initial plan where users could make requests almost immediately after self-registration. To enhance system security and ensure the authenticity of users, the RRC suggested implementing an administrative approval step for all new client accounts. Consequently, the system now requires administrators to verify and approve new accounts before they become active, adding a crucial layer of security and control.
 
-Both features are seen as important steps toward making TUKIB more user-centered, transparent, and supportive of research needs.
+\subsection{User Categories: Individual and Project Accounts}
+Recognizing the different needs of individual researchers and collaborative projects, the RRC recommended the categorization of user accounts into individual and project types. This distinction was incorporated into the system design to allow for tailored services, permissions, and billing structures, thereby enhancing organizational efficiency and better accommodating the diverse needs of the RRC clientele.
 
-\section{Summary of Key Feedback and Actions Taken}
-The consultation with the RRC surfaced several key areas where TUKIB can be enhanced to better meet the needs of its users. Their suggestions emphasize improving system clarity, strengthening administrative control, enhancing user verification processes, and creating a more user-friendly and informative interface.
+\subsection{Forms: Dropdowns, Checkboxes, and Tooltips}
+Feedback on the initial form design, which relied heavily on free-text fields, highlighted the potential for user input errors and inconsistencies. In response, the form designs were refined to include dropdown menus for standardized responses, checkboxes for easy selection of multiple options, and tooltips to provide guidance on expected inputs for non-dropdown fields. These improvements aim to streamline the submission process, enhance data accuracy, and reduce user confusion.
 
-While the suggested improvements have yet to be implemented, they provide a clear roadmap for future system development that prioritizes transparency, security, efficiency, and user satisfaction. The following summarizes the key feedback points and the actions taken in response:
+\subsection{Progress Bar for User Transparency}
+To enhance user experience and transparency, the RRC suggested the inclusion of a visual progress bar. This feature was integrated into the system design to provide clients with real-time feedback on the current status of their service requests, minimizing the need for manual inquiries.
 
-\begin{itemize}
-	\item Calendar: Separated equipment and laboratory scheduling to improve resource management.
-	\item Approval Layers: Implemented a three-layered approval process (admin staff, UR, director) for chargeslip generation.
-	\item Client Account Management: Introduced admin approval for client accounts to ensure system security and account sign up.
-	\item User Categories: Differentiated between individual and project accounts for tailored access and permissions.
-	\item Forms: Improved usability with dropdowns, checkboxes, and tooltips to enhance user interaction and reduce errors.
-	\item Other Features: Added a progress bar for tracking request status and a downloadable data feature for exporting information.
-\end{itemize}
+\subsection{Downloadable Tabular Data and Statistical Graphs for RRC Reporting}
+The RRC also emphasized the need for tools to improve their internal reporting capabilities. To this end, the system design includes the functionality for administrative staff to download service request data in a tabular format (e.g., CSV, Excel). This feature will facilitate efficient data analysis, record-keeping, and the generation of comprehensive reports on service utilization.
 
-These actions reflect our commitment to improving the TUKIB system based on expert feedback and ensuring that it meets the needs of its users.
+Furthermore, to provide visual insights into service trends and operational efficiency, the integration of statistical graph generation is planned. This feature will enable RRC staff to create various charts and graphs (e.g., pie charts for service type distribution) directly from the system data. These visual aids will support data-driven decision-making and enhance the presentation of key performance indicators. The tabular data will serve as the foundation for these statistical visualizations.
 
-\section{Conclusion}
-The feedback from the RRC has been essential in shaping the development of TUKIB. Each suggestion has contributed to refining the system, improving its functionality, and enhancing user experience. By addressing issues such as scheduling, approval processes, user management, and form usability, TUKIB is now a more robust, efficient, and user-friendly platform. The addition of features like the progress bar and downloadable data further supports the system’s goals of transparency and user satisfaction.
+\section{Conclusions}
+Based on the findings from the system analysis, design activities, and the valuable feedback received, the following key conclusions can be drawn:
 
-The iterative process of receiving feedback and making improvements has ensured that TUKIB aligns with the expectations of its users while also accommodating technical and practical requirements. The system is now better equipped to serve its intended purpose and provide value to its users.
-
-Moreover, the consultation process done has underscored the importance of maintaining an open line of communication between system developers and stakeholders. Regular feedback sessions will be critical to adapting the system to the evolving needs of researchers and administrative staff. By embracing a user-centered design philosophy, TUKIB is positioned not only to address current challenges but also to scale and adapt for future enhancements.
-
-In conclusion, the integration of RRC’s feedback has significantly strengthened TUKIB’s foundation as a reliable and innovative workflow automation platform. Continued collaboration, attention to user needs, and proactive system improvements will be key to ensuring TUKIB’s long-term success and sustainability within the Regional Research Center and beyond.
+First, the transition to an automated, centralized platform like TUKIB is crucial for modernizing service management at the RRC, significantly improving efficiency and accuracy compared to existing manual processes. Second, the active involvement of stakeholders throughout the design process was instrumental in ensuring that the developed system directly addresses the specific needs and operational context of the RRC staff and clients. Third, the robust and scalable system architecture, incorporating detailed workflows, a multi-layer approval system, real-time calendar management, and chatbot support, demonstrates the capability to meet both current and future needs of the research center. Finally, the successful development and implementation of TUKIB can serve as a valuable model for other research centers seeking to streamline and digitize their service operations.
 
 Moreover, the consultation process done has underscored the importance of maintaining an open line of communication between system developers and stakeholders. Regular feedback sessions will be critical to adapting the system to the evolving needs of researchers and administrative staff. By embracing a user-centered design philosophy, Tukib is positioned not only to address current challenges but also to scale and adapt for future enhancements.
 
 In conclusion, the integration of RRC’s feedback has significantly strengthened Tukib’s foundation as a reliable and innovative workflow automation platform. Continued collaboration, attention to user needs, and proactive system improvements will be key to ensuring Tukib’s long-term success and sustainability within the Regional Research Center and beyond.
 
 \section{Recommendations}
-Based on the feedback and the changes made, the following recommendations for potential enhancements have been identified for the future development of TUKIB:
+Building upon the conclusions and the feedback-driven refinements, the following recommendations are proposed for the continued development and deployment of TUKIB:
 
 
 \begin{itemize}
-	\item \textbf{Calendar.} Separated equipment and laboratory scheduling to improve resource management.
-	\item \textbf{Approval Layers.} Implemented a three-layered approval process (admin staff, UR, director) for chargeslip generation.
-	\item \textbf{Client Account Management.}: Introduced admin approval for client accounts to ensure system security.
-	\item \textbf{User Categories.}: Differentiated between individual and project accounts for tailored access and permissions.
-	\item \textbf{Forms.}: Improved usability with dropdowns, checkboxes, and tooltips to enhance user interaction and reduce errors.
-	\item \textbf{Other Features.}: Added a progress bar for tracking request status and a downloadable data feature for exporting information.
-	\item \textbf{Automated Email Notifications:} Integration of email alerts to notify users and approvers of status changes, such as chargeslip approvals or service request updates.
-	\item \textbf{Enhanced Security Features:} Introduction of multi-factor authentication (MFA) and detailed audit logs to further strengthen user account security and system integrity.
+\item \textbf{Prioritize Core Modules:} During the initial development phase, focus on the implementation of the core modules, including user registration, service request processing, the separated calendar management for equipment and laboratories, the multi-layer approval system for chargeslips and service requests, and the basic chatbot functionalities.
+\item \textbf{Gradual Chatbot Expansion:} The chatbot's knowledge base should be expanded incrementally, starting with a fundamental set of responses and progressively enhanced based on user interactions and frequently asked questions.
+\item \textbf{Comprehensive User Training and Onboarding:} Develop and deliver thorough user onboarding and training programs for both RRC staff and clients to ensure a smooth and effective adoption of the new system.
+\item \textbf{Pre-Deployment Usability Testing:} Conduct rigorous usability testing with representative clients and staff before the full deployment of TUKIB to identify and address any potential usability issues or areas for improvement.
+\item \textbf{Robust Data Security Measures:} Implement comprehensive data security measures, including encryption, strict access controls, and regular data backups, to safeguard sensitive information within the system.
+\item \textbf{Establish a Post-Deployment Feedback Mechanism:} Implement a system for collecting user feedback after deployment to support continuous improvement and identify areas for future enhancements.
+\item \textbf{Plan for Future Scalability:} Design the system with future scalability in mind, allowing for the seamless integration of additional services such as online payments or expanded facility rental options as the needs of the RRC evolve.
+\item \textbf{Automated Email Notifications:} Integrate automated email alerts to keep users and approvers informed about critical status changes, such as chargeslip approvals, service request updates, and reservation confirmations.
+\item \textbf{Enhanced Security Features:} Explore and implement advanced security features such as multi-factor authentication (MFA) and detailed audit logs to further enhance user account security and maintain system integrity.
 \end{itemize}
-
