@@ -45,22 +45,23 @@
 \contentsline {section}{\numberline {4.3}Chatbot}{32}{}%
 \contentsline {section}{\numberline {4.4}System Development}{35}{}%
 \contentsline {subsection}{\numberline {4.4.1}Main pages}{35}{}%
-\contentsline {chapter}{\numberline {5}Findings, Feedback, Conclusions, and Recommendations}{41}{}%
-\contentsline {section}{\numberline {5.1}Summary of Findings}{41}{}%
-\contentsline {subsection}{\numberline {5.1.1}Service Offerings and Existing Challenges}{41}{}%
-\contentsline {subsection}{\numberline {5.1.2}Stakeholder-Identified Needs}{42}{}%
-\contentsline {subsection}{\numberline {5.1.3}System Prototype and Diagrams}{42}{}%
-\contentsline {subsection}{\numberline {5.1.4}Chatbot Integration}{42}{}%
-\contentsline {section}{\numberline {5.2}Feedback and System Refinements}{43}{}%
-\contentsline {subsection}{\numberline {5.2.1}Separation of Equipment and Laboratory Calendars}{43}{}%
-\contentsline {subsection}{\numberline {5.2.2}Layers for Approval and Chargeslip Generation}{43}{}%
-\contentsline {subsection}{\numberline {5.2.3}Client Account Management: Admin Approval}{43}{}%
-\contentsline {subsection}{\numberline {5.2.4}User Categories: Individual and Project Accounts}{44}{}%
-\contentsline {subsection}{\numberline {5.2.5}Forms: Dropdowns, Checkboxes, and Tooltips}{44}{}%
-\contentsline {subsection}{\numberline {5.2.6}Progress Bar for User Transparency}{44}{}%
-\contentsline {subsection}{\numberline {5.2.7}Downloadable Tabular Data and Statistical Graphs for RRC Reporting}{44}{}%
-\contentsline {section}{\numberline {5.3}Conclusions}{45}{}%
-\contentsline {section}{\numberline {5.4}Recommendations}{46}{}%
-\contentsline {chapter}{References}{47}{}%
-\contentsline {chapter}{\numberline {A}Initial Prototype}{51}{}%
-\contentsline {chapter}{\numberline {B}Resource Persons}{54}{}%
+\contentsline {subsection}{\numberline {4.4.2}Log in Module}{38}{}%
+\contentsline {chapter}{\numberline {5}Findings, Feedback, Conclusions, and Recommendations}{42}{}%
+\contentsline {section}{\numberline {5.1}Summary of Findings}{42}{}%
+\contentsline {subsection}{\numberline {5.1.1}Service Offerings and Existing Challenges}{42}{}%
+\contentsline {subsection}{\numberline {5.1.2}Stakeholder-Identified Needs}{43}{}%
+\contentsline {subsection}{\numberline {5.1.3}System Prototype and Diagrams}{43}{}%
+\contentsline {subsection}{\numberline {5.1.4}Chatbot Integration}{43}{}%
+\contentsline {section}{\numberline {5.2}Feedback and System Refinements}{44}{}%
+\contentsline {subsection}{\numberline {5.2.1}Separation of Equipment and Laboratory Calendars}{44}{}%
+\contentsline {subsection}{\numberline {5.2.2}Layers for Approval and Chargeslip Generation}{44}{}%
+\contentsline {subsection}{\numberline {5.2.3}Client Account Management: Admin Approval}{44}{}%
+\contentsline {subsection}{\numberline {5.2.4}User Categories: Individual and Project Accounts}{45}{}%
+\contentsline {subsection}{\numberline {5.2.5}Forms: Dropdowns, Checkboxes, and Tooltips}{45}{}%
+\contentsline {subsection}{\numberline {5.2.6}Progress Bar for User Transparency}{45}{}%
+\contentsline {subsection}{\numberline {5.2.7}Downloadable Tabular Data and Statistical Graphs for RRC Reporting}{45}{}%
+\contentsline {section}{\numberline {5.3}Conclusions}{46}{}%
+\contentsline {section}{\numberline {5.4}Recommendations}{47}{}%
+\contentsline {chapter}{References}{48}{}%
+\contentsline {chapter}{\numberline {A}Initial Prototype}{52}{}%
+\contentsline {chapter}{\numberline {B}Resource Persons}{56}{}%
