@@ -235,7 +235,7 @@ The structure of the chatbot is centered around a conversational flow that guide
 
 \noindent\textbf{Landing Page}
 
-\noindent \figref{fig:landing} showcases the landing page of the website for the system. The page features easy navigation to essential information and pages including home, news and announcements, services, laboratories, and about. A log in button is also included on the top right of the page to ensure that user's can quickly access their accounts. Additionally, the persistent button for the chatbot is found on the bottom left of the page.
+\figref{fig:landing} showcases the landing page of the website for the system. The page features easy navigation to essential information and pages including home, news and announcements, services, laboratories, and about. A log in button is also included on the top right of the page to ensure that user's can quickly access their accounts. Additionally, a persistent button for the chatbot is found on the bottom left of the page. 
 
 \newpage
 
@@ -248,7 +248,7 @@ The structure of the chatbot is centered around a conversational flow that guide
 
 \noindent\textbf{Services Page}
 
-Figure \ref{fig:service_page} shows the services page. Each service has a separate page that includes a description of the service, pricing information, and instructions on how to avail the service. This structure facilitates easier navigation and helps users find the information they need efficiently.
+Figure \ref{fig:service_page} shows the 'Services' page. Each service has a separate page that includes a description of the service, pricing information, and instructions or guide on how to avail the service. This structure facilitates easier navigation and helps users find the information they need efficiently.
 
 \begin{figure}[h]
 	\centering
@@ -261,7 +261,7 @@ Figure \ref{fig:service_page} shows the services page. Each service has a separa
 
 \noindent\textbf{Laboratories Page}
 
-Figure \ref{fig:laboratories_page} shows the laboratories page. This page contains information about the laboratories within the RRC and the available equipment for each lab.
+Figure \ref{fig:laboratories_page} shows the 'Laboratories' page. This page displays information about the laboratories within the UPV-RRC, including the available equipment for each lab. It also provides brief descriptions of each piece of equipment to give clients a better understanding of what is available.
 
 \begin{figure}[h]
 	\centering
@@ -274,7 +274,7 @@ Figure \ref{fig:laboratories_page} shows the laboratories page. This page contai
 
 \noindent\textbf{News and Announcements Page}
 
-Figure \ref{fig:news_page} is the 'News and Announcements' page. This page serves as the central hub for all important updates related to the RRC, including news about upcoming events, recent developments, announcements of new equipment or services, and relevant research highlights.
+Figure \ref{fig:news_page} is the 'News and Announcements' page. This page serves as the central hub for all important updates related to the UPV RRC, including news about upcoming events, recent developments, announcements of new equipment or services, and relevant research highlights.
 
 \newpage
 
@@ -304,7 +304,9 @@ Figure \ref{fig:about_page} shows the 'About Us' page. This page provides an ove
 
 \noindent \textbf{User authentication}
 
-\noindent All types of users have a pre-made accounts. Staff members automatically have accounts, while clients have their accounts created by the admin staff after their first consultation is approved. On the login page, users need to enter their email address and password. Additionally, Google authentication is available, allowing users to sign in using their Google account for a quicker and more secure login experience. Passwords are hidden by default, but users can click the eye icon in the password field (as shown in \figref{fig:login}) to toggle visibility. After successfully logging in, users will be redirected to their respective dashboards.
+Users can create their own accounts. However, by default, these accounts will remain inactive until the Admin Staff approves them after reviewing the user information. For clients, an additional step is required in which they must undergo an initial consultation with the staff. Only after this consultation will their account be permitted to submit a service request. This process ensures that new clients are informed about the proper procedures for requesting a service, as consultation is a necessary step.
+
+On the login page, users need to enter their email address and password. Additionally, Google authentication is available, allowing users to sign in using their Google account for a quicker and more secure login experience. Passwords are hidden by default, but users can click the eye icon in the password field (as shown in \figref{fig:login}) to toggle visibility. After successfully logging in, users will be redirected to their respective dashboards.
 
 \begin{figure}[h]
 	\centering
@@ -315,18 +317,9 @@ Figure \ref{fig:about_page} shows the 'About Us' page. This page provides an ove
 
 \noindent \textbf{User Dashboards}
 
-User dashboard is designed for the needs of two primary user groups of TUKIB who are the staff and clients. Each user group has a different user interface to cater to their specific needs as seen from \figref{fig:staff_dashboard} and \figref{fig:client_dashboard}. 
+User dashboard is designed for the needs of two primary user groups of TUKIB who are the staff and clients. Each user group has a different user interface to cater to their specific needs as seen from \figref{fig:client_dashboard} and \figref{fig:staff_dashboard}.
 
-For the client’s user interface, the developers designed a dashboard that shows the user’s profile, transaction history, and a button to avail a new service. For the staffs’ user interface, a layout was designed specifically for their tasks, featuring information and capabilities necessary for efficient management and oversight. This includes tools for monitoring workflows, accessing reports, and managing user requests.
-
-\begin{figure}[h]
-	\centering 
-	\includegraphics[width=0.8\textwidth]{staff_dashboard.png}
-	\caption{Staff dashboard}
-	\label{fig:staff_dashboard}
-\end{figure}
-
-\newpage
+For the client’s account user interface, the developers designed a dashboard that shows the user’s profile, transaction history, and a button for availing a new service. For staff users, the interface is tailored to their specific responsibilities. For example, University Researchers are shown tools and information relevant to their assigned laboratories, including lab-specific service requests, equipments, and schedules. Admin Staff, on the other hand, have access to a comprehensive dashboard that allows them to oversee all service requests, approve accounts, manage workflows, and generate reports. This role-based design enhances efficiency by presenting only the relevant tools and information needed by each type of user.
 
 \begin{figure}[h]
 	\centering 
@@ -335,10 +328,18 @@ For the client’s user interface, the developers designed a dashboard that show
 	\label{fig:client_dashboard}
 \end{figure}
 
+\newpage
+
+\begin{figure}[h]
+	\centering 
+	\includegraphics[width=0.8\textwidth]{staff_dashboard.png}
+	\caption{Staff dashboard}
+	\label{fig:staff_dashboard}
+\end{figure}
+
 \subsection{Service Request Module}
 
-On of the core features of TUKIB is the Service Request Module, which allows clients to easily submit service requests. Staff can view, track, and manage all types of requests, updating their statuses and ensuring each request is processed efficiently from request to completion. This module also ensures that all data is centralized, providing a unified view of requests for better coordination among staffs and streamlined workflows. 
-
+One of the core features of TUKIB is the Service Request Module, which allows clients and staffs to easily access, monitor, and manage service requests using their respective accounts. Clients are able to submit service requests, track statuses of requests, view results, upload payment receipt, and give feedback to the UPV RRC. On the other hand, staffs are able to approve or reject requests, update request statuses, upload charge slip and result, and view payment receipt from clients. This ensures that each request is processed efficiently from request to completion. Moreover, module guarantees that all data is centralized, providing a unified view of requests for better coordination among staffs and streamlined workflows. 
 
 \subsection{Data Management Module}
 
