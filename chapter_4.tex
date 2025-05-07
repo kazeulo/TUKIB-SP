@@ -229,13 +229,13 @@ Once the requested service is rendered, the \textbf{charge slip} table handles t
 
 \section{Chatbot}
 
-\textbf{Entities and Intents}
+\subsection{Entities and Intents}
 
 From the data gathering phase, the developers were able to identify common user queries and specific service requirements needed for the development of the chatbot. The collected data was used to construct the intents and entities which are essential for the chatbot’s functionality. 
 
 Intents represent the goal the users want to achieve when interacting with the chatbot (e.g., ”start consultation,” ”ask about lab rental procedures,” ”inquire about service status”). The intents are divided into greeting, general, service requests, frequently asked questions, feedback, and end or closing message. On the other hand, entities are specific pieces of information that the chatbot needs to get from the user in order to fulfill a task. For example, the chatbot needs to know the name of the equipment and desired time for renting in order to indicate the equipment's availability. 
 
-\noindent \textbf{Conversation Flow}
+\subsection{Conversation Flow}
 
 \figref{fig:chatbot_flow} illustrates the conversation flow for TUKIB's chatbot, named LIRA— short for Learning, Innovation, and Research Assistant. LIRA will be accessible throughout the entire website, ensuring that all users, whether logged in or not, can obtain support whenever needed. Users can initiate a chat with LIRA via a persistent button that remains visible across the site or by selecting the dedicated “New Service” button found on the user dashboard.
 
@@ -283,7 +283,7 @@ The structure of the chatbot is centered around a conversational flow that guide
 
 \section{System Features}
 
-This section is divided into categories of the features to cover all the features that was built throughout the development. As seen from the list above, these categories include, 
+This section elaborates the features of TUKIB. This is divided into categories different categories to cover all the features that was built throughout the development.
 
 \subsection{Main Pages}
 
@@ -393,13 +393,34 @@ For the client’s account user interface, the developers designed a dashboard t
 
 \subsection{Service Request Module}
 
-One of the core features of TUKIB is the Service Request Module, which allows clients and staffs to easily access, monitor, and manage service requests using their respective accounts. Clients are able to submit service requests, track statuses of requests, view results, upload payment receipt, and give feedback to the UPV RRC. On the other hand, staffs are able to approve or reject requests, update request statuses, upload charge slip and result, and view payment receipt from clients. This ensures that each request is processed efficiently from request to completion. Moreover, module guarantees that all data is centralized, providing a unified view of requests for better coordination among staffs and streamlined workflows. 
+One of the core features of TUKIB is the Service Request Module, which allows clients and staffs to easily access, monitor, and manage service requests using their respective accounts. Clients are able to submit service requests, track statuses of requests, view results, upload payment receipt, and give feedback to the UPV RRC. On the other hand, staffs are able to approve or reject requests, update request statuses, upload charge slip and result, and view payment receipt from clients. This ensures that each request is processed efficiently from request to completion. 
+
+Moreover, module guarantees that all data is centralized, providing a unified view of requests for better coordination among staffs and streamlined workflows. 
 
 \subsection{Data Management Module}
 
 Data management module is responsible for handling all the data within the system. This includes information of clients, transaction histories, inventory of equipment, and tracking of facility schedules and availability. This modules ensures that accounts are properly maintained while also allowing the staff to easily keep record of everything that is related to the RRC's service requests. It also streamlines the assignment of resources to users, maintains an up-to-date inventory, and provides a comprehensive view of resources, allowing for efficient allocation and tracking. Moreover, it enables staff and clients alike to view real time availability of equipment and facility, further guaranteeing the smooth and efficient flow of  service requests.
 
 \section{Data Privacy and Security Measures}
+
+\subsection{Password Encryption}
+
+In order to ensure the security of user accounts, password hashing was implemented. This ensures that even if the database is compromised, plaintext passwords remain protected. The bcrypt algorithm was used due to its strength and resistance to brute-force attacks. Each password is hashed with a unique salt, which adds randomness and protects against rainbow table attacks.
+
+During user registration, passwords are hashed before being stored in the database. During login, the hashed version of the input password is compared to the stored hash to authenticate users. This approach follows best practices in modern web security and ensures that sensitive credentials are never stored or transmitted in plain text.
+
+\subsection{User Authentication and Authorization}
+
+- Use of tokens (e.g., JWTs or sessions)
+- Role-based access control (RBAC)
+- Login attempt limits / account lockout
+
+\subsection{Backup and Recovery}
+
+include here:
+
+- Secure backups
+- Disaster recovery plans and frequency of testing
 
 \section{Summary of Results}
 

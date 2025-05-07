@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.9.1)  6 MAY 2025 10:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.9.1)  7 MAY 2025 09:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -661,13 +661,7 @@ File: figures/database.png Graphic file (type png)
 <use figures/database.png>
 Package pdftex.def Info: figures/database.png  used on input line 223.
 (pdftex.def)             Requested size: 415.55249pt x 314.1886pt.
- [33 <./figures/database.png>]
-Overfull \hbox (6.09418pt too wide) in paragraph at lines 240--241
-[]\OT1/cmr/m/n/12 Figure 4.9[] il-lus-trates the con-ver-sa-tion flow for TUKIB
-'s chat-bot, named LIRA|
- []
-
-[34]
+ [33 <./figures/database.png>] [34]
 <figures/chatbot_flow.png, id=157, 697.60625pt x 1025.8325pt>
 File: figures/chatbot_flow.png Graphic file (type png)
 <use figures/chatbot_flow.png>
@@ -755,27 +749,33 @@ File: figures/staff_dashboard.png Graphic file (type png)
 Package pdftex.def Info: figures/staff_dashboard.png  used on input line 389.
 (pdftex.def)             Requested size: 332.44325pt x 179.61316pt.
  [45 <./figures/staff_dashboard.png>]
-Overfull \hbox (17.15427pt too wide) in paragraph at lines 408--451
+Overfull \hbox (17.15427pt too wide) in paragraph at lines 420--463
  [][] 
  []
 
-) [46]
+) [46] [47]
 \openout2 = `chapter_5.aux'.
 
  (chapter_5.tex
 Chapter 5.
-[47
+[48
 
 
 
 
-] [48]
+] [49]
 Overfull \hbox (1.66402pt too wide) in paragraph at lines 33--34
 \OT1/cmr/m/n/12 Recognizing the dif-fer-ent needs of in-di-vid-ual re-searchers
  and col-lab-o-ra-tive projects,
  []
 
-[49] [50] [51]) [52] (main.bbl [53
+[50] [51]
+Overfull \hbox (5.3526pt too wide) in paragraph at lines 53--54
+[]\OT1/cmr/m/n/12 In con-clu-sion, the in-te-gra-tion of UPV RRC's feed-back ha
+s sig-nif-i-cantly strength-
+ []
+
+[52] [53]) [54] (main.bbl [55
 
 
 
@@ -803,7 +803,7 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[54]
+[56]
 ! Misplaced alignment tab character &.
 <argument> Total Quality Management &
                                       Business Excellence - TOTAL QUAL MANAG...
@@ -834,7 +834,7 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[55]
+[57]
 ! Misplaced alignment tab character &.
 <argument> Information &
                          Management
@@ -859,12 +859,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 1097--1109
  [] -is [] -workflow []
  []
 
-) [56]
+) [58]
 \openout2 = `appendix_A.aux'.
 
  (appendix_A.tex
 Appendix A.
-) [57
+) [59
 
 
 ]
@@ -877,7 +877,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--33
 
  []
 
-[58
+[60
 
 
 
@@ -906,9 +906,9 @@ pfb><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pf
 b><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb
 ><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
 
-Output written on main.pdf (67 pages, 10108261 bytes).
+Output written on main.pdf (69 pages, 10111850 bytes).
 PDF statistics:
- 286 PDF objects out of 1000 (max. 8388607)
+ 292 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  96 words of extra memory for PDF output out of 10000 (max. 10000000)
 

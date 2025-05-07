@@ -43,29 +43,35 @@
 \contentsline {subsection}{\numberline {4.2.4}Data Flow Diagram}{32}{}%
 \contentsline {subsection}{\numberline {4.2.5}Database Diagram}{32}{}%
 \contentsline {section}{\numberline {4.3}Chatbot}{34}{}%
+\contentsline {subsection}{\numberline {4.3.1}Entities and Intents}{34}{}%
+\contentsline {subsection}{\numberline {4.3.2}Conversation Flow}{34}{}%
 \contentsline {section}{\numberline {4.4}System Features}{37}{}%
 \contentsline {subsection}{\numberline {4.4.1}Main Pages}{37}{}%
 \contentsline {subsection}{\numberline {4.4.2}Log in Module}{43}{}%
 \contentsline {subsection}{\numberline {4.4.3}Service Request Module}{45}{}%
 \contentsline {subsection}{\numberline {4.4.4}Data Management Module}{45}{}%
 \contentsline {section}{\numberline {4.5}Data Privacy and Security Measures}{46}{}%
+\contentsline {subsection}{\numberline {4.5.1}Password Encryption}{46}{}%
+\contentsline {subsection}{\numberline {4.5.2}User Authentication and Authorization}{46}{}%
+\contentsline {subsection}{\numberline {4.5.3}Backup and Recovery}{46}{}%
 \contentsline {section}{\numberline {4.6}Summary of Results}{46}{}%
-\contentsline {chapter}{\numberline {5}Findings, Feedback, Conclusions, and Recommendations}{47}{}%
-\contentsline {section}{\numberline {5.1}Summary of Findings}{47}{}%
-\contentsline {subsection}{\numberline {5.1.1}Service Offerings and Existing Challenges}{47}{}%
-\contentsline {subsection}{\numberline {5.1.2}Stakeholder-Identified Needs}{48}{}%
-\contentsline {subsection}{\numberline {5.1.3}System Prototype and Diagrams}{48}{}%
-\contentsline {subsection}{\numberline {5.1.4}Chatbot Integration}{48}{}%
-\contentsline {section}{\numberline {5.2}Feedback and System Refinements}{49}{}%
-\contentsline {subsection}{\numberline {5.2.1}Separation of Equipment and Laboratory Calendars}{49}{}%
-\contentsline {subsection}{\numberline {5.2.2}Layers for Approval and Chargeslip Generation}{49}{}%
-\contentsline {subsection}{\numberline {5.2.3}Client Account Management: Admin Approval}{49}{}%
-\contentsline {subsection}{\numberline {5.2.4}User Categories: Individual and Project Accounts}{50}{}%
-\contentsline {subsection}{\numberline {5.2.5}Forms: Dropdowns, Checkboxes, and Tooltips}{50}{}%
-\contentsline {subsection}{\numberline {5.2.6}Progress Bar for User Transparency}{50}{}%
-\contentsline {subsection}{\numberline {5.2.7}Downloadable Tabular Data and Statistical Graphs for RRC Reporting}{50}{}%
-\contentsline {section}{\numberline {5.3}Conclusions}{51}{}%
-\contentsline {section}{\numberline {5.4}Recommendations}{52}{}%
-\contentsline {chapter}{References}{53}{}%
-\contentsline {chapter}{\numberline {A}}{57}{}%
-\contentsline {chapter}{\numberline {B}Resource Persons}{58}{}%
+\contentsline {chapter}{\numberline {5}Findings, Feedback, Conclusions, and Recommendations}{48}{}%
+\contentsline {section}{\numberline {5.1}Summary of Findings}{48}{}%
+\contentsline {subsection}{\numberline {5.1.1}Service Offerings and Existing Challenges}{48}{}%
+\contentsline {subsection}{\numberline {5.1.2}Stakeholder-Identified Needs}{49}{}%
+\contentsline {subsection}{\numberline {5.1.3}System Prototype and Diagrams}{49}{}%
+\contentsline {subsection}{\numberline {5.1.4}Chatbot Integration}{49}{}%
+\contentsline {section}{\numberline {5.2}Feedback and System Refinements}{50}{}%
+\contentsline {subsection}{\numberline {5.2.1}Separation of Equipment and Laboratory Calendars}{50}{}%
+\contentsline {subsection}{\numberline {5.2.2}Layers for Approval and Chargeslip Generation}{50}{}%
+\contentsline {subsection}{\numberline {5.2.3}Client Account Management: Admin Approval}{50}{}%
+\contentsline {subsection}{\numberline {5.2.4}User Categories: Individual and Project Accounts}{51}{}%
+\contentsline {subsection}{\numberline {5.2.5}Forms: Dropdowns, Checkboxes, and Tooltips}{51}{}%
+\contentsline {subsection}{\numberline {5.2.6}Progress Bar for User Transparency}{51}{}%
+\contentsline {subsection}{\numberline {5.2.7}Downloadable Tabular Data and Statistical Graphs for RRC Reporting}{51}{}%
+\contentsline {section}{\numberline {5.3}Conclusion}{52}{}%
+\contentsline {section}{\numberline {5.4}Recommendations}{53}{}%
+\contentsline {chapter}{References}{55}{}%
+\contentsline {chapter}{\numberline {A}}{59}{}%
+\contentsline {section}{\numberline {A.1}GitHub Repository of TUKIB}{59}{}%
+\contentsline {chapter}{\numberline {B}Resource Persons}{60}{}%
