@@ -55,23 +55,79 @@ In conclusion, the integration of UPV RRC’s feedback has significantly strengt
 \section{Recommendations}
 
 TUKIB is still in its early stages of development, and the developers believe
-that it could further be improved and maximized to its full potential. Building upon the gathered data and feedback-driven refinements, the following recommendations are proposed for the continued development and deployment of TUKIB. These recommendations were identified during the course of development and testing of the TUKIB, and are crucial in improving TUKIB's performance, quality of service, and user experience.
+that it could further be improved and maximized to its full potential. Building upon the gathered data and feedback from the RRC staff and potential clients, the following recommendations are proposed for the continued development and deployment of TUKIB. 
+
+This section is divided into two parts: "System Recommendations" and "Outside scope recommendations". These recommendations were identified during the course of development and testing of the TUKIB, and are crucial in improving TUKIB's performance, quality of service, and user experience.
+
+\subsection{System Recommendations}
+
+This subsection enumerates and discusses the limitations of TUKIB
+prototype as well as the pertinent features and modifications required to address
+them.
 
 \begin{itemize}
-\item \textbf{Prioritize Core Modules:} During the initial development phase, focus on the implementation of the core modules, including user registration, service request processing, the separated calendar management for equipment and laboratories, the multi-layer approval system for chargeslips and service requests, and the basic chatbot functionalities.
 
-\item \textbf{Gradual Chatbot Expansion:} The chatbot's knowledge base should be expanded incrementally, starting with a fundamental set of responses and progressively enhanced based on user interactions and frequently asked questions.
+\item \textbf{Allow Users to Reset Password}
 
-\item \textbf{Comprehensive User Training and Onboarding:} Develop and deliver thorough user onboarding and training programs for both RRC staff and clients to ensure a smooth and effective adoption of the new system.
+To improve application availability and ensure that users are always able to log into their accounts, it is imperative to implement a "Reset Password" feature to all user types. The developers suggest adding this feature on the login page through a "Reset Password" or "Forget Password" button that would allow users to reset their password using their registered emails.
 
-\item \textbf{Pre-Deployment Usability Testing:} Conduct rigorous usability testing with representative clients and staff before the full deployment of TUKIB to identify and address any potential usability issues or areas for improvement.
+\item \textbf{Chatbot Expansion}
 
-\item \textbf{Robust Data Security Measures:} Implement comprehensive data security measures, including encryption, strict access controls, and regular data backups, to safeguard sensitive information within the system.
+The chatbot's knowledge base should be expanded incrementally, starting with a fundamental set of responses and progressively enhanced based on user interactions and frequently asked questions. Moreover, the developers recommend implementing Retrieval-Augmented Generation (RAG) to improve the quality of chatbot responses. While the current system uses the Rasa framework, which serves its purpose, transitioning to or integrating RAG can offer more dynamic and context-aware interactions.
 
-\item \textbf{Establish a Post-Deployment Feedback Mechanism:} Implement a system for collecting user feedback after deployment to support continuous improvement and identify areas for future enhancements.
+\item \textbf{Automated Email Notifications}
 
-\item \textbf{Plan for Future Scalability:} Design the system with future scalability in mind, allowing for the seamless integration of additional services such as online payments or expanded facility rental options as the needs of the RRC evolve.
+Integrate automated email alerts to keep users and approvers informed about critical status changes, such as chargeslip approvals, service request updates, and reservation confirmations.
 
-\item \textbf{Automated Email Notifications:} Integrate automated email alerts to keep users and approvers informed about critical status changes, such as chargeslip approvals, service request updates, and reservation confirmations.
-\item \textbf{Enhanced Security Features:} Explore and implement advanced security features such as multi-factor authentication (MFA) and detailed audit logs to further enhance user account security and maintain system integrity.
+\item \textbf{Built-in Direct Messaging}
+
+There is currently no feature that allows users to send messages to each other in real-time. Introducing a built-in direct messaging feature within the system would facilitate faster collaboration and issue resolution, especially between clients and staff.
+
+\item \textbf{Enhance Security Features}
+
+Strengthen the system’s security by incorporating two-factor authentication (2FA), enforcing strong password policies, and ensuring all sensitive data is encrypted both in transit and at rest. These measures will enhance user data protection and compliance with security best practices.
+
+\item \textbf{Full UI Responsiveness}
+
+The system’s user interface has been implemented with responsive design principles and mostly adapts well across various devices and screen sizes. However, there are still inconsistencies in layout and component behavior, particularly on tablets and smaller screens. Further refinement is needed to ensure consistent user experience and full optimization of all UI elements across desktops, tablets, and smartphones.
+
 \end{itemize}
+
+\subsection{Out-of-Scope Recommendations}
+
+This subsection outlines recommended features and measures that could significantly enhance the TUKIB system but whose creation, initiation, and/or modification fall outside the current scope of the study. These recommendations are intended for future consideration to further improve system performance, user satisfaction, and long-term sustainability.
+
+\begin{itemize}
+	
+\item \textbf{Pre-deployment usability testing}
+
+Conduct rigorous usability testing with representative clients and staff before the full deployment of TUKIB to identify and address any potential usability issues or areas for improvement.
+
+\item \textbf{Comprehensive User Training}
+
+Develop and deliver formal training sessions and materials to ensure that users fully understand how to navigate and utilize the system effectively. This is especially important for first-time users and administrative personnel.
+
+\item \textbf{Plan for Future Scalability}
+
+Design the system with future scalability in mind, allowing for the seamless integration of additional services such as online payments or expanded facility rental options as the needs of the RRC evolve.
+
+\end{itemize}
+
+%-- \begin{itemize}
+%-- \item \textbf{Prioritize Core Modules:} During the initial development phase, focus on the implementation of the core modules, including user registration, service request processing, the separated calendar management for equipment and laboratories, the multi-layer approval system for chargeslips and service requests, and the basic chatbot functionalities.
+
+%-- \item \textbf{Gradual Chatbot Expansion:} The chatbot's knowledge base should be expanded incrementally, starting with a fundamental set of responses and progressively enhanced based on user interactions and frequently asked questions.
+
+%-- \item \textbf{Comprehensive User Training and Onboarding:} Develop and deliver thorough user onboarding and training programs for both RRC staff and clients to ensure a smooth and effective adoption of the new system.
+
+%-- \item \textbf{Pre-Deployment Usability Testing:} Conduct rigorous usability testing with representative clients and staff before the full deployment of TUKIB to identify and address any potential usability issues or areas for improvement.
+
+%-- \item \textbf{Robust Data Security Measures:} Implement comprehensive data security measures, including encryption, strict access controls, and regular data backups, to safeguard sensitive information within the system.
+
+%-- \item \textbf{Establish a Post-Deployment Feedback Mechanism:} Implement a system for collecting user feedback after deployment to support continuous improvement and identify areas for future enhancements.
+
+%-- \item \textbf{Plan for Future Scalability:} Design the system with future scalability in mind, allowing for the seamless integration of additional services such as online payments or expanded facility rental options as the needs of the RRC evolve.
+
+%-- \item \textbf{Automated Email Notifications:} Integrate automated email alerts to keep users and approvers informed about critical status changes, such as chargeslip approvals, service request updates, and reservation confirmations.
+
+%--\item \textbf{Enhanced Security Features:} Explore and implement advanced security features such as multi-factor authentication (MFA) and detailed audit logs to further enhance user account security and maintain system integrity.
