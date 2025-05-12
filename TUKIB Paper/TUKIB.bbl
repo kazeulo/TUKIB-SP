@@ -1,0 +1,116 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+{BITCAT}%
+}{%
+{BITCAT}%
+}{%
+{\protect \APACyear {2023}}%
+}]{%
+bitcat2023}
+\APACinsertmetastar {%
+bitcat2023}%
+\begin{APACrefauthors}%
+{BITCAT}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{10}{}.
+\newblock
+\APACrefbtitle {Off-the-Shelf vs. Custom Software: Making the Right Choice for
+  Your Business.} {Off-the-shelf vs. custom software: Making the right choice
+  for your business.}
+\newblock
+\begin{APACrefURL} \url{https://bitcat.dev/off-the-shelf-vs-custom-software/}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{IBM}%
+}{%
+{IBM}%
+}{%
+{\protect \APACyear {2024}}%
+}]{%
+ibm}
+\APACinsertmetastar {%
+ibm}%
+\begin{APACrefauthors}%
+{IBM}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2024}{}{}.
+\newblock
+\APACrefbtitle {What is Automation?} {What is automation?}
+\newblock
+\begin{APACrefURL} \url{https://www.ibm.com/topics/automation} \end{APACrefURL}
+\newblock
+\APACrefnote{[Accessed 28-10-2024]}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Manyika%
+\ \protect \BOthers {.}}{%
+Manyika%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2017}}%
+}]{%
+manyika2017}
+\APACinsertmetastar {%
+manyika2017}%
+\begin{APACrefauthors}%
+Manyika, J.%
+, Chui, M.%
+, Miremadi, M.%
+, Bughin, J.%
+, George, K.%
+, Willmott, P.%
+\BCBL {}\ \BBA {} Dewhurst, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{01}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A Future That Works: Automation, Employment, and
+  Productivity} {A future that works: Automation, employment, and
+  productivity}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {McKinsey Global Institute Report.} {Mckinsey global
+  institute report.}
+\newblock
+\APACaddressPublisher{}{McKinsey \& Company}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Zayas-Cabán%
+, Haque%
+\BCBL {}\ \BBA {} Kemper%
+}{%
+Zayas-Cabán%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2021}}%
+}]{%
+caban2021}
+\APACinsertmetastar {%
+caban2021}%
+\begin{APACrefauthors}%
+Zayas-Cabán, T.%
+, Haque, S.%
+\BCBL {}\ \BBA {} Kemper, N.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{05}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Identifying Opportunities for Workflow Automation in
+  Health Care: Lessons Learned from Other Industries} {Identifying
+  opportunities for workflow automation in health care: Lessons learned from
+  other industries}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Applied Clinical Informatics}{12}{}{686-697}.
+\newblock
+\begin{APACrefDOI} \doi{10.1055/s-0041-1731744} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}

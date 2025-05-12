@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.9.1)  8 MAY 2025 16:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.9.1)  12 MAY 2025 23:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -262,44 +262,11 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \sift@deathcycles=\count283
 \@vwid@loff=\dimen171
 \@vwid@roff=\dimen172
-))
-(C:\Users\ASUS\AppData\Local\MiKTeX\tex/latex/lineno\lineno.sty
-Package: lineno 2023/05/20 line numbers on paragraphs v5.3
-
-(C:\Users\ASUS\AppData\Local\MiKTeX\tex/latex/etoolbox\etoolbox.sty
-Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count284
-)
-(C:\Users\ASUS\AppData\Local\MiKTeX\tex/latex/kvoptions\kvoptions.sty
-Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
-
-(C:\Users\ASUS\AppData\Local\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
-Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
-)
-(C:\Users\ASUS\AppData\Local\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
-Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-))
-\linenopenalty=\count285
-\output=\toks30
-\linenoprevgraf=\count286
-\linenumbersep=\dimen173
-\linenumberwidth=\dimen174
-\c@linenumber=\count287
-\c@pagewiselinenumber=\count288
-\c@LN@truepage=\count289
-\c@internallinenumber=\count290
-\c@internallinenumbers=\count291
-\quotelinenumbersep=\dimen175
-\bframerule=\dimen176
-\bframesep=\dimen177
-\bframebox=\box57
-\linenoamsmath@ams@eqpen=\count292
-LaTeX Info: Redefining \\ on input line 3180.
-))
+)))
 (C:\Users\ASUS\AppData\Local\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count293
-\l__pdf_internal_box=\box58
+\l__color_backend_stack_int=\count284
+\l__pdf_internal_box=\box57
 )
 
 LaTeX Warning: Unused global option(s):
@@ -327,17 +294,17 @@ LaTeX Font Info:    ... okay on input line 6.
 
 (C:\Users\ASUS\AppData\Local\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count294
-\scratchdimen=\dimen178
-\scratchbox=\box59
-\nofMPsegments=\count295
-\nofMParguments=\count296
-\everyMPshowfont=\toks31
-\MPscratchCnt=\count297
-\MPscratchDim=\dimen179
-\MPnumerator=\count298
-\makeMPintoPDFobject=\count299
-\everyMPtoPDFconversion=\toks32
+\scratchcounter=\count285
+\scratchdimen=\dimen173
+\scratchbox=\box58
+\nofMPsegments=\count286
+\nofMParguments=\count287
+\everyMPshowfont=\toks30
+\MPscratchCnt=\count288
+\MPscratchDim=\dimen174
+\MPnumerator=\count289
+\makeMPintoPDFobject=\count290
+\everyMPtoPDFconversion=\toks31
 ) (C:\Users\ASUS\AppData\Local\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -361,15 +328,23 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
-\c@maskedRefs=\count300
+\c@maskedRefs=\count291
 
 (C:\Users\ASUS\AppData\Local\MiKTeX\tex/latex/apacite\english.apc
 File: english.apc 2013/07/21 v6.03 apacite language file
 LaTeX Info: Redefining \BPBI on input line 129.
 LaTeX Info: Redefining \BHBI on input line 130.
 )
-\openout2 = `title_page.aux'.
+! Undefined control sequence.
+l.7 \linenumbers
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
+\openout2 = `title_page.aux'.
 
 (title_page.tex [1
 
@@ -523,7 +498,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
  []
 
-<figures/agile methodology.png, id=76, 941.5175pt x 242.9075pt>
+<figures/agile methodology.png, id=75, 941.5175pt x 242.9075pt>
 File: figures/agile methodology.png Graphic file (type png)
 <use figures/agile methodology.png>
 Package pdftex.def Info: figures/agile methodology.png  used on input line 17.
@@ -558,7 +533,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 55--56
  []
 
 [16] [17]
-<figures/RASA_architecture.png, id=92, 1312.905pt x 804.00375pt>
+<figures/RASA_architecture.png, id=91, 1312.905pt x 804.00375pt>
 File: figures/RASA_architecture.png Graphic file (type png)
 <use figures/RASA_architecture.png>
 Package pdftex.def Info: figures/RASA_architecture.png  used on input line 76.
@@ -610,29 +585,29 @@ Overfull \hbox (17.15427pt too wide) in paragraph at lines 74--118
  []
 
 [27]
-<figures/process_flow.jpg, id=124, 2458.68562pt x 821.31844pt>
+<figures/process_flow.jpg, id=123, 2458.68562pt x 821.31844pt>
 File: figures/process_flow.jpg Graphic file (type jpg)
 <use figures/process_flow.jpg>
 Package pdftex.def Info: figures/process_flow.jpg  used on input line 130.
 (pdftex.def)             Requested size: 415.55249pt x 138.80768pt.
  [28 <./figures/process_flow.jpg>] [29]
-<figures/context model.png, id=133, 1750.54pt x 1126.2075pt>
+<figures/context model.png, id=132, 1750.54pt x 1126.2075pt>
 File: figures/context model.png Graphic file (type png)
 <use figures/context model.png>
 Package pdftex.def Info: figures/context model.png  used on input line 155.
 (pdftex.def)             Requested size: 415.55249pt x 267.33958pt.
  [30 <./figures/context model.png>]
-<figures/use_case_client.jpg, id=137, 604.2575pt x 885.3075pt>
+<figures/use_case_client.jpg, id=136, 604.2575pt x 885.3075pt>
 File: figures/use_case_client.jpg Graphic file (type jpg)
 <use figures/use_case_client.jpg>
 Package pdftex.def Info: figures/use_case_client.jpg  used on input line 170.
 (pdftex.def)             Requested size: 124.667pt x 182.65096pt.
-<figures/use_case_admin.jpg, id=138, 636.3775pt x 883.3pt>
+<figures/use_case_admin.jpg, id=137, 636.3775pt x 883.3pt>
 File: figures/use_case_admin.jpg Graphic file (type jpg)
 <use figures/use_case_admin.jpg>
 Package pdftex.def Info: figures/use_case_admin.jpg  used on input line 177.
 (pdftex.def)             Requested size: 132.97983pt x 184.56848pt.
-<figures/use_case_director.jpg, id=139, 622.325pt x 885.3075pt>
+<figures/use_case_director.jpg, id=138, 622.325pt x 885.3075pt>
 File: figures/use_case_director.jpg Graphic file (type jpg)
 <use figures/use_case_director.jpg>
 Package pdftex.def Info: figures/use_case_director.jpg  used on input line 186.
@@ -643,26 +618,26 @@ Underfull \hbox (badness 1077) in paragraph at lines 187--187
 []\OT1/cmr/m/n/12 Figure 4.5: Use Case
  []
 
-<figures/use_case_staff.jpg, id=140, 624.3325pt x 885.3075pt>
+<figures/use_case_staff.jpg, id=139, 624.3325pt x 885.3075pt>
 File: figures/use_case_staff.jpg Graphic file (type jpg)
 <use figures/use_case_staff.jpg>
 Package pdftex.def Info: figures/use_case_staff.jpg  used on input line 193.
 (pdftex.def)             Requested size: 124.667pt x 176.77467pt.
 [31 <./figures/use_case_client.jpg> <./figures/use_case_admin.jpg> <./figures/u
 se_case_director.jpg> <./figures/use_case_staff.jpg>]
-<figures/data_flow.jpg, id=144, 2625.81pt x 1525.7pt>
+<figures/data_flow.jpg, id=143, 2625.81pt x 1525.7pt>
 File: figures/data_flow.jpg Graphic file (type jpg)
 <use figures/data_flow.jpg>
 Package pdftex.def Info: figures/data_flow.jpg  used on input line 207.
 (pdftex.def)             Requested size: 415.55249pt x 241.43976pt.
  [32 <./figures/data_flow.jpg>]
-<figures/database.png, id=148, 1114.1625pt x 842.39719pt>
+<figures/database.png, id=147, 1114.1625pt x 842.39719pt>
 File: figures/database.png Graphic file (type png)
 <use figures/database.png>
 Package pdftex.def Info: figures/database.png  used on input line 224.
 (pdftex.def)             Requested size: 415.55249pt x 314.1886pt.
  [33 <./figures/database.png>] [34]
-<figures/chatbot_flow.png, id=157, 697.60625pt x 1025.8325pt>
+<figures/chatbot_flow.png, id=156, 697.60625pt x 1025.8325pt>
 File: figures/chatbot_flow.png Graphic file (type png)
 <use figures/chatbot_flow.png>
 Package pdftex.def Info: figures/chatbot_flow.png  used on input line 247.
@@ -693,12 +668,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 275--276
  []
 
 [36] [37]
-<figures/landing.png, id=168, 1593.955pt x 1042.89626pt>
+<figures/landing.png, id=167, 1593.955pt x 1042.89626pt>
 File: figures/landing.png Graphic file (type png)
 <use figures/landing.png>
 Package pdftex.def Info: figures/landing.png  used on input line 299.
 (pdftex.def)             Requested size: 332.44325pt x 217.50291pt.
-<figures/service_page.png, id=169, 1145.4795pt x 618.51076pt>
+<figures/service_page.png, id=168, 1145.4795pt x 618.51076pt>
 File: figures/service_page.png Graphic file (type png)
 <use figures/service_page.png>
 Package pdftex.def Info: figures/service_page.png  used on input line 310.
@@ -708,7 +683,7 @@ Package pdftex.def Info: figures/service_page.png  used on input line 310.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [38 <./figures/landing.png>]
-<figures/laboratories.png, id=174, 1195.46625pt x 1193.20781pt>
+<figures/laboratories.png, id=173, 1195.46625pt x 1193.20781pt>
 File: figures/laboratories.png Graphic file (type png)
 <use figures/laboratories.png>
 Package pdftex.def Info: figures/laboratories.png  used on input line 323.
@@ -718,32 +693,32 @@ Package pdftex.def Info: figures/laboratories.png  used on input line 323.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [39 <./figures/service_page.png>] [40 <./figures/laboratories.png>]
-<figures/news_page.png, id=184, 1195.46625pt x 1315.91624pt>
+<figures/news_page.png, id=183, 1195.46625pt x 1315.91624pt>
 File: figures/news_page.png Graphic file (type png)
 <use figures/news_page.png>
 Package pdftex.def Info: figures/news_page.png  used on input line 338.
 (pdftex.def)             Requested size: 332.44325pt x 365.94414pt.
  [41 <./figures/news_page.png>]
-<figures/about_page.png, id=189, 1195.46625pt x 1034.36438pt>
+<figures/about_page.png, id=188, 1195.46625pt x 1034.36438pt>
 File: figures/about_page.png Graphic file (type png)
 <use figures/about_page.png>
 Package pdftex.def Info: figures/about_page.png  used on input line 351.
 (pdftex.def)             Requested size: 332.44325pt x 287.64716pt.
  [42 <./figures/about_page.png>]
-<figures/login.png, id=194, 1195.46625pt x 806.26219pt>
+<figures/login.png, id=193, 1195.46625pt x 806.26219pt>
 File: figures/login.png Graphic file (type png)
 <use figures/login.png>
 Package pdftex.def Info: figures/login.png  used on input line 368.
 (pdftex.def)             Requested size: 332.44325pt x 224.21405pt.
  [43 <./figures/login.png>]
-<figures/client_dashboard.png, id=199, 1195.46625pt x 763.35187pt>
+<figures/client_dashboard.png, id=198, 1195.46625pt x 763.35187pt>
 File: figures/client_dashboard.png Graphic file (type png)
 <use figures/client_dashboard.png>
 Package pdftex.def Info: figures/client_dashboard.png  used on input line 381.
 (pdftex.def)             Requested size: 332.44325pt x 212.28108pt.
 
 [44 <./figures/client_dashboard.png>]
-<figures/staff_dashboard.png, id=204, 1143.67274pt x 617.9085pt>
+<figures/staff_dashboard.png, id=203, 1143.67274pt x 617.9085pt>
 File: figures/staff_dashboard.png Graphic file (type png)
 <use figures/staff_dashboard.png>
 Package pdftex.def Info: figures/staff_dashboard.png  used on input line 390.
@@ -898,24 +873,23 @@ L3 programming layer <2024-01-04>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 7247 strings out of 474486
- 117568 string characters out of 5748449
+ 6299 strings out of 474486
+ 103651 string characters out of 5748449
  1951542 words of memory out of 5000000
- 29343 multiletter control sequences out of 15000+600000
- 566292 words of font info for 66 fonts, out of 8000000 for 9000
+ 28416 multiletter control sequences out of 15000+600000
+ 565992 words of font info for 65 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 79i,12n,84p,1291b,472s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 79i,12n,84p,1291b,462s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\ASUS\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1
 200.pk><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx1
 2.pfb><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc1
 0.pfb><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.
-pfb><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pf
-b><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb
-><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-
-Output written on main.pdf (70 pages, 10114434 bytes).
+pfb><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.p
+fb><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pf
+b>
+Output written on main.pdf (70 pages, 10095902 bytes).
 PDF statistics:
- 295 PDF objects out of 1000 (max. 8388607)
+ 290 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  96 words of extra memory for PDF output out of 10000 (max. 10000000)
 
