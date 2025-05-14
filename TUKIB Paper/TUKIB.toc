@@ -8,13 +8,19 @@
 \contentsline {section}{\numberline {1.5}Scope and Limitations of the Research}{6}{}%
 \contentsline {section}{\numberline {1.6}Significance of the Research}{7}{}%
 \contentsline {chapter}{\numberline {2}Review of Related Literature}{11}{}%
-\contentsline {section}{\numberline {2.1}Theme 1 Title}{12}{}%
-\contentsline {section}{\numberline {2.2}Theme 2 Title}{13}{}%
-\contentsline {section}{\numberline {2.3}Chapter Summary}{13}{}%
-\contentsline {chapter}{\numberline {3}Research Methodology}{15}{}%
-\contentsline {section}{\numberline {3.1}Research Activities}{15}{}%
-\contentsline {chapter}{\numberline {4}Results and Discussions}{17}{}%
-\contentsline {chapter}{\numberline {5}Conclusion}{19}{}%
-\contentsline {chapter}{\numberline {6}References}{21}{}%
-\contentsline {chapter}{\numberline {A}Code Snippets}{23}{}%
-\contentsline {chapter}{\numberline {B}Resource Persons}{25}{}%
+\contentsline {section}{\numberline {2.1}Challenges in Manual Service Handling}{11}{}%
+\contentsline {section}{\numberline {2.2}Workflow Automation}{13}{}%
+\contentsline {subsection}{\numberline {2.2.1}Workflow automation in different industries}{15}{}%
+\contentsline {section}{\numberline {2.3}Existing Systems}{15}{}%
+\contentsline {section}{\numberline {2.4}Gaps in the existing systems and solutions}{16}{}%
+\contentsline {section}{\numberline {2.5}Chatbot}{17}{}%
+\contentsline {subsection}{\numberline {2.5.1}Chatbots in Service Automation}{19}{}%
+\contentsline {subsection}{\numberline {2.5.2}Chatbot Frameworks}{20}{}%
+\contentsline {section}{\numberline {2.6}Synthesis}{21}{}%
+\contentsline {chapter}{\numberline {3}Research Methodology}{23}{}%
+\contentsline {section}{\numberline {3.1}Research Activities}{23}{}%
+\contentsline {chapter}{\numberline {4}Results and Discussions}{25}{}%
+\contentsline {chapter}{\numberline {5}Conclusion}{27}{}%
+\contentsline {chapter}{\numberline {6}References}{29}{}%
+\contentsline {chapter}{\numberline {A}Code Snippets}{37}{}%
+\contentsline {chapter}{\numberline {B}Resource Persons}{39}{}%

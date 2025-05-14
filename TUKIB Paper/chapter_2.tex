@@ -2,95 +2,219 @@
 \chapter{Review of Related Literature}
 \label{sec:relatedlit}
 
-This chapter discusses the features, capabilities, and limitations of existing research, algorithms, or software  that are related/similar to the Special Problem.
+The purpose of this literature review was to provide a comprehensive background on automated systems for workflow automation, especially on service processes, which informed the development of the system for the University of the Philippines Visayas - Regional Research Center (UPV RRC). This review identified existing solutions, highlighted gaps and challenges, and explored technologies that were used to develop the system to improve the UPV RRC’s operational efficiency.
 
- The reviewed works and software must be arranged either in chronological order, or by area (from general to specific).  
-Observe a consistent format when presenting each of the reviewed works. 
-This must be selected in consultation with the  adviser.
+\section{Challenges in Manual Service Handling}
 
-\textcolor{red}{DO NOT FORGET to cite your references.}
+Manual handling of service processes and data management often lead to challenges, including inefficiencies, errors, and delays. One of the most common issues is the risk of data entry errors. Even small data entry errors can have devastating outcomes, corrupting important data. A study involving three different data entry methods- double entry, visual checking, and single entry- revealed that manual entry, particularly visual checking, has a significantly higher number of errors-2958\% more than double entry methods \cite{barchard2011}. These errors can be subtle and difficult to detect, showing their negative impact on operational efficiency. 
 
-A literature review must do these things:
-\begin{itemize}
-	\item be organized around and related directly to the thesis or research question you are developing
-	\item synthesize results into a summary of what is and is not known
-	\item identify areas of controversy in the literature
-	\item formulate questions that need further research
-\end{itemize}
+Another limitation of manual service handling is its reliance on human intervention, which frequently results in mistakes that are hard to correct. These errors can escalate operational costs, affect service quality, and lead to customer dissatisfaction. For organizations with manual systems, human error compromises not just data integrity but also the scalability and effectiveness of service operations \cite{bitcat2023}. Additionally, manual systems lack real-time monitoring capabilities, which are critical for improving service processes. Without automated tracking tools, organizations often miss out on insights that could highlight areas needing improvement.
 
-A literature review is a piece of discursive prose, not a list describing or summarizing one piece of literature after another. It’s usually a bad sign to see every paragraph beginning with the name of a researcher. Instead, organize the literature review into sections that present themes or identify trends, including relevant theory. You are not trying to list all the materials published, but to synthesize and evaluate them according to the guiding concept of your thesis or research question. You should also state the limits or gaps of their researches wherein you will try to fill these gaps in accordance to your research problem and objectives.
-\begin{comment}
-%
-% IPR acknowledgement: the contents withis this comment are from Ethel Ong's slides on RRL.
-%
-Guide on Writing your RRL chapter
- 
-1. Identify the keywords with respect to your research
-      One keyword = One document section
-                Examples: 2.1 Story Generation Systems
-			 2.2 Knowledge Representation
+Current practices in manual service handling also highlight limitations in widely used tools like Google Sheets and Google Docs, which are often insufficient for managing large-scale workflows. These tools lack advanced data retrieval capabilities, and users have reported issues with data not being pulled correctly. According to Okta’s documentation on Google Sheets limitations, there are significant challenges when retrieving and integrating data, leading to inefficiencies in data management processes. Moreover, manual entry in Google Forms is prone to errors, which can undermine the accuracy of collected data.
 
-2.  Find references using these keywords
+The impact of these manual methods on stakeholders is substantial. Organizations relying on manual or semi-automated workflows often experience extended processing times, directly affecting service delivery. For instance, tasks that could be automated are unnecessarily prolonged when handled manually, impacting customer satisfaction negatively. Furthermore, manual systems offer limited visibility and tracking capabilities. Without real-time performance metrics, organizations cannot effectively monitor their workflows or identify improvement areas. According to research, companies that automate their workflows experience reduced errors and faster processing times, which lead to improved operational efficiency and better customer outcomes. Thus, the inefficiencies inherent in manual service handling are a barrier to organizational growth, and stakeholders across all levels—from employees to customers—are adversely affected (Davis, n.d.).
 
-3.  For each of the references that you find,
-        Check: Is it relevant to your research?
-        Use their references to find more relevant works.
+\section{Workflow Automation}
 
-4. Identify a set of criteria for comparison.
-       It will serve as a guide to help you focus on what to look for
+Workflow automation refers to the utilization of technology systems, usually involving several software and hardware integrations, to efficiently carry out repetitive tasks, thereby reducing the roles of humans in it \cite{winarko2021}. It is also defined as “the application of technology, programs, robotics or processes to achieve outcomes with minimal human input” \cite{ibm}. Workflow automation simplifies the sequencing and completion of tasks within a process by minimizing manual input  \cite{astera2024}. Also known as business process automation (BPA), this approach replaces human intervention with digital technologies to automate workflows \cite{thomas2024}.  
 
-5. Write a summary focusing on -
-       What: A short description of the work
-       How: A summary of the approach it utilized
-       Findings: If applicable, provide the results
-        Why: Relevance to your work
+Several studies indicates that automating business processes through workflow automation can re-engineer operations, increase productivity, and improve decision-making\cite{abecker2000, aversano2002}. It can also enhance efficiency, ensure quality data collection, and improve overall output quality \cite{pakdil2009}. Suitable processes for automation typically exhibit characteristics such as repeatability and predictability \cite{basu2002}. 
 
-6. At the end of each section,  show a Table of Comparison of the related works 
-   and your proposed project/system
+A workflow automation software uses rule-based logic or AI to automate tasks that would otherwise require manual effort, such as data entry. While traditionally seen as a tool for IT departments, this software simplifies complex business operations, enhancing efficiency, productivity, and overall customer satisfaction. It is a valuable resource across the entire organization. Connecting various business processes automates critical tasks, sequences, and approvals, allowing workflows to progress automatically without human intervention. This leads to several key advantages for businesses \cite{servicenow}.
 
-\end{comment}
+Automating workflows offers significant benefits by addressing the limitations and inefficiencies associated with manual processes. While employees are crucial assets, their capacity to handle repetitive tasks is limited, and relying solely on them can lead to bottlenecks, errors, and revenue loss. By automating key steps and processes, workflows proceed more swiftly, reducing the time spent on manual tasks and enabling employees to focus on more strategic initiatives. Furthermore, automated workflows provide transparency and detailed records, which improve accountability by clearly documenting task progress and responsibilities \cite{awati2024}. Automation also minimizes errors by adhering to predefined rules and methodologies set by programmers, maintaining consistent results.
 
-\section{Theme 1 Title}
-This chapter  contains a review of research papers that:
-%
-% IPR acknowledgement: the following list of items are from Ethel Ong's slides RRL.
-%
-\begin{itemize}
-\item Describes work on a research area that is similar or relevant to yours
-\item Describes work on a domain that is similar or relevant to yours
-\item Uses an algorithm that may be useful to your work
-\item Uses a software / tool that may be useful to your work
-\end{itemize}
+\subsection{Workflow automation in different industries}
 
-%\section{Review of Related Software}
-It also contains a review of software systems that:
-%
-% IPR acknowledgement: the following list of items are from Ethel Ong's slides on RRL.
-%
-\begin{itemize}
-   \item Belongs to a research area similar to yours
-   \item Addresses a need or domain similar to yours
-   \item Is your predecessor
-\end{itemize}
+Automation is used for several workflows across a range of industries. Certain industries, like manufacturing and banking, have a long history of using automation, while others, such as legal consultation, hospitality, and transportation, are newer to automation \cite{caban2021}. Among these industries various processes have been automated, such as accounting tasks, document routing, resource allocation, quality monitoring and control, report generation, and supply chain and logistics management \cite{aguirre2017, mcquilken2014}.
 
-\section{Theme 2 Title}
+In the education sector, many universities worldwide use automation tools of some form, driven by the need for efficiency and compliance with educational standards. These tools facilitate various processes, including enrollment, grading, and course management, allowing educators to focus more on teaching and student engagement \cite{choudhary2024}. Similarly, automation in healthcare has improved the accuracy and accessibility of patient information, resulting in more informed decision-making \cite{gupta2020}. Even in government offices, the evident use of automation tools for service processes can also be observed to enhance service efficiency and transparency. 
 
+\section{Existing Systems}
 
+The development of various digital automation systems and platforms has proliferated over the years. These systems encompass a wide range of functionalities - from automating tasks to facilitating collaboration among staff.
 
-\section{Chapter Summary}
-Should include a table of related studies comparing them based on several criteria.
+For instance, Enterprise Resource Planning (ERP) Systems are integrated software solutions that manage the core business processes of an organization \cite{blahusiakova2023}. ERP systems integrate various business processes, such as Finance, Human Resources, Supply Chain Management, and Customer Relationship Management (CRM), into one complete system to streamline processes and information across the organization \cite{kimberling2024}. Examples of existing ERP systems that are used by businesses and organizations are Microsoft Dynamics 365 Business Central, Syspro, QT9, and Acumatica. In addition to these comprehensive systems, a lot businesses and institutions are also utilizing Google apps like Google Drive, Forms, Docs, and Sheets to facilitate easier information storage and sharing, enabling teams to work collaboratively. 
 
-Highlight research gaps and the research problem.
+Moreover, online automation platforms like Zapier and Integromat (Make) help automate interactions between different apps, enabling businesses to integrate multiple systems and optimize workflows without the need for coding (Wolf, 2020). These systems are examples of how institutions tackle complex tasks, reduce manual data entry, and improve decision-making in today's modern world.
 
+\section{Gaps in the  existing systems and solutions}
 
+Despite the availability of various existing automation systems, significant gaps persist that hinder their effectiveness. One major gap is customization limitations which prevent organizations from tailoring solutions to their specific workflows \cite{aleixo2010}. These one-size-fits-all solutions can lead to inefficiencies, as standardized systems may not align with different organizations' unique processes or requirements. Employees might adapt their workflows to fit the software rather than the software, enhancing their operational efficiency. 
 
+Additionally, the lack of adaptability can render these existing systems ineffective over time. While these existing solutions might be beneficial to some companies, they can be detrimental to organizations that rely on their capacity to meet customer demands\cite{akkermans2003}. As organizations evolve, they often need to adjust their workflows and processes in response to new challenges, regulations, or market demands. Rigid Systems that cannot easily accommodate and such changes can become useless.
 
+Furthermore, many existing software solutions are proprietary, increasing costs for organizations. Proprietary systems often have high licensing fees, maintenance costs, and limited scalability \cite{goel2012, prasad2013}. Organizations may find themselves locked into contracts that are not cost-effective, particularly if the software does not deliver the expected return on investment. On top of that, the difficulty of adapting and getting these automation systems to work effectively is also well documented \cite{adams2011, sarker2003, scott2000}.
 
+\section{Chatbot}
 
+With the increasing use of the Internet, many businesses and institutions are utilizing online platforms to manage customer inquiries. Consequently, a growing number of them are adopting chatbots to enhance customer service, streamline operations, and boost productivity (Suta et al., 2020). In recent years, chatbots have become an important tool across various industries, particularly in service delivery and automation. Inarguably, chatbots are used daily by some people. Some instances of this are Siri from Apple, Alexa from Amazon, Microsoft Cortana and Bixby from Samsung that have the ability to open apps, play music, set calendar events and, overall, be a virtual assistant for users.
 
+The word “chatbot” is a portmanteau word that is a combination of the words “chatting” and “robot” \cite{rese2020}. A chatbot is an example of technology that is used in computer-mediated communication, where an intelligent system occupies roles once served by humans \cite{beattie2020}. It is also defined as conversational software that is capable of simulating human conversation with an end user through text or voice interaction \cite{Naruzzaman2018}.
 
+Chatbots can be broadly categorized into two types; rule-based and AI-based chatbots. Rule-based chatbots function with a set of guidelines through pattern-matching and are limited in their conversation. This means that it can only respond to a limited range of queries and vocabulary. AI-based chatbots leverage artificial intelligence(AI), natural language processing(NLP), and machine learning(ML) technologies and algorithms to understand different keywords that users type in when chatting with them. This integration significantly enhances user experience and operational efficiency as these chatbots learn and adapt over time \cite{Kar2016}.
 
+Table \ref{Tab: chatbot_comparison} shows the key differences between an AI chatbot and a non-AI chatbot. As seen, AI chabots are more adaptive in nature and have advanced capabilities than non-AI chatbots.
 
+\begin{table}[ht]
+	\centering
+	\begin{adjustbox}{max width=\textwidth}
+		\begin{tabular}{|p{3.3cm}|l|l|}
+			\hline
+			& \textbf{Non-AI Chatbots} & \textbf{AI Chatbots} \\ \hline
+			\textbf{Conversation Capabilities} & 
+			\begin{minipage}[t]{0.4\textwidth}
+				\begin{itemize}
+					\item Linear, rigid chat flow primarily driven by radio button selections
+					\item Ignores user free-text input
+					\item Context insensitive
+				\end{itemize}
+			\end{minipage} & 
+			\begin{minipage}[t]{0.4\textwidth}
+				\begin{itemize}
+					\item Dynamic, flexible chat flow based on user input
+					\item Understands and responds to free-text input
+					\item Context-aware interactions
+				\end{itemize}
+			\end{minipage} \\
+			\hline
+			\textbf{People Insights from Chat} & 
+			\begin{minipage}[t]{0.4\textwidth}
+				\begin{itemize}
+					\item Only from user explicit choices
+				\end{itemize}
+			\end{minipage} &
+			\begin{minipage}[t]{0.4\textwidth}
+				\begin{itemize}
+					\item Read between the lines to infer people’s insights
+				\end{itemize}
+			\end{minipage} \\
+			\hline
+			\textbf{Suitable Tasks} &
+			\begin{minipage}[t]{0.5\textwidth}
+				\begin{itemize}
+					\item Task-oriented app
+					\item Structured, simple tasks that require little user input
+				\end{itemize}
+			\end{minipage} &
+			\begin{minipage}[t]{0.5\textwidth}
+				\begin{itemize}
+					\item Task-oriented + social chitchat (semi-structured)
+					\item Semi-structured tasks with many varied paths
+					\item Diverse user actions or questions
+				\end{itemize}
+			\end{minipage} \\
+			\hline
+		\end{tabular}
+	\end{adjustbox}
+	\caption{Comparison of Non-AI vs AI Chatbots}
+	From https://juji.io/docs/why-ai-chatbots/
+	\label{Tab: chatbot_comparison}
+\end{table}
 
+\subsection{Chatbots in Service Automation}
 
+Chatbots are deployed across different platforms, including websites, social media, and instant messaging applications, making them good tools for both internal and external organizational tasks \cite{hagberg2016, zarouali2018}. Internally, chatbots support services, including IT Service Management (ITSM), Human Resource Management (HRM), and learning management systems \cite{nawaz2019, bakouan2018}. Externally, chatbots are increasingly replacing traditional branded websites, offering a more interactive platform for customer relationship management, sales, and marketing \cite{broeck2019}.
 
+Institutions are utilizing chatbots for various applications. For instance, Pennsylvania State University employs a chatbot called “LionChat” to address frequently asked questions regarding admissions, student aid, and tuition costs \cite{Pennstate}. In healthcare, AI chatbots are used to enhance patient care and streamline processes such as checking symptoms, reminders, and appointment scheduling \cite{altamimi2023}. Moreover, a case study by \cite{fan2021} on the utilization of a self-diagnosis chatbot in China highlighted the potential for chatbots to improve user engagement by offering real-time feedback and personalized responses.
+
+\subsection{Chatbot Frameworks}
+
+Building a chatbot from scratch is not an easy task, that’s why chatbot development frameworks have emerged over the years. Chatbot development frameworks are software frameworks that provide built-in functions to simplify the complexities of creating a one \cite{geekforgeeks2024}. 
+
+A study by \cite{omaima2020}, provides a comprehensive analysis of various frameworks that can be used in developing chatbots. Table \ref{Tab: framework_comparison} shows the analysis between different chatbot frameworks. However, the analysis is only limited to the existing frameworks during when the study was conducted. Other popular frameworks that have emerged in recent years include IBM Watson, Botpress, and OpenDialog. Although most of the frameworks are free, they offer limited capabilities, and further access to services most of the time requires a subscription.
+
+\newpage
+
+\begin{table}
+	\begin{adjustbox}{max width=\textwidth}
+		\begin{tabular}{|p{2.6cm}|p{2.1cm}|p{2cm}|p{2.1cm}|p{2.4cm}|p{2cm}|p{2cm}|p{2cm}|p{2cm}|p{2.3cm}|}
+			\hline
+			\textbf{Framework} 
+			& \textbf{Company} 
+			& \textbf{Paid/Free} 
+			& \textbf{Ease of Use} 
+			& \textbf{Out-of-box integration} 
+			& \textbf{Open Source} 
+			& \textbf{Popularity} 
+			& \textbf{Web-based} 
+			& \textbf{Language} 
+			\\ \hline
+			\textbf{QnA Maker} 
+			& Microsoft 
+			& Free 
+			& High 
+			& Yes 
+			& No 
+			& Medium 
+			& Yes 
+			& C\# 
+			\\ \hline
+			\textbf{DialogFlow} 
+			& Google 
+			& Free 
+			& High 
+			& Yes 
+			& No 
+			& High 
+			& Yes 
+			& JavaScript 
+			\\ \hline
+			\textbf{Rasa} 
+			& RASA 
+			& Free 
+			& Low 
+			& No 
+			& Yes 
+			& High 
+			& No 
+			& Python 
+			\\ \hline
+			\textbf{Wit.ai} 
+			& Facebook 
+			& Free 
+			& High 
+			& Yes (Facebook) 
+			& No 
+			& High 
+			& Yes 
+			& JavaScript 
+			\\
+			\hline
+			\textbf{Luis.ai} 
+			& Microsoft 
+			& Free 
+			& High 
+			& Yes 
+			& No 
+			& Medium 
+			& Yes 
+			& JavaScript 
+			\\
+			\hline
+			\textbf{Botkit.ai} 
+			& Botkit 
+			& Free 
+			& Low 
+			& Yes 
+			& No 
+			& Medium 
+			& No 
+			& JavaScript 
+			\\
+			\hline
+		\end{tabular}
+	\end{adjustbox}
+	\caption{Comparative analysis of different chatbot development frameworks.}
+	\label{Tab: framework_comparison}
+\end{table}
+
+\section{Synthesis}
+
+As mentioned in Chapter 1, the researchers' aims to create a workflow automation system specifically for the University of the Philippines Visayas - Regional Research Center (UPV RRC) to streamline and optimize their service delivery flow and data management. Currently, the institution is using manual processes employing tools such as Google apps.
+
+Manual processes, especially when involving large amounts of data and interrelated activities, pose a lot of challenges and limitations. This include being prone to error, reliance on human intervention, and delays in processing. Several studies indicate that workflow automation can significantly streamline repetitive tasks, improve data accuracy, and enhance decision-making, ultimately reducing need for human labor. 
+
+Over the years, many automation systems have emerged, trying to cater to the demands for automation. Some of these are Enterprise Resource Planning systems and online automation platforms that does not require coding. However, there are gaps that these systems cannot fill, such as customization limitations, cost-effectiveness, adaptability, and integration issues. The proposed system for UPV RRC was designed to address these specific gaps by offering a tailored solution that met the specific needs of the institution. One technology that proved particularly beneficial for this was a chatbot, which could enhance the UPV RRC’s client support and interaction.
+
+Many industries had been adapting chatbots for enhanced efficiency. Several studies showed the effectivess of utilizing chatbots, particularly for customer support. However, building a chatbot from scratch is not easy and could sometimes be challenging. Hence, it is easier to use frameworks to simplify the complexities of building one. Some examples of the existing frameworks for developing a chatbot includes Microsoft Dialogflow, Rasa, IBM Watson, and Wit.ai by Facebook.
