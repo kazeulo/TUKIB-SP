@@ -278,15 +278,15 @@ The structure of the chatbot is centered around a conversational flow that guide
 	
 	Chatbot failures will lead to conversational dead ends if not dealt with properly. Thus, negating the main purpose of chatbot in this system which is to provide efficient customer service. To address this, the chatbot will have a fallback mechanism whenever an input from user was unexpected or a system error occurs. For example, if the chatbot cannot understand the user input, there will be rules on how the chatbot would handle this situation. Sample fallback methods would be redirecting the conversation to a live agent. Another option would be presenting friendly-toned error messages to the users, letting them know that the chatbot is having trouble understanding their input.
 	
-	\subitem Sample error messages include “Sorry, I didn't catch that. Could you rephrase your question?” or “I'm sorry, I have a hard time understanding. Could you please rephrase your query?” and “I'm sorry, but what you're asking is not clear to me. Could you paraphrase it?”
+	Sample error messages include “Sorry, I didn't catch that. Could you rephrase your question?” or “I'm sorry, I have a hard time understanding. Could you please rephrase your query?” and “I'm sorry, but what you're asking is not clear to me. Could you paraphrase it?”
 	
 \end{itemize}
 
 \section{System Features}
 
-This section elaborates the features of TUKIB. This is divided into categories different categories to cover all the features that was built throughout the development.
+This section elaborates the features of TUKIB. This section is divided different categories to cover all the features that was built throughout the development.
 
-\subsection{Main Pages}
+\subsection{User Interface}
 
 \noindent\textbf{Landing Page}
 
@@ -353,23 +353,6 @@ Figure \ref{fig:about_page} shows the 'About Us' page. This page provides an ove
 	\label{fig:about_page}
 \end{figure}
 
-\newpage
-
-\subsection{Log in Module}
-
-\noindent \textbf{User authentication}
-
-Users can create their own accounts. However, by default, these accounts will remain inactive until the Admin Staff approves them after reviewing the user information. For clients, an additional step is required in which they must undergo an initial consultation with the staff. Only after this consultation will their account be permitted to submit a service request. This process ensures that new clients are informed about the proper procedures for requesting a service, as consultation is a necessary step.
-
-On the login page, users need to enter their email address and password. Additionally, Google authentication is available, allowing users to sign in using their Google account for a quicker and more secure login experience. Passwords are hidden by default, but users can click the eye icon in the password field (as shown in \figref{fig:login}) to toggle visibility. After successfully logging in, users will be redirected to their respective dashboards.
-
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=0.80\textwidth]{login.png}
-	\caption{Log in page}
-	\label{fig:login}
-\end{figure}
-
 \noindent \textbf{User Dashboards}
 
 User dashboard is designed for the needs of two primary user groups of TUKIB who are the staff and clients. Each user group has a different user interface to cater to their specific needs as seen from \figref{fig:client_dashboard} and \figref{fig:staff_dashboard}.
@@ -390,6 +373,27 @@ For the client’s account user interface, the developers designed a dashboard t
 	\includegraphics[width=0.8\textwidth]{staff_dashboard.png}
 	\caption{Staff dashboard}
 	\label{fig:staff_dashboard}
+\end{figure}
+
+\newpage
+
+\subsection{Log in Module}
+
+\textbf{User registration}
+
+Users can create their own accounts through the sign in page. However, by default, these accounts will remain inactive until the Admin Staff approves them after reviewing their information. For clients, an additional step is required in which they must undergo an initial consultation with the staff. Only after this consultation will their account be permitted to submit a service request. This process ensures that new clients are informed about the proper procedures for requesting a service, as consultation is a necessary step.
+
+\textbf{User authentication}
+
+On the login page, users need to enter their email address and password. Additionally, Google authentication is available, allowing users to sign in using their Google account for a quicker and more secure login experience. Passwords are hidden by default, but users can click the eye icon in the password field (as shown in \figref{fig:login}) to toggle visibility. After successfully logging in, users will be redirected to their respective dashboards.
+
+\newpage
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.80\textwidth]{login.png}
+	\caption{Log in page}
+	\label{fig:login}
 \end{figure}
 
 \subsection{Service Request Module}
@@ -422,6 +426,8 @@ include here:
 
 - Secure backups
 - Disaster recovery plans and frequency of testing
+
+\section{Testing}
 
 \section{Summary of Results}
 
