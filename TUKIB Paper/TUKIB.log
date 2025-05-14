@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.9.1)  14 MAY 2025 09:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.9.1)  14 MAY 2025 12:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -424,24 +424,36 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-])
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [8]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10]
+Underfull \vbox (badness 6592) has occurred while \output is active []
+
+ [11])
 \tf@toc=\write3
 \openout3 = `TUKIB.toc'.
 
 
-[8] (TUKIB.lof)
+[12] (TUKIB.lof [13
+
+])
 \tf@lof=\write4
 \openout4 = `TUKIB.lof'.
 
- [9
-
-] [10
-
-] (TUKIB.lot)
+ [14] (TUKIB.lot)
 \tf@lot=\write5
 \openout5 = `TUKIB.lot'.
 
- [11]
+ [15
+
+]
 \openout2 = `chapter_1.aux'.
 
  (chapter_1.tex
@@ -590,30 +602,310 @@ Chapter 3.
 
 
 
-]) [24]
+]
+<figures/agile methodology.png, id=128, 941.5175pt x 242.9075pt>
+File: figures/agile methodology.png Graphic file (type png)
+<use figures/agile methodology.png>
+Package pdftex.def Info: figures/agile methodology.png  used on input line 17.
+(pdftex.def)             Requested size: 415.55249pt x 107.20949pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--23
+
+ []
+
+
+Underfull \vbox (badness 1688) has occurred while \output is active []
+
+ [24 <./figures/agile methodology.png>] [25]
+Underfull \hbox (badness 10000) in paragraph at lines 40--41
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--47
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [26]
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
+
+ []
+
+[27] [28]
+<figures/RASA_architecture.png, id=147, 1312.905pt x 804.00375pt>
+File: figures/RASA_architecture.png Graphic file (type png)
+<use figures/RASA_architecture.png>
+Package pdftex.def Info: figures/RASA_architecture.png  used on input line 78.
+(pdftex.def)             Requested size: 415.55249pt x 254.47707pt.
+ [29 <./figures/RASA_architecture.png (PNG copy)>]
+Underfull \vbox (badness 4739) has occurred while \output is active []
+
+ [30]
+[31]
+Underfull \vbox (badness 1983) has occurred while \output is active []
+
+ [32]
+Overfull \hbox (10.75096pt too wide) in paragraph at lines 139--140
+[]\OT1/cmr/m/n/12 These tech-nolo-gies were used for front-end de-vel-op-ment o
+f the sys-tem. HTML5
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--140
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--144
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 147--148
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--152
+
+ []
+
+[33]
+Underfull \hbox (badness 10000) in paragraph at lines 155--156
+
+ []
+
+[34]) [35]
 \openout2 = `chapter_4.aux'.
 
- (chapter_4.tex
-Chapter 4.
-) [25
+ (chapter_4.tex [36
 
 
 
 
 ]
+Chapter 4.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [37]
+[38]
+Underfull \vbox (badness 4378) has occurred while \output is active []
+
+ [39]
+[40] [41]
+Overfull \hbox (18.35425pt too wide) in paragraph at lines 74--118
+ [][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [42]
+<figures/process_flow.jpg, id=192, 2458.68562pt x 821.31844pt>
+File: figures/process_flow.jpg Graphic file (type jpg)
+<use figures/process_flow.jpg>
+Package pdftex.def Info: figures/process_flow.jpg  used on input line 130.
+(pdftex.def)             Requested size: 415.55249pt x 138.80768pt.
+
+[43 <./figures/process_flow.jpg>]
+Overfull \hbox (14.54729pt too wide) in paragraph at lines 143--144
+[]\OT1/cmr/m/n/12 For the \OT1/cmr/bx/n/12 Uni-ver-sity Re-searchers\OT1/cmr/m/
+n/12 , they can use the sys-tem to over-see any laboratory-
+ []
+
+[44]
+<figures/context model.png, id=200, 1750.54pt x 1126.2075pt>
+File: figures/context model.png Graphic file (type png)
+<use figures/context model.png>
+Package pdftex.def Info: figures/context model.png  used on input line 155.
+(pdftex.def)             Requested size: 415.55249pt x 267.33958pt.
+ [45 <./figures/context model.png>]
+<figures/use_case_client.jpg, id=204, 604.2575pt x 885.3075pt>
+File: figures/use_case_client.jpg Graphic file (type jpg)
+<use figures/use_case_client.jpg>
+Package pdftex.def Info: figures/use_case_client.jpg  used on input line 170.
+(pdftex.def)             Requested size: 124.667pt x 182.65096pt.
+<figures/use_case_admin.jpg, id=205, 636.3775pt x 883.3pt>
+File: figures/use_case_admin.jpg Graphic file (type jpg)
+<use figures/use_case_admin.jpg>
+Package pdftex.def Info: figures/use_case_admin.jpg  used on input line 177.
+(pdftex.def)             Requested size: 132.97983pt x 184.56848pt.
+<figures/use_case_director.jpg, id=206, 622.325pt x 885.3075pt>
+File: figures/use_case_director.jpg Graphic file (type jpg)
+<use figures/use_case_director.jpg>
+Package pdftex.def Info: figures/use_case_director.jpg  used on input line 186.
+
+(pdftex.def)             Requested size: 124.667pt x 177.34204pt.
+
+Underfull \hbox (badness 1077) in paragraph at lines 187--187
+[]\OT1/cmr/m/n/12 Figure 4.5: Use Case
+ []
+
+<figures/use_case_staff.jpg, id=207, 624.3325pt x 885.3075pt>
+File: figures/use_case_staff.jpg Graphic file (type jpg)
+<use figures/use_case_staff.jpg>
+Package pdftex.def Info: figures/use_case_staff.jpg  used on input line 193.
+(pdftex.def)             Requested size: 124.667pt x 176.77467pt.
+[46 <./figures/use_case_client.jpg> <./figures/use_case_admin.jpg> <./figures/u
+se_case_director.jpg> <./figures/use_case_staff.jpg>]
+<figures/data_flow.jpg, id=212, 2625.81pt x 1525.7pt>
+File: figures/data_flow.jpg Graphic file (type jpg)
+<use figures/data_flow.jpg>
+Package pdftex.def Info: figures/data_flow.jpg  used on input line 207.
+(pdftex.def)             Requested size: 415.55249pt x 241.43976pt.
+ [47 <./figures/data_flow.jpg>]
+<figures/database.png, id=216, 1114.1625pt x 842.39719pt>
+File: figures/database.png Graphic file (type png)
+<use figures/database.png>
+Package pdftex.def Info: figures/database.png  used on input line 224.
+(pdftex.def)             Requested size: 415.55249pt x 314.1886pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[48]
+Underfull \vbox (badness 2980) has occurred while \output is active []
+
+ [49 <./figures/database.png>] [50]
+<figures/chatbot_flow.png, id=227, 697.60625pt x 1025.8325pt>
+File: figures/chatbot_flow.png Graphic file (type png)
+<use figures/chatbot_flow.png>
+Package pdftex.def Info: figures/chatbot_flow.png  used on input line 247.
+(pdftex.def)             Requested size: 290.88547pt x 427.74744pt.
+ [51 <./figures/chatbot_flow.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 259--260
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 263--264
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 267--268
+
+ []
+
+[52]
+Underfull \hbox (badness 10000) in paragraph at lines 271--272
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 275--276
+
+ []
+
+[53] [54]
+<figures/landing.png, id=242, 1593.955pt x 1042.89626pt>
+File: figures/landing.png Graphic file (type png)
+<use figures/landing.png>
+Package pdftex.def Info: figures/landing.png  used on input line 299.
+(pdftex.def)             Requested size: 332.44325pt x 217.50291pt.
+<figures/service_page.png, id=243, 1145.4795pt x 618.51076pt>
+File: figures/service_page.png Graphic file (type png)
+<use figures/service_page.png>
+Package pdftex.def Info: figures/service_page.png  used on input line 310.
+(pdftex.def)             Requested size: 332.44325pt x 179.50508pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[55 <./figures/landing.png>]
+<figures/laboratories.png, id=248, 1195.46625pt x 1193.20781pt>
+File: figures/laboratories.png Graphic file (type png)
+<use figures/laboratories.png>
+Package pdftex.def Info: figures/laboratories.png  used on input line 323.
+(pdftex.def)             Requested size: 332.44325pt x 331.82005pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[56 <./figures/service_page.png>] [57 <./figures/laboratories.png>]
+<figures/news_page.png, id=257, 1195.46625pt x 1315.91624pt>
+File: figures/news_page.png Graphic file (type png)
+<use figures/news_page.png>
+Package pdftex.def Info: figures/news_page.png  used on input line 338.
+(pdftex.def)             Requested size: 332.44325pt x 365.94414pt.
+ [58 <./figures/news_page.png>]
+<figures/about_page.png, id=263, 1195.46625pt x 1034.36438pt>
+File: figures/about_page.png Graphic file (type png)
+<use figures/about_page.png>
+Package pdftex.def Info: figures/about_page.png  used on input line 351.
+(pdftex.def)             Requested size: 332.44325pt x 287.64716pt.
+ [59 <./figures/about_page.png>]
+<figures/login.png, id=268, 1195.46625pt x 806.26219pt>
+File: figures/login.png Graphic file (type png)
+<use figures/login.png>
+Package pdftex.def Info: figures/login.png  used on input line 368.
+(pdftex.def)             Requested size: 332.44325pt x 224.21405pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [60]
+<figures/client_dashboard.png, id=272, 1195.46625pt x 763.35187pt>
+File: figures/client_dashboard.png Graphic file (type png)
+<use figures/client_dashboard.png>
+Package pdftex.def Info: figures/client_dashboard.png  used on input line 381.
+(pdftex.def)             Requested size: 332.44325pt x 212.28108pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[61 <./figures/login.png>]
+<figures/staff_dashboard.png, id=277, 1143.67274pt x 617.9085pt>
+File: figures/staff_dashboard.png Graphic file (type png)
+<use figures/staff_dashboard.png>
+Package pdftex.def Info: figures/staff_dashboard.png  used on input line 390.
+(pdftex.def)             Requested size: 332.44325pt x 179.61316pt.
+ [62 <./figures/client_dashboard.png> <./figures/staff_dashboard.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [63]
+[64]
+Overfull \hbox (18.35425pt too wide) in paragraph at lines 432--475
+ [][] 
+ []
+
+) [65] [66]
 \openout2 = `chapter_5.aux'.
 
- (chapter_5.tex [26
-
-
-
-
-]
+ (chapter_5.tex
 Chapter 5.
-) [27]
+[67
+
+
+
+
+] [68]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [69]
+Underfull \vbox (badness 2452) has occurred while \output is active []
+
+ [70]
+Overfull \hbox (1.66402pt too wide) in paragraph at lines 33--34
+\OT1/cmr/m/n/12 Recognizing the dif-fer-ent needs of in-di-vid-ual re-searchers
+ and col-lab-o-ra-tive projects,
+ []
+
+[71] [72]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [73]
+[74] [75] [76]) [77]
 \openout2 = `chapter_6.aux'.
 
- (chapter_6.tex [28
+ (chapter_6.tex [78
 
 
 
@@ -629,8 +921,8 @@ sciencedirect [] .com / science /
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [29]
-[30]
+ [79]
+[80]
 Underfull \hbox (badness 2626) in paragraph at lines 560--575
 []\OT1/cmr/m/n/12 GeeksforGeeks.  (2024, 09).  \OT1/cmr/m/it/12 Top 7 frame-wor
 ks for build-ing chat-bots.
@@ -642,7 +934,7 @@ Underfull \hbox (badness 1210) in paragraph at lines 560--575
 ks [] .org / top [] -frameworks [] -for []
  []
 
-[31] [32]
+[81] [82]
 ! Misplaced alignment tab character &.
 <argument> Total Quality Management &
                                       Business Excellence - TOTAL QUAL MANAG...
@@ -667,7 +959,7 @@ Underfull \hbox (badness 6477) in paragraph at lines 951--967
 4-10-2024.  Re-
  []
 
-[33]
+[83]
 ! Misplaced alignment tab character &.
 <argument> Information &
                          Management
@@ -692,20 +984,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 1105--1117
  [] -is [] -workflow []
  []
 
-[34])) [35]
+[84])) [85]
 \openout2 = `appendix_A.aux'.
 
- (appendix_A.tex [36
+ (appendix_A.tex [86
 
 
 
 
 ]
 Appendix A.
-) [37]
+) [87]
 \openout2 = `appendix_B.aux'.
 
- (appendix_B.tex [38
+ (appendix_B.tex [88
 
 
 
@@ -717,7 +1009,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--36
 
  []
 
-[39] (TUKIB.aux (title_page.aux) (approval.aux) (declaration.aux)
+[89] (TUKIB.aux (title_page.aux) (approval.aux) (declaration.aux)
 (dedication.aux) (acknowledgment.aux) (abstract.aux) (chapter_1.aux)
 (chapter_2.aux) (chapter_3.aux) (chapter_4.aux) (chapter_5.aux) (chapter_6.aux)
 (appendix_A.aux) (appendix_B.aux))
@@ -725,19 +1017,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--36
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 6389 strings out of 474486
- 104125 string characters out of 5748449
+ 6583 strings out of 474486
+ 109555 string characters out of 5748449
  1950542 words of memory out of 5000000
- 28460 multiletter control sequences out of 15000+600000
+ 28654 multiletter control sequences out of 15000+600000
  566952 words of font info for 68 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 93i,12n,98p,1179b,441s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 93i,12n,98p,1296b,441s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\ASUS\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1
 200.pk><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx1
 0.pfb><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12
@@ -747,9 +1035,9 @@ fb><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl12.pf
 b><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb
 ><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
 
-Output written on TUKIB.pdf (50 pages, 196162 bytes).
+Output written on TUKIB.pdf (104 pages, 10149532 bytes).
 PDF statistics:
- 205 PDF objects out of 1000 (max. 8388607)
+ 409 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 96 words of extra memory for PDF output out of 10000 (max. 10000000)
 
