@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.9.1)  14 MAY 2025 12:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.9.1)  15 MAY 2025 09:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -433,17 +433,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [9]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [10]
-Underfull \vbox (badness 6592) has occurred while \output is active []
-
- [11])
+ [10])
 \tf@toc=\write3
 \openout3 = `TUKIB.toc'.
 
 
-[12] (TUKIB.lof [13
+[11] [12
 
-])
+] (TUKIB.lof [13])
 \tf@lof=\write4
 \openout4 = `TUKIB.lof'.
 
@@ -653,32 +650,11 @@ Overfull \hbox (10.75096pt too wide) in paragraph at lines 139--140
 f the sys-tem. HTML5
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 139--140
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 143--144
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 147--148
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 151--152
-
- []
-
 [33]
-Underfull \hbox (badness 10000) in paragraph at lines 155--156
+Underfull \vbox (badness 5260) has occurred while \output is active []
 
- []
-
-[34]) [35]
+ [34])
+[35]
 \openout2 = `chapter_4.aux'.
 
  (chapter_4.tex [36
@@ -869,36 +845,19 @@ Overfull \hbox (18.35425pt too wide) in paragraph at lines 438--481
 
  (chapter_5.tex
 Chapter 5.
-[67
 
-
-
-
-] [68]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [69]
-Underfull \vbox (badness 2452) has occurred while \output is active []
-
- [70]
-Overfull \hbox (1.66402pt too wide) in paragraph at lines 33--34
-\OT1/cmr/m/n/12 Recognizing the dif-fer-ent needs of in-di-vid-ual re-searchers
- and col-lab-o-ra-tive projects,
- []
-
-[71] [72]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [73]
-[74] [75] [76]) [77]
-\openout2 = `chapter_6.aux'.
-
- (chapter_6.tex [78
+ [67
 
 
 
 
 ]
+[68] [69] [70] [71]) [72]
+\openout2 = `chapter_6.aux'.
+
+ (chapter_6.tex
 Chapter 6.
 (TUKIB.bbl
 Underfull \hbox (badness 1019) in paragraph at lines 111--134
@@ -909,8 +868,13 @@ sciencedirect [] .com / science /
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [79]
-[80]
+ [73
+
+
+
+
+]
+[74]
 Underfull \hbox (badness 2626) in paragraph at lines 560--575
 []\OT1/cmr/m/n/12 GeeksforGeeks.  (2024, 09).  \OT1/cmr/m/it/12 Top 7 frame-wor
 ks for build-ing chat-bots.
@@ -922,7 +886,7 @@ Underfull \hbox (badness 1210) in paragraph at lines 560--575
 ks [] .org / top [] -frameworks [] -for []
  []
 
-[81] [82]
+[75] [76]
 ! Misplaced alignment tab character &.
 <argument> Total Quality Management &
                                       Business Excellence - TOTAL QUAL MANAG...
@@ -947,7 +911,7 @@ Underfull \hbox (badness 6477) in paragraph at lines 951--967
 4-10-2024.  Re-
  []
 
-[83]
+[77]
 ! Misplaced alignment tab character &.
 <argument> Information &
                          Management
@@ -972,20 +936,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 1105--1117
  [] -is [] -workflow []
  []
 
-[84])) [85]
+[78])) [79]
 \openout2 = `appendix_A.aux'.
 
- (appendix_A.tex [86
+ (appendix_A.tex [80
 
 
 
 
 ]
 Appendix A.
-) [87]
+) [81]
 \openout2 = `appendix_B.aux'.
 
- (appendix_B.tex [88
+ (appendix_B.tex [82
 
 
 
@@ -997,7 +961,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--36
 
  []
 
-[89] (TUKIB.aux (title_page.aux) (approval.aux) (declaration.aux)
+[83] (TUKIB.aux (title_page.aux) (approval.aux) (declaration.aux)
 (dedication.aux) (acknowledgment.aux) (abstract.aux) (chapter_1.aux)
 (chapter_2.aux) (chapter_3.aux) (chapter_4.aux) (chapter_5.aux) (chapter_6.aux)
 (appendix_A.aux) (appendix_B.aux))
@@ -1013,7 +977,7 @@ Here is how much of TeX's memory you used:
  28654 multiletter control sequences out of 15000+600000
  566952 words of font info for 68 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 93i,12n,98p,1296b,441s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 93i,12n,98p,1179b,441s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\ASUS\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1
 200.pk><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx1
 0.pfb><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12
@@ -1023,9 +987,9 @@ fb><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl12.pf
 b><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb
 ><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
 
-Output written on TUKIB.pdf (104 pages, 10149657 bytes).
+Output written on TUKIB.pdf (98 pages, 10140068 bytes).
 PDF statistics:
- 409 PDF objects out of 1000 (max. 8388607)
+ 390 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  96 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,47 +1,8 @@
 %   Filename    : chapter_5.tex 
-\chapter{Conclusions and Recommendations}
-This chapter presents the findings from the system analysis and design of the TUKIB system, incorporates the valuable feedback and suggestions received during consultations with the UPV Regional Research Center (RRC), and presents the conclusions drawn from this comprehensive process. Finally, it offers recommendations for the future improvement and implementation of TUKIB. This chapter highlights how TUKIB addresses identified operational challenges and outlines directions for its continued development, informed by stakeholder input.
+\chapter{Conclusion and Recommendations}
+This chapter summarizes the key findings from the system analysis, design, and evaluation of TUKIB. It incorporates insights gained from consultations with the UPV Regional Research Center (RRC) and feedback gathered during assessments with potential users. Based on this comprehensive process, the chapter presents the main conclusions and offers practical recommendations for the future enhancement and implementation of TUKIB.
 
-\section{Summary of Findings}
-The development of TUKIB was informed by thorough research and design activities, including data gathering, needs assessments, system design, and feedback sessions with key stakeholders. The following are the key findings:
-
-\subsection{Service Offerings and Existing Challenges}
-Initial discussions with the RRC revealed a range of vital services offered by the center, including sample processing, laboratory equipment rental, facility rental, and research training. However, the absence of a dedicated management system presented significant operational challenges. The reliance on Google Forms for service requests and manual processing in Google Sheets led to inefficiencies, increased potential for human error, and limitations in data accuracy. Furthermore, clients lacked real-time visibility into equipment and laboratory availability, causing delays and necessitating frequent communication. This manual data management system also posed risks to data integrity and accessibility, particularly for reporting and tracking service utilization.
-
-\subsection{Stakeholder-Identified Needs}
-Consultations with RRC stakeholders, encompassing laboratory staff and administrators, clearly articulated a set of essential needs for the proposed system. These included a centralized platform to consolidate service information, procedures, and contact details. A digital service request system was strongly desired to minimize errors and expedite processing times. Stakeholders also emphasized the need for features such as a real-time calendar for resource availability and an equipment availability tracker to enhance efficiency. The system required a user account management system with administrative approval for client registration. The ability to differentiate between individual and project accounts was deemed essential to accommodate the diverse needs of clients. Furthermore, a multi-layer approval system for service requests, involving administrative staff, the University Researcher (UR), and the Director, was considered crucial. Lastly, features such as a progress bar to track request status, downloadable results, and improved form designs incorporating dropdown menus and checkboxes were highlighted as important for an enhanced user experience.
-
-\subsection{System Prototype and Diagrams}
-To illustrate the functionality of TUKIB, various visual models were developed. These included process flow diagrams, context models, use case diagrams, and a data flow diagram. The proposed system architecture featured a database with interconnected tables designed to efficiently manage accounts, service requests, equipment, laboratories, and other critical data.
-
-\subsection{Chatbot Integration}
-The integration of a chatbot, named LIRA (Learning, Innovation, and Research Assistant), was planned to provide users with immediate assistance in navigating the platform, answering frequently asked questions, and guiding them through the service request process.
-
-\section{Feedback and System Refinements}
-The consultation phase with RRC stakeholders yielded invaluable feedback that directly influenced and refined the design of the TUKIB system. The key suggestions and the corresponding adaptations are detailed below:
-
-\subsection{Separation of Equipment and Laboratory Calendars}
-A significant suggestion was to separate the equipment and laboratory scheduling within the calendar system. The initial design utilized a single calendar for laboratory bookings, which was identified as a source of potential user confusion. In response, the system design was modified to incorporate two distinct calendars, one for equipment and one for laboratories. This separation will enable users to clearly view, manage, and reserve resources without ambiguity, and will aid administrators in more effective resource monitoring and organization.
-
-\subsection{Layers for Approval and Chargeslip Generation}
-The RRC recommended an approval process for chargeslip generation, advocating for a three-layered approach involving administrative staff, the University Researcher (UR), and the Director, instead of a more straightforward mechanism initially envisioned. This multi-layered approval system was adopted to align with the RRC's current practices, enhance workflow transparency, and ensure thorough review of financial transactions within TUKIB.
-
-\subsection{Client Account Management: Admin Approval}
-Concerns were raised regarding the initial plan where users could make requests almost immediately after self-registration. To enhance system security and ensure the authenticity of users, the RRC suggested implementing an administrative approval step for all new client accounts. Consequently, the system now requires administrators to verify and approve new accounts before they become active, adding a crucial layer of security and control.
-
-\subsection{User Categories: Individual and Project Accounts}
-Recognizing the different needs of individual researchers and collaborative projects, the RRC recommended the categorization of user accounts into individual and project types. This distinction was incorporated into the system design to allow for tailored services, permissions, and billing structures, thereby enhancing organizational efficiency and better accommodating the diverse needs of the RRC clientele.
-
-\subsection{Forms: Dropdowns, Checkboxes, and Tooltips}
-Feedback on the initial form design, which relied heavily on free-text fields, highlighted the potential for user input errors and inconsistencies. In response, the form designs were refined to include dropdown menus for standardized responses, checkboxes for easy selection of multiple options, and tooltips to provide guidance on expected inputs for non-dropdown fields. These improvements aim to streamline the submission process, enhance data accuracy, and reduce user confusion.
-
-\subsection{Progress Bar for User Transparency}
-To enhance user experience and transparency, the RRC suggested the inclusion of a visual progress bar. This feature was integrated into the system design to provide clients with real-time feedback on the current status of their service requests, minimizing the need for manual inquiries.
-
-\subsection{Downloadable Tabular Data and Statistical Graphs for RRC Reporting}
-The RRC also emphasized the need for tools to improve their internal reporting capabilities. To this end, the system design includes the functionality for administrative staff to download service request data in a tabular format (e.g., CSV, Excel). This feature will facilitate efficient data analysis, record-keeping, and the generation of comprehensive reports on service utilization.
-
-Furthermore, to provide visual insights into service trends and operational efficiency, the integration of statistical graph generation is planned. This feature will enable RRC staff to create various charts and graphs (e.g., pie charts for service type distribution) directly from the system data. These visual aids will support data-driven decision-making and enhance the presentation of key performance indicators. The tabular data will serve as the foundation for these statistical visualizations.
+\section{System Assessment Result}
 
 \section{Conclusion}
 Based on the findings from the system analysis, design activities, and the valuable feedback received, the following key conclusions can be drawn:
@@ -61,7 +22,7 @@ This section is divided into two parts: "System Recommendations" and "External d
 
 \subsection{System Recommendations}
 
-This subsection discusses the limitations observed in the current version of the TUKIB system. It also outlines the necessary features and modifications identified during development and testing that would help improve the system’s performance, functionality, and overall user experience.
+This subsection discusses the limitations observed in the current version of the TUKIB system. It also outlines the necessary features and modifications identified during development and testing that would help improve the system.
 
 \begin{itemize}
 	
@@ -75,7 +36,7 @@ This subsection discusses the limitations observed in the current version of the
 	
 	\item \textbf{Automated Email Notifications}
 	
-	Integrate automated email alerts to keep users and approvers informed about critical status changes, such as chargeslip approvals, service request updates, and reservation confirmations.
+	Implement automated email alerts to promptly inform users and approvers of key status updates, including chargeslip approvals, service request progress, and reservation confirmations. These notifications should be sent to users' registered email addresses to enhance communication efficiency and streamline the overall process.
 	
 	\item \textbf{Built-in Direct Messaging}
 	
@@ -89,15 +50,19 @@ This subsection discusses the limitations observed in the current version of the
 	
 	The system’s user interface has been implemented with responsive design principles and mostly adapts well across various devices and screen sizes. However, there are still inconsistencies in layout and component behavior, particularly on tablets and smaller screens. Further refinement is needed to ensure consistent user experience and full optimization of all UI elements across desktops, tablets, and smartphones.
 	
+	\item \textbf{Downloadable Tabular Data}
+	
+	To support data analysis, reporting, and administrative efficiency, the developers recommend implementing a feature that allows staff to download system data in tabular format. This functionality should include key datasets such as user information, service records, and request logs, enabling more effective decision-making and streamlined reporting processes.
+	
 	\item \textbf{Plan for Future Scalability}
 	
 	Design the system with future scalability in mind, allowing for the seamless integration of additional services such as online payments or expanded facility rental options as the needs of the RRC evolve.
 	
 \end{itemize}
 
-\subsection{External Dependencies Recommendations}
+\subsection{Implementation and Deployment Recommendations}
 
-This subsection outlines recommended features and measures that could significantly enhance the TUKIB system but whose creation, initiation, and/or modification fall outside the current scope of the study. These recommendations are intended for future consideration to further improve system performance, user satisfaction, and long-term sustainability.
+This subsection outlines recommended features and measures that could significantly enhance TUKIB or support its deployment, but whose implementation falls outside the current scope of the study. These recommendations are intended for future consideration to further improve system performance, user satisfaction, and long-term sustainability.
 
 \begin{itemize}
 	
