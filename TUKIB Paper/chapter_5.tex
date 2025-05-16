@@ -1,17 +1,25 @@
 %   Filename    : chapter_5.tex 
 \chapter{Conclusion and Recommendations}
-This chapter summarizes the key findings from the system analysis, design, and evaluation of TUKIB. It incorporates insights gained from consultations with the UPV Regional Research Center (RRC) and feedback gathered during assessments with potential users. Based on this comprehensive process, the chapter presents the main conclusions and offers practical recommendations for the future enhancement and implementation of TUKIB.
-
-\section{System Assessment Result}
+This chapter presents the conclusion of the study and offers practical recommendations for future enhancement and implementation of TUKIB.
 
 \section{Conclusion}
-Based on the findings from the system analysis, design activities, and the valuable feedback received, the following key conclusions can be drawn:
+Rapid technological advancements demands adaptability especially with businesses and institutions. 
+
+In order to tackle the issue mentioned, the researchers developed the system. TUKIB is a system designed to cater to the needs for automation. The system was developed with the idea of specifically getting what the users need. The researchers also focused on creating an intuitive and user friendly interface to ensure that the service delivery of RRC would be efficient not only for the staff but for the clients as well.
+
+The development of TUKIB utilized HTML5, bootstrap, and javascript for the front end. Postgresql and ReactJS for the backend and Rasa for the chatbot. 
+
+All of the aforementioned interfaces and system features were planned deliberately and were improved incremeatally with testing and feedback from stakeholders. 
+
+With its successful development, based on the findings from the system analysis, design activities, and the valuable feedback received, some key ideas were drawn.
 
 First, the transition to an automated, centralized platform like TUKIB is crucial for modernizing service management at the RRC, significantly improving efficiency and accuracy compared to existing manual processes. Second, the active involvement of stakeholders throughout the design process was instrumental in ensuring that the developed system directly addresses the specific needs and operational context of the RRC staff and clients. Third, the robust and scalable system architecture, incorporating detailed workflows, a multi-layer approval system, real-time calendar management, and chatbot support, demonstrates the capability to meet both current and future needs of the research center. Finally, the successful development and implementation of TUKIB can serve as a valuable model for other research centers seeking to streamline and digitize their service operations.
 
 Moreover, the consultation process done has underscored the importance of maintaining an open line of communication between system developers and stakeholders. Regular feedback sessions will be critical to adapting the system to the evolving needs of researchers and administrative staff. By embracing a user-centered design philosophy, TUKIB is positioned not only to address current challenges but also to scale and adapt for future enhancements.
 
-In conclusion, the integration of UPV RRC’s feedback has significantly strengthened TUKIB’s foundation as a reliable and innovative workflow automation platform. Continued collaboration, attention to user needs, and proactive system improvements will be key to ensuring TUKIB’s long-term success and sustainability within the Regional Research Center and beyond.
+This study conclude that 
+
+Continued collaboration, attention to user needs, and proactive system improvements will be key to ensuring TUKIB’s long-term success and sustainability within the Regional Research Center and beyond.
 
 \section{Recommendations}
 
@@ -32,7 +40,7 @@ This subsection discusses the limitations observed in the current version of the
 	
 	\item \textbf{Chatbot Expansion}
 	
-	The chatbot's knowledge base should be expanded incrementally, starting with a fundamental set of responses and progressively enhanced based on user interactions and frequently asked questions. Moreover, the developers recommend implementing Retrieval-Augmented Generation (RAG) to improve the quality of chatbot responses. While the current system uses the Rasa framework, which serves its purpose, transitioning to or integrating RAG can offer more dynamic and context-aware interactions.
+	Currently, the chatbot's training data is small and limited to basic information regarding the services of RRC. The developers recommend expanding this training data to enhance the accuracy of chatbot responses. Moreover, the developers also recommend implementing Retrieval-Augmented Generation (RAG) to improve the quality of chatbot responses. While the current system uses the Rasa framework, which serves its purpose, transitioning to or integrating RAG can offer more dynamic and context-aware interactions.
 	
 	\item \textbf{Automated Email Notifications}
 	
@@ -52,7 +60,9 @@ This subsection discusses the limitations observed in the current version of the
 	
 	\item \textbf{Downloadable Tabular Data}
 	
-	To support data analysis, reporting, and administrative efficiency, the developers recommend implementing a feature that allows staff to download system data in tabular format. This functionality should include key datasets such as user information, service records, and request logs, enabling more effective decision-making and streamlined reporting processes.
+	To support data analysis, reporting, and administrative efficiency, the developers recommend implementing a feature that allows staff to download system data in tabular format. The feature should be able to support automated conversion of data into various document formats including.csv (comma-separated file), .xls,	and/or .pdf.
+	
+	 This functionality should include key datasets such as user information, service records, and request logs, enabling more effective decision-making and streamlined reporting processes.
 	
 	\item \textbf{Plan for Future Scalability}
 	
@@ -75,22 +85,3 @@ This subsection outlines recommended features and measures that could significan
 	Develop and deliver formal training sessions and materials to ensure that users fully understand how to navigate and utilize the system effectively. This is especially important for first-time users and administrative personnel.
 	
 \end{itemize}
-
-%-- \begin{itemize}
-	%-- \item \textbf{Prioritize Core Modules:} During the initial development phase, focus on the implementation of the core modules, including user registration, service request processing, the separated calendar management for equipment and laboratories, the multi-layer approval system for chargeslips and service requests, and the basic chatbot functionalities.
-	
-	%-- \item \textbf{Gradual Chatbot Expansion:} The chatbot's knowledge base should be expanded incrementally, starting with a fundamental set of responses and progressively enhanced based on user interactions and frequently asked questions.
-	
-	%-- \item \textbf{Comprehensive User Training and Onboarding:} Develop and deliver thorough user onboarding and training programs for both RRC staff and clients to ensure a smooth and effective adoption of the new system.
-	
-	%-- \item \textbf{Pre-Deployment Usability Testing:} Conduct rigorous usability testing with representative clients and staff before the full deployment of TUKIB to identify and address any potential usability issues or areas for improvement.
-	
-	%-- \item \textbf{Robust Data Security Measures:} Implement comprehensive data security measures, including encryption, strict access controls, and regular data backups, to safeguard sensitive information within the system.
-	
-	%-- \item \textbf{Establish a Post-Deployment Feedback Mechanism:} Implement a system for collecting user feedback after deployment to support continuous improvement and identify areas for future enhancements.
-	
-	%-- \item \textbf{Plan for Future Scalability:} Design the system with future scalability in mind, allowing for the seamless integration of additional services such as online payments or expanded facility rental options as the needs of the RRC evolve.
-	
-	%-- \item \textbf{Automated Email Notifications:} Integrate automated email alerts to keep users and approvers informed about critical status changes, such as chargeslip approvals, service request updates, and reservation confirmations.
-	
-	%--\item \textbf{Enhanced Security Features:} Explore and implement advanced security features such as multi-factor authentication (MFA) and detailed audit logs to further enhance user account security and maintain system integrity.

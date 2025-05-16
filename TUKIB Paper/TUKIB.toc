@@ -1,68 +1,64 @@
 \contentsline {chapter}{\numberline {1}Introduction}{1}{}%
 \contentsline {section}{\numberline {1.1}Overview of the Current State of Technology}{1}{}%
 \contentsline {section}{\numberline {1.2}Problem Statement}{3}{}%
-\contentsline {section}{\numberline {1.3}Problem Statement}{4}{}%
-\contentsline {section}{\numberline {1.4}Research Objectives}{5}{}%
-\contentsline {subsection}{\numberline {1.4.1}General Objective}{5}{}%
-\contentsline {subsection}{\numberline {1.4.2}Specific Objectives}{5}{}%
-\contentsline {section}{\numberline {1.5}Scope and Limitations of the Research}{6}{}%
-\contentsline {section}{\numberline {1.6}Significance of the Research}{7}{}%
-\contentsline {chapter}{\numberline {2}Review of Related Literature}{11}{}%
-\contentsline {section}{\numberline {2.1}Challenges in Manual Service Handling}{11}{}%
-\contentsline {section}{\numberline {2.2}Workflow Automation}{13}{}%
-\contentsline {subsection}{\numberline {2.2.1}Workflow automation in different industries}{15}{}%
-\contentsline {section}{\numberline {2.3}Existing Systems}{15}{}%
-\contentsline {section}{\numberline {2.4}Gaps in the existing systems and solutions}{16}{}%
-\contentsline {section}{\numberline {2.5}Chatbot}{17}{}%
-\contentsline {subsection}{\numberline {2.5.1}Chatbots in Service Automation}{19}{}%
-\contentsline {subsection}{\numberline {2.5.2}Chatbot Frameworks}{20}{}%
-\contentsline {section}{\numberline {2.6}Synthesis}{21}{}%
-\contentsline {chapter}{\numberline {3}Research Methodology}{23}{}%
-\contentsline {section}{\numberline {3.1}Research Activities}{23}{}%
-\contentsline {subsection}{\numberline {3.1.1}Development Framework}{23}{}%
-\contentsline {section}{\numberline {3.2}Chatbot architecture and development}{28}{}%
-\contentsline {subsection}{\numberline {3.2.1}Rasa Chatbot Architecture}{28}{}%
-\contentsline {subsection}{\numberline {3.2.2}Conversation Processing}{29}{}%
-\contentsline {subsection}{\numberline {3.2.3}Model Training}{31}{}%
-\contentsline {subsection}{\numberline {3.2.4}Limitations of Rasa}{31}{}%
-\contentsline {section}{\numberline {3.3}Storage and Database Architecture}{32}{}%
-\contentsline {section}{\numberline {3.4}Development Tools}{32}{}%
-\contentsline {subsection}{\numberline {3.4.1}Hardware}{32}{}%
-\contentsline {subsection}{\numberline {3.4.2}Software}{33}{}%
-\contentsline {subsection}{\numberline {3.4.3}Storage and Archiving}{34}{}%
-\contentsline {subsection}{\numberline {3.4.4}Distributed and Scalable Database Architecture}{35}{}%
-\contentsline {chapter}{\numberline {4}Results and Discussion}{37}{}%
-\contentsline {section}{\numberline {4.1}Data Gathering Results}{37}{}%
-\contentsline {subsection}{\numberline {4.1.1}Facility Tour}{38}{}%
-\contentsline {subsection}{\numberline {4.1.2}Stakeholder Identification and Engagement}{39}{}%
-\contentsline {subsection}{\numberline {4.1.3}Scope and Limitations of the Services}{39}{}%
-\contentsline {section}{\numberline {4.2}System Requirements}{40}{}%
-\contentsline {section}{\numberline {4.3}System Design}{43}{}%
-\contentsline {subsection}{\numberline {4.3.1}Process Flow Diagram}{43}{}%
-\contentsline {subsection}{\numberline {4.3.2}Context Model}{44}{}%
-\contentsline {subsection}{\numberline {4.3.3}Use Case Diagram}{45}{}%
-\contentsline {subsection}{\numberline {4.3.4}Data Flow Diagram}{47}{}%
-\contentsline {subsection}{\numberline {4.3.5}Database Diagram}{47}{}%
-\contentsline {section}{\numberline {4.4}Chatbot}{49}{}%
-\contentsline {subsection}{\numberline {4.4.1}Entities and Intents}{49}{}%
-\contentsline {subsection}{\numberline {4.4.2}Conversation Flow}{50}{}%
-\contentsline {section}{\numberline {4.5}System Features}{54}{}%
-\contentsline {subsection}{\numberline {4.5.1}User Interface}{54}{}%
-\contentsline {subsection}{\numberline {4.5.2}Log in Module}{62}{}%
-\contentsline {subsection}{\numberline {4.5.3}Service Request Module}{63}{}%
-\contentsline {subsection}{\numberline {4.5.4}Data Management Module}{64}{}%
-\contentsline {section}{\numberline {4.6}Data Privacy and Security Measures}{64}{}%
-\contentsline {subsection}{\numberline {4.6.1}Password Encryption}{64}{}%
-\contentsline {subsection}{\numberline {4.6.2}User Authentication and Authorization}{65}{}%
-\contentsline {subsection}{\numberline {4.6.3}Backup and Recovery}{65}{}%
-\contentsline {section}{\numberline {4.7}Testing}{65}{}%
-\contentsline {section}{\numberline {4.8}Summary of Results}{65}{}%
-\contentsline {chapter}{\numberline {5}Conclusion and Recommendations}{67}{}%
-\contentsline {section}{\numberline {5.1}System Assessment Result}{68}{}%
-\contentsline {section}{\numberline {5.2}Conclusion}{68}{}%
-\contentsline {section}{\numberline {5.3}Recommendations}{69}{}%
-\contentsline {subsection}{\numberline {5.3.1}System Recommendations}{69}{}%
-\contentsline {subsection}{\numberline {5.3.2}Implementation and Deployment Recommendations}{72}{}%
-\contentsline {chapter}{\numberline {6}References}{73}{}%
-\contentsline {chapter}{\numberline {A}Code Snippets}{81}{}%
-\contentsline {chapter}{\numberline {B}Resource Persons}{83}{}%
+\contentsline {section}{\numberline {1.3}Research Objectives}{4}{}%
+\contentsline {subsection}{\numberline {1.3.1}General Objective}{4}{}%
+\contentsline {subsection}{\numberline {1.3.2}Specific Objectives}{4}{}%
+\contentsline {section}{\numberline {1.4}Scope and Limitations of the Research}{5}{}%
+\contentsline {section}{\numberline {1.5}Significance of the Research}{6}{}%
+\contentsline {chapter}{\numberline {2}Review of Related Literature}{9}{}%
+\contentsline {section}{\numberline {2.1}Challenges in Manual Service Handling}{9}{}%
+\contentsline {section}{\numberline {2.2}Workflow Automation}{11}{}%
+\contentsline {subsection}{\numberline {2.2.1}Workflow automation in different industries}{13}{}%
+\contentsline {section}{\numberline {2.3}Existing Systems}{13}{}%
+\contentsline {section}{\numberline {2.4}Gaps in the existing systems and solutions}{14}{}%
+\contentsline {section}{\numberline {2.5}Chatbot}{15}{}%
+\contentsline {subsection}{\numberline {2.5.1}Chatbots in Service Automation}{17}{}%
+\contentsline {subsection}{\numberline {2.5.2}Chatbot Frameworks}{18}{}%
+\contentsline {section}{\numberline {2.6}Synthesis}{19}{}%
+\contentsline {chapter}{\numberline {3}Research Methodology}{21}{}%
+\contentsline {section}{\numberline {3.1}Research Activities}{21}{}%
+\contentsline {subsection}{\numberline {3.1.1}Development Framework}{21}{}%
+\contentsline {section}{\numberline {3.2}Chatbot architecture}{26}{}%
+\contentsline {subsection}{\numberline {3.2.1}Rasa Chatbot Architecture}{26}{}%
+\contentsline {subsection}{\numberline {3.2.2}Conversation Processing}{27}{}%
+\contentsline {subsection}{\numberline {3.2.3}Model Training}{29}{}%
+\contentsline {subsection}{\numberline {3.2.4}Limitations of Rasa}{29}{}%
+\contentsline {section}{\numberline {3.3}Development Tools}{30}{}%
+\contentsline {subsection}{\numberline {3.3.1}Hardware}{30}{}%
+\contentsline {subsection}{\numberline {3.3.2}Software}{30}{}%
+\contentsline {section}{\numberline {3.4}Data Gathering}{32}{}%
+\contentsline {subsection}{\numberline {3.4.1}Facility Tour}{32}{}%
+\contentsline {subsection}{\numberline {3.4.2}Stakeholder Identification and Engagement}{33}{}%
+\contentsline {subsection}{\numberline {3.4.3}Scope and Limitations of the Services}{34}{}%
+\contentsline {section}{\numberline {3.5}System Requirements}{35}{}%
+\contentsline {section}{\numberline {3.6}System Design}{38}{}%
+\contentsline {subsection}{\numberline {3.6.1}Process Flow Diagram}{38}{}%
+\contentsline {subsection}{\numberline {3.6.2}Context Model}{38}{}%
+\contentsline {subsection}{\numberline {3.6.3}Use Case Diagram}{40}{}%
+\contentsline {subsection}{\numberline {3.6.4}Data Flow Diagram}{42}{}%
+\contentsline {subsection}{\numberline {3.6.5}Database Diagram}{42}{}%
+\contentsline {section}{\numberline {3.7}Chatbot Component Design}{44}{}%
+\contentsline {subsection}{\numberline {3.7.1}Entities and Intents}{45}{}%
+\contentsline {subsection}{\numberline {3.7.2}Conversation Flow}{45}{}%
+\contentsline {chapter}{\numberline {4}Results and Discussion}{49}{}%
+\contentsline {section}{\numberline {4.1}User Interface}{49}{}%
+\contentsline {section}{\numberline {4.2}System Features}{56}{}%
+\contentsline {subsection}{\numberline {4.2.1}Log in Module}{56}{}%
+\contentsline {subsection}{\numberline {4.2.2}Service Request Module}{57}{}%
+\contentsline {subsection}{\numberline {4.2.3}Data Management Module}{58}{}%
+\contentsline {subsection}{\numberline {4.2.4}Chatbot}{58}{}%
+\contentsline {section}{\numberline {4.3}Data Privacy and Security Measures}{59}{}%
+\contentsline {subsection}{\numberline {4.3.1}Password Encryption}{59}{}%
+\contentsline {subsection}{\numberline {4.3.2}User Authentication and Authorization}{60}{}%
+\contentsline {subsection}{\numberline {4.3.3}Backup and Recovery}{60}{}%
+\contentsline {section}{\numberline {4.4}Testing}{61}{}%
+\contentsline {section}{\numberline {4.5}Summary of Results}{61}{}%
+\contentsline {chapter}{\numberline {5}Conclusion and Recommendations}{63}{}%
+\contentsline {section}{\numberline {5.1}Conclusion}{63}{}%
+\contentsline {section}{\numberline {5.2}Recommendations}{65}{}%
+\contentsline {subsection}{\numberline {5.2.1}System Recommendations}{65}{}%
+\contentsline {subsection}{\numberline {5.2.2}Implementation and Deployment Recommendations}{68}{}%
+\contentsline {chapter}{\numberline {6}References}{69}{}%
+\contentsline {chapter}{\numberline {A}Code Snippets}{77}{}%
+\contentsline {chapter}{\numberline {B}Resource Persons}{79}{}%
