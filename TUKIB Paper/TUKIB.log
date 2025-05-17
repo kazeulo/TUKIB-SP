@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.9.1)  17 MAY 2025 22:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.9.1)  17 MAY 2025 22:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -283,11 +283,44 @@ Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
 )
 (C:\Users\ASUS\AppData\Local\MiKTeX\tex/latex/setspace\setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
+)
+(C:\Users\ASUS\AppData\Local\MiKTeX\tex/latex/lineno\lineno.sty
+Package: lineno 2023/05/20 line numbers on paragraphs v5.3
+
+(C:\Users\ASUS\AppData\Local\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count285
+)
+(C:\Users\ASUS\AppData\Local\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+
+(C:\Users\ASUS\AppData\Local\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(C:\Users\ASUS\AppData\Local\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+))
+\linenopenalty=\count286
+\output=\toks31
+\linenoprevgraf=\count287
+\linenumbersep=\dimen180
+\linenumberwidth=\dimen181
+\c@linenumber=\count288
+\c@pagewiselinenumber=\count289
+\c@LN@truepage=\count290
+\c@internallinenumber=\count291
+\c@internallinenumbers=\count292
+\quotelinenumbersep=\dimen182
+\bframerule=\dimen183
+\bframesep=\dimen184
+\bframebox=\box59
+\linenoamsmath@ams@eqpen=\count293
+LaTeX Info: Redefining \\ on input line 3180.
 ))
 (C:\Users\ASUS\AppData\Local\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count285
-\l__pdf_internal_box=\box59
+\l__color_backend_stack_int=\count294
+\l__pdf_internal_box=\box60
 )
 
 LaTeX Warning: Unused global option(s):
@@ -316,17 +349,17 @@ LaTeX Font Info:    ... okay on input line 7.
 
 (C:\Users\ASUS\AppData\Local\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count286
-\scratchdimen=\dimen180
-\scratchbox=\box60
-\nofMPsegments=\count287
-\nofMParguments=\count288
-\everyMPshowfont=\toks31
-\MPscratchCnt=\count289
-\MPscratchDim=\dimen181
-\MPnumerator=\count290
-\makeMPintoPDFobject=\count291
-\everyMPtoPDFconversion=\toks32
+\scratchcounter=\count295
+\scratchdimen=\dimen185
+\scratchbox=\box61
+\nofMPsegments=\count296
+\nofMParguments=\count297
+\everyMPshowfont=\toks32
+\MPscratchCnt=\count298
+\MPscratchDim=\dimen186
+\MPnumerator=\count299
+\makeMPintoPDFobject=\count300
+\everyMPtoPDFconversion=\toks33
 ) (C:\Users\ASUS\AppData\Local\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -350,7 +383,7 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
-\c@maskedRefs=\count292
+\c@maskedRefs=\count301
 
 (C:\Users\ASUS\AppData\Local\MiKTeX\tex/latex/apacite\english.apc
 File: english.apc 2013/07/21 v6.03 apacite language file
@@ -622,7 +655,7 @@ Chapter 3.
 
 
 ]
-<figures/agile methodology.png, id=121, 941.5175pt x 242.9075pt>
+<figures/agile methodology.png, id=122, 941.5175pt x 242.9075pt>
 File: figures/agile methodology.png Graphic file (type png)
 <use figures/agile methodology.png>
 Package pdftex.def Info: figures/agile methodology.png  used on input line 17.
@@ -649,7 +682,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 46--47
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [24]
-Underfull \hbox (badness 10000) in paragraph at lines 57--58
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
 
  []
 
@@ -662,7 +695,7 @@ Overfull \hbox (18.35425pt too wide) in paragraph at lines 133--177
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [31]
-<figures/process_flow.jpg, id=156, 2458.68562pt x 821.31844pt>
+<figures/process_flow.jpg, id=157, 2458.68562pt x 821.31844pt>
 File: figures/process_flow.jpg Graphic file (type jpg)
 <use figures/process_flow.jpg>
 Package pdftex.def Info: figures/process_flow.jpg  used on input line 189.
@@ -675,23 +708,23 @@ n/12 , they can use the sys-tem to over-see any laboratory-
  []
 
 [33]
-<figures/context model.png, id=164, 1750.54pt x 1126.2075pt>
+<figures/context model.png, id=165, 1750.54pt x 1126.2075pt>
 File: figures/context model.png Graphic file (type png)
 <use figures/context model.png>
 Package pdftex.def Info: figures/context model.png  used on input line 212.
 (pdftex.def)             Requested size: 415.55249pt x 267.33958pt.
  [34 <./figures/context model.png>]
-<figures/use_case_client.jpg, id=169, 604.2575pt x 885.3075pt>
+<figures/use_case_client.jpg, id=170, 604.2575pt x 885.3075pt>
 File: figures/use_case_client.jpg Graphic file (type jpg)
 <use figures/use_case_client.jpg>
 Package pdftex.def Info: figures/use_case_client.jpg  used on input line 227.
 (pdftex.def)             Requested size: 124.667pt x 182.65096pt.
-<figures/use_case_admin.jpg, id=170, 636.3775pt x 883.3pt>
+<figures/use_case_admin.jpg, id=171, 636.3775pt x 883.3pt>
 File: figures/use_case_admin.jpg Graphic file (type jpg)
 <use figures/use_case_admin.jpg>
 Package pdftex.def Info: figures/use_case_admin.jpg  used on input line 234.
 (pdftex.def)             Requested size: 132.97983pt x 184.56848pt.
-<figures/use_case_director.jpg, id=171, 622.325pt x 885.3075pt>
+<figures/use_case_director.jpg, id=172, 622.325pt x 885.3075pt>
 File: figures/use_case_director.jpg Graphic file (type jpg)
 <use figures/use_case_director.jpg>
 Package pdftex.def Info: figures/use_case_director.jpg  used on input line 243.
@@ -702,14 +735,14 @@ Underfull \hbox (badness 1077) in paragraph at lines 244--244
 []\OT1/cmr/m/n/12 Figure 3.6: Use Case
  []
 
-<figures/use_case_staff.jpg, id=172, 624.3325pt x 885.3075pt>
+<figures/use_case_staff.jpg, id=173, 624.3325pt x 885.3075pt>
 File: figures/use_case_staff.jpg Graphic file (type jpg)
 <use figures/use_case_staff.jpg>
 Package pdftex.def Info: figures/use_case_staff.jpg  used on input line 250.
 (pdftex.def)             Requested size: 124.667pt x 176.77467pt.
 [35 <./figures/use_case_client.jpg> <./figures/use_case_admin.jpg> <./figures/u
 se_case_director.jpg> <./figures/use_case_staff.jpg>]
-<figures/data_flow.jpg, id=176, 2625.81pt x 1525.7pt>
+<figures/data_flow.jpg, id=177, 2625.81pt x 1525.7pt>
 File: figures/data_flow.jpg Graphic file (type jpg)
 <use figures/data_flow.jpg>
 Package pdftex.def Info: figures/data_flow.jpg  used on input line 264.
@@ -731,7 +764,7 @@ e-sign. The \OT1/cmr/bx/n/12 mes-sagesTable
  []
 
 [38]
-<figures/database2.png, id=186, 1888.05376pt x 1908.12875pt>
+<figures/database2.png, id=187, 1888.05376pt x 1908.12875pt>
 File: figures/database2.png Graphic file (type png)
 <use figures/database2.png>
 Package pdftex.def Info: figures/database2.png  used on input line 293.
@@ -740,7 +773,7 @@ Package pdftex.def Info: figures/database2.png  used on input line 293.
 Underfull \vbox (badness 2469) has occurred while \output is active []
 
  [39 <./figures/database2.png>]
-<figures/RASA_architecture.png, id=191, 1312.905pt x 804.00375pt>
+<figures/RASA_architecture.png, id=192, 1312.905pt x 804.00375pt>
 File: figures/RASA_architecture.png Graphic file (type png)
 <use figures/RASA_architecture.png>
 Package pdftex.def Info: figures/RASA_architecture.png  used on input line 312.
@@ -759,7 +792,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [43]
 [44]
-<figures/chatbot_flow.png, id=208, 697.60625pt x 1025.8325pt>
+<figures/chatbot_flow.png, id=209, 697.60625pt x 1025.8325pt>
 File: figures/chatbot_flow.png Graphic file (type png)
 <use figures/chatbot_flow.png>
 Package pdftex.def Info: figures/chatbot_flow.png  used on input line 364.
@@ -804,7 +837,7 @@ f the sys-tem. HTML5
 
  (chapter_4.tex
 Chapter 4.
-<figures/landing.png, id=229, 1593.955pt x 1042.89626pt>
+<figures/landing.png, id=230, 1593.955pt x 1042.89626pt>
 File: figures/landing.png Graphic file (type png)
 <use figures/landing.png>
 Package pdftex.def Info: figures/landing.png  used on input line 13.
@@ -818,7 +851,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 ]
-<figures/service_page.png, id=233, 1145.4795pt x 618.51076pt>
+<figures/service_page.png, id=234, 1145.4795pt x 618.51076pt>
 File: figures/service_page.png Graphic file (type png)
 <use figures/service_page.png>
 Package pdftex.def Info: figures/service_page.png  used on input line 24.
@@ -828,7 +861,7 @@ Package pdftex.def Info: figures/service_page.png  used on input line 24.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [52 <./figures/landing.png>]
-<figures/laboratories.png, id=239, 1195.46625pt x 1193.20781pt>
+<figures/laboratories.png, id=240, 1195.46625pt x 1193.20781pt>
 File: figures/laboratories.png Graphic file (type png)
 <use figures/laboratories.png>
 Package pdftex.def Info: figures/laboratories.png  used on input line 37.
@@ -838,7 +871,7 @@ Package pdftex.def Info: figures/laboratories.png  used on input line 37.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [53 <./figures/service_page.png>]
-<figures/news_page.png, id=244, 1195.46625pt x 1315.91624pt>
+<figures/news_page.png, id=245, 1195.46625pt x 1315.91624pt>
 File: figures/news_page.png Graphic file (type png)
 <use figures/news_page.png>
 Package pdftex.def Info: figures/news_page.png  used on input line 50.
@@ -848,7 +881,7 @@ Package pdftex.def Info: figures/news_page.png  used on input line 50.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [54 <./figures/laboratories.png>]
-<figures/about_page.png, id=249, 1195.46625pt x 1034.36438pt>
+<figures/about_page.png, id=250, 1195.46625pt x 1034.36438pt>
 File: figures/about_page.png Graphic file (type png)
 <use figures/about_page.png>
 Package pdftex.def Info: figures/about_page.png  used on input line 63.
@@ -864,19 +897,19 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [56 <./figures/about_page.png>]
-<figures/client_dashboard.png, id=258, 1195.46625pt x 763.35187pt>
+<figures/client_dashboard.png, id=259, 1195.46625pt x 763.35187pt>
 File: figures/client_dashboard.png Graphic file (type png)
 <use figures/client_dashboard.png>
 Package pdftex.def Info: figures/client_dashboard.png  used on input line 76.
 (pdftex.def)             Requested size: 332.44325pt x 212.28108pt.
  [57 <./figures/client_dashboard.png>]
-<figures/staff_dashboard.png, id=263, 1143.67274pt x 617.9085pt>
+<figures/staff_dashboard.png, id=264, 1143.67274pt x 617.9085pt>
 File: figures/staff_dashboard.png Graphic file (type png)
 <use figures/staff_dashboard.png>
 Package pdftex.def Info: figures/staff_dashboard.png  used on input line 85.
 (pdftex.def)             Requested size: 332.44325pt x 179.61316pt.
  [58 <./figures/staff_dashboard.png>] [59]
-<figures/login.png, id=272, 1195.46625pt x 806.26219pt>
+<figures/login.png, id=273, 1195.46625pt x 806.26219pt>
 File: figures/login.png Graphic file (type png)
 <use figures/login.png>
 Package pdftex.def Info: figures/login.png  used on input line 108.
@@ -885,7 +918,7 @@ Package pdftex.def Info: figures/login.png  used on input line 108.
 Underfull \vbox (badness 3623) has occurred while \output is active []
 
  [60 <./figures/login.png>]
-<figures/chatbot_ui.png, id=277, 1143.0705pt x 614.89725pt>
+<figures/chatbot_ui.png, id=278, 1143.0705pt x 614.89725pt>
 File: figures/chatbot_ui.png Graphic file (type png)
 <use figures/chatbot_ui.png>
 Package pdftex.def Info: figures/chatbot_ui.png  used on input line 131.
@@ -1040,25 +1073,25 @@ L3 programming layer <2024-01-04>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 6593 strings out of 474486
- 109822 string characters out of 5748449
+ 7538 strings out of 474486
+ 124503 string characters out of 5748449
  1950542 words of memory out of 5000000
- 28664 multiletter control sequences out of 15000+600000
- 566952 words of font info for 68 fonts, out of 8000000 for 9000
+ 29588 multiletter control sequences out of 15000+600000
+ 567252 words of font info for 69 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 93i,12n,98p,1179b,453s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 93i,12n,98p,1179b,459s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\ASUS\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1
 200.pk><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx1
 0.pfb><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12
 .pfb><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10
 .pfb><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.p
 fb><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl12.pf
-b><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb
-><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-
-Output written on TUKIB.pdf (100 pages, 12416516 bytes).
+b><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb>
+<C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><
+C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on TUKIB.pdf (100 pages, 12435521 bytes).
 PDF statistics:
- 398 PDF objects out of 1000 (max. 8388607)
+ 403 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  101 words of extra memory for PDF output out of 10000 (max. 10000000)
 
