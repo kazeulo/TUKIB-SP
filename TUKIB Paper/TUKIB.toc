@@ -38,27 +38,27 @@
 \contentsline {subsection}{\numberline {3.6.3}Use Case Diagram}{40}{}%
 \contentsline {subsection}{\numberline {3.6.4}Data Flow Diagram}{42}{}%
 \contentsline {subsection}{\numberline {3.6.5}Database Diagram}{42}{}%
-\contentsline {section}{\numberline {3.7}Chatbot Component Design}{44}{}%
-\contentsline {subsection}{\numberline {3.7.1}Entities and Intents}{45}{}%
-\contentsline {subsection}{\numberline {3.7.2}Conversation Flow}{45}{}%
-\contentsline {chapter}{\numberline {4}Results and Discussion}{49}{}%
-\contentsline {section}{\numberline {4.1}User Interface}{49}{}%
-\contentsline {section}{\numberline {4.2}System Features}{56}{}%
-\contentsline {subsection}{\numberline {4.2.1}Log in Module}{56}{}%
-\contentsline {subsection}{\numberline {4.2.2}Service Request Module}{57}{}%
-\contentsline {subsection}{\numberline {4.2.3}Data Management Module}{58}{}%
-\contentsline {subsection}{\numberline {4.2.4}Chatbot}{58}{}%
-\contentsline {section}{\numberline {4.3}Data Privacy and Security Measures}{59}{}%
-\contentsline {subsection}{\numberline {4.3.1}Password Encryption}{59}{}%
-\contentsline {subsection}{\numberline {4.3.2}User Authentication and Authorization}{60}{}%
-\contentsline {subsection}{\numberline {4.3.3}Backup and Recovery}{60}{}%
-\contentsline {section}{\numberline {4.4}Testing}{61}{}%
-\contentsline {section}{\numberline {4.5}Summary of Results}{61}{}%
-\contentsline {chapter}{\numberline {5}Conclusion and Recommendations}{63}{}%
-\contentsline {section}{\numberline {5.1}Conclusion}{63}{}%
-\contentsline {section}{\numberline {5.2}Recommendations}{65}{}%
-\contentsline {subsection}{\numberline {5.2.1}System Recommendations}{65}{}%
-\contentsline {subsection}{\numberline {5.2.2}Implementation and Deployment Recommendations}{68}{}%
-\contentsline {chapter}{\numberline {6}References}{69}{}%
-\contentsline {chapter}{\numberline {A}Code Snippets}{77}{}%
-\contentsline {chapter}{\numberline {B}Resource Persons}{79}{}%
+\contentsline {section}{\numberline {3.7}Chatbot Component Design}{45}{}%
+\contentsline {subsection}{\numberline {3.7.1}Entities and Intents}{46}{}%
+\contentsline {subsection}{\numberline {3.7.2}Conversation Flow}{46}{}%
+\contentsline {chapter}{\numberline {4}Results and Discussion}{51}{}%
+\contentsline {section}{\numberline {4.1}User Interface}{51}{}%
+\contentsline {section}{\numberline {4.2}System Features}{58}{}%
+\contentsline {subsection}{\numberline {4.2.1}Log in Module}{58}{}%
+\contentsline {subsection}{\numberline {4.2.2}Service Request Module}{59}{}%
+\contentsline {subsection}{\numberline {4.2.3}Data Management Module}{60}{}%
+\contentsline {subsection}{\numberline {4.2.4}Chatbot}{60}{}%
+\contentsline {section}{\numberline {4.3}Data Privacy and Security Measures}{61}{}%
+\contentsline {subsection}{\numberline {4.3.1}Password Encryption}{61}{}%
+\contentsline {subsection}{\numberline {4.3.2}User Authentication and Authorization}{62}{}%
+\contentsline {subsection}{\numberline {4.3.3}Backup and Recovery}{62}{}%
+\contentsline {section}{\numberline {4.4}Testing}{63}{}%
+\contentsline {section}{\numberline {4.5}Summary of Results}{64}{}%
+\contentsline {chapter}{\numberline {5}Conclusion and Recommendations}{67}{}%
+\contentsline {section}{\numberline {5.1}Conclusion}{67}{}%
+\contentsline {section}{\numberline {5.2}Recommendations}{69}{}%
+\contentsline {subsection}{\numberline {5.2.1}System Recommendations}{69}{}%
+\contentsline {subsection}{\numberline {5.2.2}Implementation and Deployment Recommendations}{71}{}%
+\contentsline {chapter}{\numberline {6}References}{73}{}%
+\contentsline {chapter}{\numberline {A}Code Snippets}{81}{}%
+\contentsline {chapter}{\numberline {B}Resource Persons}{83}{}%
