@@ -19,28 +19,29 @@
 \contentsline {chapter}{\numberline {3}Research Methodology}{21}{}%
 \contentsline {section}{\numberline {3.1}Research Activities}{21}{}%
 \contentsline {subsection}{\numberline {3.1.1}Development Framework}{21}{}%
-\contentsline {section}{\numberline {3.2}Chatbot architecture}{26}{}%
-\contentsline {subsection}{\numberline {3.2.1}Rasa Chatbot Architecture}{26}{}%
-\contentsline {subsection}{\numberline {3.2.2}Conversation Processing}{27}{}%
-\contentsline {subsection}{\numberline {3.2.3}Model Training}{29}{}%
-\contentsline {subsection}{\numberline {3.2.4}Limitations of Rasa}{29}{}%
-\contentsline {section}{\numberline {3.3}Development Tools}{30}{}%
-\contentsline {subsection}{\numberline {3.3.1}Hardware}{30}{}%
-\contentsline {subsection}{\numberline {3.3.2}Software}{30}{}%
-\contentsline {section}{\numberline {3.4}Data Gathering}{32}{}%
-\contentsline {subsection}{\numberline {3.4.1}Facility Tour}{32}{}%
-\contentsline {subsection}{\numberline {3.4.2}Stakeholder Identification and Engagement}{33}{}%
-\contentsline {subsection}{\numberline {3.4.3}Scope and Limitations of the Services}{34}{}%
-\contentsline {section}{\numberline {3.5}System Requirements}{35}{}%
-\contentsline {section}{\numberline {3.6}System Design}{38}{}%
-\contentsline {subsection}{\numberline {3.6.1}Process Flow Diagram}{38}{}%
-\contentsline {subsection}{\numberline {3.6.2}Context Model}{38}{}%
-\contentsline {subsection}{\numberline {3.6.3}Use Case Diagram}{40}{}%
-\contentsline {subsection}{\numberline {3.6.4}Data Flow Diagram}{42}{}%
-\contentsline {subsection}{\numberline {3.6.5}Database Diagram}{42}{}%
-\contentsline {section}{\numberline {3.7}Chatbot Component Design}{45}{}%
-\contentsline {subsection}{\numberline {3.7.1}Entities and Intents}{46}{}%
-\contentsline {subsection}{\numberline {3.7.2}Conversation Flow}{46}{}%
+\contentsline {section}{\numberline {3.2}Data Gathering}{26}{}%
+\contentsline {subsection}{\numberline {3.2.1}Facility Tour}{26}{}%
+\contentsline {subsection}{\numberline {3.2.2}Stakeholder Identification and Engagement}{27}{}%
+\contentsline {subsection}{\numberline {3.2.3}Scope and Limitations of UPV RRC Services}{28}{}%
+\contentsline {section}{\numberline {3.3}System Requirements}{29}{}%
+\contentsline {section}{\numberline {3.4}System Design}{32}{}%
+\contentsline {subsection}{\numberline {3.4.1}Process Flow Diagram}{32}{}%
+\contentsline {subsection}{\numberline {3.4.2}Context Model}{32}{}%
+\contentsline {subsection}{\numberline {3.4.3}Use Case Diagram}{34}{}%
+\contentsline {subsection}{\numberline {3.4.4}Data Flow Diagram}{36}{}%
+\contentsline {subsection}{\numberline {3.4.5}Database Diagram}{36}{}%
+\contentsline {section}{\numberline {3.5}Chatbot architecture}{39}{}%
+\contentsline {subsection}{\numberline {3.5.1}Rasa Chatbot Architecture}{40}{}%
+\contentsline {subsection}{\numberline {3.5.2}Conversation Processing}{41}{}%
+\contentsline {subsection}{\numberline {3.5.3}Model Training}{42}{}%
+\contentsline {subsection}{\numberline {3.5.4}Limitations of Rasa}{43}{}%
+\contentsline {section}{\numberline {3.6}Chatbot Design and Development}{43}{}%
+\contentsline {subsection}{\numberline {3.6.1}Entities and Intents}{44}{}%
+\contentsline {subsection}{\numberline {3.6.2}Conversation Flow}{44}{}%
+\contentsline {section}{\numberline {3.7}Storage and Database Architecture}{48}{}%
+\contentsline {section}{\numberline {3.8}Development Tools}{48}{}%
+\contentsline {subsection}{\numberline {3.8.1}Hardware}{48}{}%
+\contentsline {subsection}{\numberline {3.8.2}Software}{49}{}%
 \contentsline {chapter}{\numberline {4}Results and Discussion}{51}{}%
 \contentsline {section}{\numberline {4.1}User Interface}{51}{}%
 \contentsline {subsection}{\numberline {4.1.1}Landing Page}{51}{}%

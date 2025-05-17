@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.9.1)  17 MAY 2025 21:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.9.1)  17 MAY 2025 22:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -431,11 +431,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [9]
-[10])
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10])
 \tf@toc=\write3
 \openout3 = `TUKIB.toc'.
 
- [11] [12
+
+[11] [12
 
 ] (TUKIB.lof [13])
 \tf@lof=\write4
@@ -650,85 +653,69 @@ Underfull \hbox (badness 10000) in paragraph at lines 57--58
 
  []
 
-[25] [26]
-<figures/RASA_architecture.png, id=140, 1312.905pt x 804.00375pt>
-File: figures/RASA_architecture.png Graphic file (type png)
-<use figures/RASA_architecture.png>
-Package pdftex.def Info: figures/RASA_architecture.png  used on input line 78.
-(pdftex.def)             Requested size: 415.55249pt x 254.47707pt.
- [27 <./figures/RASA_architecture.png (PNG copy)>]
-Underfull \vbox (badness 4739) has occurred while \output is active []
-
- [28]
-[29]
-Overfull \hbox (10.75096pt too wide) in paragraph at lines 135--136
-[]\OT1/cmr/m/n/12 These tech-nolo-gies were used for front-end de-vel-op-ment o
-f the sys-tem. HTML5
- []
-
-[30] [31] [32] [33] [34] [35] [36]
-Overfull \hbox (18.35425pt too wide) in paragraph at lines 228--272
+[25] [26] [27] [28] [29] [30]
+Overfull \hbox (18.35425pt too wide) in paragraph at lines 133--177
  [][] 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [37]
-<figures/process_flow.jpg, id=176, 2458.68562pt x 821.31844pt>
+ [31]
+<figures/process_flow.jpg, id=156, 2458.68562pt x 821.31844pt>
 File: figures/process_flow.jpg Graphic file (type jpg)
 <use figures/process_flow.jpg>
-Package pdftex.def Info: figures/process_flow.jpg  used on input line 284.
+Package pdftex.def Info: figures/process_flow.jpg  used on input line 189.
 (pdftex.def)             Requested size: 415.55249pt x 138.80768pt.
 
-[38 <./figures/process_flow.jpg>]
-Overfull \hbox (14.54729pt too wide) in paragraph at lines 295--296
+[32 <./figures/process_flow.jpg>]
+Overfull \hbox (14.54729pt too wide) in paragraph at lines 200--201
 []\OT1/cmr/m/n/12 For the \OT1/cmr/bx/n/12 Uni-ver-sity Re-searchers\OT1/cmr/m/
 n/12 , they can use the sys-tem to over-see any laboratory-
  []
 
-[39]
-<figures/context model.png, id=184, 1750.54pt x 1126.2075pt>
+[33]
+<figures/context model.png, id=164, 1750.54pt x 1126.2075pt>
 File: figures/context model.png Graphic file (type png)
 <use figures/context model.png>
-Package pdftex.def Info: figures/context model.png  used on input line 307.
+Package pdftex.def Info: figures/context model.png  used on input line 212.
 (pdftex.def)             Requested size: 415.55249pt x 267.33958pt.
- [40 <./figures/context model.png>]
-<figures/use_case_client.jpg, id=189, 604.2575pt x 885.3075pt>
+ [34 <./figures/context model.png>]
+<figures/use_case_client.jpg, id=169, 604.2575pt x 885.3075pt>
 File: figures/use_case_client.jpg Graphic file (type jpg)
 <use figures/use_case_client.jpg>
-Package pdftex.def Info: figures/use_case_client.jpg  used on input line 322.
+Package pdftex.def Info: figures/use_case_client.jpg  used on input line 227.
 (pdftex.def)             Requested size: 124.667pt x 182.65096pt.
-<figures/use_case_admin.jpg, id=190, 636.3775pt x 883.3pt>
+<figures/use_case_admin.jpg, id=170, 636.3775pt x 883.3pt>
 File: figures/use_case_admin.jpg Graphic file (type jpg)
 <use figures/use_case_admin.jpg>
-Package pdftex.def Info: figures/use_case_admin.jpg  used on input line 329.
+Package pdftex.def Info: figures/use_case_admin.jpg  used on input line 234.
 (pdftex.def)             Requested size: 132.97983pt x 184.56848pt.
-<figures/use_case_director.jpg, id=191, 622.325pt x 885.3075pt>
+<figures/use_case_director.jpg, id=171, 622.325pt x 885.3075pt>
 File: figures/use_case_director.jpg Graphic file (type jpg)
 <use figures/use_case_director.jpg>
-Package pdftex.def Info: figures/use_case_director.jpg  used on input line 338.
+Package pdftex.def Info: figures/use_case_director.jpg  used on input line 243.
 
 (pdftex.def)             Requested size: 124.667pt x 177.34204pt.
 
-Underfull \hbox (badness 1077) in paragraph at lines 339--339
-[]\OT1/cmr/m/n/12 Figure 3.7: Use Case
+Underfull \hbox (badness 1077) in paragraph at lines 244--244
+[]\OT1/cmr/m/n/12 Figure 3.6: Use Case
  []
 
-<figures/use_case_staff.jpg, id=192, 624.3325pt x 885.3075pt>
+<figures/use_case_staff.jpg, id=172, 624.3325pt x 885.3075pt>
 File: figures/use_case_staff.jpg Graphic file (type jpg)
 <use figures/use_case_staff.jpg>
-Package pdftex.def Info: figures/use_case_staff.jpg  used on input line 345.
+Package pdftex.def Info: figures/use_case_staff.jpg  used on input line 250.
 (pdftex.def)             Requested size: 124.667pt x 176.77467pt.
-[41 <./figures/use_case_client.jpg> <./figures/use_case_admin.jpg> <./figures/u
+[35 <./figures/use_case_client.jpg> <./figures/use_case_admin.jpg> <./figures/u
 se_case_director.jpg> <./figures/use_case_staff.jpg>]
-<figures/data_flow.jpg, id=196, 2625.81pt x 1525.7pt>
+<figures/data_flow.jpg, id=176, 2625.81pt x 1525.7pt>
 File: figures/data_flow.jpg Graphic file (type jpg)
 <use figures/data_flow.jpg>
-Package pdftex.def Info: figures/data_flow.jpg  used on input line 359.
+Package pdftex.def Info: figures/data_flow.jpg  used on input line 264.
 (pdftex.def)             Requested size: 415.55249pt x 241.43976pt.
- [42 <./figures/data_flow.jpg>]
-Overfull \hbox (6.76668pt too wide) in paragraph at lines 372--373
+ [36 <./figures/data_flow.jpg>]
+Overfull \hbox (6.76668pt too wide) in paragraph at lines 277--278
 \OT1/cmr/bx/n/12 tRental-Re-quests\OT1/cmr/m/n/12 , \OT1/cmr/bx/n/12 fa-cil-i-t
 yRental-Re-quests\OT1/cmr/m/n/12 , \OT1/cmr/bx/n/12 sam-plePro-cess-in-gRe-ques
 ts\OT1/cmr/m/n/12 , and
@@ -737,58 +724,85 @@ ts\OT1/cmr/m/n/12 , and
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [43]
-Overfull \hbox (18.20314pt too wide) in paragraph at lines 380--381
+ [37]
+Overfull \hbox (18.20314pt too wide) in paragraph at lines 285--286
 []\OT1/cmr/m/n/12 Additionally, the schema in-cludes un-con-nected ta-bles by d
 e-sign. The \OT1/cmr/bx/n/12 mes-sagesTable
  []
 
-[44]
-<figures/database2.png, id=206, 1888.05376pt x 1908.12875pt>
+[38]
+<figures/database2.png, id=186, 1888.05376pt x 1908.12875pt>
 File: figures/database2.png Graphic file (type png)
 <use figures/database2.png>
-Package pdftex.def Info: figures/database2.png  used on input line 388.
+Package pdftex.def Info: figures/database2.png  used on input line 293.
 (pdftex.def)             Requested size: 415.55249pt x 419.96432pt.
- [45 <./figures/database2.png>] [46]
-<figures/chatbot_flow.png, id=215, 697.60625pt x 1025.8325pt>
+
+Underfull \vbox (badness 2469) has occurred while \output is active []
+
+ [39 <./figures/database2.png>]
+<figures/RASA_architecture.png, id=191, 1312.905pt x 804.00375pt>
+File: figures/RASA_architecture.png Graphic file (type png)
+<use figures/RASA_architecture.png>
+Package pdftex.def Info: figures/RASA_architecture.png  used on input line 312.
+
+(pdftex.def)             Requested size: 415.55249pt x 254.47707pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [40]
+[41 <./figures/RASA_architecture.png (PNG copy)>] [42]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [43]
+[44]
+<figures/chatbot_flow.png, id=208, 697.60625pt x 1025.8325pt>
 File: figures/chatbot_flow.png Graphic file (type png)
 <use figures/chatbot_flow.png>
-Package pdftex.def Info: figures/chatbot_flow.png  used on input line 410.
+Package pdftex.def Info: figures/chatbot_flow.png  used on input line 364.
 (pdftex.def)             Requested size: 290.88547pt x 427.74744pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 420--421
+Underfull \hbox (badness 10000) in paragraph at lines 374--375
 
  []
 
-[47 <./figures/chatbot_flow.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 424--425
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 428--429
+[45 <./figures/chatbot_flow.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 378--379
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 432--433
+Underfull \hbox (badness 10000) in paragraph at lines 382--383
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 386--387
+
+ []
+
+[46]
+Underfull \hbox (badness 10000) in paragraph at lines 390--391
+
+ []
+
+
+Underfull \vbox (badness 4739) has occurred while \output is active []
+
+ [47]
 [48]
-Underfull \hbox (badness 10000) in paragraph at lines 436--437
-
+Overfull \hbox (10.75096pt too wide) in paragraph at lines 429--430
+[]\OT1/cmr/m/n/12 These tech-nolo-gies were used for front-end de-vel-op-ment o
+f the sys-tem. HTML5
  []
 
-) [49]
+[49]) [50]
 \openout2 = `chapter_4.aux'.
 
- (chapter_4.tex [50
-
-
-
-
-]
+ (chapter_4.tex
 Chapter 4.
 <figures/landing.png, id=229, 1593.955pt x 1042.89626pt>
 File: figures/landing.png Graphic file (type png)
@@ -798,7 +812,12 @@ Package pdftex.def Info: figures/landing.png  used on input line 13.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[51]
+[51
+
+
+
+
+]
 <figures/service_page.png, id=233, 1145.4795pt x 618.51076pt>
 File: figures/service_page.png Graphic file (type png)
 <use figures/service_page.png>
@@ -1019,10 +1038,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--36
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
  6593 strings out of 474486
@@ -1041,7 +1056,7 @@ fb><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl12.pf
 b><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb
 ><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
 
-Output written on TUKIB.pdf (100 pages, 12415086 bytes).
+Output written on TUKIB.pdf (100 pages, 12416516 bytes).
 PDF statistics:
  398 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

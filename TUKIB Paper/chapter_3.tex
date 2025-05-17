@@ -52,7 +52,7 @@ The testing of the system consisted of 3 main components to ensure its reliabili
 \begin{itemize}
 	\item \textbf{Alpha Testing.} During and after the development of each feature, extensive user testing was conducted to ensure that each feature works as intended. Any bugs or problems was immediately fixed. For features dependent on other features (i.e. user account creation must function correctly before user can log in), thorough testing ensured and verified that the integration between these features operates smoothly.
 	
-	\item \textbf{Automated testing.} Automated testing was implemented to ensure reliability and efficiency in testing the features of the system. This approach allowed for the execution of predefined test cases that can be run repeatedly with minimal manual intervention.
+	\item \textbf{User Testing.} Due to time and technical constraints, nstead of automated testing, the developers conducted manual user testing throughout the development process. This involved simulating different user scenarios to validate each feature’s functionality, usability, and consistency. The tests ensured that the system behaved as expected under normal and edge-case conditions, helping to catch bugs early and refine the interface for a smoother user experience.
 	
 	\item \textbf{Beta Testing.}  Beta testing was be done with a limited group of users composed of available RRC staff and selected potential customers of RRC (e.g. students and faculty). This phase allowed real-world usage feedback and helped in identifying any remaining bugs and usability issues. Users tested the system in various environments and encouraged to provide insights on functionality, performance, and overall experience.\newline
 \end{itemize}
@@ -60,101 +60,6 @@ The testing of the system consisted of 3 main components to ensure its reliabili
 \textbf{Deployment and Maintenance}
 
 The final product of the study, TUKIB, will be made available to the intended users. In this phase, ongoing maintenance and regular performance monitoring, especially of the backend, are essential to ensure stability and reliability. Feedback form will be issued to the users in order to gather their thoughts and insights about the system or if they encounter any bugs. Constant feedback from users during this phase will guide further improvements and updates.
-
-\section{Chatbot architecture}
-
-This section outline the architecture of the Rasa framework, as well as, the necessary information on how the chatbot will be developed.
-
-\subsection{Rasa Chatbot Architecture}
-
-The chatbot for the system was created using the Rasa framework. Rasa is an open source conversational AI framework that allows developers to build, deploy, and improve AI-powered chatbots and virtual assistants. \figref{fig:rasa_architecture} shows the details about the architecture of Rasa chatbot design. Specifically, this study utilized the Open Source framework of Rasa.
-
-There are two main components in Rasa Open Source architecture namely: Rasa NLU and Rasa Dialogue Policies. The Rasa NLU, shown as NLU pipeline in the figure, is like the primary senses of the chatbot which receive the input from the users. It identifies, classifies, and extracts the intents and entities from the given input. It is also responsible for choosing and retrieving the appropriate response to the user. 
-
-The dialogue management also called the Rasa Core, shown as Dialogue Policies in the figure, decides the next action in a conversation based on the context of the conversation. Rasa SDK is an action server which is responsible for running custom actions. The Tracker store is where the conversations are stored. The chatbot saves the context which helps give personalized interactions with the user as it learns over time. Rasa also uses a ticket lock mechanism to ensure that incoming messages for a given conversation ID are processed in the right order, and locks conversations while messages are actively processed. This allows for multiple Rasa servers to be run in parallel. File system consists of Models and Training data needed for the functionality of the chatbot.
-
-\begin{figure}[h]
-	\centering 
-	\includegraphics[width=1\textwidth]{RASA_architecture.png}
-	\caption{Rasa Open Source Chatbot Architecture}
-	photo from https://rasa.com/docs/rasa/arch-overview/
-	\label{fig:rasa_architecture}
-\end{figure}
-
-\subsection {Conversation Processing}
-
-Rasa mainly includes three stages in its conversation processing. They are:
-
-\begin{itemize}
-	\item \textbf{NLP pipeline (Natural Language Processing)}
-	
-	The input or message is given by the user in this stage. The chatbot mainly tries to understand the context of the user’s message and meaningful information is extracted. This stage involves tokenization, intent and entity recognition, and featurization. The extracted information is then mapped or matched with the training data.
-	
-	\item \textbf{Dialogue management (Response selection stage)}
-	
-	Once the input is processed by the NLP pipeline, it proceeds to the dialogue management stage. This stage involves decision-making about how the bot should respond based on the user’s given input and the context of the conversation. 
-	
-	\item \textbf{Response Generation / Output}
-	
-	Once the appropriate response or action has been determined, the final stage is to generate the bot’s response to the user.  There are two main approaches for generating these responses. First is the template-based responses which are the pre-defined response templates based on the extracted intent and entities from the user’s message. These responses are static and are typically used for simple and predictable replies. Another is the custom action. This is for complex responses, such as calling an API or performing specific logic. For example, the chatbot will call from the backend to fetch service details or event schedules, and then dynamically generate a response based on the result.
-	
-\end{itemize}
-
-\subsection{Model Training}
-
-For this study, the training data used was in the form of conversations between the RRC staff and clients. The data collection was done with the help of RRC staff to ensure its accuracy and validity. The gathered data was used to train Rasa’s NLU model, allowing it to recognize user intents and extract relevant information accurately. As per Rasa’s capability, continuous use of the chatbot further trains the model, allowing it to learn from interactions and improve its understanding over time. This ongoing training process will enhance the chatbot’s performance, ensuring it becomes more adept at addressing user needs and providing relevant and more accurate responses as it accumulates more data from real-world users.
-
-\subsection {Limitations of Rasa}
-
-Rasa is a powerful open-source framework for building conversational AI applications, but like any other technology implemented, it also has its limitations. The first is that Rasa has a higher learning curve. To be able to use Rasa, developers must know Python, machine learning concepts, and experience in natural language processing. Without these Rasa wont be set up and utilized effectively. 
-
-Another is how Rasa is highly dependent on training data. In another view, this may help the developers customize the responses and conversations to their specific needs. However, when training is poorly done and insufficient data is given, this results in low chatbot accuracy. This backfires and counters the purpose of chatbots in providing accurate assistance. Hence, extensive training data to account for various scenarios and user inputs is needed for proper context modeling.
-
-\section{Development Tools}
-
-\subsection{Hardware}
-
-The hardware requirements for the development of the system include a computer or laptop with the following specifications:
-
-\begin{itemize}
-	\item Processor: Intel Core i5, its equivalent on other brands or higher
-	\item RAM: 6GB or higher
-	\item Storage: 200GB SSD or more for faster data access and retrieval
-	Operating System: Windows 10 or higher, macOS, or Linux
-\end{itemize}
-
-These specifications are necessary to ensure smooth development and testing of the system, especially when handling large datasets and concurrent processes.
-
-\subsection{Software}
-
-TUKIB will be developed using a range of modern software tools tailored to meet the specific needs of the research center’s workflow automation and data management processes.
-
-\begin{itemize}
-	\item \textbf{HTML5, CSS, Bootstrap, and ReactJS}
-	
-	These technologies were used for front-end development of the system. HTML5 structured the webpages, CSS was responsible for the visual styling, Booststrap for UI $ $flexibility, and ReactJS enabled dynamic and interactive user interfaces.
-	
-	\item \textbf{PostgreSQL}
-	
-	For backend development, PostgreSQL was used as the database management system, offering robust data storage, querying, and management capabilities.
-	
-	\item \textbf{Rasa Framework}
-	
-	Rasa used for the chatbot development. It allowed the creation of a conversational AI system which handled the service requests, queries, and management capabilities of the system.
-	
-	\item \textbf{Figma}
-	
-	Figma wwas utilized for designing the UI/UX of the system. Figma allowes design collaboration, which enabled the team to create the system prototype, wireframe, and mock-up interfaces before implementation, ensuring a user-friendly experience for both clients and researchers.
-	
-	\item \textbf{VS Code}
-	
-	Visual Studio Code (VS Code) was the primary code editor that was used to develop the system. Its features, such as syntax highlighting, extensions, integrated Git, and debugging tools, made it the most suitable environment for writing and testing front-end and back-end code.
-	
-	\item \textbf{Github}
-	
-	GitHub was used to facilitate for version control and collaboration thoughout the development of the system. The project code was stored in repositories, allowing the team to manage changes, track progress, and collaborate effectively. It also served as a backup and source for future development or modification.
-	
-\end{itemize}
 
 \section{Data Gathering}
 The data gathering for the system requirements of TUKIB started with a comprehensive visit to the UPV RRC during the researchers' internship. This phase involved engaging with key personnel and understanding the intricacies of the center's operations. The following sections detail the key activities and information undertaken and gathered during this visit.
@@ -180,7 +85,7 @@ The researchers' interaction with the stakeholders allowed the gathering of valu
 
 This in-depth exposure to the center’s operations was essential for the initial design and development phase of TUKIB, providing a strong foundation for creating a system tailored to the specific needs of the RRC.
 
-\subsection{Scope and Limitations of the Services}
+\subsection{Scope and Limitations of UPV RRC Services}
 Through discussions with the RRC staff, the researchers obtained a clear picture of the scope of services provided by the institution, as well as, the limitations is faces. Some of these limitations include:
 
 \begin{itemize}
@@ -390,7 +295,56 @@ Overall, the schema promotes modularity and data integrity with clear separation
 	\label{fig:database}
 \end{figure}
 
-\section{Chatbot Component Design}
+\section{Chatbot architecture}
+
+This section outline the architecture of the Rasa framework, as well as, the necessary information on how the chatbot is developed.
+
+\subsection{Rasa Chatbot Architecture}
+
+The chatbot for the system was created using the Rasa framework. Rasa is an open source conversational AI framework that allows developers to build, deploy, and improve AI-powered chatbots and virtual assistants. \figref{fig:rasa_architecture} shows the details about the architecture of Rasa chatbot design. Specifically, this study utilized the Open Source framework of Rasa.
+
+There are two main components in Rasa Open Source architecture namely: Rasa NLU and Rasa Dialogue Policies. The Rasa NLU, shown as NLU pipeline in the figure, is like the primary senses of the chatbot which receive the input from the users. It identifies, classifies, and extracts the intents and entities from the given input. It is also responsible for choosing and retrieving the appropriate response to the user. 
+
+The dialogue management also called the Rasa Core, shown as Dialogue Policies in the figure, decides the next action in a conversation based on the context of the conversation. Rasa SDK is an action server which is responsible for running custom actions. The Tracker store is where the conversations are stored. The chatbot saves the context which helps give personalized interactions with the user as it learns over time. Rasa also uses a ticket lock mechanism to ensure that incoming messages for a given conversation ID are processed in the right order, and locks conversations while messages are actively processed. This allows for multiple Rasa servers to be run in parallel. File system consists of Models and Training data needed for the functionality of the chatbot.
+
+\begin{figure}[h]
+	\centering 
+	\includegraphics[width=1\textwidth]{RASA_architecture.png}
+	\caption{Rasa Open Source Chatbot Architecture}
+	photo from https://rasa.com/docs/rasa/arch-overview/
+	\label{fig:rasa_architecture}
+\end{figure}
+
+\subsection {Conversation Processing}
+
+Rasa mainly includes three stages in its conversation processing. They are:
+
+\begin{itemize}
+	\item \textbf{NLP pipeline (Natural Language Processing)}
+	
+	The input or message is given by the user in this stage. The chatbot mainly tries to understand the context of the user’s message and meaningful information is extracted. This stage involves tokenization, intent and entity recognition, and featurization. The extracted information is then mapped or matched with the training data.
+	
+	\item \textbf{Dialogue management (Response selection stage)}
+	
+	Once the input is processed by the NLP pipeline, it proceeds to the dialogue management stage. This stage involves decision-making about how the bot should respond based on the user’s given input and the context of the conversation. 
+	
+	\item \textbf{Response Generation / Output}
+	
+	Once the appropriate response or action has been determined, the final stage is to generate the bot’s response to the user.  There are two main approaches for generating these responses. First is the template-based responses which are the pre-defined response templates based on the extracted intent and entities from the user’s message. These responses are static and are typically used for simple and predictable replies. Another is the custom action. This is for complex responses, such as calling an API or performing specific logic. For example, the chatbot will call from the backend to fetch service details or event schedules, and then dynamically generate a response based on the result.
+	
+\end{itemize}
+
+\subsection{Model Training}
+
+For this study, the training data used was in the form of conversations between the RRC staff and clients. The data collection was done with the help of RRC staff to ensure its accuracy and validity. The gathered data was used to train Rasa’s NLU model, allowing it to recognize user intents and extract relevant information accurately. As per Rasa’s capability, continuous use of the chatbot further trains the model, allowing it to learn from interactions and improve its understanding over time. This ongoing training process will enhance the chatbot’s performance, ensuring it becomes more adept at addressing user needs and providing relevant and more accurate responses as it accumulates more data from real-world users.
+
+\subsection {Limitations of Rasa}
+
+Rasa is a powerful open-source framework for building conversational AI applications, but like any other technology implemented, it also has its limitations. The first is that Rasa has a higher learning curve. To be able to use Rasa, developers must know Python, machine learning concepts, and experience in natural language processing. Without these Rasa wont be set up and utilized effectively. 
+
+Another is how Rasa is highly dependent on training data. In another view, this may help the developers customize the responses and conversations to their specific needs. However, when training is poorly done and insufficient data is given, this results in low chatbot accuracy. This backfires and counters the purpose of chatbots in providing accurate assistance. Hence, extensive training data to account for various scenarios and user inputs is needed for proper context modeling.
+
+\section{Chatbot Design and Development}
 This section presents the design of the chatbot component for the TUKIB system. It details the structure, conversational flow, and the integration of natural language processing elements used to support user interactions and service inquiries.
 
 \subsection{Entities and Intents}
@@ -440,5 +394,58 @@ The structure of the chatbot is centered around a conversational flow that guide
 	Chatbot failures will lead to conversational dead ends if not dealt with properly. Thus, negating the main purpose of chatbot in this system which is to provide efficient customer service. To address this, the chatbot will have a fallback mechanism whenever an input from user was unexpected or a system error occurs. For example, if the chatbot cannot understand the user input, there will be rules on how the chatbot would handle this situation. Sample fallback methods would be redirecting the conversation to a live agent. Another option would be presenting friendly-toned error messages to the users, letting them know that the chatbot is having trouble understanding their input.
 	
 	Sample error messages include “Sorry, I didn't catch that. Could you rephrase your question?” or “I'm sorry, I have a hard time understanding. Could you please rephrase your query?” and “I'm sorry, but what you're asking is not clear to me. Could you paraphrase it?”
+	
+\end{itemize}
+
+
+\section{Storage and Database Architecture}
+
+TUKIB utilizes PostgreSQL as its database management system, organizing information into two separate databases to improve data handling and system performance. One database stores active data, such as recent service requests and client interactions, while the other contains archived records. This separation allows the system to maintain a fast and responsive active database while preserving access to older information as needed.
+
+To manage long-term data growth, records older than one year are automatically transferred to the archived database through scheduled scripts. This process helps reduce the load on the active database, ensuring continued system efficiency. Additionally, regular automated backups are scheduled for both the active and archived databases using PostgreSQL’s built-in backup functions. These backups ensure data durability and support quick recovery in the event of system failures, minimizing potential disruptions in RRC’s service delivery.
+
+\section{Development Tools}
+
+\subsection{Hardware}
+
+The hardware requirements for the development of the system include a computer or laptop with the following specifications:
+
+\begin{itemize}
+	\item Processor: Intel Core i5, its equivalent on other brands or higher
+	\item RAM: 6GB or higher
+	\item Storage: 200GB SSD or more for faster data access and retrieval
+	Operating System: Windows 10 or higher, macOS, or Linux
+\end{itemize}
+
+These specifications are necessary to ensure smooth development and testing of the system, especially when handling large datasets and concurrent processes.
+
+\subsection{Software}
+
+TUKIB will be developed using a range of modern software tools tailored to meet the specific needs of the research center’s workflow automation and data management processes.
+
+\begin{itemize}
+	\item \textbf{HTML5, CSS, Bootstrap, and ReactJS}
+	
+	These technologies were used for front-end development of the system. HTML5 structured the webpages, CSS was responsible for the visual styling, Booststrap for UI $ $flexibility, and ReactJS enabled dynamic and interactive user interfaces.
+	
+	\item \textbf{PostgreSQL}
+	
+	For backend development, PostgreSQL was used as the database management system, offering robust data storage, querying, and management capabilities.
+	
+	\item \textbf{Rasa Framework}
+	
+	Rasa used for the chatbot development. It allowed the creation of a conversational AI system which handled the service requests, queries, and management capabilities of the system.
+	
+	\item \textbf{Figma}
+	
+	Figma wwas utilized for designing the UI/UX of the system. Figma allowes design collaboration, which enabled the team to create the system prototype, wireframe, and mock-up interfaces before implementation, ensuring a user-friendly experience for both clients and researchers.
+	
+	\item \textbf{VS Code}
+	
+	Visual Studio Code (VS Code) was the primary code editor that was used to develop the system. Its features, such as syntax highlighting, extensions, integrated Git, and debugging tools, made it the most suitable environment for writing and testing front-end and back-end code.
+	
+	\item \textbf{Github}
+	
+	GitHub was used to facilitate for version control and collaboration thoughout the development of the system. The project code was stored in repositories, allowing the team to manage changes, track progress, and collaborate effectively. It also served as a backup and source for future development or modification.
 	
 \end{itemize}
