@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.9.1)  17 MAY 2025 22:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.9.1)  18 MAY 2025 20:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -797,36 +797,7 @@ File: figures/chatbot_flow.png Graphic file (type png)
 <use figures/chatbot_flow.png>
 Package pdftex.def Info: figures/chatbot_flow.png  used on input line 364.
 (pdftex.def)             Requested size: 290.88547pt x 427.74744pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 374--375
-
- []
-
-[45 <./figures/chatbot_flow.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 378--379
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 382--383
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 386--387
-
- []
-
-[46]
-Underfull \hbox (badness 10000) in paragraph at lines 390--391
-
- []
-
-
-Underfull \vbox (badness 4739) has occurred while \output is active []
-
- [47]
-[48]
+ [45 <./figures/chatbot_flow.png>] [46] [47] [48]
 Overfull \hbox (10.75096pt too wide) in paragraph at lines 429--430
 []\OT1/cmr/m/n/12 These tech-nolo-gies were used for front-end de-vel-op-ment o
 f the sys-tem. HTML5
@@ -902,26 +873,25 @@ File: figures/client_dashboard.png Graphic file (type png)
 <use figures/client_dashboard.png>
 Package pdftex.def Info: figures/client_dashboard.png  used on input line 76.
 (pdftex.def)             Requested size: 332.44325pt x 212.28108pt.
- [57 <./figures/client_dashboard.png>]
-<figures/staff_dashboard.png, id=264, 1143.67274pt x 617.9085pt>
+<figures/staff_dashboard.png, id=260, 1143.67274pt x 617.9085pt>
 File: figures/staff_dashboard.png Graphic file (type png)
 <use figures/staff_dashboard.png>
-Package pdftex.def Info: figures/staff_dashboard.png  used on input line 85.
+Package pdftex.def Info: figures/staff_dashboard.png  used on input line 83.
 (pdftex.def)             Requested size: 332.44325pt x 179.61316pt.
- [58 <./figures/staff_dashboard.png>] [59]
-<figures/login.png, id=273, 1195.46625pt x 806.26219pt>
+ [57 <./figures/client_dashboard.png> <./figures/staff_dashboard.png>] [58]
+<figures/login.png, id=270, 1195.46625pt x 806.26219pt>
 File: figures/login.png Graphic file (type png)
 <use figures/login.png>
-Package pdftex.def Info: figures/login.png  used on input line 108.
+Package pdftex.def Info: figures/login.png  used on input line 106.
 (pdftex.def)             Requested size: 332.44325pt x 224.21405pt.
 
 Underfull \vbox (badness 3623) has occurred while \output is active []
 
- [60 <./figures/login.png>]
-<figures/chatbot_ui.png, id=278, 1143.0705pt x 614.89725pt>
+ [59 <./figures/login.png>]
+<figures/chatbot_ui.png, id=275, 1143.0705pt x 614.89725pt>
 File: figures/chatbot_ui.png Graphic file (type png)
 <use figures/chatbot_ui.png>
-Package pdftex.def Info: figures/chatbot_ui.png  used on input line 131.
+Package pdftex.def Info: figures/chatbot_ui.png  used on input line 129.
 (pdftex.def)             Requested size: 332.44325pt x 178.83168pt.
 
 
@@ -930,26 +900,26 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [61]
-[62 <./figures/chatbot_ui.png>] [63] [64]
-Overfull \hbox (18.35425pt too wide) in paragraph at lines 179--222
+ [60]
+[61 <./figures/chatbot_ui.png>] [62] [63]
+Overfull \hbox (18.35425pt too wide) in paragraph at lines 178--221
  [][] 
  []
 
-) [65] [66]
+) [64] [65]
 \openout2 = `chapter_5.aux'.
 
- (chapter_5.tex
-Chapter 5.
-
-Underfull \vbox (badness 1275) has occurred while \output is active []
-
- [67
+ (chapter_5.tex [66
 
 
 
 
 ]
+Chapter 5.
+
+Underfull \vbox (badness 1275) has occurred while \output is active []
+
+ [67]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [68]
@@ -1089,7 +1059,7 @@ fb><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl12.pf
 b><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb>
 <C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><
 C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on TUKIB.pdf (100 pages, 12435521 bytes).
+Output written on TUKIB.pdf (100 pages, 12436115 bytes).
 PDF statistics:
  403 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
