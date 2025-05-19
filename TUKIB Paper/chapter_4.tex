@@ -140,7 +140,7 @@ Data management module is responsible for handling all the data within the syste
 
 The chatbot, named LIRA (Learning, Innovation, and Research Assistant), was successfully integrated into the TUKIB system. It appears as a floating button located at the bottom left corner of each page, allowing users to access assistance at any time.
 
-Upon clicking the button, the chatbot initiates the conversation by presenting a welcome message, as shown in \figref{fig:chatbot_ui}. After which, it will offer a set of predefined options to help users with possible queries. These include inquiries about laboratory services, frequently asked questions, and how to navigate the system. This setup reduces the workload on support staff and improves user satisfaction by providing immediate answers.
+Upon clicking the button, the chatbot initiates the conversation by presenting a welcome message, as shown in \figref{fig:chatbot_ui}. It then offers a set of predefined options to help users with possible queries. These include inquiries about laboratory services, frequently asked questions, and how to navigate the system. This setup reduces the workload on support staff and improves user satisfaction by providing immediate answers.
 
 \begin{figure}[h]
 	\centering
@@ -153,13 +153,13 @@ Upon clicking the button, the chatbot initiates the conversation by presenting a
 
 The chatbot was developed using the Rasa framework, which includes both a Natural Language Understanding (NLU) component and a dialogue management system. It is capable of handling various types of user intents such as greetings, general inquiries, and specific service-related questions. The bot provides options for users to learn about available laboratory services, request procedures, operating hours, and system navigation.
 
-In its current state, LIRA utilizes a set of predefined intents and responses based on a small, curated training dataset relevant to the Regional Research Center (RRC). The chatbot can perform initial consultation with new clients. Once the request of client is deemed feasible, the chatbot proceeds to getting the details of user and creates the user's accounts. 
+In its current state, LIRA utilizes a set of predefined intents and responses based on a small, curated training dataset relevant to the Regional Research Center (RRC). The chatbot can perform initial consultation with new clients. Once the client's request is deemed feasible, the chatbot proceeds to collect the user’s details and creates the user's accounts. 
 
 %During system testing, the chatbot demonstrated efficient response times and performed well when interacting with common queries. By responding instantly, it contributes to user engagement and minimizes dependency on human support.
 
 \subsubsection*{Observed Limitations}
 
-While functional, the chatbot currently has several limitations. First, its training data is limited, which restricts the range and depth of questions it can effectively handle. As a result, the bot sometimes fail to provide helpful responses to queries outside its training scope.
+While functional, the chatbot currently has several limitations. First, its training data is limited, which restricts the range and depth of questions it can effectively handle. As a result, the bot sometimes fails to provide helpful responses to queries outside its training scope.
 
 Furthermore, during testing, several issues were observed:
 \begin{itemize}
