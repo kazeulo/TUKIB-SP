@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.9.1)  19 MAY 2025 15:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.9.1)  19 MAY 2025 16:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -941,24 +941,27 @@ Underfull \vbox (badness 3049) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [71]
-Overfull \hbox (18.35425pt too wide) in paragraph at lines 284--328
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [72]
+Overfull \hbox (18.35425pt too wide) in paragraph at lines 290--334
  [][] 
  []
 
-) [72] [73]
+) [73] [74]
 \openout2 = `chapter_5.aux'.
 
- (chapter_5.tex [74
+ (chapter_5.tex
+Chapter 5.
+
+Underfull \vbox (badness 1275) has occurred while \output is active []
+
+ [75
 
 
 
 
 ]
-Chapter 5.
-
-Underfull \vbox (badness 1275) has occurred while \output is active []
-
- [75]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [76]
@@ -1156,7 +1159,7 @@ fb><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl12.pf
 b><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb
 ><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
 
-Output written on TUKIB.pdf (112 pages, 14406117 bytes).
+Output written on TUKIB.pdf (112 pages, 14407038 bytes).
 PDF statistics:
  462 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

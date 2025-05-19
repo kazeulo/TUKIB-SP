@@ -63,7 +63,8 @@
 \contentsline {subsection}{\numberline {4.3.3}Terms and Conditions}{69}{}%
 \contentsline {subsection}{\numberline {4.3.4}Backup and Recovery}{70}{}%
 \contentsline {section}{\numberline {4.4}Testing and System Evaluation}{70}{}%
-\contentsline {section}{\numberline {4.5}Summary of Results}{72}{}%
+\contentsline {section}{\numberline {4.5}Impact of Methodological Constraints}{72}{}%
+\contentsline {section}{\numberline {4.6}Summary of Results}{73}{}%
 \contentsline {chapter}{\numberline {5}Conclusion and Recommendations}{75}{}%
 \contentsline {section}{\numberline {5.1}Conclusion}{75}{}%
 \contentsline {section}{\numberline {5.2}Recommendations}{77}{}%
