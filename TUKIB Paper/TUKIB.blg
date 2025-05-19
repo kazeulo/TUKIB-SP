@@ -32,16 +32,10 @@ Illegal, another \bibstyle command---line 2 of file chapter_6.aux
  :          {apacite}
 I'm skipping whatever remains of this command
 Reallocating 'name_of_file' (item size: 1) to 13 items.
-I couldn't open database file myreferences.bib
----line 3 of file chapter_6.aux
- : \bibdata{myreferences
- :                      }
-I'm skipping whatever remains of this command
 Reallocating 'name_of_file' (item size: 1) to 15 items.
 A level-1 auxiliary file: appendix_A.aux
 Reallocating 'name_of_file' (item size: 1) to 15 items.
 A level-1 auxiliary file: appendix_B.aux
-I found no database files---while reading file TUKIB.aux
 Reallocating 'glb_str_end' (item size: 4) to 20 items.
 Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
 Reallocating 'global_strs' (item size: 1) to 4000000 items.
@@ -51,87 +45,54 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'wiz_functions' (item size: 4) to 9000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
-Warning--I didn't find a database entry for "ibm"
-Warning--I didn't find a database entry for "caban2021"
-Warning--I didn't find a database entry for "bitcat2023"
-Warning--I didn't find a database entry for "manyika2017"
-Warning--I didn't find a database entry for "barchard2011"
-Warning--I didn't find a database entry for "winarko2021"
-Warning--I didn't find a database entry for "astera2024"
-Warning--I didn't find a database entry for "thomas2024"
-Warning--I didn't find a database entry for "abecker2000"
-Warning--I didn't find a database entry for "aversano2002"
-Warning--I didn't find a database entry for "pakdil2009"
-Warning--I didn't find a database entry for "basu2002"
-Warning--I didn't find a database entry for "servicenow"
-Warning--I didn't find a database entry for "awati2024"
-Warning--I didn't find a database entry for "aguirre2017"
-Warning--I didn't find a database entry for "mcquilken2014"
-Warning--I didn't find a database entry for "choudhary2024"
-Warning--I didn't find a database entry for "gupta2020"
-Warning--I didn't find a database entry for "blahusiakova2023"
-Warning--I didn't find a database entry for "kimberling2024"
-Warning--I didn't find a database entry for "aleixo2010"
-Warning--I didn't find a database entry for "akkermans2003"
-Warning--I didn't find a database entry for "goel2012"
-Warning--I didn't find a database entry for "prasad2013"
-Warning--I didn't find a database entry for "adams2011"
-Warning--I didn't find a database entry for "sarker2003"
-Warning--I didn't find a database entry for "scott2000"
-Warning--I didn't find a database entry for "rese2020"
-Warning--I didn't find a database entry for "beattie2020"
-Warning--I didn't find a database entry for "Naruzzaman2018"
-Warning--I didn't find a database entry for "Kar2016"
-Warning--I didn't find a database entry for "hagberg2016"
-Warning--I didn't find a database entry for "zarouali2018"
-Warning--I didn't find a database entry for "nawaz2019"
-Warning--I didn't find a database entry for "bakouan2018"
-Warning--I didn't find a database entry for "broeck2019"
-Warning--I didn't find a database entry for "Pennstate"
-Warning--I didn't find a database entry for "altamimi2023"
-Warning--I didn't find a database entry for "fan2021"
-Warning--I didn't find a database entry for "geekforgeeks2024"
-Warning--I didn't find a database entry for "omaima2020"
+Database file #1: myreferences.bib
+Warning--entry type for "kimberling2024" isn't style-file defined
+--line 611 of file myreferences.bib
+Repeated entry---line 731 of file myreferences.bib
+ : @article{nawaz2019
+ :                   ,
+I'm skipping whatever remains of this entry
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
-You've used 0 entries,
+Warning--No journal in adams2011
+You've used 41 entries,
             6951 wiz_defined-function locations,
-            1326 strings with 11297 characters,
-and the built_in function-call counts, 43 in all, are:
-= -- 0
-> -- 0
-< -- 0
-+ -- 0
-- -- 0
-* -- 1
-:= -- 32
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
+            1566 strings with 19963 characters,
+and the built_in function-call counts, 86051 in all, are:
+= -- 10393
+> -- 733
+< -- 4431
++ -- 4346
+- -- 96
+* -- 5729
+:= -- 16284
+add.period$ -- 179
+call.type$ -- 41
+change.case$ -- 744
 chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 1
-format.name$ -- 0
-if$ -- 1
+cite$ -- 83
+duplicate$ -- 2171
+empty$ -- 3271
+format.name$ -- 1214
+if$ -- 15944
 int.to.chr$ -- 0
-int.to.str$ -- 0
+int.to.str$ -- 123
 missing$ -- 0
-newline$ -- 3
-num.names$ -- 0
-pop$ -- 0
+newline$ -- 1133
+num.names$ -- 328
+pop$ -- 1612
 preamble$ -- 1
-purify$ -- 0
+purify$ -- 219
 quote$ -- 0
-skip$ -- 1
+skip$ -- 5178
 stack$ -- 0
-substring$ -- 0
-swap$ -- 0
-text.length$ -- 0
+substring$ -- 4676
+swap$ -- 1257
+text.length$ -- 181
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 0
-warning$ -- 0
-while$ -- 0
+type$ -- 3800
+warning$ -- 1
+while$ -- 462
 width$ -- 0
-write$ -- 2
-(There were 3 error messages)
+write$ -- 1420
+(There were 2 error messages)

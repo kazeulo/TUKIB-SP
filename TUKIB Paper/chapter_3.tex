@@ -307,6 +307,8 @@ There are two main components in Rasa Open Source architecture namely: Rasa NLU 
 
 The dialogue management also called the Rasa Core, shown as Dialogue Policies in the figure, decides the next action in a conversation based on the context of the conversation. Rasa SDK is an action server which is responsible for running custom actions. The Tracker store is where the conversations are stored. The chatbot saves the context which helps give personalized interactions with the user as it learns over time. Rasa also uses a ticket lock mechanism to ensure that incoming messages for a given conversation ID are processed in the right order, and locks conversations while messages are actively processed. This allows for multiple Rasa servers to be run in parallel. File system consists of Models and Training data needed for the functionality of the chatbot.
 
+\newpage
+
 \begin{figure}[h]
 	\centering 
 	\includegraphics[width=1\textwidth]{RASA_architecture.png}
