@@ -144,15 +144,19 @@ Additionally, role-based functionalities are implemented to tailor the interface
 
 \subsection{Calendar and Scheduling Module}
 
-To effectively manage laboratory service schedules, the system includes a Calendar and Scheduling Module. This enables staff to view and track scheduled services in a clear and organized format.
+To effectively manage service schedules, TUKIB includes a Calendar and Scheduling Module. This enables staff to view and track scheduled services in a clear and organized format. There are four types of calendars within the system: general, laboratory, equipment, and facility.
 
-Each laboratory has its own individual calendar that displays confirmed appointments, service requests, and reserved time slots for that specific lab. This allows University Researchers and staff to monitor usage and avoid scheduling conflicts.
+The general calendar serves as an overview of all the institution's activities. When a date is marked as unavailable or restricted in the system calendar— may it be due to holidays, maintenance, or other events—it is automatically blocked across all laboratory, equipment, and facility calendars, preventing any requests from client for that date. This calendar is managed by the Admin Staff and Director.
 
-In addition, the system provides a general calendar view that aggregates schedules from all laboratories. This shared overview helps Admin Staff monitor system-wide activity, coordinate resources more efficiently, and identify potential overlaps or underutilized periods across different laboratories.
+The calendar for laboratory is designed for managing schedules specific to each laboratory. Every laboratory has its own dedicated calendar displaying unavailable dates and available date and time slots. University Researchers overseeing a laboratory can optionally choose to include some or all equipment, within the laboratory, under the same scheduling restrictions when managing service availability.
 
-The calendar is interactive and updated in real time, ensuring that any new request approvals or cancellations are reflected immediately. This module enhances transparency, supports better planning, and contributes to a smoother service flow within TUKIB.
+In addition, each piece of equipment has its own calendar to track availability. This helps prevent double bookings. Similarly, each Facility, such as conference rooms or audio/visual rooms, has its own calendar to manage usage and avoid scheduling conflicts.
 
-Figure~\ref{fig:calendar} shows an example of the calendar interface used in the system.
+All calendars are interactive and updated in real time. Changes such as request approvals, rejections, or cancellations are reflected immediately, allowing users and staff to make informed decisions and avoid scheduling conflicts.
+
+The calendar is interactive and updated in real time, ensuring that any unavailability or availability is communicated across staff and clients. This module enhances transparency, supports better planning, and contributes to a smoother service flow within TUKIB.
+
+Figure~\ref{fig:calendar} shows the calendar interface within the system. When a date is clicked, a form will be shown asking for necessary details regarding its unavailability of the date.
 
 \begin{figure}[h]
     \centering
@@ -165,13 +169,13 @@ Figure~\ref{fig:calendar} shows an example of the calendar interface used in the
 
 \subsection{News and Announcement Module}
 
-To facilitate efficient communication between the RRC and its stakeholders, the system features a News and Announcement Module. This allows Admin Staff to create and post important public updates, news, and announcements directly within the platform, particularly those related to the RRC and its services.
+To facilitate efficient communication between the RRC and its stakeholders, the system features a News and Announcement Module. This allows Admin Staff and TECD Staff to create and post important public updates, news, and announcements directly within the platform, particularly those related to the RRC and its services.
 
-As we can see in \figref{fig:announcements}, the module provides fields for entering a title, composing the content, and uploading relevant images. This ensures that relevant information such as upcoming RRC events, service changes, and newly available equipment is effectively communicated.
+As seen in \figref{fig:announcements}, the module provides fields for entering a title, composing the content, and uploading relevant images. This ensures that relevant information such as upcoming RRC events, service changes, and newly available equipment is effectively communicated.
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.8\textwidth]{figures/news_announcements.png}
+    \includegraphics[width=0.8\textwidth]{news_section.png}
     \caption{Interface for creating News and Announcements}
     \label{fig:announcements}
 \end{figure}

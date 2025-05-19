@@ -54,14 +54,14 @@
 \contentsline {subsection}{\numberline {4.2.1}User Management Module}{58}{}%
 \contentsline {subsection}{\numberline {4.2.2}Service Request Module}{59}{}%
 \contentsline {subsection}{\numberline {4.2.3}Calendar and Scheduling Module}{62}{}%
-\contentsline {subsection}{\numberline {4.2.4}News and Announcement Module}{63}{}%
-\contentsline {subsection}{\numberline {4.2.5}Data Management Module}{64}{}%
+\contentsline {subsection}{\numberline {4.2.4}News and Announcement Module}{64}{}%
+\contentsline {subsection}{\numberline {4.2.5}Data Management Module}{65}{}%
 \contentsline {subsection}{\numberline {4.2.6}Chatbot}{65}{}%
 \contentsline {section}{\numberline {4.3}Data Privacy and Security Measures}{67}{}%
-\contentsline {subsection}{\numberline {4.3.1}Password Encryption}{67}{}%
+\contentsline {subsection}{\numberline {4.3.1}Password Encryption}{68}{}%
 \contentsline {subsection}{\numberline {4.3.2}User Authentication and Authorization}{68}{}%
-\contentsline {subsection}{\numberline {4.3.3}Terms and Conditions}{68}{}%
-\contentsline {subsection}{\numberline {4.3.4}Backup and Recovery}{69}{}%
+\contentsline {subsection}{\numberline {4.3.3}Terms and Conditions}{69}{}%
+\contentsline {subsection}{\numberline {4.3.4}Backup and Recovery}{70}{}%
 \contentsline {section}{\numberline {4.4}Testing and System Evaluation}{70}{}%
 \contentsline {section}{\numberline {4.5}Summary of Results}{72}{}%
 \contentsline {chapter}{\numberline {5}Conclusion and Recommendations}{75}{}%
