@@ -15,20 +15,6 @@ This chapter presents the results of the study, specifically TUKIB's various int
 	\label{fig:landing}
 \end{figure}
 
-\subsection{Log In Page}
-
-\figref{fig:login} log in page of TUKIB is used to authenticate the user to enforce access to the system itself. Fields for email and passwords are provided for the users' credentials. Additionally, Google authentication is available, allowing users to sign in using their Google account for a quicker and more secure login experience. Passwords are hidden by default, but users can click the eye icon in the password field (as shown in \figref{fig:login}) to toggle visibility. After successfully logging in, users will be redirected to their respective dashboards.
-
-
-\newpage
-
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=0.80\textwidth]{login.png}
-	\caption{Log in page}
-	\label{fig:login}
-\end{figure}
-
 \subsection{Services Page}
 
 Figure \ref{fig:service_page} shows the `Services' page. Each service has a separate page that includes a description of the service, pricing information, and instructions or guide on how to avail the service. This structure facilitates easier navigation and helps users find the information they need efficiently.
@@ -111,20 +97,29 @@ Clients can create their own accounts through the sign in page. However, by defa
 
 As shown in \figref{fig:signup_page}, the sign-up page collects essential information such as the client's full name, email (used to notify them when their account is approved and becomes active), contact number, institution, and a password. This ensures that the system gathers all relevant details needed for account verification and further communication.
 
+On the otherhand, staff will have premade accounts by the Admin Staff. This ensures.
+
+\newpage
+
 \begin{figure}[h]
 	\centering 
 	\includegraphics[width=0.8\textwidth]{sign_up.png}
-	\caption{Sign-up page}
+	\caption{Sign Up Page}
 	\label{fig:signup_page}
 \end{figure}
 
-On the otherhand, staff will have premade accounts by the Admin Staff. 
-
 \textbf{User authentication}
 
-User authentication is done through the login page. 
+On the login page, users need to enter their email address and password. Additionally, Google authentication is available, allowing users to sign in using their Google account for a quicker and more secure login experience. Passwords are hidden by default, but users can click the eye icon in the password field (as shown in \figref{fig:login}) to toggle visibility. After successfully logging in, users will be redirected to their respective dashboards.
 
-Additionally, for the admin staff, aside from approving user accounts, they also have an ability to block accounts incase of inactivity or any suspicious events, as illustrated in \figref{fig:user_accounts}.
+\newpage
+
+\begin{figure}[h]
+	\centering 
+	\includegraphics[width=0.8\textwidth]{login.png}
+	\caption{Log In Page}
+	\label{fig:login}
+\end{figure}
 
 \subsection{Service Request Module}
 One of the core features of TUKIB is the Service Request Module, which allows clients and staffs to easily access, monitor, and manage service requests using their respective accounts. Clients are able to submit service requests, track statuses of requests, view results, upload payment receipt, and give feedback to the UPV RRC. On the other hand, staffs are able to approve or reject requests, update request statuses, upload charge slip and result, and view payment receipt from clients. This ensures that each request is processed efficiently from request to completion. 
@@ -148,15 +143,15 @@ Upon clicking the button, the chatbot initiates the conversation by presenting a
 	\label{fig:chatbot_ui}
 \end{figure}
 
-\subsubsection*{Functionality}
+\textbf{Functionality}
 
 The chatbot was developed using the Rasa framework, which includes both a Natural Language Understanding (NLU) component and a dialogue management system. It is capable of handling various types of user intents such as greetings, general inquiries, and specific service-related questions. The bot provides options for users to learn about available laboratory services, request procedures, operating hours, and system navigation.
 
-In its current state, LIRA utilizes a set of predefined intents and responses based on a small, curated training dataset relevant to the Regional Research Center (RRC). The chatbot can perform initial consultation with new clients. Once the client's request is deemed feasible, the chatbot proceeds to collect the user’s details and creates the user's accounts. 
+In its current state, LIRA utilizes a set of predefined intents and responses based on a small, curated training dataset relevant to the Regional Research Center (RRC). The chatbot can perform initial consultation with new clients. Once the client's request is deemed feasible, the chatbot proceeds to collect the user’s details and creates the user's account. 
 
 %During system testing, the chatbot demonstrated efficient response times and performed well when interacting with common queries. By responding instantly, it contributes to user engagement and minimizes dependency on human support.
 
-\subsubsection*{Observed Limitations}
+\textbf{Observed Limitations}
 
 While functional, the chatbot currently has several limitations. First, its training data is limited, which restricts the range and depth of questions it can effectively handle. As a result, the bot sometimes fails to provide helpful responses to queries outside its training scope.
 

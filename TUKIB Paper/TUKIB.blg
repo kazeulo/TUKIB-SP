@@ -1,0 +1,137 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: TUKIB.aux
+Reallocating 'name_of_file' (item size: 1) to 8 items.
+The style file: apacite.bst
+Reallocating 'name_of_file' (item size: 1) to 15 items.
+A level-1 auxiliary file: title_page.aux
+Reallocating 'name_of_file' (item size: 1) to 13 items.
+A level-1 auxiliary file: approval.aux
+Reallocating 'name_of_file' (item size: 1) to 16 items.
+A level-1 auxiliary file: declaration.aux
+Reallocating 'name_of_file' (item size: 1) to 15 items.
+A level-1 auxiliary file: dedication.aux
+Reallocating 'name_of_file' (item size: 1) to 19 items.
+A level-1 auxiliary file: acknowledgment.aux
+Reallocating 'name_of_file' (item size: 1) to 13 items.
+A level-1 auxiliary file: abstract.aux
+Reallocating 'name_of_file' (item size: 1) to 14 items.
+A level-1 auxiliary file: chapter_1.aux
+Reallocating 'name_of_file' (item size: 1) to 14 items.
+A level-1 auxiliary file: chapter_2.aux
+Reallocating 'name_of_file' (item size: 1) to 14 items.
+A level-1 auxiliary file: chapter_3.aux
+Reallocating 'name_of_file' (item size: 1) to 14 items.
+A level-1 auxiliary file: chapter_4.aux
+Reallocating 'name_of_file' (item size: 1) to 14 items.
+A level-1 auxiliary file: chapter_5.aux
+Reallocating 'name_of_file' (item size: 1) to 14 items.
+A level-1 auxiliary file: chapter_6.aux
+Illegal, another \bibstyle command---line 2 of file chapter_6.aux
+ : \bibstyle
+ :          {apacite}
+I'm skipping whatever remains of this command
+Reallocating 'name_of_file' (item size: 1) to 13 items.
+I couldn't open database file myreferences.bib
+---line 3 of file chapter_6.aux
+ : \bibdata{myreferences
+ :                      }
+I'm skipping whatever remains of this command
+Reallocating 'name_of_file' (item size: 1) to 15 items.
+A level-1 auxiliary file: appendix_A.aux
+Reallocating 'name_of_file' (item size: 1) to 15 items.
+A level-1 auxiliary file: appendix_B.aux
+I found no database files---while reading file TUKIB.aux
+Reallocating 'glb_str_end' (item size: 4) to 20 items.
+Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
+Reallocating 'global_strs' (item size: 1) to 4000000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 9000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Warning--I didn't find a database entry for "ibm"
+Warning--I didn't find a database entry for "caban2021"
+Warning--I didn't find a database entry for "bitcat2023"
+Warning--I didn't find a database entry for "manyika2017"
+Warning--I didn't find a database entry for "barchard2011"
+Warning--I didn't find a database entry for "winarko2021"
+Warning--I didn't find a database entry for "astera2024"
+Warning--I didn't find a database entry for "thomas2024"
+Warning--I didn't find a database entry for "abecker2000"
+Warning--I didn't find a database entry for "aversano2002"
+Warning--I didn't find a database entry for "pakdil2009"
+Warning--I didn't find a database entry for "basu2002"
+Warning--I didn't find a database entry for "servicenow"
+Warning--I didn't find a database entry for "awati2024"
+Warning--I didn't find a database entry for "aguirre2017"
+Warning--I didn't find a database entry for "mcquilken2014"
+Warning--I didn't find a database entry for "choudhary2024"
+Warning--I didn't find a database entry for "gupta2020"
+Warning--I didn't find a database entry for "blahusiakova2023"
+Warning--I didn't find a database entry for "kimberling2024"
+Warning--I didn't find a database entry for "aleixo2010"
+Warning--I didn't find a database entry for "akkermans2003"
+Warning--I didn't find a database entry for "goel2012"
+Warning--I didn't find a database entry for "prasad2013"
+Warning--I didn't find a database entry for "adams2011"
+Warning--I didn't find a database entry for "sarker2003"
+Warning--I didn't find a database entry for "scott2000"
+Warning--I didn't find a database entry for "rese2020"
+Warning--I didn't find a database entry for "beattie2020"
+Warning--I didn't find a database entry for "Naruzzaman2018"
+Warning--I didn't find a database entry for "Kar2016"
+Warning--I didn't find a database entry for "hagberg2016"
+Warning--I didn't find a database entry for "zarouali2018"
+Warning--I didn't find a database entry for "nawaz2019"
+Warning--I didn't find a database entry for "bakouan2018"
+Warning--I didn't find a database entry for "broeck2019"
+Warning--I didn't find a database entry for "Pennstate"
+Warning--I didn't find a database entry for "altamimi2023"
+Warning--I didn't find a database entry for "fan2021"
+Warning--I didn't find a database entry for "geekforgeeks2024"
+Warning--I didn't find a database entry for "omaima2020"
+apacite.bst [2013/07/21 v6.03 APA bibliography style]
+You've used 0 entries,
+            6951 wiz_defined-function locations,
+            1326 strings with 11297 characters,
+and the built_in function-call counts, 43 in all, are:
+= -- 0
+> -- 0
+< -- 0
++ -- 0
+- -- 0
+* -- 1
+:= -- 32
+add.period$ -- 0
+call.type$ -- 0
+change.case$ -- 0
+chr.to.int$ -- 0
+cite$ -- 0
+duplicate$ -- 0
+empty$ -- 1
+format.name$ -- 0
+if$ -- 1
+int.to.chr$ -- 0
+int.to.str$ -- 0
+missing$ -- 0
+newline$ -- 3
+num.names$ -- 0
+pop$ -- 0
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 1
+stack$ -- 0
+substring$ -- 0
+swap$ -- 0
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 1
+type$ -- 0
+warning$ -- 0
+while$ -- 0
+width$ -- 0
+write$ -- 2
+(There were 3 error messages)
