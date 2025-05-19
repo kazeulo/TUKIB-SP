@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.9.1)  19 MAY 2025 15:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.9.1)  19 MAY 2025 15:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -438,59 +438,56 @@ Overfull \hbox (13.75838pt too wide) in paragraph at lines 15--12
 ]
 \openout2 = `acknowledgment.aux'.
 
- (acknowledgment.tex [5
+ (acknowledgment.tex) [5
 
 
 
 ]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [6])
-[7]
 \openout2 = `abstract.aux'.
 
- (abstract.tex) [8
+
+(abstract.tex) [6
 
 
 
 ] (TUKIB.toc
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [9
+ [7
 
 
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [10]
+ [8]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [11]
+ [9]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [12])
+ [10])
 \tf@toc=\write3
 \openout3 = `TUKIB.toc'.
 
 
-[13] [14
+[11] [12
 
-] (TUKIB.lof [15]
+] (TUKIB.lof [13]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [16])
+ [14])
 \tf@lof=\write4
 \openout4 = `TUKIB.lof'.
 
 
-[17] [18
+[15] [16
 
 ] (TUKIB.lot)
 \tf@lot=\write5
 \openout5 = `TUKIB.lot'.
 
- [19]
+ [17]
 \openout2 = `chapter_1.aux'.
 
  (chapter_1.tex
@@ -664,7 +661,7 @@ Chapter 3.
 
 
 ]
-<figures/agile methodology.png, id=134, 941.5175pt x 242.9075pt>
+<figures/agile methodology.png, id=128, 941.5175pt x 242.9075pt>
 File: figures/agile methodology.png Graphic file (type png)
 <use figures/agile methodology.png>
 Package pdftex.def Info: figures/agile methodology.png  used on input line 17.
@@ -704,7 +701,7 @@ Overfull \hbox (18.35425pt too wide) in paragraph at lines 133--177
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [31]
-<figures/process_flow.jpg, id=169, 2458.68562pt x 821.31844pt>
+<figures/process_flow.jpg, id=162, 2458.68562pt x 821.31844pt>
 File: figures/process_flow.jpg Graphic file (type jpg)
 <use figures/process_flow.jpg>
 Package pdftex.def Info: figures/process_flow.jpg  used on input line 189.
@@ -717,23 +714,23 @@ n/12 , they can use the sys-tem to over-see any laboratory-
  []
 
 [33]
-<figures/context model.png, id=177, 1750.54pt x 1126.2075pt>
+<figures/context model.png, id=171, 1750.54pt x 1126.2075pt>
 File: figures/context model.png Graphic file (type png)
 <use figures/context model.png>
 Package pdftex.def Info: figures/context model.png  used on input line 212.
 (pdftex.def)             Requested size: 415.55249pt x 267.33958pt.
  [34 <./figures/context model.png>]
-<figures/use_case_client.jpg, id=181, 302.12875pt x 443.6575pt>
+<figures/use_case_client.jpg, id=175, 302.12875pt x 443.6575pt>
 File: figures/use_case_client.jpg Graphic file (type jpg)
 <use figures/use_case_client.jpg>
 Package pdftex.def Info: figures/use_case_client.jpg  used on input line 227.
 (pdftex.def)             Requested size: 124.667pt x 183.06512pt.
-<figures/use_case_admin.jpg, id=182, 318.18875pt x 441.65pt>
+<figures/use_case_admin.jpg, id=176, 318.18875pt x 441.65pt>
 File: figures/use_case_admin.jpg Graphic file (type jpg)
 <use figures/use_case_admin.jpg>
 Package pdftex.def Info: figures/use_case_admin.jpg  used on input line 234.
 (pdftex.def)             Requested size: 132.97983pt x 184.57523pt.
-<figures/use_case_director.jpg, id=183, 622.325pt x 885.3075pt>
+<figures/use_case_director.jpg, id=177, 622.325pt x 885.3075pt>
 File: figures/use_case_director.jpg Graphic file (type jpg)
 <use figures/use_case_director.jpg>
 Package pdftex.def Info: figures/use_case_director.jpg  used on input line 243.
@@ -744,14 +741,14 @@ Underfull \hbox (badness 1077) in paragraph at lines 244--244
 []\OT1/cmr/m/n/12 Figure 3.6: Use Case
  []
 
-<figures/use_case_staff.jpg, id=184, 624.3325pt x 885.3075pt>
+<figures/use_case_staff.jpg, id=178, 624.3325pt x 885.3075pt>
 File: figures/use_case_staff.jpg Graphic file (type jpg)
 <use figures/use_case_staff.jpg>
 Package pdftex.def Info: figures/use_case_staff.jpg  used on input line 250.
 (pdftex.def)             Requested size: 124.667pt x 176.77467pt.
 [35 <./figures/use_case_client.jpg> <./figures/use_case_admin.jpg> <./figures/u
 se_case_director.jpg> <./figures/use_case_staff.jpg>]
-<figures/data_flow.jpg, id=190, 2625.81pt x 1525.7pt>
+<figures/data_flow.jpg, id=184, 2625.81pt x 1525.7pt>
 File: figures/data_flow.jpg Graphic file (type jpg)
 <use figures/data_flow.jpg>
 Package pdftex.def Info: figures/data_flow.jpg  used on input line 264.
@@ -773,7 +770,7 @@ e-sign. The \OT1/cmr/bx/n/12 mes-sagesTable
  []
 
 [38]
-<figures/database2.png, id=201, 1888.05376pt x 1908.12875pt>
+<figures/database2.png, id=195, 1888.05376pt x 1908.12875pt>
 File: figures/database2.png Graphic file (type png)
 <use figures/database2.png>
 Package pdftex.def Info: figures/database2.png  used on input line 293.
@@ -782,7 +779,7 @@ Package pdftex.def Info: figures/database2.png  used on input line 293.
 Underfull \vbox (badness 2469) has occurred while \output is active []
 
  [39 <./figures/database2.png>] [40]
-<figures/RASA_architecture.png, id=209, 1312.905pt x 804.00375pt>
+<figures/RASA_architecture.png, id=203, 1312.905pt x 804.00375pt>
 File: figures/RASA_architecture.png Graphic file (type png)
 <use figures/RASA_architecture.png>
 Package pdftex.def Info: figures/RASA_architecture.png  used on input line 314.
@@ -794,13 +791,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [43]
 [44]
-<figures/chatbot_flow.png, id=223, 766.865pt x 975.645pt>
+<figures/chatbot_flow.png, id=217, 766.865pt x 975.645pt>
 File: figures/chatbot_flow.png Graphic file (type png)
 <use figures/chatbot_flow.png>
 Package pdftex.def Info: figures/chatbot_flow.png  used on input line 366.
 (pdftex.def)             Requested size: 290.88547pt x 370.07903pt.
  [45 <./figures/chatbot_flow.png>] [46] [47] [48]
-Overfull \hbox (10.75096pt too wide) in paragraph at lines 431--432
+Overfull \hbox (10.75096pt too wide) in paragraph at lines 427--428
 []\OT1/cmr/m/n/12 These tech-nolo-gies were used for front-end de-vel-op-ment o
 f the sys-tem. HTML5
  []
@@ -810,7 +807,7 @@ f the sys-tem. HTML5
 
  (chapter_4.tex
 Chapter 4.
-<figures/landing.png, id=244, 1593.955pt x 1042.89626pt>
+<figures/landing.png, id=238, 1593.955pt x 1042.89626pt>
 File: figures/landing.png Graphic file (type png)
 <use figures/landing.png>
 Package pdftex.def Info: figures/landing.png  used on input line 13.
@@ -824,37 +821,37 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 ]
-<figures/service_page.png, id=248, 1145.4795pt x 618.51076pt>
+<figures/service_page.png, id=242, 1145.4795pt x 618.51076pt>
 File: figures/service_page.png Graphic file (type png)
 <use figures/service_page.png>
 Package pdftex.def Info: figures/service_page.png  used on input line 24.
 (pdftex.def)             Requested size: 311.66437pt x 168.28366pt.
  [52 <./figures/landing.png> <./figures/service_page.png>]
-<figures/laboratories.png, id=254, 1195.46625pt x 1193.20781pt>
+<figures/laboratories.png, id=248, 1195.46625pt x 1193.20781pt>
 File: figures/laboratories.png Graphic file (type png)
 <use figures/laboratories.png>
 Package pdftex.def Info: figures/laboratories.png  used on input line 37.
 (pdftex.def)             Requested size: 332.44325pt x 331.82005pt.
  [53 <./figures/laboratories.png>]
-<figures/news_page.png, id=259, 1195.46625pt x 1315.91624pt>
+<figures/news_page.png, id=253, 1195.46625pt x 1315.91624pt>
 File: figures/news_page.png Graphic file (type png)
 <use figures/news_page.png>
 Package pdftex.def Info: figures/news_page.png  used on input line 50.
 (pdftex.def)             Requested size: 290.88547pt x 320.18355pt.
  [54 <./figures/news_page.png>]
-<figures/about_page.png, id=265, 1195.46625pt x 1034.36438pt>
+<figures/about_page.png, id=258, 1195.46625pt x 1034.36438pt>
 File: figures/about_page.png Graphic file (type png)
 <use figures/about_page.png>
 Package pdftex.def Info: figures/about_page.png  used on input line 63.
 (pdftex.def)             Requested size: 332.44325pt x 287.64716pt.
  [55 <./figures/about_page.png>]
-<figures/client_dashboard.png, id=270, 1195.46625pt x 1270.7475pt>
+<figures/client_dashboard.png, id=263, 1195.46625pt x 1270.7475pt>
 File: figures/client_dashboard.png Graphic file (type png)
 <use figures/client_dashboard.png>
 Package pdftex.def Info: figures/client_dashboard.png  used on input line 78.
 (pdftex.def)             Requested size: 332.44325pt x 353.38312pt.
  [56 <./figures/client_dashboard.png>]
-<figures/staff_dashboard.png, id=275, 1903.11pt x 2079.77pt>
+<figures/staff_dashboard.png, id=269, 1903.11pt x 2079.77pt>
 File: figures/staff_dashboard.png Graphic file (type png)
 <use figures/staff_dashboard.png>
 Package pdftex.def Info: figures/staff_dashboard.png  used on input line 91.
@@ -863,12 +860,12 @@ Package pdftex.def Info: figures/staff_dashboard.png  used on input line 91.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [58]
-<figures/sign_up.png, id=282, 1429.59094pt x 812.28468pt>
+<figures/sign_up.png, id=276, 1429.59094pt x 812.28468pt>
 File: figures/sign_up.png Graphic file (type png)
 <use figures/sign_up.png>
 Package pdftex.def Info: figures/sign_up.png  used on input line 112.
 (pdftex.def)             Requested size: 332.44325pt x 188.89142pt.
-<figures/login.png, id=283, 1195.46625pt x 806.26219pt>
+<figures/login.png, id=277, 1195.46625pt x 806.26219pt>
 File: figures/login.png Graphic file (type png)
 <use figures/login.png>
 Package pdftex.def Info: figures/login.png  used on input line 123.
@@ -881,7 +878,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [60 <./figures/login.png>]
-<figures/service_request_details.png, id=293, 1593.955pt x 2193.19376pt>
+<figures/service_request_details.png, id=286, 1593.955pt x 2193.19376pt>
 File: figures/service_request_details.png Graphic file (type png)
 <use figures/service_request_details.png>
 Package pdftex.def Info: figures/service_request_details.png  used on input lin
@@ -891,20 +888,20 @@ e 138.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [62]
-<figures/calendar.png, id=301, 1428.08531pt x 812.28468pt>
+<figures/calendar.png, id=295, 1428.08531pt x 812.28468pt>
 File: figures/calendar.png Graphic file (type png)
 <use figures/calendar.png>
 Package pdftex.def Info: figures/calendar.png  used on input line 163.
 (pdftex.def)             Requested size: 332.44325pt x 189.08972pt.
 
 [63 <./figures/calendar.png>]
-<figures/news_section.png, id=306, 1155.71774pt x 621.522pt>
+<figures/news_section.png, id=300, 1155.71774pt x 621.522pt>
 File: figures/news_section.png Graphic file (type png)
 <use figures/news_section.png>
 Package pdftex.def Info: figures/news_section.png  used on input line 178.
 (pdftex.def)             Requested size: 332.44325pt x 178.77628pt.
  [64 <./figures/news_section.png>]
-<figures/chatbot_ui.png, id=311, 1143.0705pt x 614.89725pt>
+<figures/chatbot_ui.png, id=305, 1143.0705pt x 614.89725pt>
 File: figures/chatbot_ui.png Graphic file (type png)
 <use figures/chatbot_ui.png>
 Package pdftex.def Info: figures/chatbot_ui.png  used on input line 197.
@@ -927,7 +924,7 @@ Underfull \vbox (badness 1062) has occurred while \output is active []
 
  [67]
 [68]
-<figures/terms.png, id=326, 1434.86063pt x 731.73375pt>
+<figures/terms.png, id=320, 1434.86063pt x 731.73375pt>
 File: figures/terms.png Graphic file (type png)
 <use figures/terms.png>
 Package pdftex.def Info: figures/terms.png  used on input line 249.
@@ -1057,13 +1054,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 1105--1117
 
 ]
 Appendix A.
-<figures/user_account_section.png, id=400, 1155.71774pt x 620.3175pt>
+<figures/user_account_section.png, id=393, 1155.71774pt x 620.3175pt>
 File: figures/user_account_section.png Graphic file (type png)
 <use figures/user_account_section.png>
 Package pdftex.def Info: figures/user_account_section.png  used on input line 2
 0.
 (pdftex.def)             Requested size: 270.10657pt x 144.97955pt.
-<figures/user_details_page.png, id=401, 1155.71774pt x 684.156pt>
+<figures/user_details_page.png, id=394, 1155.71774pt x 684.156pt>
 File: figures/user_details_page.png Graphic file (type png)
 <use figures/user_details_page.png>
 Package pdftex.def Info: figures/user_details_page.png  used on input line 27.
@@ -1071,7 +1068,7 @@ Package pdftex.def Info: figures/user_details_page.png  used on input line 27.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/acount_creation_form.png, id=402, 1155.71774pt x 687.7695pt>
+<figures/acount_creation_form.png, id=395, 1155.71774pt x 687.7695pt>
 File: figures/acount_creation_form.png Graphic file (type png)
 <use figures/acount_creation_form.png>
 Package pdftex.def Info: figures/acount_creation_form.png  used on input line 3
@@ -1080,7 +1077,7 @@ Package pdftex.def Info: figures/acount_creation_form.png  used on input line 3
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/service_request_section.png, id=403, 1155.71774pt x 687.7695pt>
+<figures/service_request_section.png, id=396, 1155.71774pt x 687.7695pt>
 File: figures/service_request_section.png Graphic file (type png)
 <use figures/service_request_section.png>
 Package pdftex.def Info: figures/service_request_section.png  used on input lin
@@ -1089,58 +1086,51 @@ e 41.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-File: figures/news_section.png Graphic file (type png)
-<use figures/news_section.png>
-Package pdftex.def Info: figures/news_section.png  used on input line 48.
-(pdftex.def)             Requested size: 270.10657pt x 145.26106pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<figures/messages_section.png, id=404, 1155.71774pt x 687.7695pt>
+<figures/messages_section.png, id=397, 1155.71774pt x 687.7695pt>
 File: figures/messages_section.png Graphic file (type png)
 <use figures/messages_section.png>
-Package pdftex.def Info: figures/messages_section.png  used on input line 55.
+Package pdftex.def Info: figures/messages_section.png  used on input line 48.
 (pdftex.def)             Requested size: 270.10657pt x 160.74431pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/facilities_section.png, id=405, 1155.71774pt x 687.7695pt>
+<figures/facilities_section.png, id=398, 1155.71774pt x 687.7695pt>
 File: figures/facilities_section.png Graphic file (type png)
 <use figures/facilities_section.png>
-Package pdftex.def Info: figures/facilities_section.png  used on input line 62.
+Package pdftex.def Info: figures/facilities_section.png  used on input line 55.
 
 (pdftex.def)             Requested size: 270.10657pt x 160.74431pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/laboratories_section.png, id=406, 1155.71774pt x 687.7695pt>
+<figures/laboratories_section.png, id=399, 1155.71774pt x 687.7695pt>
 File: figures/laboratories_section.png Graphic file (type png)
 <use figures/laboratories_section.png>
 Package pdftex.def Info: figures/laboratories_section.png  used on input line 6
-9.
+2.
 (pdftex.def)             Requested size: 270.10657pt x 160.74431pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 ) [91 <./figures/user_account_section.png>] [92 <./figures/user_details_page.pn
 g> <./figures/acount_creation_form.png> <./figures/service_request_section.png>
-] [93 <./figures/messages_section.png> <./figures/facilities_section.png>]
-[94 <./figures/laboratories_section.png>]
+] [93 <./figures/messages_section.png> <./figures/facilities_section.png> <./fi
+gures/laboratories_section.png>]
 \openout2 = `appendix_B.aux'.
 
- (appendix_B.tex
+ (appendix_B.tex [94
+
+
+
+
+]
 Appendix B.
 )
 Underfull \hbox (badness 10000) in paragraph at lines 29--36
 
  []
 
-[95
-
-
-
-
-] (TUKIB.aux (title_page.aux) (approval.aux) (declaration.aux)
+[95] (TUKIB.aux (title_page.aux) (approval.aux) (declaration.aux)
 (dedication.aux) (acknowledgment.aux) (abstract.aux) (chapter_1.aux)
 (chapter_2.aux) (chapter_3.aux) (chapter_4.aux) (chapter_5.aux) (chapter_6.aux)
 (appendix_A.aux) (appendix_B.aux))
@@ -1150,10 +1140,10 @@ L3 programming layer <2024-01-04>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 7657 strings out of 474486
- 128294 string characters out of 5748449
+ 7656 strings out of 474486
+ 128276 string characters out of 5748449
  1952542 words of memory out of 5000000
- 29708 multiletter control sequences out of 15000+600000
+ 29707 multiletter control sequences out of 15000+600000
  566952 words of font info for 68 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  93i,12n,98p,1179b,453s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1166,9 +1156,9 @@ fb><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl12.pf
 b><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb
 ><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
 
-Output written on TUKIB.pdf (114 pages, 14409189 bytes).
+Output written on TUKIB.pdf (112 pages, 14406117 bytes).
 PDF statistics:
- 468 PDF objects out of 1000 (max. 8388607)
+ 462 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  161 words of extra memory for PDF output out of 10000 (max. 10000000)
 
