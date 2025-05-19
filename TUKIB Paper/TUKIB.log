@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.9.1)  19 MAY 2025 11:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.9.1)  19 MAY 2025 12:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1012,24 +1012,29 @@ File: figures/login.png Graphic file (type png)
 <use figures/login.png>
 Package pdftex.def Info: figures/login.png  used on input line 119.
 (pdftex.def)             Requested size: 332.44325pt x 224.21405pt.
-
-Underfull \vbox (badness 3623) has occurred while \output is active []
-
  [60 <./figures/login.png>]
-<figures/chatbot_ui.png, id=287, 1143.0705pt x 614.89725pt>
+[61]
+<figures/service_request_details.png, id=290, 1593.955pt x 2193.19376pt>
+File: figures/service_request_details.png Graphic file (type png)
+<use figures/service_request_details.png>
+Package pdftex.def Info: figures/service_request_details.png  used on input lin
+e 136.
+(pdftex.def)             Requested size: 311.66437pt x 428.82562pt.
+ [62 <./figures/service_request_details.png>]
+<figures/chatbot_ui.png, id=296, 1143.0705pt x 614.89725pt>
 File: figures/chatbot_ui.png Graphic file (type png)
 <use figures/chatbot_ui.png>
-Package pdftex.def Info: figures/chatbot_ui.png  used on input line 141.
+Package pdftex.def Info: figures/chatbot_ui.png  used on input line 155.
 (pdftex.def)             Requested size: 332.44325pt x 178.83168pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[61]
+[63]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [62 <./figures/chatbot_ui.png>]
-Overfull \hbox (3.71815pt too wide) in paragraph at lines 162--163
+ [64 <./figures/chatbot_ui.png>]
+Overfull \hbox (3.71815pt too wide) in paragraph at lines 176--177
 []\OT1/cmr/m/n/12 It some-times re-turns generic fall-back re-sponses to querie
 s that de-vi-ate slightly
  []
@@ -1037,12 +1042,12 @@ s that de-vi-ate slightly
 
 Underfull \vbox (badness 1062) has occurred while \output is active []
 
- [63]
-[64]
-<figures/terms.png, id=302, 1434.86063pt x 731.73375pt>
+ [65]
+[66]
+<figures/terms.png, id=310, 1434.86063pt x 731.73375pt>
 File: figures/terms.png Graphic file (type png)
 <use figures/terms.png>
-Package pdftex.def Info: figures/terms.png  used on input line 194.
+Package pdftex.def Info: figures/terms.png  used on input line 209.
 (pdftex.def)             Requested size: 332.44325pt x 169.53458pt.
 
 
@@ -1051,19 +1056,19 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 Underfull \vbox (badness 3049) has occurred while \output is active []
 
- [65]
-[66 <./figures/terms.png>]
+ [67]
+[68 <./figures/terms.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [67]
-Overfull \hbox (18.35425pt too wide) in paragraph at lines 229--272
+ [69]
+Overfull \hbox (18.35425pt too wide) in paragraph at lines 244--287
  [][] 
  []
 
-) [68] [69]
+) [70] [71]
 \openout2 = `chapter_5.aux'.
 
- (chapter_5.tex [70
+ (chapter_5.tex [72
 
 
 
@@ -1073,14 +1078,14 @@ Chapter 5.
 
 Underfull \vbox (badness 1275) has occurred while \output is active []
 
- [71]
+ [73]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [72]
-[73] [74] [75] [76]) [77]
+ [74]
+[75] [76] [77] [78]) [79]
 \openout2 = `chapter_6.aux'.
 
- (chapter_6.tex [78
+ (chapter_6.tex [80
 
 
 
@@ -1091,20 +1096,20 @@ Chapter 6.
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
-)) [79]
+)) [81]
 \openout2 = `appendix_A.aux'.
 
- (appendix_A.tex [80
+ (appendix_A.tex [82
 
 
 
 
 ]
 Appendix A.
-) [81]
+) [83]
 \openout2 = `appendix_B.aux'.
 
- (appendix_B.tex [82
+ (appendix_B.tex [84
 
 
 
@@ -1116,7 +1121,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--36
 
  []
 
-[83] (TUKIB.aux (title_page.aux) (approval.aux) (declaration.aux)
+[85] (TUKIB.aux (title_page.aux) (approval.aux) (declaration.aux)
 (dedication.aux) (acknowledgment.aux) (abstract.aux) (chapter_1.aux)
 (chapter_2.aux) (chapter_3.aux) (chapter_4.aux) (chapter_5.aux) (chapter_6.aux)
 (appendix_A.aux) (appendix_B.aux))
@@ -1130,10 +1135,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 7504 strings out of 474486
- 124046 string characters out of 5748449
+ 7514 strings out of 474486
+ 124434 string characters out of 5748449
  1950542 words of memory out of 5000000
- 29556 multiletter control sequences out of 15000+600000
+ 29566 multiletter control sequences out of 15000+600000
  566605 words of font info for 67 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  93i,12n,98p,1179b,453s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1145,9 +1150,9 @@ Here is how much of TeX's memory you used:
 fb><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl12.pf
 b><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb
 >
-Output written on TUKIB.pdf (100 pages, 12884645 bytes).
+Output written on TUKIB.pdf (102 pages, 13069953 bytes).
 PDF statistics:
- 398 PDF objects out of 1000 (max. 8388607)
+ 406 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 111 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 116 words of extra memory for PDF output out of 10000 (max. 10000000)
 
