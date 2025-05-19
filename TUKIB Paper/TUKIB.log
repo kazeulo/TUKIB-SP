@@ -1,0 +1,1075 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.9.1)  19 MAY 2025 08:14
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./TUKIB.tex
+(TUKIB.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-04>
+
+LaTeX Warning: \include should only be used after \begin{document} on input lin
+e 3.
+
+(preamble.tex (C:\Users\ASUS\AppData\Local\MiKTeX\tex/latex/base\book.cls
+Document Class: book 2023/05/17 v1.4n Standard LaTeX document class
+(C:\Users\ASUS\AppData\Local\MiKTeX\tex/latex/base\bk12.clo
+File: bk12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count187
+\c@chapter=\count188
+\c@section=\count189
+\c@subsection=\count190
+\c@subsubsection=\count191
+\c@paragraph=\count192
+\c@subparagraph=\count193
+\c@figure=\count194
+\c@table=\count195
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+)
+(C:\Users\ASUS\AppData\Local\MiKTeX\tex/latex/adjustbox\adjustbox.sty
+Package: adjustbox 2022/10/17 v1.3a Adjusting TeX boxes (trim, clip, ...)
+
+(C:\Users\ASUS\AppData\Local\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+
+(C:\Users\ASUS\AppData\Local\MiKTeX\tex/generic/xkeyval\xkeyval.tex
+(C:\Users\ASUS\AppData\Local\MiKTeX\tex/generic/xkeyval\xkvutils.tex
+\XKV@toks=\toks17
+\XKV@tempa@toks=\toks18
+
+(C:\Users\ASUS\AppData\Local\MiKTeX\tex/generic/xkeyval\keyval.tex))
+\XKV@depth=\count196
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(C:\Users\ASUS\AppData\Local\MiKTeX\tex/latex/adjustbox\adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+)
+(C:\Users\ASUS\AppData\Local\MiKTeX\tex/latex/adjustbox\trimclip.sty
+Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
+
+(C:\Users\ASUS\AppData\Local\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\ASUS\AppData\Local\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\ASUS\AppData\Local\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(C:\Users\ASUS\AppData\Local\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(C:\Users\ASUS\AppData\Local\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen141
+\Gin@req@width=\dimen142
+)
+(C:\Users\ASUS\AppData\Local\MiKTeX\tex/latex/collectbox\collectbox.sty
+Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
+\collectedbox=\box51
+)
+\tc@llx=\dimen143
+\tc@lly=\dimen144
+\tc@urx=\dimen145
+\tc@ury=\dimen146
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+
+(C:\Users\ASUS\AppData\Local\MiKTeX\tex/latex/adjustbox\tc-pdftex.def
+File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen147
+\adjbox@Height=\dimen148
+\adjbox@Depth=\dimen149
+\adjbox@Totalheight=\dimen150
+\adjbox@pwidth=\dimen151
+\adjbox@pheight=\dimen152
+\adjbox@pdepth=\dimen153
+\adjbox@ptotalheight=\dimen154
+
+(C:\Users\ASUS\AppData\Local\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty
+Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
+\c@checkoddpage=\count197
+)
+(C:\Users\ASUS\AppData\Local\MiKTeX\tex/latex/varwidth\varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box52
+\sift@deathcycles=\count198
+\@vwid@loff=\dimen155
+\@vwid@roff=\dimen156
+))
+(C:\Users\ASUS\AppData\Local\MiKTeX\tex/latex/pdfpages\pdfpages.sty
+Package: pdfpages 2024/08/20 v0.6b Insert pages of external PDF documents (AM)
+
+(C:\Users\ASUS\AppData\Local\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+)
+(C:\Users\ASUS\AppData\Local\MiKTeX\tex/latex/tools\calc.sty
+Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count199
+\calc@Bcount=\count266
+\calc@Adimen=\dimen157
+\calc@Bdimen=\dimen158
+\calc@Askip=\skip50
+\calc@Bskip=\skip51
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count267
+\calc@Cskip=\skip52
+)
+(C:\Users\ASUS\AppData\Local\MiKTeX\tex/latex/eso-pic\eso-pic.sty
+Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
+\ESO@tempdima=\dimen159
+\ESO@tempdimb=\dimen160
+
+(C:\Users\ASUS\AppData\Local\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
+
+(C:\Users\ASUS\AppData\Local\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+
+(C:\Users\ASUS\AppData\Local\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
+Package xcolor Info: Model `RGB' extended on input line 1366.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
+))
+\AM@pagewidth=\dimen161
+\AM@pageheight=\dimen162
+\AM@fboxrule=\dimen163
+
+(C:\Users\ASUS\AppData\Local\MiKTeX\tex/latex/pdfpages\pppdftex.def
+File: pppdftex.def 2024/08/20 v0.6b Pdfpages driver for pdfTeX (AM)
+)
+\pdfpages@includegraphics@status=\count268
+\AM@pagebox=\box53
+\AM@global@opts=\toks19
+\AM@pagecnt=\count269
+\AM@toc@title=\toks20
+\AM@lof@heading=\toks21
+\c@AM@survey=\count270
+\AM@templatesizebox=\box54
+)
+(C:\Users\ASUS\AppData\Local\MiKTeX\tex/latex/apacite\apacite.sty
+Package: apacite 2013/07/21 v6.03 APA citation
+\c@BibCnt=\count271
+\bibleftmargin=\skip53
+\bibindent=\skip54
+\bibparsep=\skip55
+\bibitemsep=\skip56
+\biblabelsep=\skip57
+)
+(C:\Users\ASUS\AppData\Local\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2023/05/13 v2.17o AMS math features
+\@mathmargin=\skip58
+
+For additional information on amsmath, use the `?' option.
+(C:\Users\ASUS\AppData\Local\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(C:\Users\ASUS\AppData\Local\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks22
+\ex@=\dimen164
+))
+(C:\Users\ASUS\AppData\Local\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen165
+)
+(C:\Users\ASUS\AppData\Local\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count272
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count273
+\leftroot@=\count274
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count275
+\DOTSCASE@=\count276
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box55
+\strutbox@=\box56
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen166
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count277
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count278
+\dotsspace@=\muskip16
+\c@parentequation=\count279
+\dspbrk@lvl=\count280
+\tag@help=\toks23
+\row@=\count281
+\column@=\count282
+\maxfields@=\count283
+\andhelp@=\toks24
+\eqnshift@=\dimen167
+\alignsep@=\dimen168
+\tagshift@=\dimen169
+\tagwidth@=\dimen170
+\totwidth@=\dimen171
+\lineht@=\dimen172
+\@envbody=\toks25
+\multlinegap=\skip59
+\multlinetaggap=\skip60
+\mathdisplay@stack=\toks26
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+)
+(C:\Users\ASUS\AppData\Local\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(C:\Users\ASUS\AppData\Local\MiKTeX\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+(C:\Users\ASUS\AppData\Local\MiKTeX\tex/latex/tools\verbatim.sty
+Package: verbatim 2023-11-06 v1.5v LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks27
+\verbatim@line=\toks28
+\verbatim@in@stream=\read2
+)
+(C:\Users\ASUS\AppData\Local\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(C:\Users\ASUS\AppData\Local\MiKTeX\tex/latex/tools\tabularx.sty
+Package: tabularx 2023/07/08 v2.11c `tabularx' package (DPC)
+
+(C:\Users\ASUS\AppData\Local\MiKTeX\tex/latex/tools\array.sty
+Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen173
+\ar@mcellbox=\box57
+\extrarowheight=\dimen174
+\NC@list=\toks29
+\extratabsurround=\skip61
+\backup@length=\skip62
+\ar@cellbox=\box58
+)
+\TX@col@width=\dimen175
+\TX@old@table=\dimen176
+\TX@old@col=\dimen177
+\TX@target=\dimen178
+\TX@delta=\dimen179
+\TX@cols=\count284
+\TX@ftn=\toks30
+)
+(C:\Users\ASUS\AppData\Local\MiKTeX\tex/latex/setspace\setspace.sty
+Package: setspace 2022/12/04 v6.7b set line spacing
+)
+(C:\Users\ASUS\AppData\Local\MiKTeX\tex/latex/lineno\lineno.sty
+Package: lineno 2023/05/20 line numbers on paragraphs v5.3
+
+(C:\Users\ASUS\AppData\Local\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count285
+)
+(C:\Users\ASUS\AppData\Local\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+
+(C:\Users\ASUS\AppData\Local\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(C:\Users\ASUS\AppData\Local\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+))
+\linenopenalty=\count286
+\output=\toks31
+\linenoprevgraf=\count287
+\linenumbersep=\dimen180
+\linenumberwidth=\dimen181
+\c@linenumber=\count288
+\c@pagewiselinenumber=\count289
+\c@LN@truepage=\count290
+\c@internallinenumber=\count291
+\c@internallinenumbers=\count292
+\quotelinenumbersep=\dimen182
+\bframerule=\dimen183
+\bframesep=\dimen184
+\bframebox=\box59
+\linenoamsmath@ams@eqpen=\count293
+LaTeX Info: Redefining \\ on input line 3180.
+))
+(C:\Users\ASUS\AppData\Local\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count294
+\l__pdf_internal_box=\box60
+)
+
+LaTeX Warning: Unused global option(s):
+    [twopage].
+
+(TUKIB.aux (title_page.aux) (approval.aux) (declaration.aux) (dedication.aux)
+(acknowledgment.aux) (abstract.aux) (chapter_1.aux) (chapter_2.aux)
+(chapter_3.aux) (chapter_4.aux) (chapter_5.aux) (chapter_6.aux) (appendix_A.aux
+) (appendix_B.aux))
+\openout1 = `TUKIB.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+
+(C:\Users\ASUS\AppData\Local\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count295
+\scratchdimen=\dimen185
+\scratchbox=\box61
+\nofMPsegments=\count296
+\nofMParguments=\count297
+\everyMPshowfont=\toks32
+\MPscratchCnt=\count298
+\MPscratchDim=\dimen186
+\MPnumerator=\count299
+\makeMPintoPDFobject=\count300
+\everyMPtoPDFconversion=\toks33
+) (C:\Users\ASUS\AppData\Local\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Users\ASUS\AppData\Local\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+(C:\Users\ASUS\AppData\Local\MiKTeX\tex/latex/pdflscape\pdflscape.sty
+Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
+
+(C:\Users\ASUS\AppData\Local\MiKTeX\tex/latex/pdflscape\pdflscape-nometadata.st
+y
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PD
+F (HO)
+ (C:\Users\ASUS\AppData\Local\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+)
+(C:\Users\ASUS\AppData\Local\MiKTeX\tex/latex/graphics\lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+))
+\c@maskedRefs=\count301
+
+(C:\Users\ASUS\AppData\Local\MiKTeX\tex/latex/apacite\english.apc
+File: english.apc 2013/07/21 v6.03 apacite language file
+LaTeX Info: Redefining \BPBI on input line 129.
+LaTeX Info: Redefining \BHBI on input line 130.
+)
+\openout2 = `title_page.aux'.
+
+
+(title_page.tex [1
+
+
+
+{C:/Users/ASUS/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}])
+\openout2 = `approval.aux'.
+
+ (approval.tex
+LaTeX Font Info:    Trying to load font information for U+msa on input line 15.
+
+
+(C:\Users\ASUS\AppData\Local\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 15.
+
+
+(C:\Users\ASUS\AppData\Local\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+))
+Overfull \hbox (13.75838pt too wide) in paragraph at lines 15--12
+[][] 
+ []
+
+[2
+
+
+
+]
+\openout2 = `declaration.aux'.
+
+ (declaration.tex) [3
+
+
+
+]
+\openout2 = `dedication.aux'.
+
+ (dedication.tex) [4
+
+
+
+]
+\openout2 = `acknowledgment.aux'.
+
+ (acknowledgment.tex [5
+
+
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6])
+[7]
+\openout2 = `abstract.aux'.
+
+ (abstract.tex) [8
+
+
+
+] (TUKIB.toc
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9
+
+
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [11]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [12])
+\tf@toc=\write3
+\openout3 = `TUKIB.toc'.
+
+
+[13] [14
+
+] (TUKIB.lof [15])
+\tf@lof=\write4
+\openout4 = `TUKIB.lof'.
+
+ [16] (TUKIB.lot)
+\tf@lot=\write5
+\openout5 = `TUKIB.lot'.
+
+ [17
+
+]
+\openout2 = `chapter_1.aux'.
+
+ (chapter_1.tex
+Chapter 1.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1
+
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2]
+Underfull \vbox (badness 3724) has occurred while \output is active []
+
+ [3]
+[4] [5]
+Underfull \hbox (badness 10000) in paragraph at lines 72--73
+
+ []
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--81
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--85
+
+ []
+
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 88--90
+
+ []
+
+) [8]
+\openout2 = `chapter_2.aux'.
+
+ (chapter_2.tex
+Chapter 2.
+[9
+
+
+
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10]
+Underfull \vbox (badness 3724) has occurred while \output is active []
+
+ [11]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [12]
+Overfull \hbox (29.40678pt too wide) in paragraph at lines 37--38
+\OT1/cmr/m/n/12 ware so-lu-tions that man-age the core busi-ness pro-cesses of 
+an or-ga-ni-za-tion []Blahu^^Tsiakov^^Sa,
+ []
+
+
+Underfull \vbox (badness 4229) has occurred while \output is active []
+
+ [13]
+Underfull \vbox (badness 3724) has occurred while \output is active []
+
+ [14]
+[15]
+Underfull \hbox (badness 10000) in paragraph at lines 66--66
+[]|\OT1/cmr/bx/n/12 Conversation
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 71--72
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
+[]\OT1/cmr/m/n/12 Context-aware in-ter-ac-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
+
+ []
+
+
+Underfull \hbox (badness 2707) in paragraph at lines 85--86
+[]\OT1/cmr/m/n/12 Only from user ex-plicit
+ []
+
+
+Underfull \hbox (badness 2165) in paragraph at lines 98--99
+[]\OT1/cmr/m/n/12 Structured, sim-ple tasks
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 103--104
+[]\OT1/cmr/m/n/12 Task-oriented + so-cial
+ []
+
+
+Underfull \hbox (badness 3919) in paragraph at lines 105--106
+[]\OT1/cmr/m/n/12 Diverse user ac-tions or
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [16]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [17]
+[18]
+Overfull \hbox (1.69867pt too wide) in paragraph at lines 137--138
+[]|\OT1/cmr/bx/n/12 Paid/Free| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--139
+[]|\OT1/cmr/bx/n/12 Ease of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--140
+[]|\OT1/cmr/bx/n/12 Out-of-box
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--141
+[]|\OT1/cmr/bx/n/12 Open
+ []
+
+
+Overfull \hbox (5.45563pt too wide) in paragraph at lines 141--142
+[]|\OT1/cmr/bx/n/12 Popularity| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 142--143
+[]|\OT1/cmr/bx/n/12 Web-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 179--180
+[]|\OT1/cmr/m/n/12 Yes (Face-
+ []
+
+
+Underfull \vbox (badness 8038) has occurred while \output is active []
+
+ [19])
+[20]
+\openout2 = `chapter_3.aux'.
+
+ (chapter_3.tex
+Chapter 3.
+[21
+
+
+
+
+]
+<figures/agile methodology.png, id=128, 941.5175pt x 242.9075pt>
+File: figures/agile methodology.png Graphic file (type png)
+<use figures/agile methodology.png>
+Package pdftex.def Info: figures/agile methodology.png  used on input line 17.
+(pdftex.def)             Requested size: 415.55249pt x 107.20949pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--23
+
+ []
+
+
+Underfull \vbox (badness 1688) has occurred while \output is active []
+
+ [22 <./figures/agile methodology.png>] [23]
+Underfull \hbox (badness 10000) in paragraph at lines 40--41
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--47
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [24]
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
+
+ []
+
+[25] [26] [27] [28] [29] [30]
+Overfull \hbox (18.35425pt too wide) in paragraph at lines 133--177
+ [][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [31]
+<figures/process_flow.jpg, id=162, 2458.68562pt x 821.31844pt>
+File: figures/process_flow.jpg Graphic file (type jpg)
+<use figures/process_flow.jpg>
+Package pdftex.def Info: figures/process_flow.jpg  used on input line 189.
+(pdftex.def)             Requested size: 415.55249pt x 138.80768pt.
+
+[32 <./figures/process_flow.jpg>]
+Overfull \hbox (14.54729pt too wide) in paragraph at lines 200--201
+[]\OT1/cmr/m/n/12 For the \OT1/cmr/bx/n/12 Uni-ver-sity Re-searchers\OT1/cmr/m/
+n/12 , they can use the sys-tem to over-see any laboratory-
+ []
+
+[33]
+<figures/context model.png, id=171, 1750.54pt x 1126.2075pt>
+File: figures/context model.png Graphic file (type png)
+<use figures/context model.png>
+Package pdftex.def Info: figures/context model.png  used on input line 212.
+(pdftex.def)             Requested size: 415.55249pt x 267.33958pt.
+ [34 <./figures/context model.png>]
+<figures/use_case_client.jpg, id=175, 302.12875pt x 443.6575pt>
+File: figures/use_case_client.jpg Graphic file (type jpg)
+<use figures/use_case_client.jpg>
+Package pdftex.def Info: figures/use_case_client.jpg  used on input line 227.
+(pdftex.def)             Requested size: 124.667pt x 183.06512pt.
+<figures/use_case_admin.jpg, id=176, 318.18875pt x 441.65pt>
+File: figures/use_case_admin.jpg Graphic file (type jpg)
+<use figures/use_case_admin.jpg>
+Package pdftex.def Info: figures/use_case_admin.jpg  used on input line 234.
+(pdftex.def)             Requested size: 132.97983pt x 184.57523pt.
+<figures/use_case_director.jpg, id=177, 622.325pt x 885.3075pt>
+File: figures/use_case_director.jpg Graphic file (type jpg)
+<use figures/use_case_director.jpg>
+Package pdftex.def Info: figures/use_case_director.jpg  used on input line 243.
+
+(pdftex.def)             Requested size: 124.667pt x 177.34204pt.
+
+Underfull \hbox (badness 1077) in paragraph at lines 244--244
+[]\OT1/cmr/m/n/12 Figure 3.6: Use Case
+ []
+
+<figures/use_case_staff.jpg, id=178, 624.3325pt x 885.3075pt>
+File: figures/use_case_staff.jpg Graphic file (type jpg)
+<use figures/use_case_staff.jpg>
+Package pdftex.def Info: figures/use_case_staff.jpg  used on input line 250.
+(pdftex.def)             Requested size: 124.667pt x 176.77467pt.
+[35 <./figures/use_case_client.jpg> <./figures/use_case_admin.jpg> <./figures/u
+se_case_director.jpg> <./figures/use_case_staff.jpg>]
+<figures/data_flow.jpg, id=184, 2625.81pt x 1525.7pt>
+File: figures/data_flow.jpg Graphic file (type jpg)
+<use figures/data_flow.jpg>
+Package pdftex.def Info: figures/data_flow.jpg  used on input line 264.
+(pdftex.def)             Requested size: 415.55249pt x 241.43976pt.
+ [36 <./figures/data_flow.jpg>]
+Overfull \hbox (6.76668pt too wide) in paragraph at lines 277--278
+\OT1/cmr/bx/n/12 tRental-Re-quests\OT1/cmr/m/n/12 , \OT1/cmr/bx/n/12 fa-cil-i-t
+yRental-Re-quests\OT1/cmr/m/n/12 , \OT1/cmr/bx/n/12 sam-plePro-cess-in-gRe-ques
+ts\OT1/cmr/m/n/12 , and
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [37]
+Overfull \hbox (18.20314pt too wide) in paragraph at lines 285--286
+[]\OT1/cmr/m/n/12 Additionally, the schema in-cludes un-con-nected ta-bles by d
+e-sign. The \OT1/cmr/bx/n/12 mes-sagesTable
+ []
+
+[38]
+<figures/database2.png, id=195, 1888.05376pt x 1908.12875pt>
+File: figures/database2.png Graphic file (type png)
+<use figures/database2.png>
+Package pdftex.def Info: figures/database2.png  used on input line 293.
+(pdftex.def)             Requested size: 415.55249pt x 419.96432pt.
+
+Underfull \vbox (badness 2469) has occurred while \output is active []
+
+ [39 <./figures/database2.png>]
+<figures/RASA_architecture.png, id=200, 1312.905pt x 804.00375pt>
+File: figures/RASA_architecture.png Graphic file (type png)
+<use figures/RASA_architecture.png>
+Package pdftex.def Info: figures/RASA_architecture.png  used on input line 312.
+
+(pdftex.def)             Requested size: 415.55249pt x 254.47707pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [40]
+[41 <./figures/RASA_architecture.png (PNG copy)>] [42]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [43]
+[44]
+<figures/chatbot_flow.png, id=217, 697.60625pt x 1025.8325pt>
+File: figures/chatbot_flow.png Graphic file (type png)
+<use figures/chatbot_flow.png>
+Package pdftex.def Info: figures/chatbot_flow.png  used on input line 364.
+(pdftex.def)             Requested size: 290.88547pt x 427.74744pt.
+ [45 <./figures/chatbot_flow.png>] [46] [47] [48]
+Overfull \hbox (10.75096pt too wide) in paragraph at lines 429--430
+[]\OT1/cmr/m/n/12 These tech-nolo-gies were used for front-end de-vel-op-ment o
+f the sys-tem. HTML5
+ []
+
+[49]) [50]
+\openout2 = `chapter_4.aux'.
+
+ (chapter_4.tex
+Chapter 4.
+<figures/landing.png, id=238, 1593.955pt x 1042.89626pt>
+File: figures/landing.png Graphic file (type png)
+<use figures/landing.png>
+Package pdftex.def Info: figures/landing.png  used on input line 13.
+(pdftex.def)             Requested size: 332.44325pt x 217.50291pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[51
+
+
+
+
+] [52 <./figures/landing.png>]
+<figures/login.png, id=246, 1195.46625pt x 806.26219pt>
+File: figures/login.png Graphic file (type png)
+<use figures/login.png>
+Package pdftex.def Info: figures/login.png  used on input line 27.
+(pdftex.def)             Requested size: 332.44325pt x 224.21405pt.
+<figures/service_page.png, id=247, 1145.4795pt x 618.51076pt>
+File: figures/service_page.png Graphic file (type png)
+<use figures/service_page.png>
+Package pdftex.def Info: figures/service_page.png  used on input line 38.
+(pdftex.def)             Requested size: 332.44325pt x 179.50508pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[53 <./figures/login.png>]
+<figures/laboratories.png, id=252, 1195.46625pt x 1193.20781pt>
+File: figures/laboratories.png Graphic file (type png)
+<use figures/laboratories.png>
+Package pdftex.def Info: figures/laboratories.png  used on input line 51.
+(pdftex.def)             Requested size: 332.44325pt x 331.82005pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[54 <./figures/service_page.png>]
+<figures/news_page.png, id=257, 1195.46625pt x 1315.91624pt>
+File: figures/news_page.png Graphic file (type png)
+<use figures/news_page.png>
+Package pdftex.def Info: figures/news_page.png  used on input line 64.
+(pdftex.def)             Requested size: 332.44325pt x 365.94414pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[55 <./figures/laboratories.png>]
+<figures/about_page.png, id=262, 1195.46625pt x 1034.36438pt>
+File: figures/about_page.png Graphic file (type png)
+<use figures/about_page.png>
+Package pdftex.def Info: figures/about_page.png  used on input line 77.
+(pdftex.def)             Requested size: 332.44325pt x 287.64716pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [56 <./figures/news_page.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [57 <./figures/about_page.png>]
+<figures/client_dashboard.png, id=272, 1195.46625pt x 763.35187pt>
+File: figures/client_dashboard.png Graphic file (type png)
+<use figures/client_dashboard.png>
+Package pdftex.def Info: figures/client_dashboard.png  used on input line 90.
+(pdftex.def)             Requested size: 332.44325pt x 212.28108pt.
+<figures/staff_dashboard.png, id=273, 1143.67274pt x 617.9085pt>
+File: figures/staff_dashboard.png Graphic file (type png)
+<use figures/staff_dashboard.png>
+Package pdftex.def Info: figures/staff_dashboard.png  used on input line 97.
+(pdftex.def)             Requested size: 332.44325pt x 179.61316pt.
+ [58 <./figures/client_dashboard.png> <./figures/staff_dashboard.png>] [59] [60
+]
+<figures/chatbot_ui.png, id=285, 1143.0705pt x 614.89725pt>
+File: figures/chatbot_ui.png Graphic file (type png)
+<use figures/chatbot_ui.png>
+Package pdftex.def Info: figures/chatbot_ui.png  used on input line 138.
+(pdftex.def)             Requested size: 332.44325pt x 178.83168pt.
+ [61 <./figures/chatbot_ui.png>]
+Overfull \hbox (3.71815pt too wide) in paragraph at lines 159--160
+[]\OT1/cmr/m/n/12 It some-times re-turns generic fall-back re-sponses to querie
+s that de-vi-ate slightly
+ []
+
+[62]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [63]
+<figures/terms.png, id=297, 1434.86063pt x 731.73375pt>
+File: figures/terms.png Graphic file (type png)
+<use figures/terms.png>
+Package pdftex.def Info: figures/terms.png  used on input line 191.
+(pdftex.def)             Requested size: 332.44325pt x 169.53458pt.
+
+[64] [65 <./figures/terms.png>] [66]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [67]
+Overfull \hbox (18.35425pt too wide) in paragraph at lines 226--269
+ [][] 
+ []
+
+) [68] [69]
+\openout2 = `chapter_5.aux'.
+
+ (chapter_5.tex [70
+
+
+
+
+]
+Chapter 5.
+
+Underfull \vbox (badness 1275) has occurred while \output is active []
+
+ [71]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [72]
+[73] [74] [75] [76]) [77]
+\openout2 = `chapter_6.aux'.
+
+ (chapter_6.tex [78
+
+
+
+
+]
+Chapter 6.
+(TUKIB.bbl
+Underfull \hbox (badness 1019) in paragraph at lines 111--134
+\OT1/cmr/m/n/12 284--301.  Re-trieved from $\OT1/cmtt/m/n/12 https :// www [] .
+sciencedirect [] .com / science /
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [79]
+[80]
+Underfull \hbox (badness 2626) in paragraph at lines 560--575
+[]\OT1/cmr/m/n/12 GeeksforGeeks.  (2024, 09).  \OT1/cmr/m/it/12 Top 7 frame-wor
+ks for build-ing chat-bots.
+ []
+
+
+Underfull \hbox (badness 1210) in paragraph at lines 560--575
+\OT1/cmr/m/n/12 Re-trieved from $\OT1/cmtt/m/n/12 https :// www [] .geeksforgee
+ks [] .org / top [] -frameworks [] -for []
+ []
+
+[81] [82]
+! Misplaced alignment tab character &.
+<argument> Total Quality Management &
+                                      Business Excellence - TOTAL QUAL MANAG...
+l.935   QUAL MANAG BUS EXCELL}{20}{}{129-137}
+                                             .
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Underfull \hbox (badness 4429) in paragraph at lines 951--967
+[]\OT1/cmr/m/n/12 PennState.  (2020).  \OT1/cmr/m/it/12 Penn state launches ai-
+powered chat-bot to as-
+ []
+
+
+Underfull \hbox (badness 6477) in paragraph at lines 951--967
+\OT1/cmr/m/it/12 sist stu-dents around the clock.  \OT1/cmr/m/n/12 Ac-cessed: 2
+4-10-2024.  Re-
+ []
+
+[83]
+! Misplaced alignment tab character &.
+<argument> Information &
+                         Management
+l.1055 ...nformation & Management}{40}{8}{813-829}
+                                                  .
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Underfull \hbox (badness 1348) in paragraph at lines 1105--1117
+[]\OT1/cmr/m/n/12 ServiceNow.  (n.d.[]).  \OT1/cmr/m/it/12 What is work-flow au
+-toma-tion?  \OT1/cmr/m/n/12 Re-trieved from
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1105--1117
+\OT1/cmtt/m/n/12 https :// www [] .servicenow [] .com / now [] -platform / what
+ [] -is [] -workflow []
+ []
+
+[84])) [85]
+\openout2 = `appendix_A.aux'.
+
+ (appendix_A.tex [86
+
+
+
+
+]
+Appendix A.
+) [87]
+\openout2 = `appendix_B.aux'.
+
+ (appendix_B.tex [88
+
+
+
+
+]
+Appendix B.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 29--36
+
+ []
+
+[89] (TUKIB.aux (title_page.aux) (approval.aux) (declaration.aux)
+(dedication.aux) (acknowledgment.aux) (abstract.aux) (chapter_1.aux)
+(chapter_2.aux) (chapter_3.aux) (chapter_4.aux) (chapter_5.aux) (chapter_6.aux)
+(appendix_A.aux) (appendix_B.aux))
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-04>
+ ***********
+ ) 
+Here is how much of TeX's memory you used:
+ 7546 strings out of 474486
+ 124692 string characters out of 5748449
+ 1950542 words of memory out of 5000000
+ 29597 multiletter control sequences out of 15000+600000
+ 566952 words of font info for 68 fonts, out of 8000000 for 9000
+ 1143 hyphenation exceptions out of 8191
+ 93i,12n,98p,1179b,453s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\ASUS\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1
+200.pk><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx1
+0.pfb><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12
+.pfb><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10
+.pfb><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.p
+fb><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl12.pf
+b><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb
+><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+
+Output written on TUKIB.pdf (106 pages, 12465698 bytes).
+PDF statistics:
+ 421 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 106 words of extra memory for PDF output out of 10000 (max. 10000000)
+
