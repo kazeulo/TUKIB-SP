@@ -196,6 +196,8 @@ The chatbot, named LIRA (Learning, Innovation, and Research Assistant), was succ
 
 Upon clicking the button, the chatbot initiates the conversation by presenting a welcome message, as shown in \figref{fig:chatbot_ui}. It then offers a set of predefined options to help users with possible queries. These include inquiries about laboratory services, frequently asked questions, and how to navigate the system. This setup reduces the workload on support staff and improves user satisfaction by providing immediate answers.
 
+\newpage
+
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.8\textwidth]{chatbot_ui.png}
@@ -203,24 +205,9 @@ Upon clicking the button, the chatbot initiates the conversation by presenting a
 	\label{fig:chatbot_ui}
 \end{figure}
 
-\textbf{Functionality}
-
 The chatbot was developed using the Rasa framework, which includes both a Natural Language Understanding (NLU) component and a dialogue management system. It is capable of handling various types of user intents such as greetings, general inquiries, and specific service-related questions. The bot provides options for users to learn about available laboratory services, request procedures, operating hours, and system navigation.
 
-In its current state, LIRA utilizes a set of predefined intents and responses based on a small, curated training dataset relevant to the Regional Research Center (RRC). The chatbot can perform initial consultation with new clients. Once the client's request is deemed feasible, the chatbot proceeds to collect the user’s details and creates the user's account. 
-
-\textbf{Observed Limitations}
-
-While functional, the chatbot currently has several limitations. First, its training data is limited, which restricts the range and depth of questions it can effectively handle. As a result, the bot sometimes fails to provide helpful responses to queries outside its training scope.
-
-Furthermore, during testing, several issues were observed:
-\begin{itemize}
-    \item The chatbot has difficulty accurately recognizing names of people.
-    \item It struggles to interpret numerical data such as dates, phone numbers, and reference codes.
-    \item It sometimes returns generic fallback responses to queries that deviate slightly from the expected format.
-\end{itemize}
-
-These limitations reduce the chatbot’s ability to handle more complex or varied queries, especially those involving specific personal or transactional information. Despite this, LIRA contributes positively to the overall system by offering an immediate support channel and guiding users toward the appropriate services within TUKIB.
+In its current state, LIRA utilizes a set of predefined intents and responses based on a small, curated training dataset relevant to the Regional Research Center (RRC). The chatbot can perform initial consultation with new clients. Once the client's request is deemed feasible, the chatbot proceeds to collect the user’s details and using the provided details, the user's account will be created automatically by the system.
 
 \section{Data Privacy and Security Measures}
 
@@ -259,27 +246,25 @@ By requiring agreement to the Terms and Conditions before every service request,
 
 \subsection{Backup and Recovery}
 
-To safeguard against data loss caused by system failures, data breaches, or accidental deletions, automatic data archiving and backup mechanisms were implemented. The system is configured to perform regular backups of critical data, ensuring that recent information can be restored in the event of an incident.
+To safeguard against data loss caused by system failures, data breaches, or accidental deletions, automatic data archiving and backup mechanisms were implemented. The system is configured to perform regular backups of critical data in order to ensure that data can be restored in the event of an incident.
 
 Backups are scheduled at defined intervals and stored securely, following best practices for data integrity and redundancy. These backups can be used to recover the system to a previously stable state, minimizing downtime and preventing permanent data loss. 
 
 \section{Testing and System Evaluation}
 
-System testing was conducted alongside the development process to ensure functionality and usability. This involved thorough manual testing of each feature to identify and resolve bugs during and after implementation. Additionally, an RRC staff was regularly consulted for further information to support informed and context-aware development decisions.
+System testing was conducted alongside the development process to ensure functionality and usability of TUKIB. This involved thorough manual testing of each feature to identify and resolve bugs during and after implementation. Additionally, an RRC staff was regularly consulted for further information to support informed and context-aware development decisions.
 
-Once the core requirements had been implemented, the complete system underwent an internal review with RRC staff. This initial round of evaluation focused on verifying that the system aligns with RRC's operational needs and identifying specific areas for improvement. The insights of staffs were used to refine certain components of the system, particularly those related to service workflows. 
+Once the core requirements had been implemented, the complete system underwent an internal review with the RRC staff. This initial round of evaluation focused on verifying that the system aligns with the RRC's operational needs and identifying specific areas for improvement. The insights of staffs were used to refine certain components of the system, particularly those related to service workflows. 
 
 Subsequently, external testing was conducted with potential end users, mainly students who may serve as future clients of the RRC. These users evaluated the platform based on ease of navigation, intuitiveness, and overall user experience. Feedback was gathered informally through observation and short interviews.
 
-Performance testing was also conducted however, due to resource and technical limitations, the testing was restricted to small-scale scenarios. The focus was on verifying responsiveness and stability during typical operations—such as form submissions, login, chatbot interaction, and navigation— when accessed by one or two users on a local setup. Additionally, cross-browser testing was conducted using popular browsers including Chrome, Firefox, and Edge to ensure consistent functionality and a seamless experience across platforms.
+Performance testing was also conducted however, due to resource and technical constraints, it was limited to small-scale scenarios. The testing primarily focused on assessing the system’s responsiveness and stability during typical user interactions— such as form submissions, login, chatbot usage, and interface navigation— under light load conditions, such as one or two users on a local setup. In addition, cross-browser compatibility was conducted using widely used browsers including Google Chrome, Mozilla Firefox, and Microsoft Edge, to ensure consistent functionality and a seamless user experience across platforms.
 
 The chatbot LIRA was also tested for its responsiveness and usefulness. While it was generally effective in assisting users with FAQs and service-related inquiries, some limitations were identified. Notably, the chatbot encountered difficulties in accurately handling inputs that included proper names (e.g., names of people), as well as numeric information such as dates and phone numbers. These types of input were sometimes misinterpreted or responded to with irrelevant suggestions. This limitation highlights the need for future enhancements in natural language processing capabilities to allow the chatbot to better understand and handle diverse user inputs.
 
-Overall, feedback from testing indicated a positive reception. RRC staff noted the system’s potential to significantly improve the efficiency of service delivery and resource management. While end users find the system easy to navigate, intuitive, and user-friendly. Performance testing demonstrated that the system operates reliably and responsively under typical usage conditions.
+Overall, feedback and observations from testing indicated a positive reception. The UPV RRC's staff noted the system’s potential to significantly improve the efficiency of service delivery and resource management. While end users find the system easy to navigate, intuitive, and user-friendly. Performance testing demonstrated that the system operates reliably and responsively under typical usage conditions.
 
-These testing and evaluation phases confirmed the system’s effectiveness in meeting user requirements and provide a strong foundation for future improvements.
-
-\section{Impact of Methodological Constraints}
+\section{Methodological Constraints}
 
 Although the Agile methodology offered flexibility during the development of TUKIB, several inherent disadvantages emerged throughout the development process. For instance, scheduling conflicts occasionally delayed feedback sessions and document requests, as stakeholders were sometimes unavailable due to other responsibilities. This resulted in uneven progress across modules— some were further refined, while others lagged due to postponed input. In certain cases, components were implemented differently than initially planned because of these limitations. Additionally, the focus on adaptability made long-term planning more difficult, and some documentation tasks were not prioritized in favor of rapid iteration.
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.9.1)  23 MAY 2025 20:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.9.1)  23 MAY 2025 21:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -895,75 +895,55 @@ File: figures/news_section.png Graphic file (type png)
 <use figures/news_section.png>
 Package pdftex.def Info: figures/news_section.png  used on input line 182.
 (pdftex.def)             Requested size: 332.44325pt x 178.77628pt.
- [65 <./figures/news_section.png>]
-<figures/chatbot_ui.png, id=308, 1143.0705pt x 614.89725pt>
+ [65 <./figures/news_section.png>] [66]
+<figures/chatbot_ui.png, id=311, 1143.0705pt x 614.89725pt>
 File: figures/chatbot_ui.png Graphic file (type png)
 <use figures/chatbot_ui.png>
-Package pdftex.def Info: figures/chatbot_ui.png  used on input line 201.
+Package pdftex.def Info: figures/chatbot_ui.png  used on input line 203.
 (pdftex.def)             Requested size: 332.44325pt x 178.83168pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[66]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [67 <./figures/chatbot_ui.png>]
-Overfull \hbox (3.71815pt too wide) in paragraph at lines 220--221
-[]\OT1/cmr/m/n/12 It some-times re-turns generic fall-back re-sponses to querie
-s that de-vi-ate slightly
- []
-
-
-Underfull \vbox (badness 1062) has occurred while \output is active []
-
- [68]
-[69]
-<figures/terms.png, id=323, 1434.86063pt x 731.73375pt>
+ [67 <./figures/chatbot_ui.png>] [68]
+<figures/terms.png, id=320, 1434.86063pt x 731.73375pt>
 File: figures/terms.png Graphic file (type png)
 <use figures/terms.png>
-Package pdftex.def Info: figures/terms.png  used on input line 253.
+Package pdftex.def Info: figures/terms.png  used on input line 240.
 (pdftex.def)             Requested size: 332.44325pt x 169.53458pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-Underfull \vbox (badness 3049) has occurred while \output is active []
-
- [70]
-[71 <./figures/terms.png>]
+[69] [70 <./figures/terms.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [72]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [73]
-Overfull \hbox (18.35425pt too wide) in paragraph at lines 294--338
+ [71]
+[72]
+Overfull \hbox (18.35425pt too wide) in paragraph at lines 279--323
  [][] 
  []
 
-) [74] [75]
+) [73] [74]
 \openout2 = `chapter_5.aux'.
 
- (chapter_5.tex [76
+ (chapter_5.tex
+Chapter 5.
+
+Underfull \vbox (badness 1275) has occurred while \output is active []
+
+ [75
 
 
 
 
 ]
-Chapter 5.
-
-Underfull \vbox (badness 1275) has occurred while \output is active []
-
- [77]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [78]
-[79] [80] [81] [82]) [83]
+ [76]
+[77] [78] [79] [80]) [81]
 \openout2 = `chapter_6.aux'.
 
- (chapter_6.tex [84
+ (chapter_6.tex [82
 
 
 
@@ -973,8 +953,8 @@ Chapter 6.
 (TUKIB.bbl
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [85]
-[86]
+ [83]
+[84]
 Underfull \hbox (badness 2293) in paragraph at lines 561--576
 []\OT1/cmr/m/n/12 GeeksforGeeks.  (2024, 09).  \OT1/cmr/m/it/12 Top 7 frame-wor
 ks for build-ing Chat-bots.
@@ -986,7 +966,7 @@ Underfull \hbox (badness 1210) in paragraph at lines 561--576
 ks [] .org / top [] -frameworks [] -for []
  []
 
-[87] [88]
+[85] [86]
 ! Misplaced alignment tab character &.
 <argument> {Total Quality Management &
                                        Business Excellence - TOTAL QUAL MANA...
@@ -1011,7 +991,7 @@ Underfull \hbox (badness 5050) in paragraph at lines 953--969
 4-10-2024.  Re-
  []
 
-[89]
+[87]
 ! Misplaced alignment tab character &.
 <argument> {Information &
                           Management}
@@ -1036,23 +1016,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 1107--1120
  [] -is [] -workflow []
  []
 
-[90])) [91]
+[88])) [89]
 \openout2 = `appendix_A.aux'.
 
- (appendix_A.tex [92
+ (appendix_A.tex [90
 
 
 
 
 ]
 Appendix A.
-<figures/user_account_section.png, id=400, 1155.71774pt x 620.3175pt>
+<figures/user_account_section.png, id=393, 1155.71774pt x 620.3175pt>
 File: figures/user_account_section.png Graphic file (type png)
 <use figures/user_account_section.png>
 Package pdftex.def Info: figures/user_account_section.png  used on input line 2
 0.
 (pdftex.def)             Requested size: 270.10657pt x 144.97955pt.
-<figures/user_details_page.png, id=401, 1155.71774pt x 684.156pt>
+<figures/user_details_page.png, id=394, 1155.71774pt x 684.156pt>
 File: figures/user_details_page.png Graphic file (type png)
 <use figures/user_details_page.png>
 Package pdftex.def Info: figures/user_details_page.png  used on input line 27.
@@ -1060,7 +1040,7 @@ Package pdftex.def Info: figures/user_details_page.png  used on input line 27.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/acount_creation_form.png, id=402, 1155.71774pt x 687.7695pt>
+<figures/acount_creation_form.png, id=395, 1155.71774pt x 687.7695pt>
 File: figures/acount_creation_form.png Graphic file (type png)
 <use figures/acount_creation_form.png>
 Package pdftex.def Info: figures/acount_creation_form.png  used on input line 3
@@ -1069,7 +1049,7 @@ Package pdftex.def Info: figures/acount_creation_form.png  used on input line 3
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/service_request_section.png, id=403, 1155.71774pt x 687.7695pt>
+<figures/service_request_section.png, id=396, 1155.71774pt x 687.7695pt>
 File: figures/service_request_section.png Graphic file (type png)
 <use figures/service_request_section.png>
 Package pdftex.def Info: figures/service_request_section.png  used on input lin
@@ -1078,7 +1058,7 @@ e 41.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/messages_section.png, id=404, 1155.71774pt x 687.7695pt>
+<figures/messages_section.png, id=397, 1155.71774pt x 687.7695pt>
 File: figures/messages_section.png Graphic file (type png)
 <use figures/messages_section.png>
 Package pdftex.def Info: figures/messages_section.png  used on input line 48.
@@ -1086,7 +1066,7 @@ Package pdftex.def Info: figures/messages_section.png  used on input line 48.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/facilities_section.png, id=405, 1155.71774pt x 687.7695pt>
+<figures/facilities_section.png, id=398, 1155.71774pt x 687.7695pt>
 File: figures/facilities_section.png Graphic file (type png)
 <use figures/facilities_section.png>
 Package pdftex.def Info: figures/facilities_section.png  used on input line 55.
@@ -1095,7 +1075,7 @@ Package pdftex.def Info: figures/facilities_section.png  used on input line 55.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/laboratories_section.png, id=406, 1155.71774pt x 687.7695pt>
+<figures/laboratories_section.png, id=399, 1155.71774pt x 687.7695pt>
 File: figures/laboratories_section.png Graphic file (type png)
 <use figures/laboratories_section.png>
 Package pdftex.def Info: figures/laboratories_section.png  used on input line 6
@@ -1104,13 +1084,13 @@ Package pdftex.def Info: figures/laboratories_section.png  used on input line 6
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [93 <./figures/user_account_section.png>] [94 <./figures/user_details_page.pn
+) [91 <./figures/user_account_section.png>] [92 <./figures/user_details_page.pn
 g> <./figures/acount_creation_form.png> <./figures/service_request_section.png>
-] [95 <./figures/messages_section.png> <./figures/facilities_section.png> <./fi
+] [93 <./figures/messages_section.png> <./figures/facilities_section.png> <./fi
 gures/laboratories_section.png>]
 \openout2 = `appendix_B.aux'.
 
- (appendix_B.tex [96
+ (appendix_B.tex [94
 
 
 
@@ -1122,7 +1102,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--36
 
  []
 
-[97] (TUKIB.aux (title_page.aux) (approval.aux) (declaration.aux)
+[95] (TUKIB.aux (title_page.aux) (approval.aux) (declaration.aux)
 (dedication.aux) (acknowledgment.aux) (abstract.aux) (chapter_1.aux)
 (chapter_2.aux) (chapter_3.aux) (chapter_4.aux) (chapter_5.aux) (chapter_6.aux)
 (appendix_A.aux) (appendix_B.aux))
@@ -1148,9 +1128,9 @@ fb><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl12.pf
 b><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb
 ><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
 
-Output written on TUKIB.pdf (114 pages, 14477371 bytes).
+Output written on TUKIB.pdf (112 pages, 14475475 bytes).
 PDF statistics:
- 468 PDF objects out of 1000 (max. 8388607)
+ 462 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  161 words of extra memory for PDF output out of 10000 (max. 10000000)
 
