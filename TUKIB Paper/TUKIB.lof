@@ -8,10 +8,9 @@
 \contentsline {figure}{\numberline {3.5}{\ignorespaces Use Case Diagram (Admin interface)}}{35}{}%
 \contentsline {figure}{\numberline {3.6}{\ignorespaces Use Case Diagram (Director interface)}}{35}{}%
 \contentsline {figure}{\numberline {3.7}{\ignorespaces Use Case Diagram (TECD and UR interface)}}{35}{}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Data Flow Diagram}}{36}{}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Database Design Diagram}}{39}{}%
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Rasa Open Source Chatbot Architecture}}{41}{}%
-\contentsline {figure}{\numberline {3.11}{\ignorespaces LIRA Conversation Flow}}{45}{}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Database Design Diagram}}{38}{}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Rasa Open Source Chatbot Architecture}}{40}{}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces LIRA Conversation Flow}}{44}{}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Landing/Homepage}}{52}{}%
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Services Page}}{52}{}%
@@ -25,16 +24,16 @@
 \contentsline {figure}{\numberline {4.10}{\ignorespaces Service Request Details Page}}{62}{}%
 \contentsline {figure}{\numberline {4.11}{\ignorespaces Calendar}}{64}{}%
 \contentsline {figure}{\numberline {4.12}{\ignorespaces Interface for creating News and Announcements}}{65}{}%
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Chatbot Interface}}{67}{}%
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Terms and Conditions}}{70}{}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Chatbot Interface}}{68}{}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Terms and Conditions}}{71}{}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces User Accounts Section Tab}}{91}{}%
-\contentsline {figure}{\numberline {A.2}{\ignorespaces User Details and Transaction History Page}}{92}{}%
-\contentsline {figure}{\numberline {A.3}{\ignorespaces User Account Creation Form}}{92}{}%
-\contentsline {figure}{\numberline {A.4}{\ignorespaces Service Request Tab}}{92}{}%
-\contentsline {figure}{\numberline {A.5}{\ignorespaces Messages Section}}{93}{}%
-\contentsline {figure}{\numberline {A.6}{\ignorespaces Facilities Section}}{93}{}%
-\contentsline {figure}{\numberline {A.7}{\ignorespaces Laboratories Section}}{93}{}%
+\contentsline {figure}{\numberline {A.1}{\ignorespaces User Accounts Section Tab}}{93}{}%
+\contentsline {figure}{\numberline {A.2}{\ignorespaces User Details and Transaction History Page}}{94}{}%
+\contentsline {figure}{\numberline {A.3}{\ignorespaces User Account Creation Form}}{94}{}%
+\contentsline {figure}{\numberline {A.4}{\ignorespaces Service Request Tab}}{94}{}%
+\contentsline {figure}{\numberline {A.5}{\ignorespaces Messages Section}}{95}{}%
+\contentsline {figure}{\numberline {A.6}{\ignorespaces Facilities Section}}{95}{}%
+\contentsline {figure}{\numberline {A.7}{\ignorespaces Laboratories Section}}{95}{}%
 \addvspace {10\p@ }
