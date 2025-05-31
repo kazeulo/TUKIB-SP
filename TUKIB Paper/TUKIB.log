@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.7)  31 MAY 2025 19:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.7)  31 MAY 2025 20:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -997,11 +997,6 @@ Package pdftex.def Info: figures/staff_dashboard.png  used on input line 91.
 
 [57 <./figures/staff_dashboard.png (PNG copy)>]
 
-LaTeX Warning: Reference `fig:signup_popup' on page 58 undefined on input line 
-106.
-
-
-
 [58]
 <figures/signup_popup.png, id=277, 1425.07407pt x 737.00343pt>
 File: figures/signup_popup.png Graphic file (type png)
@@ -1349,14 +1344,11 @@ L3 programming layer <2024-11-02>
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
  7679 strings out of 473682
  130188 string characters out of 5719692
- 539537 words of memory out of 5000000
+ 539568 words of memory out of 5000000
  30528 multiletter control sequences out of 15000+600000
  566952 words of font info for 68 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
@@ -1370,7 +1362,7 @@ nts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/ACER/AppData/Local/Programs/Mi
 KTeX/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Users/ACER/AppData/Local/Pro
 grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/ACER/AppData/L
 ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on TUKIB.pdf (116 pages, 13916595 bytes).
+Output written on TUKIB.pdf (116 pages, 13916659 bytes).
 PDF statistics:
  479 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
