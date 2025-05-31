@@ -51,24 +51,24 @@
 \contentsline {subsection}{\numberline {4.1.6}User Dashboards}{55}{}%
 \contentsline {section}{\numberline {4.2}System Features}{58}{}%
 \contentsline {subsection}{\numberline {4.2.1}User Management Module}{58}{}%
-\contentsline {subsection}{\numberline {4.2.2}Service Request Module}{60}{}%
-\contentsline {subsection}{\numberline {4.2.3}Calendar and Scheduling Module}{63}{}%
-\contentsline {subsection}{\numberline {4.2.4}News and Announcement Module}{65}{}%
-\contentsline {subsection}{\numberline {4.2.5}Data Management Module}{66}{}%
-\contentsline {subsection}{\numberline {4.2.6}Chatbot}{66}{}%
-\contentsline {section}{\numberline {4.3}Data Privacy and Security Measures}{69}{}%
-\contentsline {subsection}{\numberline {4.3.1}Password Encryption}{69}{}%
-\contentsline {subsection}{\numberline {4.3.2}User Authentication and Authorization}{69}{}%
-\contentsline {subsection}{\numberline {4.3.3}Terms and Conditions}{70}{}%
-\contentsline {subsection}{\numberline {4.3.4}Backup and Recovery}{71}{}%
-\contentsline {section}{\numberline {4.4}Testing and System Evaluation}{72}{}%
-\contentsline {section}{\numberline {4.5}Methodological Constraints}{73}{}%
-\contentsline {section}{\numberline {4.6}Summary of Results}{74}{}%
-\contentsline {chapter}{\numberline {5}Conclusion and Recommendations}{77}{}%
-\contentsline {section}{\numberline {5.1}Conclusion}{77}{}%
-\contentsline {section}{\numberline {5.2}Recommendations}{79}{}%
-\contentsline {subsection}{\numberline {5.2.1}System Recommendations}{80}{}%
-\contentsline {subsection}{\numberline {5.2.2}Implementation and Deployment Recommendations}{83}{}%
-\contentsline {chapter}{\numberline {6}References}{85}{}%
-\contentsline {chapter}{\numberline {A}Other Interfaces (Staff Account)}{93}{}%
-\contentsline {chapter}{\numberline {B}Resource Persons}{97}{}%
+\contentsline {subsection}{\numberline {4.2.2}Service Request Module}{61}{}%
+\contentsline {subsection}{\numberline {4.2.3}Calendar and Scheduling Module}{65}{}%
+\contentsline {subsection}{\numberline {4.2.4}News and Announcement Module}{67}{}%
+\contentsline {subsection}{\numberline {4.2.5}Data Management Module}{68}{}%
+\contentsline {subsection}{\numberline {4.2.6}Chatbot}{68}{}%
+\contentsline {section}{\numberline {4.3}Data Privacy and Security Measures}{71}{}%
+\contentsline {subsection}{\numberline {4.3.1}Password Encryption}{71}{}%
+\contentsline {subsection}{\numberline {4.3.2}User Authentication and Authorization}{71}{}%
+\contentsline {subsection}{\numberline {4.3.3}Terms and Conditions}{72}{}%
+\contentsline {subsection}{\numberline {4.3.4}Backup and Recovery}{73}{}%
+\contentsline {section}{\numberline {4.4}Testing and System Evaluation}{74}{}%
+\contentsline {section}{\numberline {4.5}Methodological Constraints}{75}{}%
+\contentsline {section}{\numberline {4.6}Summary of Results}{76}{}%
+\contentsline {chapter}{\numberline {5}Conclusion and Recommendations}{79}{}%
+\contentsline {section}{\numberline {5.1}Conclusion}{79}{}%
+\contentsline {section}{\numberline {5.2}Recommendations}{81}{}%
+\contentsline {subsection}{\numberline {5.2.1}System Recommendations}{82}{}%
+\contentsline {subsection}{\numberline {5.2.2}Implementation and Deployment Recommendations}{85}{}%
+\contentsline {chapter}{\numberline {6}References}{87}{}%
+\contentsline {chapter}{\numberline {A}Other Interfaces (Staff Account)}{95}{}%
+\contentsline {chapter}{\numberline {B}Resource Persons}{99}{}%
