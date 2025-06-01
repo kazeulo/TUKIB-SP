@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.9.1)  1 JUN 2025 18:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.9.1)  1 JUN 2025 21:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -878,75 +878,89 @@ File: figures/staff_dashboard.png Graphic file (type png)
 <use figures/staff_dashboard.png>
 Package pdftex.def Info: figures/staff_dashboard.png  used on input line 91.
 (pdftex.def)             Requested size: 332.44325pt x 363.29878pt.
- [57 <./figures/staff_dashboard.png (PNG copy)>] [58]
+ [57 <./figures/staff_dashboard.png (PNG copy)>]
+Underfull \vbox (badness 2080) has occurred while \output is active []
+
+ [58]
 <figures/signup_popup.png, id=279, 1425.07407pt x 737.00343pt>
 File: figures/signup_popup.png Graphic file (type png)
 <use figures/signup_popup.png>
-Package pdftex.def Info: figures/signup_popup.png  used on input line 115.
+Package pdftex.def Info: figures/signup_popup.png  used on input line 113.
 (pdftex.def)             Requested size: 332.44325pt x 171.92505pt.
- [59 <./figures/signup_popup.png>]
+
+[59 <./figures/signup_popup.png>]
 <figures/sign_up.png, id=284, 1424.32124pt x 735.49782pt>
 File: figures/sign_up.png Graphic file (type png)
 <use figures/sign_up.png>
-Package pdftex.def Info: figures/sign_up.png  used on input line 128.
+Package pdftex.def Info: figures/sign_up.png  used on input line 126.
 (pdftex.def)             Requested size: 332.44325pt x 171.66362pt.
 <figures/login.png, id=285, 1142.46825pt x 616.10175pt>
 File: figures/login.png Graphic file (type png)
 <use figures/login.png>
-Package pdftex.def Info: figures/login.png  used on input line 139.
+Package pdftex.def Info: figures/login.png  used on input line 137.
 (pdftex.def)             Requested size: 332.44325pt x 179.27599pt.
  [60 <./figures/sign_up.png> <./figures/login.png>]
 <figures/form_tooltips_placeholders.png, id=291, 1416.79312pt x 737.75626pt>
 File: figures/form_tooltips_placeholders.png Graphic file (type png)
 <use figures/form_tooltips_placeholders.png>
 Package pdftex.def Info: figures/form_tooltips_placeholders.png  used on input 
-line 152.
+line 150.
 (pdftex.def)             Requested size: 311.66437pt x 162.28436pt.
  [61 <./figures/form_tooltips_placeholders.png>] [62]
 <figures/service_request_details.png, id=300, 1593.955pt x 2193.19376pt>
 File: figures/service_request_details.png Graphic file (type png)
 <use figures/service_request_details.png>
 Package pdftex.def Info: figures/service_request_details.png  used on input lin
-e 167.
+e 165.
 (pdftex.def)             Requested size: 311.66437pt x 428.82562pt.
-
-[63 <./figures/service_request_details.png>]
+ [63 <./figures/service_request_details.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [64]
+Underfull \hbox (badness 10000) in paragraph at lines 186--187
+
+ []
+
 <figures/calendar.png, id=308, 1428.08531pt x 812.28468pt>
 File: figures/calendar.png Graphic file (type png)
 <use figures/calendar.png>
-Package pdftex.def Info: figures/calendar.png  used on input line 192.
+Package pdftex.def Info: figures/calendar.png  used on input line 190.
 (pdftex.def)             Requested size: 332.44325pt x 189.08972pt.
-
 [65 <./figures/calendar.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 201--202
+
+ []
+
 <figures/news_section.png, id=313, 1155.71774pt x 621.522pt>
 File: figures/news_section.png Graphic file (type png)
 <use figures/news_section.png>
-Package pdftex.def Info: figures/news_section.png  used on input line 207.
+Package pdftex.def Info: figures/news_section.png  used on input line 205.
 (pdftex.def)             Requested size: 332.44325pt x 178.77628pt.
- [66 <./figures/news_section.png>] [67]
+[66 <./figures/news_section.png>] [67]
+Underfull \hbox (badness 10000) in paragraph at lines 222--223
+
+ []
+
 <figures/chatbot_ui.png, id=321, 1143.0705pt x 614.89725pt>
 File: figures/chatbot_ui.png Graphic file (type png)
 <use figures/chatbot_ui.png>
 Package pdftex.def Info: figures/chatbot_ui.png  used on input line 226.
 (pdftex.def)             Requested size: 332.44325pt x 178.83168pt.
- [68 <./figures/chatbot_ui.png>] [69]
-Underfull \vbox (badness 8019) has occurred while \output is active []
+[68 <./figures/chatbot_ui.png>] [69]
+Underfull \vbox (badness 3364) has occurred while \output is active []
 
  [70]
 <figures/terms.png, id=333, 1434.86063pt x 731.73375pt>
 File: figures/terms.png Graphic file (type png)
 <use figures/terms.png>
-Package pdftex.def Info: figures/terms.png  used on input line 267.
+Package pdftex.def Info: figures/terms.png  used on input line 265.
 (pdftex.def)             Requested size: 332.44325pt x 169.53458pt.
 
 [71 <./figures/terms.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [72]
-Overfull \hbox (3.25243pt too wide) in paragraph at lines 289--290
+Overfull \hbox (3.25243pt too wide) in paragraph at lines 287--288
 \OT1/cmr/m/n/12 and ad-min-is-tra-tive tasks. Based on the feed-back, sev-eral 
 com-po-nents|particularly
  []
@@ -956,11 +970,19 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [75]
 [76]
-Overfull \hbox (18.35425pt too wide) in paragraph at lines 334--378
+Underfull \hbox (badness 10000) in paragraph at lines 336--337
+
+ []
+
+
+Underfull \vbox (badness 2469) has occurred while \output is active []
+
+ [77]
+Overfull \hbox (18.35425pt too wide) in paragraph at lines 340--384
  [][] 
  []
 
-) [77] [78]
+) [78]
 \openout2 = `chapter_5.aux'.
 
  (chapter_5.tex
@@ -1155,7 +1177,7 @@ Here is how much of TeX's memory you used:
  31071 multiletter control sequences out of 15000+600000
  567252 words of font info for 69 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 93i,12n,122p,1429b,483s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 93i,12n,122p,1179b,483s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\ASUS\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1
 200.pk><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx1
 0.pfb><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12
@@ -1165,7 +1187,7 @@ fb><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl12.pf
 b><C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb>
 <C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><
 C:/Users/ASUS/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on TUKIB.pdf (116 pages, 13940916 bytes).
+Output written on TUKIB.pdf (116 pages, 13940299 bytes).
 PDF statistics:
  484 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

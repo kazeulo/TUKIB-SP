@@ -103,12 +103,10 @@ For other staff members like University Researchers and TECD Staff, their dashbo
 
 Clients can create their own accounts through the sign in page. However, by default, these accounts will remain inactive until the Admin Staff approves them after reviewing their information. An additional step is required in which they must undergo an initial consultation with the staff. Only after this consultation will their account be permitted to submit a service request. This process ensures that new clients are informed about the proper procedures for requesting a service, as consultation is a necessary step.
 
-To reinforce this requirement, as shown on figure \figref{fig:signup_popup}, a pop-up reminder is shown when the sign-up page loads, displaying the message: 
-\textit{"Note: Before signing up, please make sure you have completed the initial consultation with RRC. This step is required to proceed with account creation."}
-Users, are required to acknowledge this reminder by clicking the "Ok, I Understand" button before they proceed with the sign-up process.
-Additionally, a reminder is displayed beside the sign up form stating: 
-\textit{"ACCOUNT REGISTRATION IS ONLY AVAILABLE AFTER AN INITIAL CONSULTATION. PLEASE CONSULT WITH RRC FIRST VIA EMAIL TO PROCEED."} 
-These ensure that users are aware of the necessary steps before creating an account, thus preventing premature registrations without prior consultation.
+To reinforce this requirement, as shown on figure \figref{fig:signup_popup}, a pop-up reminder appears when the sign-up page loads, displaying a message reminding users that before signing up, they are to make sure they have completed the initial consultation with RRC and that this step is required to proceed with account creation.
+Users are required to acknowledge this reminder by clicking the “Ok, I Understand” button before they proceed with the sign-up process.
+
+Additionally, a reminder is displayed beside the sign up form stating that account registration is only available after an initial consultation with the RRC. These additional reminders ensure that users are aware of the necessary steps before creating an account, thus preventing premature registrations without prior consultation.
 
 \begin{figure}[h]
 	\centering 
@@ -185,7 +183,7 @@ All calendars are interactive and updated in real time. Changes such as request 
 
 The calendar is interactive and updated in real time, ensuring that any unavailability or availability is communicated across staff and clients. This module enhances transparency, supports better planning, and contributes to a smoother service flow within TUKIB.
 
-Figure~\ref{fig:calendar} shows the calendar interface within the system. When a date is clicked, a form will be shown asking for necessary details regarding its unavailability of the date.
+Figure~\ref{fig:calendar} shows the calendar interface within the system. When a date is clicked, a form will be shown asking for necessary details regarding its unavailability of the date.\newline
 
 \begin{figure}[h]
     \centering
@@ -200,7 +198,7 @@ Figure~\ref{fig:calendar} shows the calendar interface within the system. When a
 
 To facilitate efficient communication between the RRC and its stakeholders, the system features a News and Announcement Module. This allows Admin Staff and TECD Staff to create and post important public updates, news, and announcements directly within the platform, particularly those related to the RRC and its services.
 
-As seen in \figref{fig:announcements}, the module provides fields for entering a title, composing the content, and uploading relevant images. This ensures that relevant information such as upcoming RRC events, service changes, and newly available equipment is effectively communicated.
+As seen in \figref{fig:announcements}, the module provides fields for entering a title, composing the content, and uploading relevant images. This ensures that relevant information such as upcoming RRC events, service changes, and newly available equipment is effectively communicated.\newline
 
 \begin{figure}[h]
     \centering
@@ -213,13 +211,15 @@ As seen in \figref{fig:announcements}, the module provides fields for entering a
 
 \subsection{Data Management Module}
 
-Data management module is responsible for handling all the data within the system. This includes information of clients, transaction histories, inventory of equipment, and tracking of facility schedules and availability. This modules ensures that accounts are properly maintained while also allowing the staff to easily keep record of everything that is related to the RRC's service requests. It also streamlines the assignment of resources to users, maintains an up-to-date inventory, and provides a comprehensive view of resources, allowing for efficient allocation and tracking. Moreover, it enables staff and clients alike to view real time availability of equipment and facility, further guaranteeing the smooth and efficient flow of  service requests. To ensure fairness and transparency, the system implements a first come, first serve basis for all service bookings. This policy was integrated based on the standard operating procedure of the RRC and ensures that all users have equal opportunity to access resources based on request order. When clients submit a service request, the system automatically logs the timestamp, and the requests are queued accordingly. This rule is clearly communicated to users through the interface, helping manage expectations and minimize booking conflicts.
+Data management module is responsible for handling all the data within the system. This includes information of clients, transaction histories, inventory of equipment, and tracking of facility schedules and availability. This modules ensures that accounts are properly maintained while also allowing the staff to easily keep record of everything that is related to the RRC's service requests. It also streamlines the assignment of resources to users, maintains an up-to-date inventory, and provides a comprehensive view of resources, allowing for efficient allocation and tracking. Moreover, it enables staff and clients alike to view real time availability of equipment and facility, further guaranteeing the smooth and efficient flow of  service requests. 
+
+To ensure fairness and transparency, the system implements a first come, first serve basis for all service bookings. This policy was integrated based on the standard operating procedure of the RRC and ensures that all users have equal opportunity to access resources based on request order. When clients submit a service request, the system automatically logs the timestamp, and the requests are queued accordingly. This rule is clearly communicated to users through the interface, helping manage expectations and minimize booking conflicts.
 
 \subsection{Chatbot}
 
 The chatbot, named LIRA (Learning, Innovation, and Research Assistant), was successfully integrated into the TUKIB system. It appears as a floating button located at the bottom left corner of each page, allowing users to access assistance at any time.
 
-Upon clicking the button, the chatbot initiates the conversation by presenting a welcome message, as shown in \figref{fig:chatbot_ui}. It then offers a set of predefined options to help users with possible queries. These include inquiries about laboratory services, frequently asked questions, and how to navigate the system. This setup reduces the workload on support staff and improves user satisfaction by providing immediate answers.
+Upon clicking the button, the chatbot initiates the conversation by presenting a welcome message, as shown in \figref{fig:chatbot_ui}. It then offers a set of predefined options to help users with possible queries. These include inquiries about laboratory services, frequently asked questions, and how to navigate the system. This setup reduces the workload on support staff and improves user satisfaction by providing immediate answers.\newline
 
 \begin{figure}[h]
 	\centering
@@ -230,11 +230,9 @@ Upon clicking the button, the chatbot initiates the conversation by presenting a
 
 \subsection{Scope and Limitations of the Chatbot}
 
-The chatbot was developed using the Rasa framework, which includes both a Natural Language Understanding (NLU) component and a dialogue management system. It is capable of handling various types of user intents such as greetings, general inquiries, and specific service-related questions.
+The chatbot, LIRA, was developed using the Rasa framework, which incorporates both a Natural Language Processing (NLP) component and a dialogue management system. LIRA follows a rule-based approach, using predefined rules and responses to handle user interactions. It is designed to manage various user intents, including greetings, general inquiries, specific service-related questions, and initial consultations with new clients. When a request is deemed feasible, LIRA collects the user's details, which are then used by the system to automatically create an account.
 
-In its current state, LIRA utilizes a set of predefined intents and responses based on a small, curated training dataset relevant to the Regional Research Center (RRC). The chatbot can perform initial consultation with new clients. Once the client's request is deemed feasible, the chatbot proceeds to collect the user’s details and using the provided details, the user's account will be created automatically by the system.
-
-While LIRA improves user experience and reduces the workload on support staff, it has some limitations. It only supports the English language, which may hinder accessibility for non-English-speaking users. Additionally, it relies on a small, curated training dataset, limiting its ability to handle queries beyond its predefined scope.
+While LIRA improves user experience and reduces the workload on support staff, it also has several limitations. As a rule-based system, its capabilities are confined to a fixed set of predefined intents and responses derived from a small, English-only training dataset tailored to the needs of the Regional Research Center (RRC). This restricts the chatbot’s ability to understand and respond to queries outside its defined scope and limits accessibility for non-English-speaking users.
 
 \section{Data Privacy and Security Measures}
 
@@ -279,7 +277,7 @@ Backups are scheduled at defined intervals and stored securely, following best p
 
 \section{Testing and System Evaluation}
 
-The evaluation of the TUKIB system was conducted through multiple stages of testing, covering functionality, usability, performance, and chatbot effectiveness. Testing occurred both during development and after the completion of core features to ensure the system met its objectives and aligned with the operational needs of the UPV Regional 
+The evaluation of the TUKIB system was conducted through multiple stages of testing, covering functionality, usability, performance, and chatbot functionality. Testing occurred both during development and after the completion of core features to ensure the system met its objectives and aligned with the operational needs of the UPV Regional 
 Research Center (RRC).
 
 \subsection{Functional Testing}
@@ -292,7 +290,7 @@ After implementing the system's core features, an internal review was conducted 
 
 Usability testing was conducted to evaluate the system’s intuitiveness and user-friendliness from the perspectives of both staff and potential end users. During the internal review, RRC staff provided valuable feedback regarding interface improvements. Based on their suggestions, enhancements such as tooltips, clearer labels, and structured input elements—like dropdown menus and checkboxes—were implemented to simplify data entry and reduce user errors, particularly in forms where the required information is predefined.
 
-Subsequently, external testing was conducted with potential end users, mainly students who represent the typical profile of future clients of the UPV RRC. The goal of this testing was to gather initial insights into the platform's usability, intuitiveness, and overall user experience. The evaluation was conducted through informal but guided usability sessions, where users were observed while interacting with the system and were later interviewed briefly about their experience.
+Subsequently, external testing was conducted with potential end users, mainly students who represent the typical profile of potential clients of the UPV RRC. The goal of this testing was to gather initial insights into the platform's usability, intuitiveness, and overall user experience. The evaluation was conducted through informal but guided usability sessions, where users were observed while interacting with the system and were later interviewed briefly about their experience.
 
 During these sessions, participants were asked to perform specific tasks such as account registration, submitting a service request, navigating to the Services page, and viewing submitted request statuses. The following guiding questions were used during the interviews:
 
@@ -313,11 +311,19 @@ Despite this, the testing confirmed that the system was largely perceived as use
 
 \subsection{Performance Testing}
 
-Performance testing was conducted to evaluate the system's responsiveness and stability. Due to resource and technical constraints, testing was limited to small-scale scenarios involving light usage conditions (e.g., one to two users on a local server setup). Key interactions—such as logging in, submitting forms, and using the chatbot—were tested for responsiveness and reliability. Cross-browser compatibility was also validated using popular browsers including Google Chrome, Mozilla Firefox, and Microsoft Edge to ensure consistent functionality across platforms.
+Performance testing was conducted to evaluate the system's responsiveness and stability. Due to resource and technical constraints, testing was limited to small-scale scenarios involving light usage conditions (e.g., one to two users on a local server setup). Key interactions— such as logging in, submitting forms, and using the chatbot— were tested for responsiveness and reliability. Cross-browser compatibility was also validated using popular browsers including Google Chrome, Mozilla Firefox, and Microsoft Edge to ensure consistent functionality across platforms.
 
 \subsection{Chatbot Evaluation}
 
-The chatbot component, LIRA, was tested for responsiveness and effectiveness in assisting users through a series of predefined test scenarios and real-user interactions. Testing involved inputting a variety of queries related to frequently asked questions and service inquiries to evaluate the chatbot’s ability to understand and respond appropriately. LIRA is built on a rule-based system using the Rasa framework, relying on a curated training dataset exclusively in English. Consequently, queries falling outside the predefined intents or those that were ambiguous could not be adequately addressed, resulting in generic or fallback responses. During testing, LIRA successfully handled many common questions but exhibited limitations when processing inputs containing proper names and numerical data such as phone numbers or dates. Additionally, the chatbot was case-sensitive, which affected its ability to interpret queries when capitalization varied. The English-only training data further restricted accessibility, limiting support for non-English-speaking users. These findings indicate areas for future improvement, particularly in expanding natural language understanding capabilities and enabling multilingual support of the chatbot.
+The chatbot component, LIRA, was tested for responsiveness and effectiveness in assisting users through a series of predefined test scenarios and real-user interactions. Testing involved inputting a variety of queries related to frequently asked questions and service-related inquiries to evaluate the chatbot’s ability to understand and respond appropriately. 
+
+As previously mentioned, one of the key limitations of the chatbot is that it is built on a rule-based system using the Rasa framework and trained on a limited dataset exclusively in English. As a result, queries that fell outside the predefined intents or were ambiguous could not be adequately addressed, often triggering generic or fallback responses.
+
+During testing, LIRA successfully handled many common questions but showed limitations when processing inputs containing proper names and numerical data, such as phone numbers or dates. The chatbot also demonstrated case sensitivity, which reduced its ability to interpret queries when capitalization varied.
+
+Furthermore, the reliance on English-only training data restricted accessibility, limiting support for users who are not proficient in English. These findings highlight areas for future improvement, particularly in expanding LIRA’s natural language understanding capabilities, reducing case sensitivity, and enabling multilingual support.
+
+\newpage
 
 \section{Methodological Constraints}
 
@@ -327,7 +333,7 @@ These limitations did not critically hinder the overall development, but they hi
 
 \section{Summary of Results}
 
-To summarize the results of the study, the checklist of system requirements, Table \ref{tab:requirements}, was updated to indicate whether each requirement for TUKIB has been implemented. As shown in the Table \ref{tab:summary_results}, all of the system requirements have been successfully accomplished, demonstrating that the core functionalities of TUKIB are in place. Moreover, based on the evaluation and feedback from testing, the final output of this paper is agreed to meet the requirements needed by the users, especially by the RRC staff. 
+To summarize the results of the study, the checklist of system requirements, Table \ref{tab:requirements}, was updated to indicate whether each requirement for TUKIB has been implemented. As shown in the Table \ref{tab:summary_results}, all of the system requirements have been successfully accomplished, demonstrating that the core functionalities of TUKIB are in place. Moreover, based on the evaluation and feedback from testing, the final output of this paper is agreed to meet the requirements needed by the users, especially by the RRC staff. \newline
 
 \begin{table}[ht]
 	\centering
