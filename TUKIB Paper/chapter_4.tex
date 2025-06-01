@@ -121,6 +121,8 @@ As shown in \figref{fig:signup_page}, the sign-up page collects essential inform
 
 On the other hand, staff accounts are pre-made by the Admin Staff. This approach ensures that only authorized personnel are granted access to the system’s internal functions, promoting security and controlled user management.
 
+\newpage
+
 \begin{figure}[h]
 	\centering 
 	\includegraphics[width=0.8\textwidth]{sign_up.png}
@@ -131,8 +133,6 @@ On the other hand, staff accounts are pre-made by the Admin Staff. This approach
 \textbf{User authentication}
 
 On the login page, users need to enter their email address and password. Additionally, Google authentication is available, allowing users to sign in using their Google account for a quicker and more secure login experience. Passwords are hidden by default, but users can click the eye icon in the password field (as shown in \figref{fig:login}) to toggle visibility. After successfully logging in, users will be redirected to their respective dashboards.
-
-\newpage
 
 \begin{figure}[h]
 	\centering 
@@ -145,7 +145,7 @@ On the login page, users need to enter their email address and password. Additio
 
 One of the core features of TUKIB is the Service Request Module, which enables both clients and staff to efficiently access, track, and manage service requests through their respective accounts. Clients can submit service requests, monitor the status of their requests, upload payment receipts, view results, and provide feedback to the UPV Regional Research Center. On the other hand, staff members have the capability to approve or reject requests, update request statuses, upload charge slips and results, and review payment receipts submitted by clients. This bidirectional functionality ensures that each request is processed smoothly from initiation to completion.
 
-The service request form, shown in \figref{fig:service_request_form}, is designed to be user-friendly and intuitive. It includes fields for entering the type of service requested, a description of the request, and all other necessary information required by the RRC. The form also features tooltips and placeholder texts to guide users in filling out the necessary information correctly. This helps reduce errors and ensures that all required details are provided before submission.
+The service request form, shown in \figref{fig:form_tooltips_placeholders}, is designed to be user-friendly and intuitive. It includes fields for entering the type of service requested, a description of the request, and all other necessary information required by the RRC. The form also features tooltips and placeholder texts to guide users in filling out the necessary information correctly. This helps reduce errors and ensures that all required details are provided before submission.
 
 \begin{figure}[h]
 	\centering 
@@ -221,8 +221,6 @@ The chatbot, named LIRA (Learning, Innovation, and Research Assistant), was succ
 
 Upon clicking the button, the chatbot initiates the conversation by presenting a welcome message, as shown in \figref{fig:chatbot_ui}. It then offers a set of predefined options to help users with possible queries. These include inquiries about laboratory services, frequently asked questions, and how to navigate the system. This setup reduces the workload on support staff and improves user satisfaction by providing immediate answers.
 
-\newpage
-
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.8\textwidth]{chatbot_ui.png}
@@ -230,9 +228,13 @@ Upon clicking the button, the chatbot initiates the conversation by presenting a
 	\label{fig:chatbot_ui}
 \end{figure}
 
-The chatbot was developed using the Rasa framework, which includes both a Natural Language Understanding (NLU) component and a dialogue management system. It is capable of handling various types of user intents such as greetings, general inquiries, and specific service-related questions. The bot provides options for users to learn about available laboratory services, request procedures, operating hours, and system navigation.
+\subsection{Scope and Limitations of the Chatbot}
+
+The chatbot was developed using the Rasa framework, which includes both a Natural Language Understanding (NLU) component and a dialogue management system. It is capable of handling various types of user intents such as greetings, general inquiries, and specific service-related questions.
 
 In its current state, LIRA utilizes a set of predefined intents and responses based on a small, curated training dataset relevant to the Regional Research Center (RRC). The chatbot can perform initial consultation with new clients. Once the client's request is deemed feasible, the chatbot proceeds to collect the user’s details and using the provided details, the user's account will be created automatically by the system.
+
+While LIRA improves user experience and reduces the workload on support staff, it has some limitations. It only supports the English language, which may hinder accessibility for non-English-speaking users. Additionally, it relies on a small, curated training dataset, limiting its ability to handle queries beyond its predefined scope.
 
 \section{Data Privacy and Security Measures}
 
@@ -277,17 +279,32 @@ Backups are scheduled at defined intervals and stored securely, following best p
 
 \section{Testing and System Evaluation}
 
-System testing was conducted alongside the development process to ensure functionality and usability of TUKIB. This involved thorough manual testing of each feature to identify and resolve bugs during and after implementation. Additionally, an RRC staff was regularly consulted for further information to support informed and context-aware development decisions.
+The evaluation of the TUKIB system was conducted through multiple stages of testing, covering functionality, usability, performance, and chatbot effectiveness. Testing occurred both during development and after the completion of core features to ensure the system met its objectives and aligned with the operational needs of the UPV Regional 
+Research Center (RRC).
 
-Once the core requirements had been implemented, the complete system underwent an internal review with the RRC staff. This initial round of evaluation focused on verifying that the system aligns with the RRC's operational needs and identifying specific areas for improvement. The insights of staffs were used to refine certain components of the system, particularly those related to service workflows. 
+\subsection{Functional Testing}
 
-Subsequently, external testing was conducted with potential end users, mainly students who may serve as future clients of the RRC. These users evaluated the platform based on ease of navigation, intuitiveness, and overall user experience. Feedback was gathered informally through observation and short interviews.
+System testing was conducted alongside the development process to ensure the functionality of each module. Manual testing was performed for every feature, including form submissions, login, account creation, and data retrieval processes. Bugs and issues identified during this phase were addressed iteratively. To guide development, an RRC staff member was regularly consulted and provided necessary information and documents, offering critical feedback and clarifications on service workflows and operational requirements.
 
-Performance testing was also conducted however, due to resource and technical constraints, it was limited to small-scale scenarios. The testing primarily focused on assessing the system’s responsiveness and stability during typical user interactions— such as form submissions, login, chatbot usage, and interface navigation— under light load conditions, such as one or two users on a local setup. In addition, cross-browser compatibility was conducted using widely used browsers including Google Chrome, Mozilla Firefox, and Microsoft Edge, to ensure consistent functionality and a seamless user experience across platforms.
+After implementing the system's core features, an internal review was conducted with RRC staff to evaluate whether the platform aligned with existing operations. This evaluation focused on how well the system supported service management and administrative tasks. Based on the feedback, several components—particularly those related to request processing and data workflows—were refined to better meet the institution’s needs.
 
-The chatbot LIRA was also tested for its responsiveness and usefulness. While it was generally effective in assisting users with FAQs and service-related inquiries, some limitations were identified. Notably, the chatbot encountered difficulties in accurately handling inputs that included proper names (e.g., names of people), as well as numeric information such as dates and phone numbers. These types of input were sometimes misinterpreted or responded to with irrelevant suggestions. Additionally, the chatbot was case-sensitive, which affected its ability to process user queries accurately when capitalization varied. It was also limited to understanding and responding in English, which restricted its accessibility for non-English-speaking users. This limitation highlights the need for future enhancements in natural language processing capabilities to allow the chatbot to better understand and handle diverse user inputs.
+\subsection{Usability Testing with End Users}
 
-Overall, feedback and observations from testing indicated a positive reception. The UPV RRC's staff noted the system’s potential to significantly improve the efficiency of service delivery and resource management. While end users find the system easy to navigate, intuitive, and user-friendly. Performance testing demonstrated that the system operates reliably and responsively under typical usage conditions.
+Usability testing was conducted to evaluate the system’s intuitiveness and user-friendliness from the perspectives of both staff and potential end users. During the internal review, RRC staff provided valuable feedback regarding interface improvements. Based on their suggestions, enhancements such as tooltips, clearer labels, and structured input elements— like dropdown menus and checkboxes— were implemented to simplify data entry and reduce user errors, especially in forms where the required information is predefined or known in advance.
+
+Following this, external testing was conducted with potential end users—primarily students who represent the typical clientele of the RRC. Participants were asked to complete common tasks, such as submitting service requests and navigating through the dashboard. Feedback was gathered through observation and brief interviews, where users shared their overall experience, ease of navigation, perceived clarity of the interface, and suggestions for future improvements.
+
+While the feedback indicated that users found the system easy to use, with a clear layout and generally responsive design, one notable issue was inconsistency in component behavior when the window was minimized or when the screen size differed from standard laptop or desktop dimensions. In these cases, some interface elements did not display or function optimally, affecting the overall responsiveness.
+
+Despite this, features such as tooltips, clearly labeled buttons, and real-time feedback messages were highlighted as particularly helpful in guiding user interactions. These findings suggest that the system mostly meets its objective of providing an intuitive and user-friendly interface for both RRC staff and clients, while leaving room for improvements in adaptive design and overall intuitiveness.
+
+\subsection{Performance Testing}
+
+Performance testing was conducted to evaluate the system's responsiveness and stability. Due to resource and technical constraints, testing was limited to small-scale scenarios involving light usage conditions (e.g., one to two users on a local server setup). Key interactions—such as logging in, submitting forms, and using the chatbot—were tested for responsiveness and reliability. Cross-browser compatibility was also validated using popular browsers including Google Chrome, Mozilla Firefox, and Microsoft Edge to ensure consistent functionality across platforms.
+
+\subsection{Chatbot Evaluation}
+
+The chatbot component, LIRA, was tested for responsiveness and effectiveness in assisting users through a series of predefined test scenarios and real-user interactions. Testing involved inputting a variety of queries related to frequently asked questions and service inquiries to evaluate the chatbot’s ability to understand and respond appropriately. LIRA is built on a rule-based system using the Rasa framework, relying on a curated training dataset exclusively in English. Consequently, queries falling outside the predefined intents or those that were ambiguous could not be adequately addressed, resulting in generic or fallback responses. During testing, LIRA successfully handled many common questions but exhibited limitations when processing inputs containing proper names and numerical data such as phone numbers or dates. Additionally, the chatbot was case-sensitive, which affected its ability to interpret queries when capitalization varied. The English-only training data further restricted accessibility, limiting support for non-English-speaking users. These findings indicate areas for future improvement, particularly in expanding natural language understanding capabilities and enabling multilingual support of the chatbot.
 
 \section{Methodological Constraints}
 

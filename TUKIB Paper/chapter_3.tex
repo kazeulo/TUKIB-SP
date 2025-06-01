@@ -205,12 +205,11 @@ For the \textbf{Admin Staff}, the system will provide oversight on the ongoing t
 
 \newpage
 
-Moreover, the system will provide full oversight of activities to the \textbf{Director}, offering comprehensive visibility and control. Furthermore, the Director will have access to detailed statistics and insights about the services offered, enabling the institution to make informed and strategic decisions.
-
 \begin{figure}[h]
 	\centering 
 	\includegraphics[width=1\textwidth]{context_model.png}
 	\caption{Context Model}
+	\caption*{\textit{Note:} Some data flow names (e.g., \texttt{Service request details}) appear more than once to represent shared interactions across multiple entities. An asterisk (*) indicates a repeated data flow for visual clarity.}
 	\label{fig:context_model}
 \end{figure}
 
@@ -384,12 +383,13 @@ The structure of the chatbot is centered around a conversational flow that guide
 	
 \end{itemize}
 
-
 \section{Storage and Database Architecture}
 
-TUKIB utilizes PostgreSQL as its database management system, organizing information into two separate databases to improve data handling and system performance. One database stores active data, such as recent service requests and client interactions, while the other contains archived records. This separation allows the system to maintain a fast and responsive active database while preserving access to older information as needed.
+TUKIB utilizes PostgreSQL as its database management system and implements table partitioning to efficiently manage data and improve system performance. Instead of using separate databases for active and archived data, partitioning divides large tables based on a date range, such as service request dates, allowing recent records to be accessed quickly while older records are stored in separate partitions.
 
-To manage long-term data growth, records older than one year are automatically transferred to the archived database through scheduled scripts. This process helps reduce the load on the active database, ensuring continued system efficiency. Additionally, regular automated backups are scheduled for both the active and archived databases using PostgreSQL’s built-in backup functions. These backups ensure data durability and support quick recovery in the event of system failures, minimizing potential disruptions in RRC’s service delivery.
+This approach enables the system to maintain fast and responsive queries on current data while still preserving access to historical information without the overhead of managing multiple databases. Records older than one year are automatically moved to archived partitions through scheduled maintenance tasks, reducing the load on active partitions and ensuring continued system efficiency.
+
+Additionally, regular automated backups are scheduled using PostgreSQL’s built-in backup tools to secure both active and archived partitions. These backups ensure data durability and support quick recovery in case of system failures, minimizing potential disruptions to RRC’s service delivery.
 
 \section{Development Tools}
 

@@ -40,7 +40,7 @@
 \contentsline {section}{\numberline {3.7}Storage and Database Architecture}{46}{}%
 \contentsline {section}{\numberline {3.8}Development Tools}{47}{}%
 \contentsline {subsection}{\numberline {3.8.1}Hardware}{47}{}%
-\contentsline {subsection}{\numberline {3.8.2}Software}{47}{}%
+\contentsline {subsection}{\numberline {3.8.2}Software}{48}{}%
 \contentsline {chapter}{\numberline {4}Results and Discussion}{51}{}%
 \contentsline {section}{\numberline {4.1}User Interface}{51}{}%
 \contentsline {subsection}{\numberline {4.1.1}Landing Page}{51}{}%
@@ -52,17 +52,22 @@
 \contentsline {section}{\numberline {4.2}System Features}{58}{}%
 \contentsline {subsection}{\numberline {4.2.1}User Management Module}{58}{}%
 \contentsline {subsection}{\numberline {4.2.2}Service Request Module}{61}{}%
-\contentsline {subsection}{\numberline {4.2.3}Calendar and Scheduling Module}{65}{}%
-\contentsline {subsection}{\numberline {4.2.4}News and Announcement Module}{67}{}%
-\contentsline {subsection}{\numberline {4.2.5}Data Management Module}{68}{}%
-\contentsline {subsection}{\numberline {4.2.6}Chatbot}{68}{}%
-\contentsline {section}{\numberline {4.3}Data Privacy and Security Measures}{71}{}%
-\contentsline {subsection}{\numberline {4.3.1}Password Encryption}{71}{}%
-\contentsline {subsection}{\numberline {4.3.2}User Authentication and Authorization}{71}{}%
-\contentsline {subsection}{\numberline {4.3.3}Terms and Conditions}{72}{}%
-\contentsline {subsection}{\numberline {4.3.4}Backup and Recovery}{73}{}%
-\contentsline {section}{\numberline {4.4}Testing and System Evaluation}{74}{}%
-\contentsline {section}{\numberline {4.5}Methodological Constraints}{75}{}%
+\contentsline {subsection}{\numberline {4.2.3}Calendar and Scheduling Module}{64}{}%
+\contentsline {subsection}{\numberline {4.2.4}News and Announcement Module}{66}{}%
+\contentsline {subsection}{\numberline {4.2.5}Data Management Module}{67}{}%
+\contentsline {subsection}{\numberline {4.2.6}Chatbot}{67}{}%
+\contentsline {subsection}{\numberline {4.2.7}Scope and Limitations of the Chatbot}{68}{}%
+\contentsline {section}{\numberline {4.3}Data Privacy and Security Measures}{69}{}%
+\contentsline {subsection}{\numberline {4.3.1}Password Encryption}{69}{}%
+\contentsline {subsection}{\numberline {4.3.2}User Authentication and Authorization}{70}{}%
+\contentsline {subsection}{\numberline {4.3.3}Terms and Conditions}{71}{}%
+\contentsline {subsection}{\numberline {4.3.4}Backup and Recovery}{72}{}%
+\contentsline {section}{\numberline {4.4}Testing and System Evaluation}{72}{}%
+\contentsline {subsection}{\numberline {4.4.1}Functional Testing}{73}{}%
+\contentsline {subsection}{\numberline {4.4.2}Usability Testing with End Users}{73}{}%
+\contentsline {subsection}{\numberline {4.4.3}Performance Testing}{74}{}%
+\contentsline {subsection}{\numberline {4.4.4}Chatbot Evaluation}{75}{}%
+\contentsline {section}{\numberline {4.5}Methodological Constraints}{76}{}%
 \contentsline {section}{\numberline {4.6}Summary of Results}{76}{}%
 \contentsline {chapter}{\numberline {5}Conclusion and Recommendations}{79}{}%
 \contentsline {section}{\numberline {5.1}Conclusion}{79}{}%
