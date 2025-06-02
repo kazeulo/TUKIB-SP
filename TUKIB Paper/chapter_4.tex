@@ -228,31 +228,31 @@ Upon clicking the button, the chatbot initiates the conversation by presenting a
 	\label{fig:chatbot_ui}
 \end{figure}
 
-\subsection{Scope and Limitations of the Chatbot}
+% \subsection{Scope and Limitations of the Chatbot}
 
-The chatbot, LIRA, was developed using the Rasa framework, which incorporates both a Natural Language Processing (NLP) component and a dialogue management system. LIRA follows a rule-based approach, using predefined rules and responses to handle user interactions. It is designed to manage various user intents, including greetings, general inquiries, specific service-related questions, and initial consultations with new clients. When a request is deemed feasible, LIRA collects the user's details, which are then used by the system to automatically create an account.
+% The chatbot, LIRA, was developed using the Rasa framework, which incorporates both a Natural Language Processing (NLP) component and a dialogue management system. LIRA follows a rule-based approach, using predefined rules and responses to handle user interactions. It is designed to manage various user intents, including greetings, general inquiries, specific service-related questions, and initial consultations with new clients. When a request is deemed feasible, LIRA collects the user's details, which are then used by the system to automatically create an account.
 
-While LIRA improves user experience and reduces the workload on support staff, it also has several limitations. As a rule-based system, its capabilities are confined to a fixed set of predefined intents and responses derived from a small, English-only training dataset tailored to the needs of the Regional Research Center (RRC). This restricts the chatbot’s ability to understand and respond to queries outside its defined scope and limits accessibility for non-English-speaking users.
+% While LIRA improves user experience and reduces the workload on support staff, it also has several limitations. As a rule-based system, its capabilities are confined to a fixed set of predefined intents and responses derived from a small, English-only training dataset tailored to the needs of the Regional Research Center (RRC). This restricts the chatbot’s ability to understand and respond to queries outside its defined scope and limits accessibility for non-English-speaking users.
 
-\section{Data Privacy and Security Measures}
+% \section{Data Privacy and Security Measures}
 
-Ensuring the privacy and security of user data is a critical component of the TUKIB system. Several technical measures were implemented to protect user credentials, control access, and prepare for potential data loss scenarios.
+% Ensuring the privacy and security of user data is a critical component of the TUKIB system. Several technical measures were implemented to protect user credentials, control access, and prepare for potential data loss scenarios.
 
-\subsection{Password Encryption}
+% \subsection{Password Encryption}
 
-In order to ensure the security of user accounts, password hashing was implemented. This ensures that even if the database is compromised, plaintext passwords remain protected. The bcrypt algorithm was used due to its strength and resistance to brute-force attacks. Each password is hashed with a unique salt, which adds randomness and protects against rainbow table attacks.
+% In order to ensure the security of user accounts, password hashing was implemented. This ensures that even if the database is compromised, plaintext passwords remain protected. The bcrypt algorithm was used due to its strength and resistance to brute-force attacks. Each password is hashed with a unique salt, which adds randomness and protects against rainbow table attacks.
 
-During user registration, passwords are hashed before being stored in the database. During login, the hashed version of the input password is compared to the stored hash to authenticate users. This approach follows best practices in modern web security and ensures that sensitive credentials are never stored or transmitted in plain text.
+% During user registration, passwords are hashed before being stored in the database. During login, the hashed version of the input password is compared to the stored hash to authenticate users. This approach follows best practices in modern web security and ensures that sensitive credentials are never stored or transmitted in plain text.
 
-\subsection{User Authentication and Authorization}
+% \subsection{User Authentication and Authorization}
 
-The system uses secure authentication and authorization mechanisms to manage user access and roles. These mechanisms include:
+% The system uses secure authentication and authorization mechanisms to manage user access and roles. These mechanisms include:
 
-\begin{itemize}
-	\item \textbf{Token-Based Authentication.} JSON Web Tokens (JWTs) are used to authenticate sessions securely. Tokens are issued upon successful login and used to verify user identity in subsequent interactions without exposing sensitive data.
-	\item \textbf{Role-Based Access Control (RBAC).} Access to system functionalities is restricted based on user roles. For example, administrators, staff, and clients each have distinct permissions, reducing the risk of unauthorized actions.
-	\item \textbf{Login Attempt Restrictions.} To mitigate brute-force attacks, the system enforces login attempt limits. After a specified number of failed login attempts, the account is temporarily locked, and further login attempts are blocked for a cooling-off period.
-\end{itemize}
+% \begin{itemize}
+% 	\item \textbf{Token-Based Authentication.} JSON Web Tokens (JWTs) are used to authenticate sessions securely. Tokens are issued upon successful login and used to verify user identity in subsequent interactions without exposing sensitive data.
+% 	\item \textbf{Role-Based Access Control (RBAC).} Access to system functionalities is restricted based on user roles. For example, administrators, staff, and clients each have distinct permissions, reducing the risk of unauthorized actions.
+% 	\item \textbf{Login Attempt Restrictions.} To mitigate brute-force attacks, the system enforces login attempt limits. After a specified number of failed login attempts, the account is temporarily locked, and further login attempts are blocked for a cooling-off period.
+% \end{itemize}
 
 \subsection{Terms and Conditions}
 
@@ -322,8 +322,6 @@ As previously mentioned, one of the key limitations of the chatbot is that it is
 During testing, LIRA successfully handled many common questions but showed limitations when processing inputs containing proper names and numerical data, such as phone numbers or dates. The chatbot also demonstrated case sensitivity, which reduced its ability to interpret queries when capitalization varied.
 
 Furthermore, the reliance on English-only training data restricted accessibility, limiting support for users who are not proficient in English. These findings highlight areas for future improvement, particularly in expanding LIRA’s natural language understanding capabilities, reducing case sensitivity, and enabling multilingual support.
-
-\newpage
 
 \section{Methodological Constraints}
 

@@ -208,7 +208,7 @@ For the \textbf{Admin Staff}, the system will provide oversight on the ongoing t
 \begin{figure}[h]
 	\centering 
 	\includegraphics[width=1\textwidth]{context_model.png}
-	\caption{Context Model}
+	\caption{Context model of the TUKIB system illustrating interactions between the system and key external and internal entities.}
 	\caption*{\textit{Note:} Some data flow names (e.g., \texttt{Service request details}) appear more than once to represent shared interactions across multiple entities. An asterisk (*) indicates a repeated data flow for visual clarity.}
 	\label{fig:context_model}
 \end{figure}
@@ -390,6 +390,26 @@ TUKIB utilizes PostgreSQL as its database management system and implements table
 This approach enables the system to maintain fast and responsive queries on current data while still preserving access to historical information without the overhead of managing multiple databases. Records older than one year are automatically moved to archived partitions through scheduled maintenance tasks, reducing the load on active partitions and ensuring continued system efficiency.
 
 Additionally, regular automated backups are scheduled using PostgreSQL’s built-in backup tools to secure both active and archived partitions. These backups ensure data durability and support quick recovery in case of system failures, minimizing potential disruptions to RRC’s service delivery.
+
+\section{Data Privacy and Security Measures}
+
+Ensuring the privacy and security of user data is a critical component of the TUKIB system. Several technical measures were implemented to protect user credentials, control access, and prepare for potential data loss scenarios.
+
+\subsection{Password Encryption}
+
+In order to ensure the security of user accounts, password hashing was implemented. This ensures that even if the database is compromised, plaintext passwords remain protected. The bcrypt algorithm was used due to its strength and resistance to brute-force attacks. Each password is hashed with a unique salt, which adds randomness and protects against rainbow table attacks.
+
+During user registration, passwords are hashed before being stored in the database. During login, the hashed version of the input password is compared to the stored hash to authenticate users. This approach follows best practices in modern web security and ensures that sensitive credentials are never stored or transmitted in plain text.
+
+\subsection{User Authentication and Authorization}
+
+The system uses secure authentication and authorization mechanisms to manage user access and roles. These mechanisms include:
+
+\begin{itemize}
+	\item \textbf{Token-Based Authentication.} JSON Web Tokens (JWTs) are used to authenticate sessions securely. Tokens are issued upon successful login and used to verify user identity in subsequent interactions without exposing sensitive data.
+	\item \textbf{Role-Based Access Control (RBAC).} Access to system functionalities is restricted based on user roles. For example, administrators, staff, and clients each have distinct permissions, reducing the risk of unauthorized actions.
+	\item \textbf{Login Attempt Restrictions.} To mitigate brute-force attacks, the system enforces login attempt limits. After a specified number of failed login attempts, the account is temporarily locked, and further login attempts are blocked for a cooling-off period.
+\end{itemize}
 
 \section{Development Tools}
 

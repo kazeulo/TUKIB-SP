@@ -5,7 +5,7 @@
 \contentsline {subsection}{\numberline {1.3.1}General Objective}{4}{}%
 \contentsline {subsection}{\numberline {1.3.2}Specific Objectives}{4}{}%
 \contentsline {section}{\numberline {1.4}Scope and Limitations of the Research}{5}{}%
-\contentsline {section}{\numberline {1.5}Significance of the Research}{6}{}%
+\contentsline {section}{\numberline {1.5}Significance of the Research}{7}{}%
 \contentsline {chapter}{\numberline {2}Review of Related Literature}{9}{}%
 \contentsline {section}{\numberline {2.1}Challenges in Manual Service Handling}{9}{}%
 \contentsline {section}{\numberline {2.2}Workflow Automation}{11}{}%
@@ -38,9 +38,12 @@
 \contentsline {subsection}{\numberline {3.6.1}Entities and Intents}{43}{}%
 \contentsline {subsection}{\numberline {3.6.2}Conversation Flow}{43}{}%
 \contentsline {section}{\numberline {3.7}Storage and Database Architecture}{46}{}%
-\contentsline {section}{\numberline {3.8}Development Tools}{47}{}%
-\contentsline {subsection}{\numberline {3.8.1}Hardware}{47}{}%
-\contentsline {subsection}{\numberline {3.8.2}Software}{48}{}%
+\contentsline {section}{\numberline {3.8}Data Privacy and Security Measures}{47}{}%
+\contentsline {subsection}{\numberline {3.8.1}Password Encryption}{47}{}%
+\contentsline {subsection}{\numberline {3.8.2}User Authentication and Authorization}{48}{}%
+\contentsline {section}{\numberline {3.9}Development Tools}{48}{}%
+\contentsline {subsection}{\numberline {3.9.1}Hardware}{48}{}%
+\contentsline {subsection}{\numberline {3.9.2}Software}{49}{}%
 \contentsline {chapter}{\numberline {4}Results and Discussion}{51}{}%
 \contentsline {section}{\numberline {4.1}User Interface}{51}{}%
 \contentsline {subsection}{\numberline {4.1.1}Landing Page}{51}{}%
@@ -56,24 +59,20 @@
 \contentsline {subsection}{\numberline {4.2.4}News and Announcement Module}{66}{}%
 \contentsline {subsection}{\numberline {4.2.5}Data Management Module}{67}{}%
 \contentsline {subsection}{\numberline {4.2.6}Chatbot}{67}{}%
-\contentsline {subsection}{\numberline {4.2.7}Scope and Limitations of the Chatbot}{68}{}%
-\contentsline {section}{\numberline {4.3}Data Privacy and Security Measures}{69}{}%
-\contentsline {subsection}{\numberline {4.3.1}Password Encryption}{69}{}%
-\contentsline {subsection}{\numberline {4.3.2}User Authentication and Authorization}{70}{}%
-\contentsline {subsection}{\numberline {4.3.3}Terms and Conditions}{71}{}%
-\contentsline {subsection}{\numberline {4.3.4}Backup and Recovery}{72}{}%
-\contentsline {section}{\numberline {4.4}Testing and System Evaluation}{72}{}%
-\contentsline {subsection}{\numberline {4.4.1}Functional Testing}{73}{}%
-\contentsline {subsection}{\numberline {4.4.2}Usability Testing with End Users}{73}{}%
-\contentsline {subsection}{\numberline {4.4.3}Performance Testing}{75}{}%
-\contentsline {subsection}{\numberline {4.4.4}Chatbot Evaluation}{76}{}%
-\contentsline {section}{\numberline {4.5}Methodological Constraints}{77}{}%
-\contentsline {section}{\numberline {4.6}Summary of Results}{77}{}%
-\contentsline {chapter}{\numberline {5}Conclusion and Recommendations}{79}{}%
-\contentsline {section}{\numberline {5.1}Conclusion}{79}{}%
-\contentsline {section}{\numberline {5.2}Recommendations}{81}{}%
-\contentsline {subsection}{\numberline {5.2.1}System Recommendations}{82}{}%
-\contentsline {subsection}{\numberline {5.2.2}Implementation and Deployment Recommendations}{85}{}%
-\contentsline {chapter}{\numberline {6}References}{87}{}%
-\contentsline {chapter}{\numberline {A}Other Interfaces (Staff Account)}{95}{}%
-\contentsline {chapter}{\numberline {B}Resource Persons}{99}{}%
+\contentsline {subsection}{\numberline {4.2.7}Terms and Conditions}{68}{}%
+\contentsline {subsection}{\numberline {4.2.8}Backup and Recovery}{69}{}%
+\contentsline {section}{\numberline {4.3}Testing and System Evaluation}{70}{}%
+\contentsline {subsection}{\numberline {4.3.1}Functional Testing}{70}{}%
+\contentsline {subsection}{\numberline {4.3.2}Usability Testing with End Users}{71}{}%
+\contentsline {subsection}{\numberline {4.3.3}Performance Testing}{73}{}%
+\contentsline {subsection}{\numberline {4.3.4}Chatbot Evaluation}{73}{}%
+\contentsline {section}{\numberline {4.4}Methodological Constraints}{74}{}%
+\contentsline {section}{\numberline {4.5}Summary of Results}{75}{}%
+\contentsline {chapter}{\numberline {5}Conclusion and Recommendations}{77}{}%
+\contentsline {section}{\numberline {5.1}Conclusion}{77}{}%
+\contentsline {section}{\numberline {5.2}Recommendations}{79}{}%
+\contentsline {subsection}{\numberline {5.2.1}System Recommendations}{80}{}%
+\contentsline {subsection}{\numberline {5.2.2}Implementation and Deployment Recommendations}{83}{}%
+\contentsline {chapter}{\numberline {6}References}{85}{}%
+\contentsline {chapter}{\numberline {A}Other Interfaces (Staff Account)}{93}{}%
+\contentsline {chapter}{\numberline {B}Resource Persons}{97}{}%

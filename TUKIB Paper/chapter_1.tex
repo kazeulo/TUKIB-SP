@@ -46,7 +46,7 @@ Specifically this study aims to:
 	
 	\item implement an intuitive and user-friendly design that ensures ease of use and accessibility for both staff and clients of UPV RRC, and
 	
-	\item automate the existing manual workflow to streamline service operations and enhance overall efficiency.
+	\item solicit feedback from the users regarding the manual processes and the implemented system based on their assessment to evaluate system usability.
 	
 \end{enumerate}
 
@@ -55,10 +55,13 @@ Specifically this study aims to:
 
 As mentioned, this special problem focuses on developing TUKIB - short for Tracking Utility for Knowledge Integration and Benchmarking, a workflow automation system designed for the UPV Regional Research Center (RRC). 
 
-TUKIB covers the full-service management cycle of the UPV RRC, from initial client service requests to the completion and service feedback stage. It has features such as real-time tracking of service requests, facility and equipment availability tracking, and a centralized platform for storing and managing service-related data. Key components such as user interfaces for staff and clients, real-time service status updates, events, service schedule management, transaction records, and a feedback collection mechanism were also added. With this, data accuracy throughout the service flow process is ensured by minimizing manual input and automating repetitive processes, reducing errors and improving the operational efficiency of the UPV RRC. This special problem also involved the development and integration of a chatbot to enhance user support and communication between clients and staff, providing instant responses to inquiries. Additionally, the system was made scalable, allowing it to be flexible for further modification as the needs of UPV RRC evolved.
+TUKIB covers the full-service management cycle of the UPV RRC, from initial client service requests to the completion and service feedback stage. It has features such as real-time tracking of service requests, facility and equipment availability tracking, and a centralized platform for storing and managing service-related data. Key components such as user interfaces for staff and clients, real-time service status updates, events, service schedule management, transaction records, and a feedback collection mechanism were also added. With this, data accuracy throughout the service flow process is ensured by minimizing manual input and automating repetitive processes, reducing errors and improving the operational efficiency of the UPV RRC.This special problem also involved the development and integration of a chatbot to enhance user support and communication between clients and staff, providing instant responses to inquiries. Additionally, the system was made scalable, allowing it to be flexible for further modification as the needs of UPV RRC evolved.
+
+The chatbot, LIRA, was developed using the Rasa framework, which incorporates both a Natural Language Processing (NLP) component and a dialogue management system. LIRA follows a rule-based approach, using predefined rules and responses to handle user interactions. It is designed to manage various user intents, including greetings, general inquiries, specific service-related questions, and initial consultations with new clients. When a request is deemed feasible, LIRA collects the user's details, which are then used by the system to automatically create an account.
+
+While LIRA improves user experience and reduces the workload on support staff, it also has several limitations. As a rule-based system, its capabilities are confined to a fixed set of predefined intents and responses derived from a small, English-only training dataset tailored to the needs of the RRC. This restricts the chatbot’s ability to understand and respond to queries outside its defined scope and limits accessibility for non-English-speaking users.
 
 The system’s functionalities were limited to the service-related processes of the UPV RRC and did not cover other internal and external functions. The development was tailored to the specific workflows of UPV RRC, so modifications would be needed for implementation in different institutions or industries. Additionally, this special problem focused on workflow automation but did not delve into advanced analytics or AI beyond using chatbots for customer communication and basic statistics for service feedback reports. The system required a stable internet connection for real-time features like notifications and status tracking; thus, its performance could be compromised in areas with poor connectivity. Moreover, the effectiveness of the system depended on staff and client adaptability to the new system, which required a period of training and adjustment.
-
 
 \section{Significance of the Research}
 \label{sec:significance}
